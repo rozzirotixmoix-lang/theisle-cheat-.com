@@ -1,5 +1,7 @@
 export declare const CHECKOUT_URLS: {
-  readonly eftCheats: string;
+  readonly theIsle: string;
+  readonly ugc: string;
+  readonly skinChanger: string;
   readonly hwidSpoofer: string;
 };
 
