@@ -678,7 +678,7 @@ export const en: Translations = {
     },
   },
   common: {
-    breadcrumbHome: 'theisle-cheat.com home',
+    breadcrumbHome: 'Home',
     breadcrumbProducts: 'Product',
     breadcrumbBlog: 'Blog',
     breadcrumbForum: 'Forum',
