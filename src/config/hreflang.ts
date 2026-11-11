@@ -6,13 +6,16 @@ import { normalizeSeoPath } from './pageSeo';
 
 export type HreflangAlternate = { hreflang: string; href: string };
 
-/** HTML `<link rel="alternate" hreflang>` entries for a pathname in any locale. */
+/**
+ * HTML `<link rel="alternate" hreflang>` for a page cluster.
+ * `pageCanonical` must match that page's `<link rel="canonical">`; the current locale (and x-default on English) use it exactly.
+ */
 export function hreflangAlternatesForPath(
-  pathname: string,
-  pageCanonical?: string,
+  canonicalPath: string,
+  pageCanonical: string,
   currentLocale: SiteLocale = DEFAULT_LOCALE,
 ): HreflangAlternate[] {
-  const base = normalizeSeoPath(stripLocalePrefix(pathname));
+  const base = normalizeSeoPath(stripLocalePrefix(canonicalPath));
   const alternates: HreflangAlternate[] = LOCALES.map((locale) => ({
     hreflang: locale,
     href: canonicalUrl(localizePath(base, locale)),
@@ -21,16 +24,31 @@ export function hreflangAlternatesForPath(
     hreflang: 'x-default',
     href: canonicalUrl(localizePath(base, DEFAULT_LOCALE)),
   });
-  if (pageCanonical) {
-    const selfIndex = alternates.findIndex((alt) => alt.hreflang === currentLocale);
-    if (selfIndex >= 0) alternates[selfIndex] = { hreflang: currentLocale, href: pageCanonical };
+
+  const selfIndex = alternates.findIndex((alt) => alt.hreflang === currentLocale);
+  if (selfIndex >= 0) {
+    alternates[selfIndex] = { hreflang: currentLocale, href: pageCanonical };
   }
+
+  if (currentLocale === DEFAULT_LOCALE) {
+    const xDefaultIndex = alternates.findIndex((alt) => alt.hreflang === 'x-default');
+    if (xDefaultIndex >= 0) {
+      alternates[xDefaultIndex] = { hreflang: 'x-default', href: pageCanonical };
+    }
+    const enIndex = alternates.findIndex((alt) => alt.hreflang === 'en');
+    if (enIndex >= 0) {
+      alternates[enIndex] = { hreflang: 'en', href: pageCanonical };
+    }
+  }
+
   return alternates;
 }
 
 /** Sitemap `xhtml:link` alternates for the same pathname cluster. */
 export function sitemapAlternateLinks(pathname: string): LinkItem[] {
-  return hreflangAlternatesForPath(pathname).map(({ hreflang, href }) => ({
+  const base = normalizeSeoPath(stripLocalePrefix(pathname));
+  const pageCanonical = canonicalUrl(localizePath(base, DEFAULT_LOCALE));
+  return hreflangAlternatesForPath(base, pageCanonical, DEFAULT_LOCALE).map(({ hreflang, href }) => ({
     lang: hreflang,
     url: href,
   }));

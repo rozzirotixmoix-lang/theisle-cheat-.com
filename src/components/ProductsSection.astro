@@ -107,7 +107,15 @@ function cardTags(product: ProductPage): string[] {
               </div>
 
               <div class="flex shrink-0 flex-col justify-end border-t border-border px-5 pt-4 pb-5 sm:px-6">
-                <Button as="a" href={pageHref} variant="primary" size="sm" class="w-full rounded-xl">
+                <Button
+                  as="a"
+                  href={pageHref}
+                  variant="primary"
+                  size="sm"
+                  class="w-full rounded-xl"
+                  aria-label={`${s.viewDetails} — ${product.title}`}
+                  title={`${s.viewDetails} — ${product.title}`}
+                >
                   {s.viewDetails}
                   <Icon name="arrowRight" size={17} />
                 </Button>

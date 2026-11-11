@@ -1,13 +1,7 @@
-import { SITE_DOMAIN as SITE_DOMAIN_VALUE } from './site-url.mjs';
+import { SITE_DOMAIN, SITE_URL } from './site-url.mjs';
 
-export const SITE_DOMAIN = SITE_DOMAIN_VALUE;
+export { SITE_DOMAIN, SITE_URL };
 
-const envSiteUrl =
-  typeof import.meta !== 'undefined'
-    ? (import.meta.env?.PUBLIC_SITE_URL as string | undefined)?.trim().replace(/\/$/, '')
-    : undefined;
-
-export const SITE_URL = envSiteUrl || `https://${SITE_DOMAIN}`;
 /** Public brand string (header, legal, schema). Override via env when re-skinning the template. */
 const publicSiteName =
   typeof import.meta !== 'undefined'

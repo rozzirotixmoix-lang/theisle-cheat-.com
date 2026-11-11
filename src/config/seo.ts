@@ -33,6 +33,11 @@ export function getOrganizationSameAs(): string[] {
 
 export const INDEXNOW_KEY = import.meta.env.INDEXNOW_KEY as string | undefined;
 
+/** Absolute canonical URL for a site path (trailing slash on all paths except query/fragment). */
+export function absoluteUrl(pathname: string): string {
+  return canonicalUrl(pathname);
+}
+
 export function canonicalUrl(pathname: string): string {
   let path = pathname || '/';
   if (!path.startsWith('/')) path = `/${path}`;

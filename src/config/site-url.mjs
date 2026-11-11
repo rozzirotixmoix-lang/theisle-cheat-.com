@@ -1,3 +1,3 @@
-/** Shared site origin for Node scripts (redirect HTML, serve, IndexNow). Keep in sync with `site.ts`. */
+/** Single source of truth for the live site origin (non-www, HTTPS, no trailing slash). */
 export const SITE_DOMAIN = 'theisle-cheat.com';
 export const SITE_URL = `https://${SITE_DOMAIN}`;

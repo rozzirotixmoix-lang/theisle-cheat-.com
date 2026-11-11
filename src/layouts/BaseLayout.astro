@@ -68,7 +68,7 @@ const canonicalPathResolved = canonicalPath ?? localizePath(Astro.url.pathname, 
 const canonical = canonicalUrl(canonicalPathResolved);
 const hreflangAlternates = noindex
   ? []
-  : hreflangAlternatesForPath(Astro.url.pathname, canonical, locale);
+  : hreflangAlternatesForPath(canonicalPathResolved, canonical, locale);
 const ogLocaleAlternates = (['en', 'es', 'de', 'fr'] as const).filter((code) => code !== locale);
 const ogImageUrl = absoluteAssetUrl(ogImage);
 const robotsContent = noindex

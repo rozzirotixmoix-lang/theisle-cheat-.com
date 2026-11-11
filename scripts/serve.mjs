@@ -52,12 +52,14 @@ function getRequestHost(req) {
 
 function getCanonicalRedirect(req) {
   const host = getRequestHost(req);
-  if (host !== CANONICAL_HOST && host !== `www.${CANONICAL_HOST}`) {
+  const isCanonicalCluster = host === CANONICAL_HOST || host === `www.${CANONICAL_HOST}`;
+  if (!isCanonicalCluster) {
     return null;
   }
 
   const forwardedProto = (req.headers['x-forwarded-proto'] ?? '').split(',')[0].trim().toLowerCase();
-  const needsHttps = forwardedProto === 'http';
+  const needsHttps =
+    forwardedProto === 'http' || (forwardedProto !== 'https' && !req.socket?.encrypted);
   const needsWwwStrip = host === `www.${CANONICAL_HOST}`;
 
   if (needsWwwStrip || needsHttps) {

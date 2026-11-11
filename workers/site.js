@@ -122,14 +122,24 @@ function redirect(location, status) {
   );
 }
 
+function redirectToCanonicalOrigin(url) {
+  const host = url.hostname.toLowerCase();
+  const needsHostFix = host !== CANONICAL_HOST;
+  const needsHttps = url.protocol !== 'https:';
+  if (!needsHostFix && !needsHttps) return null;
+  const target = new URL(url);
+  target.protocol = 'https:';
+  target.hostname = CANONICAL_HOST;
+  target.port = '';
+  return target.toString();
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (url.hostname.toLowerCase() !== CANONICAL_HOST || url.protocol !== 'https:') {
-      url.hostname = CANONICAL_HOST;
-      url.protocol = 'https:';
-      url.port = '';
-      return redirect(url.toString(), 301);
+    const canonicalOriginRedirect = redirectToCanonicalOrigin(url);
+    if (canonicalOriginRedirect) {
+      return redirect(canonicalOriginRedirect, 301);
     }
 
     const { pathname, query, fragment } = splitUrl(`${url.pathname}${url.search}${url.hash}`);
