@@ -36,7 +36,7 @@ const heroMarqueePills = [
 
   <div class="relative mx-auto flex max-w-6xl flex-col justify-center px-5">
     <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
-      <div class="w-full max-w-xl space-y-6 text-left md:space-y-7 lg:max-w-2xl">
+      <div class="min-w-0 w-full max-w-xl space-y-6 text-left md:space-y-7 lg:max-w-none">
         <div
           class="inline-flex items-center gap-2 rounded-full border border-border/80 bg-card/90 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white"
         >
@@ -49,9 +49,9 @@ const heroMarqueePills = [
 
         <h1
           id="hero-title"
-          class="text-xl font-bold uppercase leading-[1.05] tracking-tight sm:text-2xl md:text-3xl lg:whitespace-nowrap lg:text-[length:clamp(2.25rem,1.15rem+2.35vw,2.875rem)] lg:tracking-[-0.025em]"
+          class="max-w-full text-balance text-xl font-bold uppercase leading-[1.1] tracking-tight sm:text-2xl md:text-3xl lg:text-[length:clamp(1.75rem,1rem+1.65vw,2.5rem)] lg:leading-[1.12] lg:tracking-[-0.025em]"
         >
-          <span>{h.titleLine1}</span>{' '}
+          <span class="text-foreground">{h.titleLine1}</span>{' '}
           <span class="text-primary">{h.titleLine2}</span>
         </h1>
 
@@ -125,13 +125,3 @@ const heroMarqueePills = [
   })();
 </script>
 
-<style is:global>
-  @media (min-width: 1024px) {
-    #hero #hero-title {
-      font-size: clamp(2.25rem, 1.15rem + 2.35vw, 2.875rem) !important;
-      white-space: nowrap !important;
-      letter-spacing: -0.025em;
-      line-height: 1.05;
-    }
-  }
-</style>
