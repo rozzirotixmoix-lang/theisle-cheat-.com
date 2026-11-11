@@ -76,7 +76,6 @@ export interface ProductPage {
 /** Guides paired with each product detail page. Cleared in Part 2; refilled in Part 11. */
 export const productRelatedBlogSlugs: Record<string, string[]> = {
   elite: [
-    'the-isle-cheats-price-monthly-vs-lifetime',
     'the-isle-esp-options-explained',
     'how-to-set-up-the-isle-cheats-windows',
     'the-isle-cheat-not-working-fixes',

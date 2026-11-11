@@ -89,7 +89,7 @@ const showDescToggle = descriptionBlocks.length > 2;
 
 <SiteFaqSection
   id="faq"
-  items={productFaqs}
+  items={productFaqs.filter((item) => item.topic !== 'plans')}
   titleId={`catalog-faq-${product.slug}`}
   class="border-t border-border bg-background"
 />

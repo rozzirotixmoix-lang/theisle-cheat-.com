@@ -318,7 +318,7 @@ export const en: Translations = {
     },
     swipeHint: 'Swipe for more screenshots',
     checkoutEyebrow: 'Checkout',
-    checkoutSelect: 'Select subscription',
+    checkoutSelect: 'Access length',
     checkoutSingle: 'Purchase option',
     checkoutTotal: 'Total',
     bestValue: 'Best value',

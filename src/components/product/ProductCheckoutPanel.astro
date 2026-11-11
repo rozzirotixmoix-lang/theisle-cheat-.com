@@ -1,17 +1,9 @@
 ---
 import type { ProductPage } from '../../data/products';
 import { checkoutUrlWithPlan, getProductPlans, type ProductPlanId } from '../../data/productPricing';
-import CircleFilled from '@tabler/icons/filled/circle.svg';
 import Icon from '../icons/Icon.astro';
 import ProductIconWell from './ProductIconWell.astro';
 import { Button } from '@/components/starwind/button';
-import {
-  radioControl,
-  radioGroup,
-  radioIndicator,
-  radioItem,
-  radioWrapper,
-} from '@/components/starwind/radio-group/variants';
 import { useLocale } from '../../i18n';
 
 interface Props {
@@ -32,7 +24,6 @@ const localizedPlans = plans.map((plan) => {
     id: plan.id,
     label: copy.label,
     recommended: plan.recommended,
-    badge: plan.recommended ? t.products.bestValue : plan.badge,
   };
 });
 const defaultPlan = localizedPlans.find((plan) => plan.recommended) ?? localizedPlans[0]!;
@@ -57,61 +48,25 @@ const isSinglePlan = localizedPlans.length === 1;
       </div>
     </div>
 
-    <div class="product-checkout__body flex flex-1 flex-col gap-5 px-5 pb-5 pt-5">
-      <div
-        class={radioGroup({ orientation: 'vertical', class: 'product-checkout__plans' })}
-        data-sw-radio-group
-        data-value={defaultPlan.id}
-        data-size="md"
-        role="radiogroup"
-        aria-label={isSinglePlan ? t.products.checkoutSingle : t.products.checkoutSelect}
-      >
-        {
-          localizedPlans.map((plan) => {
-            const selected = plan.id === defaultPlan.id;
-            return (
-              <label class="product-checkout__plan flex cursor-pointer items-center gap-3 rounded-xl border border-border bg-background p-3.5 transition-colors has-data-checked:border-primary has-data-checked:bg-primary/10">
-                <span class="flex min-w-0 items-center gap-3">
-                  <span class={radioWrapper()} data-slot="radio-group-item-wrapper">
-                    <span
-                      class={radioItem()}
-                      data-sw-radio
-                      data-value={plan.id}
-                      role="radio"
-                      aria-label={plan.label}
-                      tabindex={selected ? 0 : -1}
-                      aria-checked={selected ? 'true' : 'false'}
-                      data-checked={selected ? '' : undefined}
-                      data-unchecked={selected ? undefined : ''}
-                    >
-                      <span class={radioControl({ variant: 'primary' })} data-slot="radio-group-item-control">
-                        <span
-                          class={radioIndicator()}
-                          data-slot="radio-group-item-indicator"
-                          data-checked={selected ? '' : undefined}
-                          data-unchecked={selected ? undefined : ''}
-                        >
-                          <CircleFilled />
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                  <span class="flex min-w-0 flex-wrap items-center gap-1.5">
-                    <span class="text-sm font-medium">{plan.label}</span>
-                    {
-                      plan.badge && (
-                        <span class="shrink-0 rounded-full bg-primary px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide text-primary-foreground">
-                          {plan.badge}
-                        </span>
-                      )
-                    }
-                  </span>
-                </span>
-              </label>
-            );
-          })
-        }
-      </div>
+    <div class="product-checkout__body flex flex-1 flex-col gap-4 px-5 pb-5 pt-5">
+      {
+        !isSinglePlan && (
+          <label class="flex flex-col gap-1.5">
+            <span class="text-xs font-medium text-muted-foreground">{t.products.checkoutSelect}</span>
+            <select
+              class="w-full rounded-xl border border-border bg-background px-3.5 py-2.5 text-sm font-medium text-foreground"
+              data-plan-select
+              aria-label={t.products.checkoutSelect}
+            >
+              {localizedPlans.map((plan) => (
+                <option value={plan.id} selected={plan.id === defaultPlan.id}>
+                  {plan.label}
+                </option>
+              ))}
+            </select>
+          </label>
+        )
+      }
 
       <Button
         as="a"
@@ -135,75 +90,20 @@ const isSinglePlan = localizedPlans.length === 1;
       root.setAttribute('data-checkout-bound', '');
 
       const buyUrl = root.getAttribute('data-buy-url');
-      const plansRaw = root.getAttribute('data-plans');
-      if (!buyUrl || !plansRaw) return;
+      if (!buyUrl) return;
 
-      type Plan = { id: string; recommended?: boolean };
-      let plans: Plan[] = [];
-      try {
-        plans = JSON.parse(plansRaw) as Plan[];
-      } catch {
-        return;
-      }
-
-      const group = root.querySelector('[data-sw-radio-group]');
+      const select = root.querySelector<HTMLSelectElement>('[data-plan-select]');
       const buyBtn = root.querySelector<HTMLAnchorElement>('[data-checkout-buy]');
-      if (!group || !buyBtn) return;
-
-      const featuredId = plans.find((plan) => plan.recommended)?.id ?? plans[0]?.id;
+      if (!buyBtn) return;
 
       const sync = () => {
-        const planId = group.getAttribute('data-value') || featuredId;
-        const plan = plans.find((p) => p.id === planId) ?? plans[0];
-        if (!plan) return;
-
-        const separator = buyUrl.includes('?') ? '&' : '?';
-        buyBtn.href = `${buyUrl}${separator}plan=${plan.id}`;
-      };
-
-      const selectPlan = (radio: Element) => {
-        const planId = radio.getAttribute('data-value');
+        const planId = select?.value;
         if (!planId) return;
-        group.setAttribute('data-value', planId);
-        group.querySelectorAll('[data-sw-radio]').forEach((el) => {
-          const on = el === radio;
-          el.toggleAttribute('data-checked', on);
-          el.toggleAttribute('data-unchecked', !on);
-          el.setAttribute('aria-checked', on ? 'true' : 'false');
-          if (el instanceof HTMLElement) el.tabIndex = on ? 0 : -1;
-          const dot = el.querySelector('[data-slot="radio-group-item-indicator"]');
-          if (!dot) return;
-          dot.toggleAttribute('data-checked', on);
-          dot.toggleAttribute('data-unchecked', !on);
-        });
-        sync();
+        const separator = buyUrl.includes('?') ? '&' : '?';
+        buyBtn.href = `${buyUrl}${separator}plan=${planId}`;
       };
 
-      group.addEventListener('click', (event) => {
-        const target = event.target;
-        if (!(target instanceof Element)) return;
-        const radio =
-          target.closest('[data-sw-radio]') ?? target.closest('label')?.querySelector('[data-sw-radio]');
-        if (radio) selectPlan(radio);
-      });
-
-      group.addEventListener('keydown', (event) => {
-        if (!(event instanceof KeyboardEvent)) return;
-        if (!['ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight'].includes(event.key)) return;
-        const radios = [...group.querySelectorAll('[data-sw-radio]')];
-        if (!radios.length) return;
-        const current = Math.max(
-          0,
-          radios.findIndex((el) => el.getAttribute('aria-checked') === 'true'),
-        );
-        const delta = event.key === 'ArrowDown' || event.key === 'ArrowRight' ? 1 : -1;
-        const next = radios[(current + delta + radios.length) % radios.length];
-        if (!next) return;
-        event.preventDefault();
-        selectPlan(next);
-        if (next instanceof HTMLElement) next.focus();
-      });
-
+      select?.addEventListener('change', sync);
       sync();
     });
   };
