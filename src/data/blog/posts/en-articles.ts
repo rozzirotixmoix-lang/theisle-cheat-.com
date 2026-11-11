@@ -20,7 +20,7 @@ export const blogPostsEn: BlogPostFull[] = [
     desc: 'Monthly or lifetime? Here is what each plan includes and when lifetime is the better long-term fit.',
     metaTitle: 'The Isle Cheats: Monthly vs Lifetime Compared',
     metaDescription:
-      'Compare monthly and lifetime The Isle cheats plans, what each includes, and who each plan suits.',
+      'Compare monthly and lifetime The Isle plans on theisle-cheat.com: pricing, included ESP modules, and which plan fits your play style.',
     date: '2026-08-14',
     readTime: '5 min read',
     featured: true,

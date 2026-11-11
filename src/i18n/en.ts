@@ -10,20 +10,26 @@ export const en: Translations = {
     domain: SITE_DOMAIN,
     title: 'The Isle Cheats for Evrima: ESP and HUD on Windows',
     description:
-      'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans at checkout and check live status first.',
+      'The Isle menu for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans and check live status on theisle-cheat.com.',
   },
   nav: [
-    { id: 'products', href: `${productBase}`, label: 'Product', shortLabel: 'Product' },
-    { id: 'blog', href: '/blog/', label: 'Blog' },
-    { id: 'forum', href: '/forum/', label: 'Forum' },
-    { id: 'faq', href: '/faq/', label: 'FAQ' },
-    { id: 'support', href: '/support/', label: 'Support' },
+    {
+      id: 'products',
+      href: `${productBase}`,
+      label: 'Evrima cheats product',
+      shortLabel: 'Product',
+      ariaLabel: 'Open Evrima product page',
+    },
+    { id: 'blog', href: '/blog/', label: 'Setup guides', ariaLabel: 'Browse blog guides' },
+    { id: 'forum', href: '/forum/', label: 'Community forum', ariaLabel: 'Read forum archive' },
+    { id: 'faq', href: '/faq/', label: 'Pre-purchase FAQ', ariaLabel: 'Open FAQ help center' },
+    { id: 'support', href: '/support/', label: 'Contact support', ariaLabel: 'Open support hub' },
   ],
   hero: {
     status: 'The Isle, patch build online',
     eyebrow: '#1 CHEATS PROVIDER',
     titleLine1: 'The Isle Cheats for Evrima:',
-    titleLine2: 'ESP, HUD and radar on Windows',
+    titleLine2: 'ESP and HUD on Windows',
     subtitle:
       'Bring the menu online for Evrima after you read the status banner on theisle-cheat.com. Windows loader, portal presets, then ESP distance and overlay tuning.',
     ctaPrimary: 'View products',
@@ -556,6 +562,7 @@ export const en: Translations = {
           paragraphs: [
             'the isle cheats is a PC resource for players evaluating ESP overlays, world markers, aim assistance, and radar for The Isle Evrima. We publish setup notes and live status so you can read the facts before checkout.',
             'The main license is available on monthly and lifetime plans at checkout. Cloud DMA is a separate purchase and is required for full functionality. All product names are used for identification only.',
+            'Editorial coverage on {siteDomain} includes step-by-step Windows setup, ESP tuning walkthroughs, Easy Anti-Cheat patch-day checklists, and HWID recovery notes so buyers know what the loader covers before payment.',
           ],
         },
         {
@@ -671,7 +678,7 @@ export const en: Translations = {
     },
   },
   common: {
-    breadcrumbHome: 'Home',
+    breadcrumbHome: 'theisle-cheat.com home',
     breadcrumbProducts: 'Product',
     breadcrumbBlog: 'Blog',
     breadcrumbForum: 'Forum',
@@ -768,7 +775,7 @@ export const en: Translations = {
     '/': {
       title: 'The Isle Cheats for Evrima: ESP and HUD on Windows',
       description:
-        'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans at checkout and check live status first.',
+        'The Isle menu for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans and check live status on theisle-cheat.com.',
     },
     '/product/': {
       title: 'The Isle Evrima Cheats: ESP Overlays and HUD',

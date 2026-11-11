@@ -89,6 +89,11 @@ export function clampMetaDescription(text: string, min = 110, maxChars = 155, ma
     if (!next || next === out) break;
     out = next;
   }
+  if (out.length < min) {
+    const suffix = ` More on ${SITE_DOMAIN}.`;
+    const extended = `${out.replace(/[.!?]\s*$/, '')}${suffix}`;
+    if (metaDescriptionFits(extended, maxChars, maxPx)) out = extended;
+  }
   return out;
 }
 
@@ -96,7 +101,9 @@ function collapseRepeatedTitleWords(title: string): string {
   return title
     .replace(/\b(The Isle Cheats)\s+\1\b/gi, '$1')
     .replace(/\b(The Isle)\s+\1\b/gi, '$1')
-    .replace(/\b(theisle-cheat\.com)\s+\1\b/gi, '$1');
+    .replace(/\b(theisle-cheat\.com)\s+\1\b/gi, '$1')
+    .replace(/\b(Bans),\s+\1\b/gi, '$1')
+    .replace(/\b(Cheats),\s+\1\b/gi, '$1');
 }
 
 export function normalizeDocumentTitle(title: string, locale?: string): string {
@@ -105,12 +112,16 @@ export function normalizeDocumentTitle(title: string, locale?: string): string {
   const t = getTranslations(locale);
   let out = trimmed.length > 60 ? pageTitle(trimmed, undefined, locale) : trimmed;
   if (out.length < 50) {
-    const withDomain = `${out} | ${SITE_DOMAIN}`;
+    const suffix = ` | ${SITE_DOMAIN}`;
+    const withDomain = `${out}${suffix}`;
     if (withDomain.length <= 60) {
       out = withDomain;
     } else {
-      const withBrand = pageTitle(out, t.site.name, locale);
-      if (withBrand.length <= 60 && withBrand.length > out.length) out = withBrand;
+      const maxBase = Math.max(28, 60 - suffix.length);
+      const trimmedBase = pageTitle(out, undefined, locale);
+      const base = trimmedBase.length > maxBase ? trimmedBase.slice(0, maxBase).replace(/\s+\S*$/, '').trim() : trimmedBase;
+      const candidate = `${base}${suffix}`;
+      out = candidate.length <= 60 ? candidate : pageTitle(withDomain, undefined, locale);
     }
   }
   if (out.length > 60) out = pageTitle(out, undefined, locale);

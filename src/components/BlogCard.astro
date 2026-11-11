@@ -153,7 +153,7 @@ const tagIcon: IconName = blogTagIcons[post.tag] ?? 'tag';
         class="blog-card__read shrink-0"
         aria-label={`${t.blog.read}: ${post.title}`}
       >
-        {t.blog.read}
+        {post.tag ? `${t.blog.read}: ${post.tag}` : t.blog.read}
         <Icon name="arrowRight" size={16} />
       </Button>
     </CardFooter>

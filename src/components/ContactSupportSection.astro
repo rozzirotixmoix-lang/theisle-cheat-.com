@@ -17,11 +17,13 @@ import {
 
 interface Props {
   titleId?: string;
+  /** When set, matches the document `<title>` for SEO H1 alignment. */
+  pageTitle?: string;
   showTicketTips?: boolean;
   class?: string;
 }
 
-const { titleId = 'support-title', showTicketTips = false, class: className } = Astro.props;
+const { titleId = 'support-title', pageTitle, showTicketTips = false, class: className } = Astro.props;
 const c = t.support;
 ---
 
@@ -33,7 +35,7 @@ const c = t.support;
   <div class="support-section__inner mx-auto max-w-6xl px-5">
     <header class="section-header section-header--wide support-section__header">
       <p class="section-header__eyebrow">{c.eyebrow}</p>
-      <h1 id={titleId} class="section-header__title">{c.title}</h1>
+      <h1 id={titleId} class="section-header__title">{pageTitle ?? c.title}</h1>
       <p class="section-header__subtitle">{c.subtitle}</p>
     </header>
 

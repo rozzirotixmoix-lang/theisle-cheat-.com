@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/optimize-images.mjs && node scripts/generate-static-redirects.mjs && astro build && node scripts/prune-dist-images.mjs && node scripts/finalize-sitemap.mjs && node scripts/indexnow.mjs",
+    "build": "node scripts/optimize-images.mjs && node scripts/generate-static-redirects.mjs && astro build && node scripts/prune-dist-go.mjs && node scripts/prune-dist-images.mjs && node scripts/finalize-sitemap.mjs && node scripts/indexnow.mjs",
     "preview": "astro preview --host 0.0.0.0",
     "start": "node scripts/serve.mjs",
     "astro": "astro",

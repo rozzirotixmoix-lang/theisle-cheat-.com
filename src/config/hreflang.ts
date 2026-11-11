@@ -6,13 +6,6 @@ import { normalizeSeoPath } from './pageSeo';
 
 export type HreflangAlternate = { hreflang: string; href: string };
 
-const REGIONAL_HREFLANG: Record<SiteLocale, string> = {
-  en: 'en-US',
-  es: 'es-ES',
-  de: 'de-DE',
-  fr: 'fr-FR',
-};
-
 /**
  * HTML `<link rel="alternate" hreflang>` for a page cluster.
  * `pageCanonical` must match that page's `<link rel="canonical">`; the current locale (and x-default on English) use it exactly.
@@ -45,14 +38,6 @@ export function hreflangAlternatesForPath(
     const enIndex = alternates.findIndex((alt) => alt.hreflang === 'en');
     if (enIndex >= 0) {
       alternates[enIndex] = { hreflang: 'en', href: pageCanonical };
-    }
-  }
-
-  for (const locale of LOCALES) {
-    const regional = REGIONAL_HREFLANG[locale];
-    const match = alternates.find((alt) => alt.hreflang === locale);
-    if (match && !alternates.some((alt) => alt.hreflang === regional)) {
-      alternates.push({ hreflang: regional, href: match.href });
     }
   }
 

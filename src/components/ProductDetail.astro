@@ -22,9 +22,10 @@ import ProductMoreToolsSection from './product/ProductMoreToolsSection.astro';
 interface Props {
   product: ProductPage;
   breadcrumbs?: BreadcrumbItem[];
+  pageTitle?: string;
 }
 
-const { product, breadcrumbs } = Astro.props;
+const { product, breadcrumbs, pageTitle } = Astro.props;
 const { t, locale } = useLocale(Astro.currentLocale);
 const relatedGuides = getBlogPostsBySlugs(product.relatedBlogSlugs, locale).slice(0, 6);
 const relatedDiscussions = getForumPostsBySlugs(product.relatedForumSlugs, locale).slice(0, 4);
@@ -48,7 +49,7 @@ const showDescToggle = descriptionBlocks.length > 2;
     {breadcrumbs && <Breadcrumbs items={breadcrumbs} class="product-detail__breadcrumbs" />}
 
     <div class="mt-6">
-      <ProductDetailHeader product={product} />
+      <ProductDetailHeader product={product} pageTitle={pageTitle} />
     </div>
 
     <div class="product-detail-hero__grid mt-10 grid items-start gap-8">

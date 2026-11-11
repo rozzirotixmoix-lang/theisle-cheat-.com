@@ -33,5 +33,5 @@ const seo = resolvePageSeo('/support/', locale);
       ]}
     />
   </div>
-  <ContactSupportSection titleId="support-page-title" showTicketTips />
+  <ContactSupportSection titleId="support-page-title" pageTitle={seo.title} showTicketTips />
 </BaseLayout>

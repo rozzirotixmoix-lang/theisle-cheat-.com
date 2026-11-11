@@ -66,12 +66,9 @@ function checkoutPlaceholderHtml(slug, fromPath) {
 <meta name="robots" content="noindex, nofollow">
 <title>${meta.title}</title>
 <meta name="description" content="${meta.description}">
-<link rel="canonical" href="${canonical}">
 <meta property="og:title" content="${meta.title}">
 <meta property="og:description" content="${meta.description}">
 <meta property="og:url" content="${canonical}">
-<link rel="alternate" hreflang="en" href="${canonical}">
-<link rel="alternate" hreflang="x-default" href="${canonical}">
 <meta property="og:type" content="website">
 </head>
 <body>
