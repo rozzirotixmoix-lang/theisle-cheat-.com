@@ -34,7 +34,7 @@ export function websiteSchema(locale?: SchemaLocale, description?: string) {
     inLanguage: schemaLanguage(locale),
     description:
       description ??
-      'the isle cheats for The Isle Evrima and Horde on Windows: player ESP, world ESP, aim assistance, and radar.',
+      'The Isle cheats for Evrima on Windows: ESP overlays, world markers, aim assistance, and on-screen radar.',
   };
 }
 

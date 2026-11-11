@@ -201,6 +201,7 @@ export interface Translations {
   blog: {
     eyebrow: string;
     title: string;
+    pageH1: string;
     subtitle: string;
     latestTitle: string;
     latestSubtitle: string;

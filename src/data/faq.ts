@@ -168,7 +168,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'plans',
     icon: 'faqWhoElite',
     q: 'Who should buy the isle cheats?',
-    a: `Windows players who want player ESP, world ESP, aim assistance, radar, and priority patch delivery for The Isle Evrima and Horde when slots are open.`,
+    a: `Windows players who want ESP overlays, world markers, aim assistance, radar, and priority patch delivery for The Isle Evrima when slots are open.`,
     scopes: ['elite'],
   },
   {

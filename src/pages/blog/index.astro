@@ -53,6 +53,10 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
   <section class="py-8 md:py-12">
     <div class="mx-auto max-w-6xl px-5">
       <Breadcrumbs items={breadcrumbs} />
+      <header class="sr-only">
+        <h1>{t.blog.pageH1}</h1>
+        <p>{t.blog.subtitle}</p>
+      </header>
       {featured && <BlogCard post={featured} index={0} eager showDate layout="featured" />}
     </div>
   </section>
@@ -61,7 +65,7 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
     <div class="mx-auto max-w-6xl px-5">
       <header class="section-header max-w-2xl" data-reveal>
         <p class="section-header__eyebrow">{t.blog.eyebrow}</p>
-        <h1 id="blog-latest-title" class="section-header__title">{t.blog.latestTitle}</h1>
+        <h2 id="blog-latest-title" class="section-header__title">{t.blog.latestTitle}</h2>
         <p class="section-header__subtitle">{t.blog.latestSubtitle}</p>
       </header>
 

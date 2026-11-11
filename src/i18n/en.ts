@@ -8,9 +8,9 @@ export const en: Translations = {
   site: {
     name: SITE_NAME,
     domain: SITE_DOMAIN,
-    title: 'The Isle Cheats for Evrima: ESP, HUD on Windows',
+    title: 'The Isle Cheats for Evrima: ESP and HUD on Windows',
     description:
-      'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime access at checkout. Check live status first.',
+      'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans at checkout and check live status first.',
   },
   nav: [
     { id: 'products', href: `${productBase}`, label: 'Product', shortLabel: 'Product' },
@@ -369,14 +369,15 @@ export const en: Translations = {
   blog: {
     eyebrow: 'Blog',
     title: 'Guides and updates',
+    pageH1: 'The Isle cheat guides and patch-day notes',
     subtitle: 'ESP and aim setup, world markers, and Easy Anti-Cheat patch-day checks for The Isle.',
-    latestTitle: 'the isle cheat Guides & Patch-Day Notes',
+    latestTitle: 'Browse guides by topic',
     latestSubtitle: 'Filter by topic to find setup guides, feature deep-dives, and patch-day notes.',
     filterAll: 'All articles',
     emptyFilter: 'No articles match this filter.',
     emptyArchive: 'No articles yet. New guides will show up here.',
     viewAll: 'View all articles',
-    read: 'Read',
+    read: 'Read full guide',
     articleActionsAria: 'Continue reading',
     buyCta: 'Buy the isle cheats',
     buyHwidCta: 'Buy HWID Spoofer',
@@ -517,7 +518,8 @@ export const en: Translations = {
     ],
   },
   footer: {
-    tagline: 'The Isle cheats with player ESP, world ESP, aim assistance and radar for PC. {siteDomain}',
+    tagline:
+      'The Isle cheats with ESP overlays, world markers, aim assistance and radar for Windows. Guides and live status on {siteDomain}.',
     explore: 'Explore',
     exploreLinks: [
       { id: 'products', href: '/', label: 'Feature overview', ariaLabel: 'Features', scrollTarget: 'features' },
@@ -545,7 +547,7 @@ export const en: Translations = {
         {
           heading: 'Who we are',
           paragraphs: [
-            'the isle cheats is a PC resource for players evaluating player ESP, world ESP, aim assistance, and radar for The Isle Evrima and Horde. We publish setup notes and live status so you can read the facts before checkout.',
+            'the isle cheats is a PC resource for players evaluating ESP overlays, world markers, aim assistance, and radar for The Isle Evrima. We publish setup notes and live status so you can read the facts before checkout.',
             'The main license is available on monthly and lifetime plans at checkout. Cloud DMA is a separate purchase and is required for full functionality. All product names are used for identification only.',
           ],
         },
@@ -751,54 +753,54 @@ export const en: Translations = {
   },
   pageSeo: {
     '/': {
-      title: 'The Isle Cheats for Evrima: ESP, HUD on Windows',
+      title: 'The Isle Cheats for Evrima: ESP and HUD on Windows',
       description:
-        'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime access at checkout. Check live status first.',
+        'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans at checkout and check live status first.',
     },
     '/product/': {
-      title: 'Evrima Cheats: ESP Overlays and HUD Tools',
+      title: 'The Isle Evrima Cheats: ESP Overlays and HUD',
       description:
-        'Evrima-only ESP overlays: players, animals, snaplines, world markers and misc HUD. Choose monthly or lifetime at checkout.',
+        'The Isle Evrima cheats with ESP for players, dinosaurs, loot and radar-style HUD. Review features, Windows requirements and buy when status shows online.',
     },
     '/hwid-spoofer/': {
-      title: 'HWID Spoofer: PC Fingerprint Reset Utility',
+      title: 'The Isle HWID Spoofer: Reset PC Hardware IDs',
       description:
-        'Reset disk, MAC and GPU IDs when hardware blocks new logins. Finish the portal checklist, then verify before launching.',
+        'HWID spoofer for The Isle buyers: reset disk, MAC and GPU identifiers after hardware bans. Follow the portal checklist, then verify IDs before a new login.',
     },
     '/blog/': {
-      title: 'Guides: ESP Setup, Patches and Plans',
+      title: 'The Isle Cheat Guides: ESP Setup and Patch Notes',
       description:
-        'Setup walkthroughs, ESP tuning, world markers and Easy Anti-Cheat status checklists on {siteDomain}.',
+        'The Isle cheat guides covering Windows setup, ESP tuning, Easy Anti-Cheat checks and plan comparisons. Filter articles by topic on {siteDomain}.',
     },
     '/forum/': {
-      title: 'Community Forum: Setup and HWID Threads',
+      title: 'The Isle Cheats Forum: Setup and HWID Threads',
       description:
-        'Read-only discussions on loader setup, patches and recovery guides. New threads and replies are closed.',
+        'Read-only The Isle cheats forum threads on loader setup, patches, ban recovery and HWID notes. Browse community posts; new replies are closed.',
     },
     '/faq/': {
-      title: 'FAQ: Plans, Setup and Anti-Cheat Status',
+      title: 'The Isle Cheats FAQ: Plans, ESP and Setup Help',
       description:
-        'Answers on monthly vs lifetime plans, ESP modules, Windows setup and checkout help on {siteDomain}.',
+        'The Isle cheats FAQ on monthly vs lifetime plans, ESP modules, Windows security settings, Easy Anti-Cheat status and checkout help on {siteDomain}.',
     },
     '/terms/': {
-      title: 'Terms of Sale, License Use and Refund Policy',
+      title: 'The Isle Cheats Terms: Sale, License and Refunds',
       description:
-        'Refund rules, license limits, checkout delivery, Cloud DMA notes and risk disclosure for {siteDomain} products.',
+        'Terms for The Isle cheats and HWID tools sold via {siteDomain}: refunds, license limits, checkout delivery, Cloud DMA notes and risk disclosure.',
     },
     '/privacy/': {
-      title: 'Privacy Policy: Cookies and Analytics',
+      title: 'The Isle Cheats Privacy: Cookies and Analytics',
       description:
-        'How {siteDomain} uses cookies, analytics and ticket data when you contact support.',
+        'Privacy policy for {siteDomain}: how cookies, analytics and support ticket data are used when you browse The Isle cheats pages or contact support.',
     },
     '/about/': {
-      title: 'About This Store and Support Channels',
+      title: 'About The Isle Cheats Store on {siteDomain}',
       description:
-        'Who publishes product pages, live status notes and Discord support for buyers on {siteDomain}.',
+        'Learn who publishes The Isle cheats product pages, live status notes and Discord support for buyers on {siteDomain} before you checkout.',
     },
     '/support/': {
-      title: 'Support: Loader, HWID and Checkout Help',
+      title: 'The Isle Cheats Support: Loader and HWID Help',
       description:
-        'Help with portal access, loader errors, HWID tickets and billing questions on {siteDomain}.',
+        'The Isle cheats support for portal access, loader errors, HWID tickets and billing questions. Open a ticket from {siteDomain} with your order details ready.',
     },
   },
   ui: {

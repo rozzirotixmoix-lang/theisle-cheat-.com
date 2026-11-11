@@ -52,7 +52,7 @@ export function absoluteAssetUrl(path: string): string {
 }
 
 /** SERP-safe meta description length (Seobility / Google snippet guidance). */
-export function clampMetaDescription(text: string, min = 70, max = 155): string {
+export function clampMetaDescription(text: string, min = 120, max = 158): string {
   const normalized = text.trim().replace(/\s+/g, ' ');
   if (!normalized) return normalized;
   if (normalized.length <= max && normalized.length >= min) return normalized;
@@ -63,11 +63,26 @@ export function clampMetaDescription(text: string, min = 70, max = 155): string 
   return slice.trim();
 }
 
+export function normalizeDocumentTitle(title: string, locale?: string): string {
+  const trimmed = title.trim().replace(/\s+/g, ' ');
+  if (!trimmed) return trimmed;
+  const t = getTranslations(locale);
+  let out = trimmed.length > 60 ? pageTitle(trimmed, undefined, locale) : trimmed;
+  if (out.length < 50) {
+    const withBrand = pageTitle(out, t.site.name, locale);
+    if (withBrand.length <= 60 && withBrand.length > out.length) out = withBrand;
+  }
+  return out;
+}
+
 export function resolvePageSeo(pathname: string, locale?: string): { title: string; description: string } {
   const entry = getPageSeoEntry(pathname, locale);
-  if (entry) return entry;
   const t = getTranslations(locale);
-  return { title: t.site.title, description: t.site.description };
+  const raw = entry ?? { title: t.site.title, description: t.site.description };
+  return {
+    title: normalizeDocumentTitle(raw.title, locale),
+    description: clampMetaDescription(raw.description),
+  };
 }
 
 export function pageTitle(keyword: string, brand?: string, locale?: string): string {
