@@ -3,12 +3,12 @@ import type { ForumPost } from './forum/types';
 import { forumPostsEn } from './forum/posts/en-threads';
 
 export const forumCategories = [
-  { name: 'Buying Questions', tone: 'blue', icon: 'tag' },
-  { name: 'Features', tone: 'purple', icon: 'layers' },
-  { name: 'Setup Help', tone: 'green', icon: 'settings' },
-  { name: 'Status and Updates', tone: 'orange', icon: 'refresh' },
-  { name: 'Anti-Cheat', tone: 'orange', icon: 'shieldCheck' },
-  { name: 'Ban Help', tone: 'green', icon: 'alert' },
+  { name: 'General Discussion', tone: 'blue', icon: 'users' },
+  { name: 'Guides & Tutorials', tone: 'purple', icon: 'navBlog' },
+  { name: 'Technical Support', tone: 'green', icon: 'settings' },
+  { name: 'Software & Compatibility', tone: 'orange', icon: 'package' },
+  { name: 'Gaming Questions', tone: 'blue', icon: 'messageCircle' },
+  { name: 'Account & Security', tone: 'orange', icon: 'shieldCheck' },
 ] as const;
 
 export const forumPosts: ForumPost[] = forumPostsEn;

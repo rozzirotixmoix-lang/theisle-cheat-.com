@@ -3,7 +3,7 @@
  * Visible buy buttons use `/go/…` from `checkout.ts`. These URLs are the 302 targets only.
  */
 export const CHECKOUT_URLS = {
-  theIsle: 'https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fvalorant',
+  theIsle: 'https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fthe-isle-novaxware',
   ugc: 'https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fugc',
   skinChanger: 'https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fskin-changer',
   hwidSpoofer: 'https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fhwid-spoofer',

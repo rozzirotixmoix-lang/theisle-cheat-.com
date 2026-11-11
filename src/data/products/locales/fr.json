@@ -1,49 +1,89 @@
 {
-  "sharedGoodToKnow": "Escape From Tarkov et BattlEye reçoivent des mises à jour fréquentes. Confirmez la disponibilité du module sur le panneau d'état en direct sur {siteDomain} avant d'acheter ou de lancer. Cloud DMA constitue un achat distinct lorsque cela est nécessaire pour bénéficier de toutes les fonctionnalités.",
-  "sharedLimitations": "Les logiciels tiers dans Escape From Tarkov peuvent enfreindre les conditions de Battlestate Games et entraîner des bans ou des actions sur le compte de BattlEye. Vous utilisez ce logiciel à vos propres risques. La compatibilité et la disponibilité peuvent changer après les mises à jour du jeu, de BattlEye ou de Windows sans préavis.",
+  "sharedGoodToKnow": "The Isle et Easy Anti-Cheat reçoivent des mises à jour fréquentes. Confirmez la disponibilité des modules sur le panneau de statut en direct sur {siteDomain} avant d'acheter ou de lancer. Cloud DMA est un achat séparé et est requis pour le fonctionnement complet.",
+  "sharedLimitations": "Les logiciels tiers dans The Isle peuvent enfreindre les conditions de l'éditeur et entraîner des bans Easy Anti-Cheat ou des actions sur le compte. Vous utilisez ce logiciel à vos propres risques. La compatibilité et la disponibilité peuvent changer après des mises à jour du jeu, d'Easy Anti-Cheat ou de Windows sans préavis.",
   "acquisitionSteps": [
     {
       "num": "01",
-      "title": "Vérifier l'état actuel",
-      "desc": "Vérifiez la bannière en direct sur {siteDomain} et Discord #status avant l'achat, surtout après une mise à jour d'Escape From Tarkov ou de BattlEye."
+      "title": "Vérifier le statut actuel",
+      "desc": "Consultez la bannière en direct sur {siteDomain} et Discord #status avant l'achat, surtout après une mise à jour The Isle ou Easy Anti-Cheat."
     },
     {
       "num": "02",
-      "title": "Choisissez votre niveau d'accès",
-      "desc": "Sélectionnez Escape From Tarkov Cheats ou l'utilitaire qui correspond à votre objectif. Consultez la liste des fonctionnalités avant de procéder au paiement via notre paiement partenaire."
+      "title": "Choisir votre niveau d'accès",
+      "desc": "Sélectionnez the isle cheats ou l'utilitaire qui correspond à votre objectif. Relisez la liste des fonctions avant le paiement via notre partenaire."
     },
     {
       "num": "03",
-      "title": "Contactez l'équipe",
-      "desc": "Ouvrez Discord et confirmez la disponibilité, la configuration de Windows et les détails de paiement avec votre e-mail de commande prêt."
+      "title": "Contacter l'équipe",
+      "desc": "Ouvrez Discord et confirmez la disponibilité, la config Windows et les détails de paiement avec votre e-mail de commande prêt."
     },
     {
       "num": "04",
-      "title": "Suivez la configuration guidée",
-      "desc": "Utilisez uniquement le portail opérateur, le chargeur de correctifs et le guide de configuration. Testez hors ligne, chargez les préréglages, puis exécutez des raids PMC lorsque l'état est en ligne."
+      "title": "Suivre le setup guidé",
+      "desc": "Utilisez uniquement le portail opérateur, le loader de patch et le guide d'installation. Testez hors ligne, chargez les presets, puis jouez quand le statut est en ligne."
     }
   ],
   "systemRequirements": [
-    "Windows 10 ou 11 64 bits (Intel ou AMD).",
-    "Accès Internet et chargeur stable après l'achat.",
-    "Client actuel d'Escape From Tarkov ;vérifier l'état après les correctifs majeurs.",
-    "Cloud DMA constitue un achat distinct lorsque cela est nécessaire pour bénéficier de toutes les fonctionnalités."
+    "Windows 10 ou 11 (64 bits) avec HVCI, isolation du noyau, TPM et Secure Boot activés.",
+    "Connexion Internet stable et accès au loader après l'achat.",
+    "Client Steam ; The Isle: Evrima uniquement. Vérifiez le statut après les patches.",
+    "Cloud DMA est un achat séparé et est requis pour le fonctionnement complet."
   ],
   "gallery": [
     {
-      "alt": "Vue à la première personne d'Escape From Tarkov avec le joueur ESP montrant des personnages surlignés en rouge, des contours de squelette et des étiquettes de distance dans une cour industrielle ensoleillée.",
-      "caption": "Joueur ESP dans les raids de jour",
-      "captionDesc": "Points forts des joueurs rouges et verts, squelettes filaires et lectures de distance sur une carte industrielle extérieure."
+      "alt": "Dinosaure dans une vallée en journée avec points de minimap et plaques ESP au loin.",
+      "caption": "ESP vallée en journée",
+      "captionDesc": "Collines ouvertes et palmiers avec une minimap et des plaques de joueur flottantes."
     },
     {
-      "alt": "Scène de vision nocturne Escape From Tarkov avec étiquettes squelettes ESP, PMC et Scav et relevés de compteurs visibles à travers les murs intérieurs.",
-      "caption": "Squelette ESP la nuit",
-      "captionDesc": "Des squelettes en forme de bâton, des badges nominatifs et des marqueurs de distance à travers les murs lors d'un raid intérieur teinté de vert."
+      "alt": "Dinosaure en forêt de nuit avec lignes ESP blanches et labels de distance.",
+      "caption": "ESP distance forêt de nuit",
+      "captionDesc": "Course en jungle sombre avec lignes de trace et lectures en mètres vers d'autres joueurs."
     },
     {
-      "alt": "Escape From Tarkov vise à la première personne avec des silhouettes de wallhack rouges et des étiquettes d'armes visibles à travers un mur de béton à l'extérieur.",
-      "caption": "ESP à travers une couverture rigide",
-      "captionDesc": "Silhouettes ennemies rouges et appels d'armes rendus à travers une barrière en béton tout en visant vers le bas."
+      "alt": "Dinosaure sur le rivage face à l'océan avec une plaque ESP devant.",
+      "caption": "ESP rivage de plage",
+      "captionDesc": "Côte sableuse et palmiers avec un dinosaure étiqueté de l'autre côté de l'eau."
+    },
+    {
+      "alt": "Dinosaure dans les hautes herbes avec boîtes ESP colorées et lignes de trace.",
+      "caption": "Boîtes ESP hautes herbes",
+      "captionDesc": "Feuillage dense avec overlays en boîtes et lignes marquant les joueurs cachés."
+    },
+    {
+      "alt": "Omniraptor en forêt avec panneau de stats ESP et points radar.",
+      "caption": "Panneau cible forêt",
+      "captionDesc": "Vue jungle en plongée avec overlays de croissance, poids et radar sur un dinosaure."
+    },
+    {
+      "alt": "Deux dinosaures sur la plage avec plaques ESP vertes et barres de vie.",
+      "caption": "Double plaques plage",
+      "captionDesc": "Rencontre côtière avec théropodes étiquetés et icônes de survie hexagonales."
+    },
+    {
+      "alt": "Vue free camera en jungle avec boîtes ESP de cerfs et texte de portée.",
+      "caption": "ESP cerfs free camera",
+      "captionDesc": "Jungle de nuit en plongée avec un cercle FOV rouge et des boîtes de cerfs étiquetées."
+    },
+    {
+      "alt": "Showcase combat avec dinosaures en wireframe lumineux et cercle aim rouge.",
+      "caption": "Pack wireframe combat",
+      "captionDesc": "Champ au crépuscule avec ESP squelette sur plusieurs dinosaures dans un cercle rouge."
+    },
+    {
+      "alt": "Showcase combat vue du dessus avec Triceratops en wireframe et labels.",
+      "caption": "ESP Triceratops vue du dessus",
+      "captionDesc": "Vue herbe en plongée avec overlays squelette bleus et tags de distance."
+    },
+    {
+      "alt": "Combat jungle avec dinosaures en wireframe dans un cercle aim rouge.",
+      "caption": "Wireframe aim jungle",
+      "captionDesc": "Combat de jour en jungle avec ESP squelette et un anneau aim central."
+    },
+    {
+      "alt": "Dinosaures en wireframe latched en combat dans un cercle rouge.",
+      "caption": "Wireframe combat latch",
+      "captionDesc": "Duel en terrain ouvert avec ESP squelette pendant qu'un dinosaure s'accroche à un autre."
     }
   ],
   "tiers": {
@@ -51,15 +91,15 @@
       "about": [
         {
           "type": "p",
-          "text": "Cette licence couvre les principaux raids Escape From Tarkov avec le joueur ESP, le butin ESP, l'aimbot, pas de recul, le radar et les aides à l'extraction. Arena est une clé de produit distincte. Cloud DMA est facultatif lorsque vous avez besoin d’un relais matériel complet."
+          "text": "Cette licence est pour The Isle: Evrima sous Windows. Elle ajoute l'ESP joueurs, PNJ et animaux avec boîtes, noms, distance, santé, endurance, croissance, espèce, direction, points tête, visible check et snaplines, plus les marqueurs cadavre, gore, fruit et eau. Options d'interface : réticule, fullbright, FPS, résolution, heure, touches menu et panique, couleurs ESP et configs enregistrables. Menus en anglais et russe. Cloud DMA est un achat séparé et obligatoire. Vérifiez les prérequis et le statut en direct avant d'installer ou de lancer."
         },
         {
           "type": "h2",
-          "text": "Réglez avant de faire la queue"
+          "text": "Réglez avant de jouer"
         },
         {
           "type": "p",
-          "text": "Chargez d'abord les préréglages du portail hors ligne, puis augmentez la distance ESP et visez le lissage sur plusieurs sessions. Le personnel de Discord aide avec les onglets du chargeur si un module entre en conflit après un patch BattlEye."
+          "text": "Chargez d'abord les presets du portail hors ligne, puis augmentez la distance max ESP et la densité des labels sur plusieurs sessions. Le staff Discord aide avec les onglets du loader si un module entre en conflit après un patch Easy Anti-Cheat."
         }
       ],
       "body": [
@@ -69,7 +109,7 @@
         },
         {
           "type": "p",
-          "text": "Choisissez mensuel (35 $) ou à vie (150 $) à la caisse. Le portail de l'opérateur se déverrouille instantanément avec le téléchargement du chargeur, la bibliothèque de préréglages et les notes de mise à jour. Vérifiez la bannière d'état en direct avant chaque session."
+          "text": "Choisissez mensuel (35 $ pour 31 jours) ou à vie (150 $, une fois) au paiement. Le portail opérateur se débloque immédiatement avec le téléchargement du loader, la bibliothèque de presets et les notes de patch. Vérifiez la bannière de statut en direct avant chaque session."
         },
         {
           "type": "h2",
@@ -77,19 +117,19 @@
         },
         {
           "type": "p",
-          "text": "L'ESP, le butin, la visée, les armes, le radar et les utilitaires ont chacun leur propre onglet de chargement afin que vous puissiez désactiver les aides au combat tout en conservant les filtres de butin pendant les courses de cachette."
+          "text": "Les panneaux joueur, dinosaure, monde et divers sont dans le menu du loader pour n'activer que les overlays et aides HUD nécessaires à chaque session."
         }
       ],
       "overview": {
-        "title": "Une licence pour les raids PMC sous Windows",
+        "title": "ESP et visuels pour The Isle: Evrima",
         "paragraphs": [
-          "Escape From Tarkov Cheats regroupe des modules de sensibilisation et de combat pour les raids principaux : ESP du joueur et du butin, aimbot, pas de recul, radar, marqueurs d'extraction et superpositions à l'épreuve des flux. Le chargeur regroupe les paramètres par onglet afin que vous puissiez exécuter des profils réservés au butin ou des chargements de combat complets.",
-          "Les licences couvrent Windows 10 et 11 sur Intel ou AMD.L'accès aux raids uniquement exclut l'arène ;ajoutez Cloud DMA séparément lorsque votre configuration l'exige. Les forfaits mensuels et à vie sont répertoriés lors du paiement : confirmez l'état en ligne sur {siteDomain} avant d'acheter ou de lancer."
+          "Améliorez les sessions Evrima avec ESP joueurs, PNJ et animaux, marqueurs d'environnement et menu visuel configurable. Les overlays peuvent afficher boîtes, noms, distance, santé, endurance, croissance, espèce, direction, snaplines et indicateurs de butin.",
+          "Conçu pour Windows 10 et 11 avec HVCI, isolation du noyau, TPM et Secure Boot activés. Mensuel 35 $ pour 31 jours ; à vie 150 $. Cloud DMA séparé et obligatoire. Confirmez compatibilité et statut sur {siteDomain} avant achat ou lancement."
         ]
       },
-      "goodToKnow": "Escape From Tarkov et BattlEye reçoivent des mises à jour fréquentes. Confirmez la disponibilité du module sur le panneau d'état en direct sur {siteDomain} avant d'acheter ou de lancer. Cloud DMA constitue un achat distinct lorsque cela est nécessaire pour bénéficier de toutes les fonctionnalités.",
-      "limitations": "Les logiciels tiers dans Escape From Tarkov peuvent enfreindre les conditions de Battlestate Games et entraîner des bans ou des actions sur le compte de BattlEye. Vous utilisez ce logiciel à vos propres risques. La compatibilité et la disponibilité peuvent changer après les mises à jour du jeu, de BattlEye ou de Windows sans préavis.",
-      "acquisitionTitle": "Comment obtenir Escape From Tarkov Cheats"
+      "goodToKnow": "The Isle et Easy Anti-Cheat reçoivent des mises à jour fréquentes. Confirmez la disponibilité des modules sur le panneau de statut en direct sur {siteDomain} avant d'acheter ou de lancer. Cloud DMA est un achat séparé et est requis pour le fonctionnement complet.",
+      "limitations": "Les logiciels tiers dans The Isle peuvent enfreindre les conditions de l'éditeur et entraîner des bans Easy Anti-Cheat ou des actions sur le compte. Vous utilisez ce logiciel à vos propres risques. La compatibilité et la disponibilité peuvent changer après des mises à jour du jeu, d'Easy Anti-Cheat ou de Windows sans préavis.",
+      "acquisitionTitle": "Comment obtenir the isle cheats"
     }
   },
   "utilities": {
@@ -97,39 +137,61 @@
       "body": [
         {
           "type": "h2",
-          "text": "Signaux que cet utilitaire convient"
+          "text": "Quand cet outil convient"
         },
         {
           "type": "p",
-          "text": "Atteignez-le lorsque les nouvelles connexions Escape From Tarkov échouent immédiatement sur une machine mais réussissent sur une autre, application typique du matériel. Ignorez-le pour les résultats BattlEye uniquement pour le compte ;associez un compte propre avec des préréglages conservateurs de [Escape From Tarkov Cheats](/product/) une fois que les identifiants semblent frais. Exécutez d’abord l’analyse de compatibilité du portail, prenez un instantané d’un point de restauration Windows et, après un redémarrage à froid, confirmez que les identifiants ont réellement changé avant d’ouvrir le jeu."
+          "text": "Utilisez-le si les nouvelles connexions The Isle échouent sur un PC mais fonctionnent sur une autre machine. Ce schéma pointe vers une enforcement matérielle, pas un résultat anti-cheat limité au compte. Ignorez cet utilitaire quand la sanction reste uniquement sur le compte. Une fois les identifiants frais, associez une connexion propre à des presets conservateurs de [the isle cheats](/product/). Commencez par le scan de compatibilité du portail, créez un point de restauration Windows, terminez un redémarrage à froid, et confirmez que les ID ont bien changé avant d'ouvrir le jeu."
         },
         {
           "type": "h2",
-          "text": "Ordre de la liste de contrôle"
+          "text": "Séquence des étapes"
         },
         {
           "type": "p",
-          "text": "Point de restauration, nettoyage du pilote, passe frauduleuse, redémarrage à froid, vérification de l'identifiant, puis profil de triche discret avant le raid. Le portail et le guide du blog HWID reflètent le même ordre d'étape. N'empilez pas deux outils frauduleux ;les ordinateurs partagés ou de travail peuvent ne pas convenir ;les modifications au niveau du pilote restent à votre charge : lisez la page d'état sur {siteDomain} avant le paiement et à nouveau avant le lancement."
+          "text": "Créez un point de restauration, nettoyez les drivers, lancez le spoof, redémarrez à froid, vérifiez les identifiants, puis chargez un profil cheat discret. La doc du portail et le guide blog HWID suivent le même ordre. Ne superposez jamais deux outils de spoof. Les PC partagés ou professionnels peuvent être inadaptés. Les modifications au niveau driver restent à votre risque. Consultez le statut sur {siteDomain} une fois avant de payer et une fois encore avant de lancer."
         },
         {
           "type": "h2",
-          "text": "Configuration système requise"
+          "text": "Ce qu'il faut pour l'exécuter"
         },
         {
           "type": "p",
-          "text": "Lancez-le sous Windows 10 ou 11 64 bits depuis un compte administrateur. Créez d'abord un point de restauration Windows, gardez une connexion stable pendant les outils de vérification du portail et terminez chaque étape du guide du portail avant de rouvrir Escape From Tarkov."
+          "text": "Utilisez un compte administrateur sur Windows 10 ou 11 64 bits. Créez d'abord un point de restauration Windows. Gardez une connexion stable pendant que les outils de vérification du portail tournent. Terminez chaque étape du guide portail avant de rouvrir The Isle."
         }
       ],
       "overview": {
-        "title": "Récupération matérielle d'abord pour les plates-formes signalées",
+        "title": "Récupération ciblée sur l'empreinte machine",
         "paragraphs": [
-          "BattlEye peut lier les bans aux empreintes digitales du PC tandis que le compte Escape From Tarkov semble toujours propre. Cet utilitaire regroupe des outils d'identification de disque, MAC et GPU avec une liste de contrôle des points de restauration, une analyse de compatibilité du portail et des invites de vérification après redémarrage conçues pour confirmer les modifications avant de procéder à un nouveau raid.",
-          "Choisissez-le lorsque de nouveaux comptes s'effondrent sur une plate-forme mais fonctionnent ailleurs, pas lorsque la pénalité ne concerne que le compte. Après le spoofing, chargez les préréglages conservateurs depuis {siteDomain} et confirmez la bannière d'état en direct avant votre première session PMC."
+          "L'anti-cheat peut lier des bans aux empreintes PC même quand le compte The Isle paraît encore propre. Cet utilitaire regroupe les outils d'ID disque, MAC et GPU avec une checklist de point de restauration, un scan de compatibilité portail et des invites de vérification après redémarrage pour confirmer les changements avant de rejouer.",
+          "Choisissez-le quand de tout nouveaux comptes échouent sur une machine mais fonctionnent ailleurs, pas quand la sanction est uniquement sur le compte. Après le spoof, prenez des presets conservateurs sur {siteDomain}, puis revérifiez la bannière de statut avant votre prochaine session."
         ]
       },
-      "goodToKnow": "Exécutez l’analyse de compatibilité du portail avant toute tentative d’usurpation d’identité. Prenez d'abord un instantané d'un point de restauration Windows. Après un redémarrage à froid, confirmez les changements d'identifiant avant de lancer Escape From Tarkov.",
-      "limitations": "Conçu pour les indicateurs au niveau matériel, et non pour les restrictions BattlEye uniquement liées au compte. N’exécutez jamais deux outils frauduleux ensemble. Les PC partagés ou de travail peuvent ne pas convenir. Les modifications au niveau du conducteur restent à votre charge ;lisez la page d'état sur {siteDomain} avant de procéder au paiement.",
-      "acquisitionTitle": "Comment obtenir le spoofer HWID"
+      "goodToKnow": "Avant tout passage spoof, lancez le scan de compatibilité du portail. Créez d'abord un point de restauration Windows. Après un redémarrage à froid, confirmez les changements d'identifiants avant de lancer The Isle.",
+      "limitations": "Conçu pour les flags au niveau matériel plutôt que les restrictions anti-cheat limitées au compte. N'exécutez pas deux outils de spoof en même temps. Les PC partagés ou professionnels peuvent être inadaptés. Les modifications au niveau driver restent à votre risque. Consultez la page de statut sur {siteDomain} avant le paiement.",
+      "acquisitionTitle": "Comment obtenir HWID Spoofer"
     }
-  }
+  },
+  "hwidGallery": [
+    {
+      "alt": "Grille de statut du portail avec lignes BIOS, CPU, carte et MAC marquées not spoofed.",
+      "caption": "Statut des lignes matériel",
+      "captionDesc": "Comparez chaque ligne pour les valeurs changées ou inchangées. Redémarrez seulement quand le diff correspond à la checklist portail."
+    },
+    {
+      "alt": "Vue cleaner du portail centrée sur le grand contrôle run cleaner.",
+      "caption": "Panneau de nettoyage",
+      "captionDesc": "Quand la checklist demande un nettoyage, ouvrez cet onglet et lancez le cleaner avant le spoof."
+    },
+    {
+      "alt": "Onglet spoof carte avec menu fabricant et commande de spoof permanent.",
+      "caption": "Spoof carte prêt",
+      "captionDesc": "Choisissez le fabricant de la carte, confirmez la checklist, puis lancez le spoof permanent sur cet onglet."
+    },
+    {
+      "alt": "Overlay de progression du spoof carte proche de cinq pour cent.",
+      "caption": "Spoof carte en cours",
+      "captionDesc": "Laissez le spoof se terminer, puis redémarrage à froid et vérifiez les identifiants avant d’ouvrir The Isle."
+    }
+  ]
 }

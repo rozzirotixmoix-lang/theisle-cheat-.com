@@ -31,11 +31,15 @@ const planCopy = (id: ProductPlanId) => {
   if (id === 'lifetime') return { label: t.products.planLifetime, priceNote: t.products.planOneTimeNote };
   return { label: t.products.planOneTime, priceNote: t.products.planOneTimeNote };
 };
-const localizedPlans = plans.map((plan) => ({
-  ...plan,
-  ...planCopy(plan.id),
-  badge: plan.recommended ? t.products.bestValue : plan.badge,
-}));
+const localizedPlans = plans.map((plan) => {
+  const copy = planCopy(plan.id);
+  return {
+    ...plan,
+    label: copy.label,
+    // Keep priceNote from productPricing (Main Product vs HWID durations differ).
+    badge: plan.recommended ? t.products.bestValue : plan.badge,
+  };
+});
 const defaultPlan = localizedPlans.find((plan) => plan.recommended) ?? localizedPlans[0]!;
 const isSinglePlan = localizedPlans.length === 1;
 ---

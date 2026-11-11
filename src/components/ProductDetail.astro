@@ -17,6 +17,7 @@ import { getBlogPostsBySlugs } from '../data/blog';
 import { getForumPostsBySlugs } from '../data/forum/locale';
 import ProductRelatedGuidesSection from './product/ProductRelatedGuidesSection.astro';
 import ProductRelatedDiscussionsSection from './product/ProductRelatedDiscussionsSection.astro';
+import ProductMoreToolsSection from './product/ProductMoreToolsSection.astro';
 
 interface Props {
   product: ProductPage;
@@ -61,6 +62,8 @@ const showDescToggle = descriptionBlocks.length > 2;
     </div>
   </div>
 </section>
+
+{!isHwidUtility && <ProductMoreToolsSection />}
 
 <ProductHighlightsSection product={product} productName={productName} header={isHwidUtility ? hwidCopy?.highlights : undefined} moreNote={isHwidUtility ? hwidCopy?.highlightsMore : undefined} />
 

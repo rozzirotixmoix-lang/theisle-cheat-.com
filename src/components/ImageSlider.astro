@@ -37,7 +37,7 @@ const count = images.length;
         <figure class="hero-auto__slide aspect-[16/10] overflow-hidden bg-muted/30">
           <ResponsiveImage
             src={img.src}
-            alt={i === count ? '' : img.alt}
+            alt={img.alt}
             width={960}
             height={540}
             widths={HERO_IMAGE_WIDTHS}
@@ -81,6 +81,10 @@ const count = images.length;
 
     .hero-auto[data-slides='7'] .hero-auto__track {
       animation: hero-auto-slide-7 33.6s linear infinite;
+    }
+
+    .hero-auto[data-slides='11'] .hero-auto__track {
+      animation: hero-auto-slide-11 52.8s linear infinite;
     }
   }
 
@@ -131,6 +135,21 @@ const count = images.length;
       transform: translate(-50%, -50%) scaleX(0);
       transform-origin: left center;
       animation: hero-auto-dot-7 33.6s linear infinite;
+      animation-delay: calc(var(--i) * 4.8s);
+    }
+
+    .hero-auto[data-slides='11'] .hero-auto__dot::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 999px;
+      background: var(--primary-text, var(--primary));
+      transform: translate(-50%, -50%) scaleX(0);
+      transform-origin: left center;
+      animation: hero-auto-dot-11 52.8s linear infinite;
       animation-delay: calc(var(--i) * 4.8s);
     }
   }

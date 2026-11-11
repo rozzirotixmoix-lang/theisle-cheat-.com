@@ -1,2 +1,7 @@
-/** HWID page gallery only — two attached spoofer UI screenshots. */
-export const HWID_GALLERY_KEYS = ['hwidSerialCheck', 'hwidUefiSpoof'] as const;
+/** HWID page gallery only — attached spoofer UI screenshots, once each. */
+export const HWID_GALLERY_KEYS = [
+  'hwidStatusPanel',
+  'hwidCleanerRun',
+  'hwidMotherboardReady',
+  'hwidMotherboardProgress',
+] as const;

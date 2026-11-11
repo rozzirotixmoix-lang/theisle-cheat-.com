@@ -9,6 +9,8 @@ export type BlogBlock =
 export interface BlogPostFull extends BlogPost {
   featured?: boolean;
   author?: string;
+  /** Visible H1 when it differs from `title` (card / schema headline). */
+  h1?: string;
   /** Exact `<title>` / og:title when set (no brand suffix). */
   metaTitle?: string;
   /** Meta description when it differs from card excerpt. */

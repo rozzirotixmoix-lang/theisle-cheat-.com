@@ -11,6 +11,8 @@ export interface ProductCopyBundle {
   acquisitionSteps: { num: string; title: string; desc: string }[];
   systemRequirements: string[];
   gallery: { alt: string; caption: string; captionDesc: string }[];
+  /** Optional HWID utility gallery captions (falls back to English if omitted). */
+  hwidGallery?: { alt: string; caption: string; captionDesc: string }[];
   tiers: Record<
     string,
     {

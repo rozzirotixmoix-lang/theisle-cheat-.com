@@ -7,6 +7,7 @@ import ProductDetail from '../../components/ProductDetail.astro';
 import { useLocale } from '../../i18n';
 import { getFeaturedPlan } from '../../data/productPricing';
 import { HWID_SPOOFER_PATH, PRODUCT_BASE } from '../../config/site';
+import { GALLERY_IMAGE_SIZES, GALLERY_IMAGE_WIDTHS, responsiveSrcSet, webpSrc } from '../../utils/responsiveImage';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
 const product = getHwidSpooferPage(locale);
@@ -22,11 +23,18 @@ const breadcrumbs = [
   { name: product.title, path: pagePath },
 ];
 const seo = resolvePageSeo(pagePath, locale);
+const lcpSlide = product.images[0];
+/** Preload the 640w candidate most phones select; srcset still lists 400/640/960. */
+const lcpImage = lcpSlide ? webpSrc(lcpSlide.src, 640) : '';
+const lcpSrcSet = lcpSlide ? responsiveSrcSet(lcpSlide.src, GALLERY_IMAGE_WIDTHS) : '';
+const lcpSizes = GALLERY_IMAGE_SIZES;
 ---
 
 <BaseLayout
   title={seo.title}
   description={seo.description}
+  ogImage={product.images[0]?.src}
+  ogImageAlt={product.images[0]?.alt}
   jsonLd={[
     productSchema({
       name: product.title,
@@ -41,6 +49,20 @@ const seo = resolvePageSeo(pagePath, locale);
     breadcrumbSchema(breadcrumbs),
   ]}
 >
+  {
+    lcpImage && (
+      <link
+        slot="head"
+        rel="preload"
+        as="image"
+        href={lcpImage}
+        imagesrcset={lcpSrcSet}
+        imagesizes={lcpSizes}
+        type="image/webp"
+        fetchpriority="high"
+      />
+    )
+  }
   <ProductDetail product={product} breadcrumbs={breadcrumbs} />
 
   <section class="border-t border-border pb-12 pt-6">

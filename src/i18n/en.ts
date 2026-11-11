@@ -8,25 +8,24 @@ export const en: Translations = {
   site: {
     name: SITE_NAME,
     domain: SITE_DOMAIN,
-    title: 'Escape From Tarkov Cheats | ESP, Aimbot & Loot ESP',
+    title: 'the isle cheats for The Isle: Evrima on Windows',
     description:
-      'Player ESP, loot ESP, aimbot and no recoil for PMC raids on Windows, with loader updates after patches. Compare plans at {siteDomain}.',
+      'the isle cheats: player, NPC, and animal ESP, world markers, and visual HUD tools for Evrima. $35 for 31 days or $150 lifetime. Check status, then compare plans.',
   },
   nav: [
     { id: 'products', href: `${productBase}`, label: 'Product', shortLabel: 'Product' },
-    { id: 'hwidSpoofer', href: '/hwid-spoofer/', label: 'HWID Spoofer', shortLabel: 'HWID' },
     { id: 'blog', href: '/blog/', label: 'Blog' },
     { id: 'forum', href: '/forum/', label: 'Forum' },
     { id: 'faq', href: '/faq/', label: 'FAQ' },
     { id: 'support', href: '/support/', label: 'Support' },
   ],
   hero: {
-    status: 'Escape From Tarkov, patch build online',
+    status: 'The Isle, patch build online',
     eyebrow: '#1 CHEATS PROVIDER',
-    titleLine1: 'Escape From Tarkov',
-    titleLine2: 'Cheats',
+    titleLine1: 'The Isle',
+    titleLine2: 'Raid Kit',
     subtitle:
-      'Track PMCs, loot and extracts clearly, then finish fights with tuned aim and recoil control. Preset configs and patch-day loader updates ship through {siteDomain}.',
+      'Bring the isle cheats online for The Isle: Evrima after you read the status banner. Windows loader, portal presets, then ESP distance and overlay tuning.',
     ctaPrimary: 'View products',
     metrics: [
       { label: 'Stream-proof', strong: 'Yes' },
@@ -38,19 +37,19 @@ export const en: Translations = {
       'ESP Active',
       'Radar Online',
       'Season Build',
-      'Aimbot Ready',
+      'Aim Ready',
       'Soft Aim Ready',
-      'No Recoil',
+      'World Markers',
       'Stream Proof',
-      'Loot ESP',
+      'World ESP',
       'Skeleton ESP',
-      'UAV Radar',
-      'Extract ESP',
+      'Minimap Radar',
+      'Player Labels',
       '24/7 Support',
       'Instant Delivery',
-      'Raid Ready',
-      'Trigger Bot',
-      'Bone Select',
+      'Evrima Ready',
+      'Combat Utils',
+      'Head Lock',
       'Live Status',
       'Auto Updates',
     ],
@@ -58,76 +57,86 @@ export const en: Translations = {
   features: {
     eyebrow: 'Features',
     title: 'Everything you need in one package',
-    subtitle: 'Player ESP, loot ESP, aimbot and raid tools for Escape From Tarkov, maintained after patches.',
+    subtitle:
+      'Player, NPC, and animal ESP, environmental tracking, and visual HUD options for The Isle: Evrima, maintained after Easy Anti-Cheat patches.',
     items: [
       {
         title: 'Player ESP',
-        subtitle: 'Track PMCs and Scavs.',
-        desc: 'Player boxes, skeletons, names and distance readouts stay readable in dense raids.',
+        subtitle: 'See other survivors clearly.',
+        desc: 'Box, snapline, name, distance, health, stamina, growth, species, player direction, head dot, and visible-check overlays for players in the bush.',
         bullets: [
-          'PMC, Scav and boss filters',
-          'Skeleton and bone markers',
-          'Name tags and distance readouts',
-          'Health and gear hints where enabled',
-          'Color rules per faction',
+          'Box, snapline, name, and distance',
+          'Health, stamina, growth, and species',
+          'Player direction, head dot, visible check',
+          'Readable labels in dense foliage',
         ],
-        tags: ['escape from tarkov esp', 'player esp', 'skeleton esp'],
+        tags: ['the isle esp', 'player esp', 'evrima esp'],
         bento: 'sm:col-span-2 lg:col-span-12 lg:col-start-1 lg:row-start-1',
       },
       {
-        title: 'Loot ESP',
-        subtitle: 'Find value fast.',
-        desc: 'Highlight containers, keys, meds and high-tier loot without tabbing through every drawer.',
+        title: 'World ESP',
+        subtitle: 'Mark the island around you.',
+        desc: 'NPC and animal ESP plus corpse, gore, fruit, and water markers with max-distance controls.',
         bullets: [
-          'Item category filters and price tiers',
-          'Container and corpse loot highlights',
-          'Quest and key item markers',
-          'Distance and name labels',
+          'NPC ESP and animal ESP',
+          'Corpse, gore, fruit, and water markers',
+          'World ESP max distance controls',
+          'Tune range per session in the portal',
         ],
-        tags: ['loot esp', 'container esp', 'tarkov loot'],
+        tags: ['world esp', 'animal esp', 'the isle markers'],
         bento: 'sm:col-span-2 lg:col-span-8 lg:col-start-1 lg:row-start-2',
       },
       {
-        title: 'Aimbot',
-        subtitle: 'Controlled aim assist.',
-        desc: 'Soft aim and bone selection with FOV and smoothing sliders tuned for raids, not rage defaults.',
-        bullets: ['FOV and smoothing controls', 'Bone select and target priority', 'Visibility checks', 'Hotkey toggle per weapon class'],
-        tags: ['aimbot', 'soft aim', 'bone select'],
+        title: 'NPC & animal ESP',
+        subtitle: 'Track dinosaurs and AI.',
+        desc: 'Species, growth, health, and distance readouts for NPCs and animals with the same overlay controls as player ESP.',
+        bullets: [
+          'NPC ESP and animal ESP toggles',
+          'Species, growth, and health labels',
+          'Distance filters per target type',
+          'Pairs with player ESP distance caps',
+        ],
+        tags: ['animal esp', 'npc esp', 'dinosaur esp'],
         bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-3',
       },
       {
-        title: 'No Recoil',
-        subtitle: 'Steadier full-auto.',
-        desc: 'Recoil compensation profiles per weapon family with portal presets for common builds.',
-        bullets: ['Per-weapon recoil profiles', 'Strength sliders with caps', 'Pairs with aimbot FOV limits', 'Save profiles to cloud'],
-        tags: ['no recoil', 'recoil control', 'weapon profiles'],
+        title: 'Snaplines & distance',
+        subtitle: 'Line up what matters.',
+        desc: 'Snaplines and meter readouts tie overlays to targets so you judge range quickly in tall grass and night runs.',
+        bullets: [
+          'Snaplines to players and dinos',
+          'Distance display on labels',
+          'Visible-check filters',
+          'Tune max range in the portal',
+        ],
+        tags: ['snaplines', 'distance esp', 'visible check'],
         bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-3',
       },
       {
-        title: 'Radar & Extracts',
-        subtitle: 'Map awareness in raid.',
-        desc: '2D radar, extract markers and optional UAV-style hints for orientation between fights.',
+        title: 'Environmental ESP',
+        subtitle: 'Loot and resources on the map.',
+        desc: 'Corpse, gore, fruit, and water markers with max-distance sliders so you spot resources without wandering blind.',
         bullets: [
-          'Extract and transition markers',
-          '2D radar with player blips',
-          'Optional UAV-style overview',
-          'Custom zoom and opacity',
+          'Corpse, gore, fruit, and water toggles',
+          'World ESP max-distance slider',
+          'Colored filters per resource type',
+          'Enable only what the session needs',
         ],
-        tags: ['radar hack', 'extract esp', 'map awareness'],
+        tags: ['world esp', 'corpse esp', 'water esp'],
         bento:
           'sm:col-span-2 lg:col-span-8 lg:row-span-2 lg:col-start-1 lg:row-start-4',
       },
       {
-        title: 'Trigger Bot',
-        subtitle: 'Fire when aligned.',
-        desc: 'Optional trigger assist when crosshair meets valid targets, with delay and key gates.',
+        title: 'Visual options',
+        subtitle: 'See the feed your way.',
+        desc: 'Crosshair, fullbright, show FPS, resolution, time, custom menu and panic keys, plus custom ESP colors.',
         bullets: [
-          'Delay and hold-time tuning',
-          'Team and bot ignore rules',
-          'Toggle separate from aimbot',
-          'Conservative defaults in portal',
+          'Crosshair, fullbright, show FPS',
+          'Resolution and time helpers',
+          'Custom menu and panic keys',
+          'Custom ESP colors',
         ],
-        tags: ['trigger bot', 'fire assist', 'tarkov cheats'],
+        tags: ['fullbright', 'custom esp', 'panic key'],
         bento:
           'sm:col-span-2 lg:col-span-4 lg:row-span-2 lg:col-start-9 lg:row-start-4',
       },
@@ -141,16 +150,21 @@ export const en: Translations = {
       },
       {
         title: 'Misc utilities',
-        subtitle: 'Raid QoL tools.',
-        desc: 'Night vision, thermal-style highlights, no sway and other toggles grouped in one utilities tab.',
-        bullets: ['No sway and stamina helpers where enabled', 'Night vision and thermal-style modes', 'Crosshair and FOV helpers', 'Hotkey manager'],
-        tags: ['no sway', 'night vision', 'tarkov utilities'],
+        subtitle: 'Menus and configs.',
+        desc: 'English and Russian menus, saveable configs, and the leftover session toggles grouped with the rest of the loader.',
+        bullets: [
+          'English and Russian menus',
+          'Saveable configs per PC',
+          'Session toggles in one place',
+          'Reload after Easy Anti-Cheat patches',
+        ],
+        tags: ['saveable configs', 'ru menu', 'the isle utilities'],
         bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-6',
       },
       {
         title: 'Cloud Config & Updates',
         subtitle: 'Patch day ready.',
-        desc: 'Same presets on every PC; portal updates track Escape From Tarkov and BattlEye patch days.',
+        desc: 'Same presets on every PC; portal updates track The Isle and Easy Anti-Cheat patch days.',
         bullets: ['Cloud backup for slider profiles', 'Loader push within hours of patches', 'Discord #status for build notes'],
         tags: ['cloud sync', 'auto update', 'presets'],
         bento: 'sm:col-span-2 lg:col-span-4 lg:col-start-9 lg:row-start-2',
@@ -159,15 +173,15 @@ export const en: Translations = {
   },
   whyUs: {
     eyebrow: 'Why us',
-    title: 'Raid tooling backed by patches, not promises',
+    title: 'Island tooling backed by patches, not promises',
     subtitle:
       'Many cheat shops ship stale loaders, obvious rage presets, and ticket bots. {siteDomain} focuses on patch-day loader builds, conservative ESP and aim defaults, and live Discord operators.',
-    usLabel: 'EFT CHEATS',
+    usLabel: 'the isle cheats',
     otherLabel: 'Typical provider',
     rows: [
       {
         title: 'Patch-day loader updates',
-        desc: 'BattlEye-aware builds pushed within hours of Escape From Tarkov updates; check Discord #status before you load into a raid.',
+        desc: 'Easy Anti-Cheat-aware builds pushed within hours of The Isle updates; check Discord #status before you join a server.',
       },
       {
         title: 'Humanized aim & ESP defaults',
@@ -175,15 +189,15 @@ export const en: Translations = {
       },
       {
         title: 'Live Discord operators',
-        desc: 'Real engineers for loader setup, raid configs and HWID resets: 24/7 shift coverage, not copy-paste FAQ tickets.',
+        desc: 'Real engineers for loader setup, Evrima configs and HWID resets: 24/7 shift coverage, not copy-paste FAQ tickets.',
       },
       {
         title: 'External loader + stream proof',
-        desc: 'Overlay suite with OBS capture modes, no risky DLL injection into the Escape From Tarkov process like legacy providers still sell.',
+        desc: 'Overlay suite with OBS capture modes, without DLL injection into the The Isle process like legacy providers still sell.',
       },
       {
         title: 'Cloud preset sync',
-        desc: 'PMC, Scav and per-map profiles backup to the portal, same sliders on any PC without rebuilding from scratch.',
+        desc: 'Evrima, Horde, and per-session profiles backup to the portal, same sliders on any PC without rebuilding from scratch.',
       },
       {
         title: 'HWID reset & license moves',
@@ -194,7 +208,7 @@ export const en: Translations = {
       {
         value: '<24h',
         title: 'Patch turnaround',
-        desc: 'Average time to ship a loader build after major Escape From Tarkov or BattlEye changes.',
+        desc: 'Average time to ship a loader build after major The Isle or Easy Anti-Cheat changes.',
       },
       {
         value: '24/7',
@@ -204,16 +218,16 @@ export const en: Translations = {
       {
         value: '300+',
         title: 'Active operators',
-        desc: 'Windows players running ESP, aimbot and utilities on {siteDomain}.',
+        desc: 'Windows players running ESP, aim assistance and utilities on {siteDomain}.',
       },
     ],
   },
   setup: {
     eyebrow: 'Setup guide',
-    titleLead: 'From checkout to your first raid in just',
+    titleLead: 'From checkout to your first session in just',
     titleHighlight: 'three simple steps',
     intro:
-      'Getting started is easy. Follow the operator portal flow to download the loader, load presets, and launch Escape From Tarkov on Windows, with live Discord help if anything blocks you.',
+      'Follow the operator portal flow to download the loader, load presets, and launch The Isle on Windows. Discord help is available if a step blocks you.',
     ctaPrimary: 'View products',
     ctaSecondary: 'Setup FAQ',
     ctaPrimaryHref: productBase,
@@ -227,25 +241,35 @@ export const en: Translations = {
       {
         step: 'Step 2',
         title: 'Launch & configure modules',
-        desc: 'Run the external loader, import raid presets, and tune ESP, aimbot and no recoil sliders.',
+        desc: 'Run the external loader, import portal presets, and tune ESP and aim assistance sliders offline first.',
       },
       {
         step: 'Step 3',
-        title: 'Verify status & launch Escape From Tarkov',
-        desc: 'Check the live status banner, launch the game client, and play with cloud-backed profiles saved in the portal.',
+        title: 'Verify status & launch The Isle',
+        desc: 'Check the live status banner, launch the Steam client, and play with cloud-backed profiles saved in the portal.',
       },
     ],
   },
   compatibility: {
     eyebrow: 'Platform support',
     title: 'Runs on your rig.',
-    subtitle: 'Check the live status banner before launching Escape From Tarkov after updates.',
-    items: ['Windows 10 & 11', 'Escape From Tarkov', 'BattlEye client', 'Auto updater', 'Config cloud sync', 'Discord support', 'HWID reset', 'External loader'],
+    subtitle: 'Check the live status banner before launching The Isle after updates.',
+    items: [
+      'Windows 10 & 11 (HVCI + Secure Boot)',
+      'The Isle: Evrima only',
+      'Easy Anti-Cheat',
+      'Steam',
+      'Cloud DMA (separate purchase)',
+      'Config cloud sync',
+      'Discord support',
+      'External loader',
+    ],
   },
   cheats: {
     eyebrow: 'Main product',
-    title: 'Escape From Tarkov Cheats',
-    subtitle: 'Player ESP, loot ESP, aimbot, no recoil and raid utilities with priority patch delivery.',
+    title: 'the isle cheats',
+    subtitle:
+      'Player, NPC, and animal ESP, environmental markers, and visual HUD tools for The Isle: Evrima.',
     viewAll: 'View product details',
     explore: 'Explore',
     items: [
@@ -253,12 +277,12 @@ export const en: Translations = {
         badge: 'Limited slots',
         tier: 'Private',
         name: 'Elite',
-        title: 'Tarkov Cheats with ESP, Aimbot & Loot ESP',
-        desc: 'Player ESP, loot ESP, aimbot and no recoil for main Tarkov raids. Separate license from Arena. Instant delivery; check status after patches.',
+        title: 'The Isle Cheats',
+        desc: 'Player, NPC, and animal ESP, corpse and resource markers, snaplines, distance labels, and misc HUD tools for The Isle: Evrima. Cloud DMA is a separate purchase and is required for full functionality. Instant delivery; check status after patches.',
         heroDesc:
-          'Raids-only license with stream-proof overlays and instant portal delivery. Start from conservative presets, then tune ESP and aim after you check live status.',
-        features: ['Player ESP', 'Loot ESP', 'Aimbot', 'No recoil', 'Extract markers', 'Stream-proof'],
-        more: 9,
+          'Feature-rich ESP and visual overlays for Evrima on Windows. Verify HVCI, Core Isolation, TPM, Secure Boot, and Cloud DMA before checkout.',
+        features: ['Player ESP', 'NPC ESP', 'Animal ESP', 'World markers', 'Misc HUD', 'Evrima only'],
+        more: 6,
         href: productBase,
         variant: 'limited',
       },
@@ -267,7 +291,7 @@ export const en: Translations = {
   products: {
     eyebrow: 'Store',
     title: 'Our products',
-    subtitle: 'Raid cheats plus a hardware utility: two checkout paths for PMC play and machine recovery.',
+    subtitle: 'Main The Isle license plus HWID Spoofer: separate checkout paths for Evrima play and machine recovery.',
     viewAll: 'View all cheats',
     backToCheats: 'Back to product',
     showcaseHeading: 'Product Overview',
@@ -281,29 +305,29 @@ export const en: Translations = {
       accessDividerBottom: 'Access',
     },
     hwidPage: {
-      showcaseHeading: 'Spoofer dashboard shots',
+      showcaseHeading: 'Portal panel screenshots',
       overviewSubtitle:
-        'How disk, MAC, and GPU ID tooling fits portal prep, verification, and post-spoof launches. Confirm status on {siteDomain} first.',
+        'Disk, MAC, and GPU ID tools for prep, verification, and launches after a spoof. Confirm status on {siteDomain} first.',
       highlights: {
         eyebrow: 'Quick read',
-        title: 'What the utility targets',
-        desc: 'Hardware fingerprint recovery before you attach a fresh Escape From Tarkov account. See the full tool list below.',
+        title: 'What this utility covers',
+        desc: 'Recover a machine fingerprint before linking a fresh The Isle account. The full tool list is below.',
       },
       featuresSection: {
         eyebrow: 'Tooling',
-        title: 'Portal modules included',
-        desc: 'Ten recovery utilities you enable and tune from the operator portal after checkout.',
+        title: 'Modules in the portal',
+        desc: 'Ten recovery utilities you turn on and adjust from the operator portal after checkout.',
       },
       experience: {
         eyebrow: 'Post-purchase',
-        title: 'Dashboard views · Access steps',
+        title: 'Panel shots · Access flow',
         subtitle:
-          'Left column explains each screenshot; right column lists how portal access and spoof milestones work after payment.',
+          'Screenshots sit on the left; the right side covers portal access and spoof milestones after payment.',
         previewLabel: 'Panel views',
         accessDividerTop: 'UI',
         accessDividerBottom: 'Steps',
       },
-      highlightsMore: 'Plus {count} more recovery tools in the portal. Scroll to the full module grid.',
+      highlightsMore: 'Plus {count} more recovery tools inside the portal. Scroll to the full module grid.',
     },
     swipeHint: 'Swipe for more screenshots',
     checkoutEyebrow: 'Checkout',
@@ -324,21 +348,41 @@ export const en: Translations = {
       {
         badge: 'Available',
         category: 'System utility',
-        title: 'HWID Spoofer for Escape From Tarkov',
+        title: 'HWID Spoofer',
         subtitle:
-          'Walk through serial checks, UEFI spoof toggles and seed rotation in the portal, then cold reboot before you sign into a fresh account.',
-        desc: 'Rotate disk serials, MAC addresses, and GPU IDs through the operator portal, then finish the setup checklist before launching Escape From Tarkov.',
-        features: ['Drive cleanup & spoof kit', 'Rotating serial profiles', 'Pre-spoof compatibility scan', 'Reboot verification prompts'],
+          'Pick this utility when the isle easy anti cheat stack blocks new logins on one PC that still work elsewhere. Spoof, cold reboot, then confirm identifiers.',
+        desc: 'Through the operator portal, change disk serials, MAC addresses, and GPU IDs, then complete the setup checklist before launching The Isle.',
+        features: [
+          'Drive cleanup and spoof kit',
+          'Serial profile rotation',
+          'Compatibility scan before spoof',
+          'Post-reboot verification prompts',
+        ],
         more: 9,
         href: '/hwid-spoofer/',
+      },
+      {
+        badge: 'Available',
+        category: 'Cosmetic',
+        title: 'Skin Changer',
+        subtitle: '',
+        desc: 'Low-footprint client that applies premium weapon skins, outfits, and knife styles on supported PC games.',
+        features: [
+          'High-tier weapon skins',
+          'Outfit packs',
+          'Knife finish library',
+          'Multi-title support',
+        ],
+        more: 0,
+        href: '/skin-changer/',
       },
     ],
   },
   blog: {
     eyebrow: 'Blog',
     title: 'Guides and updates',
-    subtitle: 'ESP and aimbot setup, loot filters and patch-day checks for Escape From Tarkov.',
-    latestTitle: 'Tarkov Cheat Guides & Patch-Day Notes',
+    subtitle: 'ESP and aim setup, world markers, and Easy Anti-Cheat patch-day checks for The Isle.',
+    latestTitle: 'the isle cheat Guides & Patch-Day Notes',
     latestSubtitle: 'Filter by topic to find setup guides, feature deep-dives, and patch-day notes.',
     filterAll: 'All articles',
     emptyFilter: 'No articles match this filter.',
@@ -346,7 +390,7 @@ export const en: Translations = {
     viewAll: 'View all articles',
     read: 'Read',
     articleActionsAria: 'Continue reading',
-    buyCta: 'Buy Escape From Tarkov Cheats',
+    buyCta: 'Buy the isle cheats',
     buyHwidCta: 'Buy HWID Spoofer',
     moreArticles: 'More articles',
     sidebarAria: 'Article sidebar',
@@ -360,7 +404,7 @@ export const en: Translations = {
     badge: '4 easy steps',
     titleBefore: 'From status check to',
     titleHighlight: 'saved profile.',
-    subtitle: 'A straight path from status check to a raid profile you can reuse every session.',
+    subtitle: 'A straight path from status check to an Evrima profile you can reuse every session.',
     ctaLabel: 'View products',
     ctaHref: productBase,
     ctaSecondary: 'Setup FAQ',
@@ -376,7 +420,7 @@ export const en: Translations = {
         num: '02',
         phase: 'Checkout',
         title: 'Choose your product',
-        desc: 'Pick raid cheats or the hardware utility, whichever matches bans, rigs, or account resets you face.',
+        desc: 'Pick the isle cheats or HWID Spoofer, whichever matches flags, rigs, or account resets you face.',
       },
       {
         num: '03',
@@ -388,49 +432,63 @@ export const en: Translations = {
         num: '04',
         phase: 'In-game',
         title: 'Save your profile',
-        desc: 'When settings feel right, save PMC and map presets to the cloud.',
+        desc: 'When settings feel right, save Evrima and Horde presets to the cloud.',
       },
     ],
   },
   support: {
     eyebrow: 'Support',
-    title: 'Tarkov Cheats Support',
-    subtitle: 'Let us know how we can help.',
+    title: 'the isle cheats Support',
+    subtitle:
+      'Loader, checkout, and status questions for The Isle Evrima and Horde on Windows. Operators cover the main license and HWID Spoofer. Check the live status banner before you open a ticket after a game or Easy Anti-Cheat patch.',
     channels: [
       {
         icon: 'users',
         title: 'Chat before checkout',
-        desc: 'Speak to our team about tiers and access.',
+        desc: 'Ask about monthly $35 (31 days) vs lifetime $150, and what Cloud DMA covers before you pay. Confirm which product page matches your goal: the isle cheats or HWID Spoofer.',
         linkLabel: 'Start checkout',
         href: PRIMARY_CHECKOUT_PATH,
       },
       {
         icon: 'headphones',
         title: 'Chat to support',
-        desc: "We're here for loader, HWID and account issues.",
+        desc: 'After purchase on Steam Windows builds: loader errors, HWID Spoofer tickets, license moves, and portal access that fails to unlock after payment.',
         linkLabel: '{supportEmail}',
         href: 'mailto:{supportEmail}',
       },
       {
         icon: 'navFaq',
         title: 'Read the FAQ',
-        desc: 'Compatibility, bans and setup, before you buy.',
+        desc: 'Compatibility, Easy Anti-Cheat status, pricing, and setup steps before you buy or before you file a ticket.',
         linkLabel: 'View all FAQ',
         href: '/faq/',
       },
       {
         icon: 'clock',
         title: 'Live operators',
-        desc: 'Discord engineers on shift 24/7.',
+        desc: 'Discord engineers on shift 24/7 for portal, loader, and patch-day questions. Include the ticket checklist below so the first reply can move faster.',
         linkLabel: 'Open contact page',
         href: '/support/',
       },
     ],
     ticketTitle: 'Include in your ticket',
     ticketItems: [
-      { title: 'Order email', desc: 'The address used at checkout on {siteDomain} or via our partner checkout.' },
-      { title: 'Platform', desc: 'Windows 10 or 11, and your Escape From Tarkov client version.' },
-      { title: 'Error detail', desc: 'Screenshot or exact message from the loader or game client.' },
+      {
+        title: 'Order email',
+        desc: 'The address used at checkout on {siteDomain} or via our partner checkout. Add the order ID if the receipt shows one.',
+      },
+      {
+        title: 'Platform',
+        desc: 'Windows 10 or 11, Steam, and your The Isle Evrima or Horde build. Note CPU and GPU brands when the loader fails to start.',
+      },
+      {
+        title: 'Error detail',
+        desc: 'Screenshot or exact message from the loader or game client. Say whether the status banner was online when the error happened.',
+      },
+      {
+        title: 'Product',
+        desc: 'Name the isle cheats or HWID Spoofer, and whether you bought monthly or lifetime, so operators open the right portal path.',
+      },
     ],
   },
   faq: {
@@ -440,28 +498,28 @@ export const en: Translations = {
     items: [
       {
         num: '01',
-        q: 'Where do I check if Escape From Tarkov cheats are online?',
-        a: 'The live status banner is on {siteDomain} and in the Discord #status channel. Always check after an Escape From Tarkov or BattlEye update.',
+        q: 'Where do I check if The Isle cheats are online?',
+        a: 'The live status banner is on {siteDomain} and in the Discord #status channel. Always check after a The Isle or Easy Anti-Cheat update.',
       },
       {
         num: '02',
         q: 'What happens after I buy?',
-        a: 'Your portal unlocks the loader, setup guide and config library via our partner checkout. Follow the guide before launching Escape From Tarkov.',
+        a: 'Your portal unlocks the loader, setup guide and config library via our partner checkout. Follow the guide before launching The Isle.',
       },
       {
         num: '03',
-        q: 'Can I get banned using third-party escape from tarkov cheats?',
-        a: 'Yes, any modification carries risk. BattlEye and report systems evolve. Read current status and accept the risk before use.',
+        q: 'Can I get banned using third-party the isle cheats?',
+        a: 'Yes, any modification carries risk. Easy Anti-Cheat and report systems evolve. Read current status and accept the risk before use.',
       },
       {
         num: '04',
         q: 'Which platforms are supported?',
-        a: 'Escape From Tarkov on Windows 10/11 64-bit only. macOS and Linux are not supported.',
+        a: 'The Isle on Windows 10/11 64-bit only. macOS and Linux are not supported.',
       },
       {
         num: '05',
         q: 'Can I move my license to a new PC?',
-        a: 'Yes, use the HWID reset in your portal or open a Discord ticket. Limits depend on your tier.',
+        a: 'Yes. Trigger the portal HWID reset, or file a Discord ticket if the portal option is unavailable. Limits depend on your tier.',
       },
       {
         num: '06',
@@ -471,7 +529,7 @@ export const en: Translations = {
     ],
   },
   footer: {
-    tagline: 'Escape From Tarkov cheats with ESP, aimbot and loot ESP for PC. {siteDomain}',
+    tagline: 'The Isle cheats with player ESP, world ESP, aim assistance and radar for PC. {siteDomain}',
     explore: 'Explore',
     exploreLinks: [
       { id: 'products', href: '/', label: 'Feature overview', ariaLabel: 'Features', scrollTarget: 'features' },
@@ -492,28 +550,28 @@ export const en: Translations = {
   },
   legalPages: {
     about: {
-      title: 'About EFT CHEATS',
+      title: 'About the isle cheats',
       description:
-        'EFT CHEATS provides Escape From Tarkov Cheats, HWID Spoofer and PC support resources at {siteDomain}.',
+        'the isle cheats publishes The Isle product pages, status notes, and support channels at {siteDomain}.',
       sections: [
         {
           heading: 'Who we are',
           paragraphs: [
-            'EFT CHEATS is a PC-focused resource for Escape From Tarkov players exploring player ESP, loot ESP, aimbot and no recoil workflows. We publish setup guides and live status notes so you can evaluate escape from tarkov cheats before checkout.',
-            'All product names are used for identification only.',
+            'the isle cheats is a PC resource for players evaluating player ESP, world ESP, aim assistance, and radar for The Isle Evrima and Horde. We publish setup notes and live status so you can read the facts before checkout.',
+            'The main license is monthly at $35 for 31 days or lifetime at $150 one-time. Cloud DMA is a separate purchase and is required for full functionality. All product names are used for identification only.',
           ],
         },
         {
           heading: 'What we publish',
           paragraphs: [
-            'Our site covers Escape From Tarkov Cheats and HWID Spoofer. Blog articles explain raid configs, patch-day checks, and BattlEye update behavior.',
-            'Content is updated when patches land or when loader modules shift. Check the homepage status banner and Discord #status before every session.',
+            'This site covers the isle cheats and HWID Spoofer. Guides explain loader presets, Cloud DMA requirements, and Easy Anti-Cheat patch-day checks.',
+            'Content updates when patches land or when loader modules shift. Check the homepage status banner and Discord #status before every session. Feature lists on the product pages are the source of truth for checkout.',
           ],
         },
         {
           heading: 'Support',
           paragraphs: [
-            'Questions about compatibility, loader errors, or checkout are handled through Discord and email support. Include your order email, game account, and Windows version when opening a ticket.',
+            'Compatibility, loader errors, and checkout questions go through Discord and email. Include your order email, Steam account, Windows 10 or 11 build, and The Isle Evrima or Horde client version when you open a ticket.',
           ],
         },
       ],
@@ -521,24 +579,24 @@ export const en: Translations = {
     privacy: {
       title: 'Privacy Policy',
       description:
-        'How EFT CHEATS handles analytics, cookies, and contact data when you use {siteDomain}.',
+        'How {siteDomain} handles analytics, cookies, and contact data for the isle cheats visitors.',
       sections: [
         {
           heading: 'Information we collect',
           paragraphs: [
-            'We may collect standard web analytics such as page views, device type, browser, and approximate region through Google Analytics when enabled. Checkout and license delivery happen on external checkout pages, we do not store payment card data on {siteDomain}.',
+            'We may collect standard web analytics such as page views, device type, browser, and approximate region through Google Analytics when enabled. Checkout and license delivery happen on external checkout pages; we do not store payment card data on {siteDomain}.',
           ],
         },
         {
           heading: 'How we use data',
           paragraphs: [
-            'Analytics help us understand which guides and product pages are useful so we can improve content and fix broken links. Support tickets may retain the email address and message content you provide until the issue is resolved.',
+            'Analytics help us see which product and FAQ pages get used so we can fix broken links and clarify setup steps. Support tickets may retain the email address and message you send until the issue is resolved.',
           ],
         },
         {
           heading: 'Cookies',
           paragraphs: [
-            'We use minimal cookies required for analytics. You can block cookies in your browser settings; core site content remains accessible without them.',
+            'We use minimal cookies required for analytics. You can block cookies in your browser; core site content remains accessible without them.',
           ],
         },
         {
@@ -552,7 +610,7 @@ export const en: Translations = {
     terms: {
       title: 'Terms & Conditions',
       description:
-        'Purchase, license, refund, and use terms for EFT CHEATS products and {siteDomain}.',
+        'Purchase, license, refund, and use terms for the isle cheats products and {siteDomain}.',
       sections: [
         {
           heading: 'Agreement',
@@ -563,15 +621,15 @@ export const en: Translations = {
         {
           heading: 'What you purchase',
           paragraphs: [
-            'We sell Escape From Tarkov Cheats and HWID Spoofer delivered through an operator portal and loader for Escape From Tarkov on Windows.',
-            'Feature lists on each product page describe what is included at the time of purchase. Modules can change when Escape From Tarkov or anti-cheat systems update.',
+            'We sell the isle cheats and HWID Spoofer delivered through an operator portal and loader for The Isle Evrima and Horde on Windows.',
+            'Feature lists on each product page describe what is included at the time of purchase. Modules can change when The Isle or Easy Anti-Cheat systems update. Cloud DMA is a separate purchase and is required for full functionality of the isle cheats.',
           ],
         },
         {
           heading: 'Checkout and delivery',
           paragraphs: [
             'Payment and license delivery run on external checkout pages. {siteDomain} does not process or store payment card numbers.',
-            'After purchase, use the operator portal linked from your order flow to download the current loader and setup guide before launching Escape From Tarkov.',
+            'After purchase, use the operator portal linked from your order flow to download the current loader and setup guide before launching The Isle.',
           ],
         },
         {
@@ -583,16 +641,16 @@ export const en: Translations = {
         {
           heading: 'Refunds and purchases',
           paragraphs: [
-            'All sales are final once checkout completes. We do not refund change-of-mind purchases, account bans, BattlEye penalties, or issues caused by ignoring setup guides or running modules while the status banner shows offline.',
-            'If the product does not work as described on a supported setup: Escape From Tarkov on Windows 10/11, current loader from the portal, and the live status banner showing online when you started, contact us through the Support page. Include your order email, Windows version, game build, and screenshots or exact error text from the loader.',
+            'All sales are final once checkout completes. We do not refund change-of-mind purchases, account bans, Easy Anti-Cheat penalties, or issues caused by ignoring setup guides or running modules while the status banner shows offline.',
+            'If the product does not work as described on a supported setup (The Isle on Windows 10/11 via Steam, current loader from the portal, and the live status banner showing online when you started), contact us through the Support page. Include your order email, Windows version, game build, and screenshots or exact error text from the loader.',
             'We may, at our discretion, offer a fix, replacement access, or partial/full refund when we confirm a fault on our side. We are not obligated to approve every request.',
           ],
         },
         {
           heading: 'Availability and risk',
           paragraphs: [
-            'Third-party tools for Escape From Tarkov can conflict with game updates and BattlEye. You use this software at your own risk, including possible account action.',
-            'Check the homepage status banner before every raid. Do not load in while modules are offline or misaligned after a patch.',
+            'Third-party tools for The Isle can conflict with game updates and Easy Anti-Cheat. You use this software at your own risk, including possible account action.',
+            'Check the homepage status banner before every session. Do not launch while modules are offline or misaligned after a patch.',
           ],
         },
         {
@@ -610,7 +668,7 @@ export const en: Translations = {
       ],
     },
     support: {
-      title: 'EFT CHEATS Support',
+      title: 'the isle cheats Support',
       description:
         'Get support for loader, HWID, and checkout questions at {siteDomain}.',
     },
@@ -638,18 +696,18 @@ export const en: Translations = {
   pages: {
     faq: {
       eyebrow: 'Help center',
-      title: 'Escape From Tarkov Cheats FAQ: Setup, Plans & BattlEye',
+      title: 'the isle cheats FAQ: Setup, Plans & Easy Anti-Cheat',
       description:
-        'Answers on Escape From Tarkov cheats: setup steps, monthly and lifetime plans, ESP and aim modules, BattlEye status, and checkout help at {siteDomain}.',
-      schemaName: 'Escape From Tarkov Cheats FAQ',
+        'Setup, pricing, ESP, aim, and Easy Anti-Cheat status answers for The Isle on Windows.',
+      schemaName: 'the isle cheats FAQ',
       schemaDescription:
-        'Answers on raid cheats, ESP, aimbot, loot filters, loader setup, pricing, and checkout at {siteDomain}.',
+        'Answers on The Isle ESP, aim assistance, radar, loader setup, pricing, and checkout at {siteDomain}.',
     },
     forum: {
-      eyebrow: 'Escape From Tarkov community forum',
-      title: 'Escape From Tarkov Community Forum',
+      eyebrow: 'The Isle community forum',
+      title: 'The Isle Community Forum',
       description:
-        'Archived, read-only threads on loader setup, loot ESP, patch status, and HWID bans. Replies are closed.',
+        'Archived, read-only threads on loader setup, ESP modules, patch status, and HWID flags. Replies are closed.',
       exploreGuides: 'Explore the guides',
       postsAria: 'Community posts',
       sortAria: 'Post sorting',
@@ -662,7 +720,7 @@ export const en: Translations = {
       voteAria: 'Discussion voting',
       upvoteAria: 'Upvote this discussion',
       downvoteUnavailableAria: 'Downvoting is unavailable',
-      guideTeam: 'EFT CHEATS guide team',
+      guideTeam: 'the isle cheats guide team',
       guideBasedQa: 'Guide-based Q&A',
       fromGuide: 'From the guide:',
       comments: 'comments',
@@ -679,7 +737,7 @@ export const en: Translations = {
       paginationAria: 'Discussion pages',
       pagePrevious: 'Previous',
       pageNext: 'Next',
-      sidebarTitle: 'EFT CHEATS Community',
+      sidebarTitle: 'the isle cheats Community',
       sidebarIntro: 'Read-only archive. Threads stay up for reference, you cannot start a thread or reply.',
       statsDiscussions: 'guide discussions',
       statsTopics: 'topics',
@@ -696,7 +754,7 @@ export const en: Translations = {
     },
     utilities: {
       title: 'HWID Spoofer',
-      description: 'Machine recovery when new accounts work elsewhere but fail instantly on this PC.',
+      description: 'Recover the PC when new accounts succeed elsewhere but fail at once here.',
       viewDetails: 'View',
       includes: 'Includes:',
       schemaName: 'HWID Spoofer',
@@ -704,60 +762,60 @@ export const en: Translations = {
   },
   pageSeo: {
     '/': {
-      title: 'Escape From Tarkov Cheats | ESP, Aimbot & Loot ESP',
+      title: 'the isle cheats for The Isle: Evrima on Windows',
       description:
-        'Player ESP, loot ESP, aimbot and no recoil for PMC raids on Windows, with loader updates after patches. Compare plans at {siteDomain}.',
+        'the isle cheats: player, NPC, and animal ESP, world markers, and visual HUD tools for Evrima. $35 for 31 days or $150 lifetime. Check status, then compare plans.',
     },
     '/product/': {
-      title: 'Tarkov Cheats | Buy ESP, Loot ESP & Aimbot',
+      title: 'the isle evrima cheats: ESP and visual overlays',
       description:
-        'Full raid package with player ESP, loot filters, aimbot and no recoil for main Tarkov maps, not Arena. Monthly and lifetime plans on {siteDomain}.',
+        'the isle evrima cheats for Evrima only: player and animal ESP, snaplines, world markers, and misc HUD tools. $35 monthly or $150 lifetime before checkout.',
     },
     '/hwid-spoofer/': {
-      title: 'HWID Spoofer | Escape From Tarkov Hardware Reset',
+      title: 'the isle easy anti cheat PC fingerprint reset',
       description:
-        'Reset disk, MAC and GPU identifiers when new accounts fail on one PC. Portal checklist covers restore points, spoof steps and verification before you raid again on {siteDomain}.',
+        'Reset disk, MAC, and GPU IDs under the isle easy anti cheat hardware checks. Finish the portal checklist, then verify before The Isle.',
     },
     '/blog/': {
-      title: 'Tarkov Cheat Guides | ESP Setup, Aimbot & BattlEye Notes',
+      title: 'the isle cheats 2026 guides: ESP, aim, and patch notes',
       description:
-        'Raid preset walkthroughs, ESP and aim tuning, loot filters, and BattlEye status checklists published on {siteDomain}.',
+        'Setup walkthroughs, ESP and aim tuning, world markers, and Easy Anti-Cheat status checklists published on {siteDomain}.',
     },
     '/forum/': {
-      title: 'Tarkov Cheats Forum | Setup, Status & HWID Threads',
+      title: 'the isle cheats forum: setup, status, and HWID threads',
       description:
-        'Read-only Escape From Tarkov discussions on loadouts, patches, and guides. New threads and replies are closed.',
+        'Read-only The Isle discussions on loader setup, patches, and guides. New threads and replies are closed.',
     },
     '/faq/': {
-      title: 'Escape From Tarkov Cheats FAQ | Setup, Plans & BattlEye',
+      title: 'the isle cheats FAQ: setup, pricing, and Easy Anti-Cheat',
       description:
-        'Answers on Escape From Tarkov cheats: setup steps, monthly and lifetime plans, ESP and aim modules, BattlEye status, and checkout help at {siteDomain}.',
+        'Answers on $35 monthly or $150 lifetime, ESP and aim modules, Easy Anti-Cheat status, Windows setup, and checkout help on {siteDomain}.',
     },
     '/terms/': {
-      title: 'Terms of Sale & License Use',
+      title: 'Terms of sale and license use for the isle cheats',
       description:
-        'Refund rules, license limits, checkout delivery, and risk disclosure for products sold via {siteDomain}.',
+        'Refund rules, license limits, checkout delivery, Cloud DMA notes, and risk disclosure for products sold via {siteDomain}.',
     },
     '/privacy/': {
-      title: 'Privacy Policy | Analytics & Support Data',
+      title: 'Privacy policy for theisle-cheat.com analytics',
       description:
         'How {siteDomain} uses cookies, analytics, and the information you send when opening a support ticket.',
     },
     '/about/': {
-      title: 'About eftcheat.net & EFT CHEATS',
+      title: 'About the isle cheats on theisle-cheat.com',
       description:
-        'Who publishes Escape From Tarkov Cheats resources, status notes, and support channels on {siteDomain}.',
+        'Who publishes the isle cheats product pages, status notes, and Discord support channels on {siteDomain}.',
     },
     '/support/': {
-      title: 'Tarkov Cheats Support | Loader, HWID & Checkout Help',
+      title: 'the isle cheats support: loader, HWID, and checkout',
       description:
-        'Contact Discord operators for portal access, module errors, and billing questions before or after checkout on {siteDomain}.',
+        'the isle cheats support for portal access, loader errors, HWID tickets, and billing questions on {siteDomain}.',
     },
   },
   ui: {
     skipLink: 'Skip to main content',
     browseCheatsNav: 'Try Now',
-    homeAria: 'EFT CHEATS home',
+    homeAria: 'the isle cheats home',
     menuOpen: 'Open menu',
     themeLight: 'Switch to light mode',
     languageSwitcherLabel: 'Language',

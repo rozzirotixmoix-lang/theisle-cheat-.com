@@ -1,0 +1,84 @@
+---
+import { useLocale } from '../../i18n';
+import { HWID_SPOOFER_PATH } from '../../config/site';
+import Icon from '../icons/Icon.astro';
+import { Button } from '@/components/starwind/button';
+
+const { t, lp } = useLocale(Astro.currentLocale);
+const viewDetails = t.products.viewDetails;
+
+const cards = [
+  {
+    icon: 'systemUtility' as const,
+    label: 'SYSTEM UTILITY',
+    title: 'HWID Spoofer',
+    desc: 'Rotates disk serials, MAC addresses, GPU IDs, and linked hardware fields after a machine-level ban. Bundled cleanup clears leftover traces.',
+    features: ['Disk serial reset', 'MAC rotation', 'GPU ID masking', 'Trace cleanup pass'],
+    href: HWID_SPOOFER_PATH,
+  },
+  {
+    icon: 'cosmetic' as const,
+    label: 'COSMETIC',
+    title: 'Skin Changer',
+    desc: 'Low-footprint client that applies premium weapon skins, outfits, and knife styles on supported PC games.',
+    features: ['High-tier weapon skins', 'Outfit packs', 'Knife finish library', 'Multi-title support'],
+    href: '/go/skin-changer/',
+  },
+];
+---
+
+<section class="border-t border-border py-12 md:py-16" aria-labelledby="more-tools-title">
+  <div class="mx-auto max-w-6xl px-5">
+    <div class="text-center">
+      <p class="section-header__eyebrow text-primary">UTILITIES</p>
+      <h2
+        id="more-tools-title"
+        class="mt-2 font-[family-name:var(--font-heading)] text-2xl font-bold tracking-tight text-foreground md:text-3xl"
+      >
+        More tools we sell
+      </h2>
+      <p class="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground md:text-base">
+        Utilities ship on separate licenses, each with a dedicated page and checkout path.
+      </p>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
+      {
+        cards.map((card) => (
+          <article class="flex h-full flex-col rounded-2xl border border-border bg-card p-5 sm:p-6">
+            <div class="flex items-start gap-3">
+              <span class="flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary/15">
+                <Icon name={card.icon} size={18} class="text-primary" />
+              </span>
+              <div class="min-w-0 space-y-1">
+                <p class="text-[11px] font-semibold uppercase tracking-wider text-primary">{card.label}</p>
+                <h3 class="font-[family-name:var(--font-heading)] text-lg font-bold text-foreground">{card.title}</h3>
+              </div>
+            </div>
+
+            <p class="mt-4 text-sm leading-relaxed text-muted-foreground">{card.desc}</p>
+
+            <ul class="mt-4 space-y-2 text-sm text-muted-foreground">
+              {card.features.map((feature) => (
+                <li class="flex items-start gap-2.5">
+                  <Icon name="check" size={14} class="mt-0.5 shrink-0 text-primary" />
+                  <span class="leading-snug">{feature}</span>
+                </li>
+              ))}
+            </ul>
+
+            <div class="mt-5 border-t border-border pt-5">
+              <p class="text-sm text-muted-foreground">
+                From <span class="text-xl font-bold text-foreground">$35</span> / month
+              </p>
+              <Button as="a" href={lp(card.href)} variant="primary" class="mt-4 w-full rounded-xl">
+                {viewDetails}
+                <Icon name="arrowRight" size={17} />
+              </Button>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>

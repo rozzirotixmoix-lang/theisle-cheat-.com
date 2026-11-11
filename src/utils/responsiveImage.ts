@@ -6,6 +6,13 @@ export const CARD_IMAGE_SIZES = '(min-width: 1024px) 330px, (min-width: 640px) 5
 /** 512w matches hero slider display (~487px at 1x); 640/960 for larger viewports and retina. */
 export const HERO_IMAGE_WIDTHS = [512, 640, 960] as const;
 export const HERO_IMAGE_SIZES = '(min-width: 1024px) 490px, 100vw';
+/**
+ * Product/HWID gallery + article heroes.
+ * Keep mobile sizes at 320px so high-DPR phones prefer 640w when possible;
+ * desktop slot is ~720px CSS (960w at 2x).
+ */
+export const GALLERY_IMAGE_WIDTHS = [400, 640, 960] as const;
+export const GALLERY_IMAGE_SIZES = '(min-width: 1024px) 720px, 320px';
 export const DEFAULT_IMAGE_WIDTHS = [640, 960] as const;
 
 export function stripRasterExt(src: string): string {

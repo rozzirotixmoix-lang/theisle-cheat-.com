@@ -2,6 +2,7 @@
 import { useLocale } from '../i18n';
 import { Separator } from '@/components/starwind/separator';
 import BrandLogo from './BrandLogo.astro';
+import { BRAND_LOGO_ALT_FOOTER } from '../config/brand';
 
 const { t, lp } = useLocale(Astro.currentLocale);
 
@@ -17,8 +18,8 @@ const legalLinks = [
     <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4" data-reveal-stagger>
       <div class="space-y-4">
         <a href={lp('/')} class="inline-flex items-center gap-2.5 font-[family-name:var(--font-heading)] text-lg font-bold" aria-label={t.ui.homeAria}>
-          <BrandLogo size={32} class="rounded-md" />
-          <span aria-hidden="true">EFT<span class="text-primary">CHEATS</span></span>
+          <BrandLogo size={32} class="rounded-md" alt={BRAND_LOGO_ALT_FOOTER} />
+          <span aria-hidden="true">the isle<span class="text-primary"> cheats</span></span>
         </a>
         <p class="text-sm text-muted-foreground">{t.footer.tagline}</p>
       </div>

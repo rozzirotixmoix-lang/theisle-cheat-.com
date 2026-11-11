@@ -13,6 +13,7 @@ import {
 import Icon from './icons/Icon.astro';
 import SlideRevealButton from './SlideRevealButton.astro';
 import BrandLogo from './BrandLogo.astro';
+import { BRAND_LOGO_ALT_HEADER } from '../config/brand';
 
 import type { IconName } from './icons/types';
 import type { NavId } from '../i18n/types';
@@ -44,8 +45,10 @@ const purchaseUrl = PRIMARY_CHECKOUT_PATH;
         class="inline-flex min-w-0 shrink-0 items-center justify-self-start gap-2 font-[family-name:var(--font-heading)] text-base font-bold tracking-wide sm:text-lg"
         aria-label={t.ui.homeAria}
       >
-        <BrandLogo size={32} class="size-8 shrink-0 rounded-md" priority />
-        <span class="truncate" aria-hidden="true">EFT<span class="text-primary">CHEATS</span></span>
+        <BrandLogo size={32} class="size-8 shrink-0 rounded-md" priority alt={BRAND_LOGO_ALT_HEADER} />
+        <span class="truncate font-bold text-foreground" aria-hidden="true"
+          >The Isle<span class="text-primary"> Cheats</span></span
+        >
       </a>
 
       <nav

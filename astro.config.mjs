@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 import { customSitemapPageUrls, sitemapSerialize } from './src/config/sitemap.ts';
 import { pruneDist } from './scripts/prune-inline-css.mjs';
+import { SITE_URL } from './src/config/site-url.mjs';
 
 const projectRoot = path.dirname(fileURLToPath(import.meta.url));
 
@@ -84,7 +85,7 @@ function deferredBootPlugin() {
 }
 
 export default defineConfig({
-  site: 'https://eftcheat.net',
+  site: SITE_URL,
   trailingSlash: 'always',
   i18n: {
     locales: ['en', 'es', 'de', 'fr'],

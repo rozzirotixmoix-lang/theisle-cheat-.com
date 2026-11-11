@@ -13,7 +13,11 @@ const byLocale: Record<Exclude<SiteLocale, 'en'>, BlogPostFull[]> = {
 
 export function getBlogPostsForLocale(locale: SiteLocale): BlogPostFull[] {
   if (locale === 'en') return blogPostsEn;
-  return byLocale[locale] ?? blogPostsEn;
+  const localized = byLocale[locale];
+  // Until locale translations exist, fall back to English posts so related
+  // guides and locale /blog/[slug]/ routes stay populated.
+  if (localized && localized.length > 0) return localized;
+  return blogPostsEn;
 }
 
 export function getBlogPost(slug: string, locale: SiteLocale): BlogPostFull | undefined {

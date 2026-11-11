@@ -31,7 +31,7 @@ function link(text: string, href: string): string {
   return `<a href="${normalizeInternalPath(href)}">${text}</a>`;
 }
 
-const cheats = link('Escape From Tarkov Cheats', ROUTES.cheats);
+const cheats = link('the isle cheats', ROUTES.cheats);
 const hwid = link('HWID Spoofer', ROUTES.hwidSpoofer);
 const faqPage = link('full FAQ', ROUTES.faq);
 const blog = link('blog guides', ROUTES.blog);
@@ -41,37 +41,43 @@ export const siteFaqs: SiteFaqItem[] = [
     id: 'status',
     topic: 'setup',
     icon: 'faqStatus',
-    q: 'Where do I check if Escape From Tarkov cheats are online?',
-    a: a('The live status banner is on {siteDomain} and in the Discord #status channel. Always check after an Escape From Tarkov or BattlEye update.'),
+    q: 'Where do I check if The Isle cheats are online?',
+    a: a(
+      'The live status banner is on {siteDomain} and in the Discord #status channel. Always check after a The Isle or Easy Anti-Cheat update.',
+    ),
   },
   {
     id: 'after-buy',
     topic: 'setup',
     icon: 'faqAfterBuy',
     q: 'What happens after I buy?',
-    a: a('Your portal unlocks the loader, setup guide and config library via our partner checkout. Follow the guide before launching Escape From Tarkov.'),
+    a: a(
+      'Your portal unlocks the loader, setup guide and config library via our partner checkout. Follow the guide before launching The Isle.',
+    ),
   },
   {
     id: 'ban-risk',
     topic: 'safety',
     icon: 'faqBanRisk',
-    q: 'Can I get banned using third-party escape from tarkov cheats?',
-    a: a('Yes, any modification carries risk. BattlEye and report systems evolve. Read current status and accept the risk before use.'),
-    aHtml: `Yes, any modification carries risk. BattlEye and report systems evolve. Read current status and accept the risk before use. See our ${link('BattlEye and Tarkov cheats', '/blog/battleye-and-escape-from-tarkov-cheats-what-to-know/')} guide for context.`,
+    q: 'Can I get banned using third-party the isle cheats?',
+    a: a(
+      'Yes, any modification carries risk. Easy Anti-Cheat and report systems evolve. Read current status and accept the risk before use.',
+    ),
+    aHtml: `Yes, any modification carries risk. Easy Anti-Cheat and report systems evolve. Read current status and accept the risk before use.`,
   },
   {
     id: 'platforms',
     topic: 'setup',
     icon: 'faqPlatforms',
     q: 'Which platforms are supported?',
-    a: a('Escape From Tarkov on Windows 10/11 64-bit only. macOS and Linux are not supported.'),
+    a: a('The Isle on Windows 10/11 64-bit only. macOS and Linux are not supported.'),
   },
   {
     id: 'license-move',
     topic: 'setup',
     icon: 'faqLicenseMove',
     q: 'Can I move my license to a new PC?',
-    a: a('Yes, use the HWID reset in your portal or open a Discord ticket. Limits depend on your tier.'),
+    a: a('Yes. Trigger the portal HWID reset, or file a Discord ticket if the portal option is unavailable. Limits depend on your tier.'),
   },
   {
     id: 'products-page',
@@ -84,23 +90,23 @@ export const siteFaqs: SiteFaqItem[] = [
     id: 'what-is-esp',
     topic: 'esp',
     icon: 'faqWhatIsEsp',
-    q: 'What is Escape From Tarkov ESP?',
-    a: `Player ESP shows PMCs, Scavs and bosses with boxes, skeletons and distance readouts. Loot ESP highlights containers and valuable items. ${cheats} includes awareness overlays plus optional aimbot and no recoil modules.`,
+    q: 'What is The Isle ESP?',
+    a: `Player ESP shows other survivors with box, snapline, name, distance, health, stamina, growth, and species readouts. World ESP covers NPC and animal overlays plus corpse, gore, fruit, and water markers. ${cheats} also includes aim assistance and radar.`,
     scopes: ['elite'],
   },
   {
     id: 'esp-vs-aim',
     topic: 'esp',
     icon: 'faqEspVsScripts',
-    q: 'What is the difference between ESP and aimbot?',
-    a: `ESP and loot highlights are information overlays; they do not move your crosshair. Aimbot, no recoil and trigger bot are combat assists on ${cheats}, tuned separately in the loader.`,
+    q: 'What is the difference between ESP and aim assistance?',
+    a: `ESP is an information overlay; it does not move your aim. Aim assistance on ${cheats} adds FOV, smoothing, lock, and head-only options you tune separately in the loader.`,
   },
   {
     id: 'elite-slots',
     topic: 'plans',
     icon: 'faqEliteSlots',
-    q: 'Why are Escape From Tarkov Cheats slots limited?',
-    a: `Escape From Tarkov Cheats is a private build with direct dev support and priority patch delivery. Slot caps keep patch cycles fast. Check the status banner before checkout.`,
+    q: 'Why are the isle cheats slots limited?',
+    a: `It is a private build with direct dev support and priority patch delivery. Slot caps keep patch cycles fast. Check the status banner before checkout.`,
     scopes: ['elite'],
   },
   {
@@ -115,36 +121,40 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'safety',
     icon: 'faqUndetected',
     q: 'Will the build stay online after every patch?',
-    a: a('No. Online status is shown on the product page and status banner at purchase time only. Stop if the build shows updating, testing, or offline after a BattlEye update.'),
+    a: a(
+      'No. Online status is shown on the product page and status banner at purchase time only. Stop if the build shows updating, testing, or offline after an Easy Anti-Cheat update.',
+    ),
   },
   {
     id: 'esp-safer',
     topic: 'safety',
     icon: 'faqEspSafer',
-    q: 'Is ESP lower-profile than aimbot?',
-    a: a('ESP is often less obvious than maxed aimbot, but it is still a cheat. BattlEye does not ignore overlays because you left aim assist off.'),
+    q: 'Is ESP lower-profile than aim assistance?',
+    a: a(
+      'ESP is often less obvious than maxed aim assistance, but it is still a cheat. Easy Anti-Cheat does not ignore overlays because you left aim help off.',
+    ),
   },
   {
     id: 'hwid-when',
     topic: 'products',
     icon: 'faqHwidWhen',
-    q: 'When should I add the HWID Spoofer to my setup?',
-    a: `${hwid} is for when new Escape From Tarkov logins die on one PC yet succeed elsewhere. That points to hardware enforcement, not account-only BattlEye outcomes. After identifiers verify clean, pair a fresh account with ${cheats} and check status on {siteDomain} before raiding.`,
-    scopes: ['hwid-spoofer'],
+    q: 'When does HWID Spoofer belong in a setup?',
+    a: `Add ${hwid} when new The Isle logins fail on one PC but succeed elsewhere. That pattern points to hardware enforcement, not an account-only anti-cheat result. Once identifiers verify clean, pair a fresh account with ${cheats} and check status on {siteDomain} before you play.`,
+    scopes: ['hwid-spoofer', 'elite'],
   },
   {
     id: 'external-loader',
     topic: 'products',
     icon: 'faqExternalLoader',
     q: 'Is the loader injected into the game folder?',
-    a: `EFT CHEATS runs external with cloud config sync, no files injected into the Escape From Tarkov directory. BattlEye risk still applies. See ${cheats}.`,
+    a: `The loader runs external with cloud config sync, no files injected into the The Isle directory. Easy Anti-Cheat risk still applies. See ${cheats}.`,
   },
   {
     id: 'blog-vs-cheats',
     topic: 'blog',
     icon: 'faqBlogVsCheats',
-    q: 'Are blog cheat codes the same as live raid cheats?',
-    a: `No. Blog articles about offline or local testing do not replace the live loader. PMC raids use ${cheats} when status is online.`,
+    q: 'Are blog cheat codes the same as the live loader?',
+    a: `No. Blog articles about offline or local testing do not replace the live loader. Live sessions use ${cheats} when status is online.`,
   },
   {
     id: 'blog-setup',
@@ -157,53 +167,59 @@ export const siteFaqs: SiteFaqItem[] = [
     id: 'who-cheats',
     topic: 'plans',
     icon: 'faqWhoElite',
-    q: 'Who should buy Escape From Tarkov Cheats?',
-    a: `PMC raiders who want player ESP, loot ESP, aimbot, no recoil and priority patch delivery when slots are open.`,
+    q: 'Who should buy the isle cheats?',
+    a: `Windows players who want player ESP, world ESP, aim assistance, radar, and priority patch delivery for The Isle Evrima and Horde when slots are open.`,
     scopes: ['elite'],
   },
   {
     id: 'vac-update',
     topic: 'safety',
     icon: 'faqVacUpdate',
-    q: 'What should I do after a BattlEye update?',
-    a: a('Check {siteDomain} status and Discord #status. Do not launch until the banner shows online. Load conservative presets after any patch.'),
+    q: 'What should I do after an Easy Anti-Cheat update?',
+    a: a(
+      'Check {siteDomain} status and Discord #status. Do not launch until the banner shows online. Load conservative presets after any patch.',
+    ),
   },
   {
     id: 'discord-help',
     topic: 'setup',
     icon: 'faqDiscordHelp',
     q: 'How do I get install help?',
-    a: a('Open Discord after purchase with your order email, Windows version and Escape From Tarkov client build. Staff walk through loader setup live.'),
+    a: a(
+      'Open Discord after purchase with your order email, Windows version and The Isle client build. Staff walk through loader setup live.',
+    ),
   },
   {
-    id: 'pmc-scav-raids',
+    id: 'evrima-horde',
     topic: 'plans',
     icon: 'faqTurboRanked',
-    q: 'Do modules work in PMC and Scav raids?',
-    a: `Yes. ${cheats} includes PMC and Scav presets in the portal. Tune ESP distance caps and aim smoothing before your first raid.`,
+    q: 'Do modules work on Evrima and Horde?',
+    a: `Yes. ${cheats} covers The Isle Evrima and Horde. Tune ESP distance caps and aim smoothing before your first live session.`,
   },
   {
     id: 'zoom-hack',
     topic: 'esp',
     icon: 'faqZoomHack',
-    q: 'Which tier includes radar and extract ESP?',
-    a: `2D radar and extract markers ship with ${cheats}. Use them to orient between fights and plan extracts.`,
+    q: 'Which tier includes radar?',
+    a: `Radar ships with ${cheats} alongside player and world ESP. Use it to orient when foliage blocks sightlines.`,
     scopes: ['elite'],
   },
   {
     id: 'trigger-bot',
     topic: 'aim',
     icon: 'faqAutoFarm',
-    q: 'Does the product include trigger bot?',
-    a: `Optional trigger bot ships with ${cheats} alongside aimbot and no recoil. Start with conservative delay presets in the portal.`,
+    q: 'Does the product include movement and combat utilities?',
+    a: `Yes. Movement and combat utilities ship with ${cheats} beside aim assistance. Start with conservative portal presets.`,
     scopes: ['elite'],
   },
   {
     id: 'private-cheats',
     topic: 'safety',
     icon: 'faqPrivateCheats',
-    q: 'What are private Escape From Tarkov cheats?',
-    a: a('Private means per-user keys and maintained builds, not public zip packs. EFT CHEATS ships portal delivery for the full raid suite on one cheats license.'),
+    q: 'What are private The Isle cheats?',
+    a: a(
+      'Private means per-user keys and maintained builds, not public zip packs. Portal delivery covers the full Windows suite on one cheats license.',
+    ),
   },
   {
     id: 'faq-more',
@@ -218,7 +234,7 @@ export const siteFaqs: SiteFaqItem[] = [
 export const SITE_FAQ_SECTION_COPY = {
   eyebrow: 'All topics',
   title: 'Browse by category',
-  subtitle: 'Filter plans, ESP, aim and recoil, products, setup, and blog answers.',
+  subtitle: 'Filter plans, ESP, aim, products, setup, and blog answers.',
 } as const;
 
 export const SITE_FAQ_FILTER_TOPICS: FaqTopic[] = [
@@ -250,30 +266,37 @@ export function faqFilterTopicsForItems(items: SiteFaqItem[]): FaqTopic[] {
 
 export { getProductFaqs, getSiteFaqs, getLandingFaqs, getAllFaqs } from './faq/locale';
 
+const blogGuideFaqs: SiteFaqItem[] = [
+  {
+    id: 'blog-guide-start',
+    topic: 'blog',
+    icon: 'faqBlogGuideStart',
+    q: 'Do offline cheat codes replace the live loader?',
+    a: a(
+      'No. Local or offline testing does not replace the operator loader. Live sessions use the product on {siteDomain} when status shows online.',
+    ),
+  },
+  {
+    id: 'blog-guide-tier',
+    topic: 'blog',
+    icon: 'faqBlogGuideTier',
+    q: 'Which tier matches this guide?',
+    a: `Setup and feature guides map to modules on ${cheats}. HWID and ban articles pair with ${hwid} when hardware is flagged.`,
+  },
+  {
+    id: 'blog-guide-status',
+    topic: 'blog',
+    icon: 'faqBlogGuideStatus',
+    q: 'Is this guide still valid after a patch?',
+    a: a(
+      'Check the article date and the live status banner. Patch-day articles note when modules change: Discord #status has the latest build notes.',
+    ),
+  },
+];
+
 const blogTopicFaqs: Record<string, SiteFaqItem[]> = {
-  Guides: [
-    {
-      id: 'blog-guide-start',
-      topic: 'blog',
-      icon: 'faqBlogGuideStart',
-      q: 'Do offline cheat codes replace the live loader?',
-      a: a('No. Local or offline testing does not replace the operator loader for PMC raids. Live raids use the product on {siteDomain} when status shows online.'),
-    },
-    {
-      id: 'blog-guide-tier',
-      topic: 'blog',
-      icon: 'faqBlogGuideTier',
-      q: 'Which tier matches this guide?',
-      a: `Setup and feature guides map to modules on ${cheats}. HWID and ban articles pair with ${hwid} when hardware is flagged.`,
-    },
-    {
-      id: 'blog-guide-status',
-      topic: 'blog',
-      icon: 'faqBlogGuideStatus',
-      q: 'Is this guide still valid after a patch?',
-      a: a('Check the article date and the live status banner. Patch-day articles note when modules change: Discord #status has the latest build notes.'),
-    },
-  ],
+  Guides: blogGuideFaqs,
+  'Game Cheats Guides': blogGuideFaqs,
   Setup: [
     {
       id: 'blog-setup-loader',
@@ -286,8 +309,10 @@ const blogTopicFaqs: Record<string, SiteFaqItem[]> = {
       id: 'blog-setup-lobby',
       topic: 'blog',
       icon: 'faqBlogSetupLobby',
-      q: 'Should I test settings before a live raid?',
-      a: a('Yes. Load conservative ESP and aim presets offline or in an empty raid first. Raise FOV, smoothing, and loot distance caps over several sessions.'),
+      q: 'Should I test settings before a live session?',
+      a: a(
+        'Yes. Load conservative ESP and aim presets offline first. Raise FOV, smoothing, and world ESP distance caps over several sessions.',
+      ),
     },
   ],
   Security: [
@@ -296,7 +321,9 @@ const blogTopicFaqs: Record<string, SiteFaqItem[]> = {
       topic: 'blog',
       icon: 'faqBlogSecVac',
       q: 'Does this article mean the build stays online?',
-      a: a('No article replaces the live status banner. Check {siteDomain} and Discord #status after every patch before you launch.'),
+      a: a(
+        'No article replaces the live status banner. Check {siteDomain} and Discord #status after every patch before you launch.',
+      ),
     },
   ],
 };
@@ -314,14 +341,18 @@ const defaultBlogFaqs: SiteFaqItem[] = [
     topic: 'blog',
     icon: 'faqBlogDefault2',
     q: 'Need help applying this guide?',
-    a: a('Open Discord with your order email and the article slug. Staff reference the same portal presets mentioned in guides.'),
+    a: a(
+      'Open Discord with your order email and the article slug. Staff reference the same portal presets mentioned in guides.',
+    ),
   },
   {
     id: 'blog-default-3',
     topic: 'blog',
     icon: 'faqBlogDefault3',
     q: 'Will settings in this article work next patch?',
-    a: a('Re-check status after every Escape From Tarkov update. Portal presets update with patch notes, reload configs instead of copying old sliders.'),
+    a: a(
+      'Re-check status after every The Isle update. Portal presets update with patch notes, reload configs instead of copying old sliders.',
+    ),
   },
 ];
 
@@ -341,31 +372,33 @@ export function getBlogFaqs(tag: string, slug: string, locale: SiteLocale = 'en'
     }
     extras.push(...localized.filter((f) => ['setup', 'safety'].includes(f.topic)).slice(0, 2));
     const seen = new Set<string>();
-    return [...extras, ...topicFaqs, ...localized.filter((f) => f.topic === 'blog')].filter((item) => {
-      if (seen.has(item.id)) return false;
-      seen.add(item.id);
-      return true;
-    }).slice(0, 8);
+    return [...extras, ...topicFaqs, ...localized.filter((f) => f.topic === 'blog')]
+      .filter((item) => {
+        if (seen.has(item.id)) return false;
+        seen.add(item.id);
+        return true;
+      })
+      .slice(0, 8);
   }
   const topicFaqs = blogTopicFaqs[tag] ?? [];
   const slugHints: SiteFaqItem[] = [];
 
-  if (slug.includes('esp') || slug.includes('loot') || slug.includes('radar')) {
+  if (slug.includes('esp') || slug.includes('loot') || slug.includes('radar') || slug.includes('world')) {
     slugHints.push({
       id: 'blog-slug-esp',
       topic: 'esp',
       icon: 'faqBlogSlugEsp',
       q: 'Which product covers ESP from this article?',
-      a: `${cheats} includes player ESP, loot ESP, radar and extract markers described in our raid guides.`,
+      a: `${cheats} includes player ESP, world ESP, and radar described in our The Isle guides.`,
     });
   }
-  if (slug.includes('aim') || slug.includes('recoil') || slug.includes('trigger')) {
+  if (slug.includes('aim') || slug.includes('recoil') || slug.includes('trigger') || slug.includes('combat')) {
     slugHints.push({
       id: 'blog-slug-aim',
       topic: 'aim',
       icon: 'faqBlogSlugScripts',
       q: 'Which product includes aim modules from this article?',
-      a: `${cheats} ships aimbot, no recoil and optional trigger bot with separate loader tabs.`,
+      a: `${cheats} ships aim assistance with FOV, smoothing, lock, and head-only options in the loader.`,
     });
   }
   if (slug.includes('hwid') || slug.includes('ban') || slug.includes('vac')) {
@@ -373,11 +406,10 @@ export function getBlogFaqs(tag: string, slug: string, locale: SiteLocale = 'en'
       id: 'blog-slug-hwid',
       topic: 'products',
       icon: 'faqBlogSlugHwid',
-      q: 'Does this guide replace the HWID Spoofer or cheat product pages?',
-      a: `Recovery guides complement ${hwid} and ${cheats}, read product pages for workflow scope and realistic outcomes.`,
+      q: 'Do recovery guides replace HWID Spoofer or cheat product pages?',
+      a: `Guides sit beside ${hwid} and ${cheats}. Product pages define workflow scope and realistic outcomes.`,
     });
   }
 
   return [...slugHints, ...topicFaqs, ...defaultBlogFaqs].slice(0, 8);
 }
-

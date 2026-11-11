@@ -1,848 +1,422 @@
 {
   "categories": [
-    {
-      "name": "Questions d'achat",
-      "tone": "blue",
-      "icon": "tag"
-    },
-    {
-      "name": "Caractéristiques",
-      "tone": "purple",
-      "icon": "layers"
-    },
-    {
-      "name": "Aide à la configuration",
-      "tone": "green",
-      "icon": "settings"
-    },
-    {
-      "name": "Statut et mises à jour",
-      "tone": "orange",
-      "icon": "refresh"
-    },
-    {
-      "name": "Anti-triche",
-      "tone": "orange",
-      "icon": "shieldCheck"
-    },
-    {
-      "name": "Aide au bannissement",
-      "tone": "green",
-      "icon": "alert"
-    }
+    { "name": "Discussion générale", "tone": "blue", "icon": "users" },
+    { "name": "Guides et tutoriels", "tone": "purple", "icon": "navBlog" },
+    { "name": "Support technique", "tone": "green", "icon": "settings" },
+    { "name": "Logiciels et compatibilité", "tone": "orange", "icon": "package" },
+    { "name": "Questions de jeu", "tone": "blue", "icon": "messageCircle" },
+    { "name": "Compte et sécurité", "tone": "orange", "icon": "shieldCheck" }
   ],
   "posts": [
     {
-      "slug": "tarkov-cheats-monthly-or-lifetime-worth-it",
-      "category": "Questions d'achat",
+      "slug": "is-the-isle-worth-playing-2026",
+      "category": "Discussion générale",
       "categoryTone": "blue",
-      "title": "Cheats Tarkov mensuels ou à vie : lequel vaut vraiment le coup ?",
-      "excerpt": "Un joueur demande s'il doit payer mensuellement ou à vie, et le fil de discussion détermine le seuil de rentabilité et les autres coûts supplémentaires.",
-      "author": "NightRaidNate",
-      "age": "12h",
-      "published": "2026-09-23",
-      "commentsCount": 11,
-      "upvotes": 142,
+      "title": "Est-ce que The Isle vaut le coup en 2026 ?",
+      "excerpt": "Vous envisagez d'essayer The Isle ? Les joueurs parlent du gameplay de survie, de la courbe d'apprentissage et de ce qui rend le jeu frustrant ou gratifiant.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-10-12",
+      "commentsCount": 7,
+      "upvotes": 42,
       "body": [
-        "ok donc je regarde la triche eft sur le site et il y en a mensuellement et à vie. le mois est de 35 et la durée de vie est de 150. Je joue habituellement 3 ou 4 soirs par semaine et je ne sais pas vraiment si je jouerai encore après le prochain effacement. Quelqu'un a-t-il une idée sur laquelle est la plus logique ?je ne veux pas en gaspiller 150 et ensuite arrêter dans 2 mois mdr"
+        "Je regarde à nouveau [The Isle](/product/) et j'essaie de savoir s'il vaut encore le coup d'y entrer maintenant.",
+        "J'aime les jeux de survie où il faut vraiment faire attention, pas seulement courir en combattant tout. Mais j'ai aussi entendu qu'on peut passer un temps fou à faire grandir un dinosaure et le perdre à cause d'une seule mauvaise décision.",
+        "Le jeu reste-t-il amusant si on joue surtout en solo ? Et Evrima est-elle la version que la plupart des gens recommandent pour commencer ?"
       ],
       "comments": [
-        {
-          "author": "ScavBoi_Kev",
-          "age": "11h",
-          "score": 0,
-          "body": "si vous ne savez pas si vous jouerez après avoir effacé, puis mensuellement, c'est littéralement le but"
-        },
-        {
-          "author": "NightRaidNate",
-          "age": "10h",
-          "score": 0,
-          "body": "ouais, c'est là que j'en suis aussi, je voulais juste un deuxième avis"
-        },
-        {
-          "author": "Marrow",
-          "age": "9h",
-          "score": 0,
-          "body": "calcul rapide pour vous.35 x 4 équivaut à 140. 35 x 5 équivaut à 175. donc la vie commence à gagner vers le mois 5. Si vous pensez que vous atteindrez 5 mois au total, partez à vie, sinon restez mensuel. voir la [ répartition mensuelle par rapport à la durée de vie](/blog/escape-from-tarkov-cheats-price-monthly-vs-lifetime/) sur le blog si vous voulez que cela soit expliqué"
-        },
-        {
-          "author": "ScavBoi_Kev",
-          "age": "9h",
-          "score": 0,
-          "body": "ce mec fait des maths à 2h du matin respect"
-        },
-        {
-          "author": "Marrow",
-          "age": "8h",
-          "score": 0,
-          "body": "il est 14h"
-        },
-        {
-          "author": "ScavBoi_Kev",
-          "age": "8h",
-          "score": 0,
-          "body": "encore pire"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "7h",
-          "score": 0,
-          "body": "les deux forfaits ont-ils les mêmes fonctionnalités ou est-ce que la vie débloque des éléments supplémentaires ?c'est ce qui m'attire toujours avec ça"
-        },
-        {
-          "author": "Marrow",
-          "age": "6h",
-          "score": 0,
-          "body": "mêmes fonctionnalités que sur la page produit pour [Escape From Tarkov cheats](/product/).la durée mensuelle est de 31 jours, la durée de vie est un accès illimité. pas de niveaux"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "5h",
-          "score": 0,
-          "body": "sympa, merci"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "4h",
-          "score": 0,
-          "body": "une chose que personne n'a mentionnée. cloud dma est distinct des deux plans et est nécessaire pour une fonctionnalité complète. alors prévoyez cela en plus ou vous serez ennuyé à la caisse"
-        },
-        {
-          "author": "NightRaidNate",
-          "age": "3h",
-          "score": 0,
-          "body": "attendre vraiment ?ok, c'est bon à savoir avant de payer. merci mec"
-        }
-      ]
+        { "author": "MasonR", "age": "", "score": 12, "body": "Le solo est fun si tu aimes être parano pour rien lol. Chaque buisson devient un meurtrier potentiel." },
+        { "author": "Fern", "age": "", "score": 9, "body": "J'aime le solo, mais n'attends pas d'action constante. Parfois la meilleure session, c'est littéralement trouver à manger et à boire et ne pas mourir." },
+        { "author": "DinoDad", "age": "", "score": 11, "body": "Le plus gros ajustement, c'est d'apprendre quand NE PAS se battre. Les gens qui viennent des jeux d'action galèrent souvent avec ça." },
+        { "author": "MasonR", "age": "", "score": 7, "body": "Exactement. Tu entends des pas et soudain tu restes parfaitement immobile pendant cinq minutes." },
+        { "author": "Kite", "age": "", "score": 6, "body": "Je regarderais du gameplay récent avant d'acheter. L'expérience dépend beaucoup de la version et du serveur choisis." },
+        { "author": "Fern", "age": "", "score": 8, "body": "Ne juge pas non plus le jeu uniquement sur ton premier dinosaure. Tu vas probablement faire des erreurs spectaculairement bêtes au début." },
+        { "author": "DinoDad", "age": "", "score": 5, "body": "Je confirme. Ma première leçon : courir partout n'est pas une stratégie de survie." }
+      ],
+      "sourceTitle": "Guide de survie débutant pour The Isle",
+      "sourcePath": "/blog/the-isle-evrima-growth-guide/"
     },
     {
-      "slug": "do-i-need-cloud-dma-for-tarkov-cheats",
-      "category": "Questions d'achat",
+      "slug": "best-beginner-dinosaur-solo-the-isle",
+      "category": "Guides et tutoriels",
+      "categoryTone": "purple",
+      "title": "Meilleur dinosaure débutant pour jouer en solo",
+      "excerpt": "Les nouveaux joueurs comparent différentes façons de choisir un premier dinosaure et de survivre sans groupe.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-09-26",
+      "commentsCount": 7,
+      "upvotes": 38,
+      "body": [
+        "Quel dinosaure est correct pour apprendre le jeu quand on joue surtout seul ?",
+        "Je choisis toujours quelque chose qui a l'air cool, je passe un temps fou à le faire grandir, puis je me fais supprimer par quelque chose que je n'avais même pas vu. Je ne demande pas le plus fort du jeu, juste quelque chose qui ne punisse pas aussi durement chaque erreur de débutant."
+      ],
+      "comments": [
+        { "author": "Pebble", "age": "", "score": 10, "body": "Choisis selon ton style de jeu, pas seulement les stats. Si tu détestes te battre, ne prends pas quelque chose qui t'oblige à gagner chaque rencontre." },
+        { "author": "RexFan88", "age": "", "score": 14, "body": "Le meilleur dinosaure débutant, c'est celui auquel tu ne t'attaches pas émotionnellement. Tu comprendras après ta première perte." },
+        { "author": "LowBattery", "age": "", "score": 8, "body": "lol c'est malheureusement un bon conseil." },
+        { "author": "Fern", "age": "", "score": 9, "body": "Apprends d'abord la carte, les points d'eau et les indices sonores. Ces compétences se transfèrent d'un dinosaure à l'autre." },
+        { "author": "RexFan88", "age": "", "score": 11, "body": "Et arrête de sprinter en permanence. Tu n'es pas en retard au boulot." },
+        { "author": "Nori", "age": "", "score": 6, "body": "Vérifie la version actuelle avant de te fier à une vieille tier list. Les changements d'équilibre rendent certaines anciennes recommandations douteuses." },
+        { "author": "Pebble", "age": "", "score": 7, "body": "Et ne suis pas des inconnus au hasard juste parce qu'ils sont de la même espèce. Parfois c'est une idée terrible." }
+      ],
+      "sourceTitle": "Guide du débutant pour The Isle",
+      "sourcePath": "/blog/the-isle-evrima-growth-guide/"
+    },
+    {
+      "slug": "the-isle-juvenile-survival-growing-tips",
+      "category": "Guides et tutoriels",
+      "categoryTone": "purple",
+      "title": "Pourquoi est-ce que je meurs toujours avant d'atteindre l'âge adulte ?",
+      "excerpt": "Une discussion sur les erreurs courantes qui rendent la croissance d'un dinosaure plus difficile qu'il ne le faudrait.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-10-03",
+      "commentsCount": 7,
+      "upvotes": 51,
+      "body": [
+        "Je jure que je passe plus de temps à faire grandir des dinosaures qu'à vraiment les jouer.",
+        "Chaque fois que j'arrive à un niveau correct, soit je n'ai plus de nourriture, soit on me surprend à découvert, soit j'entends quelque chose de gros et je panique.",
+        "Quelles sont les erreurs les plus courantes pendant la croissance ? Je cherche des trucs pratiques, pas un « meurs juste pas », parce que merci mon gars, j'y avais jamais pensé."
+      ],
+      "comments": [
+        { "author": "Moss", "age": "", "score": 13, "body": "Trop se déplacer. Les gens voient un endroit intéressant et partent en sightseeing au pire moment possible." },
+        { "author": "Ashen", "age": "", "score": 12, "body": "Courir en panique, c'est un gros problème. Tu fais du bruit, tu brûles de l'endurance et parfois tu cours droit vers ce que tu voulais éviter." },
+        { "author": "Moss", "age": "", "score": 8, "body": "Ouais. Parfois se cacher et attendre est le bon choix, même si ça paraît ennuyeux." },
+        { "author": "Clover", "age": "", "score": 9, "body": "J'ajouterais d'apprendre tes besoins en nourriture. Errer affamé sans plan rend tout plus dur." },
+        { "author": "Ashen", "age": "", "score": 7, "body": "Et arrête de croire qu'une zone est sûre parce qu'elle l'était il y a cinq minutes." },
+        { "author": "ByteMe", "age": "", "score": 15, "body": "« Meurs juste pas » va directement dans mon cours de coaching." },
+        { "author": "Clover", "age": "", "score": 6, "body": "La première leçon coûte 500 dollars imaginaires." }
+      ],
+      "sourceTitle": "Guide de survie juvénile",
+      "sourcePath": "/blog/the-isle-evrima-growth-guide/"
+    },
+    {
+      "slug": "the-isle-fps-drops-stuttering-fix",
+      "category": "Support technique",
+      "categoryTone": "green",
+      "title": "Saccades et chutes de FPS dans The Isle",
+      "excerpt": "Les joueurs comparent des étapes de dépannage sensées pour les saccades, les FPS irréguliers et les baisses de performances.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-08-21",
+      "commentsCount": 7,
+      "upvotes": 29,
+      "body": [
+        "Est-ce que d'autres ont des saccades aléatoires dans The Isle ?",
+        "Mon FPS moyen a l'air correct, mais le jeu se fige parfois un instant quand je me déplace. Ça rend les rencontres assez agaçantes parce que tout est fluide jusqu'à ce que soudain ça ne le soit plus.",
+        "Je ne sais pas si je dois commencer par changer les réglages graphiques ou regarder autre chose d'abord. Que puis-je vérifier sans tout chambouler sur mon PC ?"
+      ],
+      "comments": [
+        { "author": "Volt", "age": "", "score": 10, "body": "Commence par les bases. Mets à jour le pilote GPU si besoin et vérifie si le problème a commencé après une mise à jour du jeu." },
+        { "author": "Milo", "age": "", "score": 8, "body": "Tout baisser au minimum n'est pas toujours la réponse. Change quelques réglages à la fois pour savoir ce qui aide vraiment." },
+        { "author": "Volt", "age": "", "score": 6, "body": "Vrai. Surveille aussi les températures et l'usage mémoire pendant les saccades." },
+        { "author": "Grub", "age": "", "score": 11, "body": "Vérifie si quelque chose télécharge ou tourne en arrière-plan. Les téléchargements Steam ont gâché plus de soirées que je veux bien l'admettre." },
+        { "author": "Milo", "age": "", "score": 4, "body": "Ça arrive partout ou seulement dans les zones fréquentées ?" },
+        { "author": "OP", "age": "", "score": 3, "body": "Surtout en passant d'une zone à l'autre, mais je l'ai aussi remarqué ailleurs." },
+        { "author": "Volt", "age": "", "score": 7, "body": "Ce détail aide. Note quand ça arrive et compare après chaque changement. Sinon tu ne sauras pas ce qui l'a corrigé, si tant est que quelque chose l'ait fait." }
+      ],
+      "sourceTitle": "Configuration PC et compatibilité",
+      "sourcePath": "/product/"
+    },
+    {
+      "slug": "the-isle-server-lag-high-ping-help",
+      "category": "Support technique",
+      "categoryTone": "green",
+      "title": "Comment distinguer le lag normal des problèmes de serveur",
+      "excerpt": "Comment cerner le rubberbanding, les mouvements retardés et d'autres problèmes liés à la connexion.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-09-08",
+      "commentsCount": 7,
+      "upvotes": 33,
+      "body": [
+        "Comment savoir si The Isle lag à cause de ta connexion ou parce que le serveur passe une mauvaise journée ?",
+        "J'ai eu des moments où mon dinosaure semble sauter en arrière, mais d'autres fois tout fonctionne normalement. Je ne veux pas passer une heure à dépanner mon internet si le serveur est le vrai problème."
+      ],
+      "comments": [
+        { "author": "PacketLoss", "age": "", "score": 9, "body": "Essaie un autre serveur si possible. Si le problème n'arrive que sur un seul, c'est une preuve utile." },
+        { "author": "Sable", "age": "", "score": 7, "body": "Vérifie aussi si d'autres jeux ou services en ligne ont des soucis en même temps." },
+        { "author": "Grub", "age": "", "score": 10, "body": "Redémarrer le routeur, c'est la première suggestion de tout le monde, même quand le routeur n'a absolument rien fait de mal." },
+        { "author": "PacketLoss", "age": "", "score": 5, "body": "Ça peut quand même aider parfois, mais oui, teste avant de changer des trucs au hasard." },
+        { "author": "Sable", "age": "", "score": 6, "body": "Surveille si le problème est permanent ou seulement aux heures de pointe." },
+        { "author": "OP", "age": "", "score": 4, "body": "Bon point. Ça a l'air bien pire sur un serveur que sur les autres." },
+        { "author": "PacketLoss", "age": "", "score": 8, "body": "Ça vaut le coup de le signaler aux admins de ce serveur avec l'heure approximative." }
+      ],
+      "sourceTitle": "État du serveur The Isle",
+      "sourcePath": "/"
+    },
+    {
+      "slug": "choosing-the-best-the-isle-server",
+      "category": "Discussion générale",
       "categoryTone": "blue",
-      "title": "Ai-je vraiment besoin de Cloud DMA pour les cheats Tarkov ou est-ce facultatif ?",
-      "excerpt": "Quelqu'un voit des formulations contradictoires à propos de Cloud DMA et demande ce que cela signifie réellement pour son achat.",
-      "author": "pixelhoarder",
-      "age": "1d",
+      "title": "Quel serveur The Isle les nouveaux joueurs devraient-ils choisir ?",
+      "excerpt": "Qu'est-ce qui fait un bon serveur pour un nouveau joueur ? La communauté discute des règles, de la population et de comment trouver un endroit confortable pour apprendre.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-07-29",
+      "commentsCount": 6,
+      "upvotes": 36,
+      "body": [
+        "Je crois que j'ai passé plus de temps cette semaine à parcourir les serveurs qu'à vraiment jouer.",
+        "Certains ont plein de joueurs, d'autres des listes de règles énormes, et d'autres semblent presque vides. Y a-t-il quelque chose de précis à chercher en choisissant un serveur ?",
+        "Je préfère trouver un endroit stable où apprendre le jeu plutôt que de rejoindre un serveur et découvrir que je casse une règle dont j'ignorais même l'existence."
+      ],
+      "comments": [
+        { "author": "Birch", "age": "", "score": 11, "body": "Lis les règles d'abord. Ça paraît évident, mais ça évite beaucoup d'ennuis." },
+        { "author": "Tusk", "age": "", "score": 9, "body": "La population compte aussi. Un serveur bondé n'est pas forcément meilleur si tu cherches une expérience de survie calme." },
+        { "author": "Birch", "age": "", "score": 7, "body": "Ouais. Vérifie aussi si le serveur tourne sur la version que tu veux jouer." },
+        { "author": "Moss", "age": "", "score": 8, "body": "Je préfère les petites communautés. Moins de chaos, même si tu peux quand même croiser des vraies menaces." },
+        { "author": "Tusk", "age": "", "score": 6, "body": "Demande aux admins si quelque chose dans les règles n'est pas clair. Mieux que de l'apprendre à la dure." },
+        { "author": "OP", "age": "", "score": 4, "body": "Juste. Je regardais surtout le nombre de joueurs, donc je vais d'abord vérifier les règles et la version." }
+      ],
+      "sourceTitle": "FAQ The Isle",
+      "sourcePath": "/faq/"
+    },
+    {
+      "slug": "the-isle-solo-vs-group-gameplay",
+      "category": "Discussion générale",
+      "categoryTone": "blue",
+      "title": "Jouer The Isle en solo, c'est mieux que rejoindre un groupe ?",
+      "excerpt": "Joueurs solo et joueurs en groupe comparent les avantages, les frustrations et le côté social de la survie.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-09-19",
+      "commentsCount": 7,
+      "upvotes": 40,
+      "body": [
+        "Je joue surtout en solo parce que mes amis n'ont pas envie de passer une demi-soirée à faire grandir un dinosaure.",
+        "Les gens répètent que le jeu est bien meilleur en groupe. C'est vraiment vrai, ou jouer seul a aussi ses avantages ?",
+        "J'aime l'exploration tranquille, mais se faire coincer par quelque chose de plus grand, c'est une expérience assez misérable."
+      ],
+      "comments": [
+        { "author": "Pebble", "age": "", "score": 10, "body": "Les groupes peuvent être fun, mais tu hérites aussi des mauvaises décisions de tout le monde." },
+        { "author": "RexFan88", "age": "", "score": 13, "body": "Rien de tel que de voir tout ton groupe courir vers un bruit que tu as spécifiquement dit dangereux." },
+        { "author": "Fern", "age": "", "score": 9, "body": "Le solo est plus tendu. Tu prends tes propres décisions, et il n'y a personne à blâmer quand tu te rates." },
+        { "author": "Ashen", "age": "", "score": 8, "body": "Le plus gros avantage d'un groupe, c'est d'avoir des gens à qui parler pendant la croissance. Ça raccourcit le feeling du temps mort." },
+        { "author": "Pebble", "age": "", "score": 6, "body": "Ça dépend aussi du dinosaure et des règles du serveur. Se grouper n'est pas toujours possible ni sensé." },
+        { "author": "OP", "age": "", "score": 5, "body": "Mes amis seraient absolument ceux qui courent vers le bruit." },
+        { "author": "RexFan88", "age": "", "score": 11, "body": "On dirait que tu as besoin de nouveaux amis. Ou d'un casque plus silencieux." }
+      ],
+      "sourceTitle": "Guide du débutant",
+      "sourcePath": "/blog/how-to-set-up-the-isle-cheats-windows/"
+    },
+    {
+      "slug": "the-isle-sound-cues-beginners-guide",
+      "category": "Guides et tutoriels",
+      "categoryTone": "purple",
+      "title": "Les indices sonores de The Isle que les débutants devraient apprendre",
+      "excerpt": "Les joueurs expliquent pourquoi écouter attentivement peut être aussi important que regarder l'écran.",
+      "author": "OP",
+      "age": "",
       "published": "2026-08-05",
-      "commentsCount": 10,
-      "upvotes": 89,
+      "commentsCount": 7,
+      "upvotes": 44,
       "body": [
-        "la page du produit eft indique que le cloud dma est facultatif à un endroit et requis pour une fonctionnalité complète à un autre.c'est quoi ??je ne veux pas acheter et découvrir ensuite que la moitié du menu ne fonctionne pas"
+        "Avant je jouais avec de la musique en fond, mais je commence à croire que c'est une idée terrible dans ce jeu.",
+        "Parfois j'entends quelque chose à proximité et je n'ai absolument aucune idée d'où ça vient. Y a-t-il des indices audio particuliers à apprendre en premier ? Je ne cherche pas la liste de tous les sons de dinosaure, juste des façons d'être moins obnubilé."
       ],
       "comments": [
-        {
-          "author": "Halvorsen",
-          "age": "23h",
-          "score": 0,
-          "body": "lisez-le si nécessaire pour bénéficier de toutes les fonctionnalités. Techniquement, vous pouvez avoir le plan sans celui-ci, mais vous n'obtiendrez pas l'intégralité.l'exigence [Cloud DMA](/product/) est précisée sur la page du produit"
-        },
-        {
-          "author": "pixelhoarder",
-          "age": "22h",
-          "score": 0,
-          "body": "donc c'est un achat distinct du mensuel/à vie ?"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "21h",
-          "score": 0,
-          "body": "ouais séparé. le plan couvre la triche, Cloud DMA est sa propre chose"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "20h",
-          "score": 0,
-          "body": "mdr, chaque fil de triche sur Tarkov est juste des gens qui posent des questions sur DMA"
-        },
-        {
-          "author": "pixelhoarder",
-          "age": "19h",
-          "score": 0,
-          "body": "parce que personne ne l'explique !!"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "18h",
-          "score": 0,
-          "body": "juste"
-        },
-        {
-          "author": "Marrow",
-          "age": "17h",
-          "score": 0,
-          "body": "version courte puisque les gens n'arrêtent pas de le demander. dma signifie normalement lire les données du jeu depuis l'extérieur de la machine sur laquelle le jeu s'exécute. cloud dma est la version hébergée, vous ne créez donc pas de configuration matérielle. les étapes exactes sont données après l'achat, alors suivez-les au lieu des conseils aléatoires du forum, le mien inclus.[Cloud DMA expliqué](/blog/tarkov-cloud-dma-explained-do-you-need-it/) est sur le blog si vous voulez la version longue"
-        },
-        {
-          "author": "pixelhoarder",
-          "age": "16h",
-          "score": 0,
-          "body": "ok, c'est effectivement logique. quel est le prix dessus ?"
-        },
-        {
-          "author": "Marrow",
-          "age": "15h",
-          "score": 0,
-          "body": "je ne me souviens pas d'un numéro et je ne veux pas deviner. consultez la page produit ou demandez de l'aide sur Discord"
-        },
-        {
-          "author": "pixelhoarder",
-          "age": "14h",
-          "score": 0,
-          "body": "juste, demandera. merci"
-        }
-      ]
-    },
-    {
-      "slug": "escape-from-tarkov-cheat-features-full-rundown",
-      "category": "Caractéristiques",
-      "categoryTone": "purple",
-      "title": "Quelles fonctionnalités possède réellement un menu de triche EFT ?Aperçu complet",
-      "excerpt": "Un nouveau venu demande ce que vous obtenez réellement dans le menu, et les gens le décomposent onglet par onglet.",
-      "author": "freshspawn22",
-      "age": "2d",
-      "published": "2026-07-24",
-      "commentsCount": 12,
-      "upvotes": 256,
-      "body": [
-        "nouveau dans tout ça. quand les gens disent tarkov esp et aimbot et peu importe, que comprend réellement le menu ?est-ce juste des boîtes sur les joueurs ou y a-t-il plus"
+        { "author": "Sable", "age": "", "score": 10, "body": "La première chose que je ferais, c'est baisser la musique de fond. Garde l'audio du jeu assez clair pour pouvoir faire attention." },
+        { "author": "Moss", "age": "", "score": 9, "body": "Apprends la différence entre une activité proche et des sons lointains. Ne suppose pas que chaque bruit signifie qu'on va t'attaquer." },
+        { "author": "Volt", "age": "", "score": 7, "body": "Un casque peut aider pour l'audio directionnel, si le jeu et ta config audio se comportent correctement." },
+        { "author": "Nori", "age": "", "score": 8, "body": "Et ne mets pas le volume à fond. Tu n'as pas besoin de te détruire l'ouïe pour entendre des pas." },
+        { "author": "Sable", "age": "", "score": 6, "body": "Bon point. Vérifie aussi l'équilibre audio. Certains réglages de surround virtuel peuvent rendre le positionnement bizarre." },
+        { "author": "OP", "age": "", "score": 4, "body": "Je mets définitivement la musique trop fort. Je vais essayer une session sans." },
+        { "author": "Moss", "age": "", "score": 12, "body": "Prépare-toi à devenir suspicieux de chaque brindille de l'univers." }
       ],
-      "comments": [
-        {
-          "author": "Marrow",
-          "age": "1d",
-          "score": 0,
-          "body": "bien plus que des boîtes. en sortant de la [liste complète des fonctionnalités](/product/) sur la page du produit, les onglets sont les visuels, le monde, l'aimbot et divers"
-        },
-        {
-          "author": "Marrow",
-          "age": "1d",
-          "score": 0,
-          "body": "les visuels ont le joueur, le boss, le bot et le scav esp, plus la boîte, les chams, le squelette, le surnom, la distance, l'arme, la santé, le radar, les flèches oof. aussi les exfils et les transitions"
-        },
-        {
-          "author": "freshspawn22",
-          "age": "23h",
-          "score": 0,
-          "body": "putain c'est beaucoup"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "22h",
-          "score": 0,
-          "body": "L'onglet Monde est le butin. pillez en particulier avec filtre de prix, catégories, conteneurs, préréglages. aussi le temps, le brouillard, la pluie, ce genre de choses.[loot ESP filters](/blog/tarkov-loot-esp-filters-price-category-containers/) parcourt le côté filtre"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "21h",
-          "score": 0,
-          "body": "aimbot a un fov, uniquement visible, un os intelligent, une prédiction, un verrouillage de cible, une liste de coéquipiers afin que vous ne visiez pas votre propre équipe.[aimbot settings guide](/blog/tarkov-aimbot-settings-explained/) si vous souhaitez expliquer les noms des options"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "21h",
-          "score": 0,
-          "body": "s'il te plaît, n'oublie pas la liste de tes coéquipiers mdr"
-        },
-        {
-          "author": "freshspawn22",
-          "age": "20h",
-          "score": 0,
-          "body": "pourquoi est-ce important"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "19h",
-          "score": 0,
-          "body": "parce que sinon, il choisit celui qui est le plus proche. demande-moi comment je sais"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "18h",
-          "score": 0,
-          "body": "attention, c'est le genre d'histoire qu'on ne peut pas sauvegarder"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "17h",
-          "score": 0,
-          "body": "c'était une blague"
-        },
-        {
-          "author": "Marrow",
-          "age": "16h",
-          "score": 0,
-          "body": "misc est l'onglet bizarre. pas de recul, pas d'influence, publicités instantanées, rechargement instantané, endurance infinie, butin à travers les murs, à la troisième personne, caméra gratuite. et un système de configuration où vous pouvez enregistrer, charger, importer, exporter"
-        },
-        {
-          "author": "freshspawn22",
-          "age": "15h",
-          "score": 0,
-          "body": "ok, c'est bien au-delà de ce que je pensais. merci à tous"
-        }
-      ]
+      "sourceTitle": "Conseils de survie The Isle",
+      "sourcePath": "/blog/the-isle-esp-options-explained/"
     },
     {
-      "slug": "tarkov-loot-esp-price-filter-profit-runs",
-      "category": "Caractéristiques",
-      "categoryTone": "purple",
-      "title": "Le butin ESP avec filtres de prix est-il réellement bon pour les profits ?",
-      "excerpt": "Les joueurs échangent des conseils sur la définition d'un prix minimum et de catégories afin que l'ESP du butin reste lisible.",
-      "author": "ragfair_goblin",
-      "age": "3d",
-      "published": "2026-10-09",
-      "commentsCount": 11,
-      "upvotes": 118,
-      "body": [
-        "essayer de comprendre si le butin en particulier vaut la peine de s'en soucier par rapport aux seuls éléments du joueur. je cours surtout pour l'argent. le filtre de prix aide-t-il vraiment ou l'écran se transforme-t-il simplement en confettis"
-      ],
-      "comments": [
-        {
-          "author": "Halvorsen",
-          "age": "2d",
-          "score": 0,
-          "body": "il se transforme en confettis si vous laissez tout allumé. fixez un prix minimal et cela élimine la plupart des déchets. le [loot ESP filter guide](/blog/tarkov-loot-esp-filters-price-category-containers/) couvre également les préréglages"
-        },
-        {
-          "author": "ragfair_goblin",
-          "age": "2d",
-          "score": 0,
-          "body": "tu le mets sur quoi ?"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "2d",
-          "score": 0,
-          "body": "cela dépend de la carte et de ce que vous chassez. étage supérieur pour le profit, inférieur si vous voulez des trucs de troc spécifiques"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "1d",
-          "score": 0,
-          "body": "également des catégories. militaire, technique, médical, précieux, commun. choisissez simplement celui ou deux dont vous avez besoin pour ce raid"
-        },
-        {
-          "author": "ragfair_goblin",
-          "age": "1d",
-          "score": 0,
-          "body": "y a-t-il un moyen d'ignorer les choses qui ne m'intéressent pas"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "23h",
-          "score": 0,
-          "body": "ouais, il y a une option ignorer les éléments non sélectionnés, ainsi que des préréglages de recherche et de butin"
-        },
-        {
-          "author": "Marrow",
-          "age": "22h",
-          "score": 0,
-          "body": "les conteneurs sont également séparés. vous pouvez basculer entre les caisses à bois, les cachettes, les ordinateurs et les cadavres. moins de conteneurs contrôlés signifie moins de temps d'attente"
-        },
-        {
-          "author": "ragfair_goblin",
-          "age": "21h",
-          "score": 0,
-          "body": "cela semble en fait plus utile que le lecteur, surtout pour ce que je fais.[loot ESP](/product/) est l'onglet dans lequel je vais vivre"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "20h",
-          "score": 0,
-          "body": "tous les scav dans le hall ont lu ça et ont ressenti un frisson"
-        },
-        {
-          "author": "ragfair_goblin",
-          "age": "19h",
-          "score": 0,
-          "body": "lmao"
-        },
-        {
-          "author": "Marrow",
-          "age": "18h",
-          "score": 0,
-          "body": "tracer la distance et les couleurs personnalisées sont également utiles. faites des choses chères une couleur que vous ne pouvez pas manquer"
-        }
-      ]
-    },
-    {
-      "slug": "tarkov-cheat-loader-not-working-what-to-check",
-      "category": "Aide à la configuration",
+      "slug": "the-isle-update-problems-troubleshooting",
+      "category": "Support technique",
       "categoryTone": "green",
-      "title": "Le chargeur de triche Tarkov ne fonctionne pas, que dois-je vérifier en premier ?",
-      "excerpt": "Quelqu'un ne peut pas faire fonctionner les choses et le fil de discussion crée une liste de contrôle des paramètres, de l'état et des étapes de support de Windows.",
-      "author": "cableknot",
-      "age": "5h",
-      "published": "2026-09-02",
-      "commentsCount": 12,
-      "upvotes": 67,
+      "title": "Une mise à jour de The Isle a cassé quelque chose. Que vérifier en premier ?",
+      "excerpt": "Une checklist pratique pour enquêter sur les plantages, les réglages modifiés et les problèmes inattendus après un patch.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-10-16",
+      "commentsCount": 7,
+      "upvotes": 31,
       "body": [
-        "J'ai le chargeur mais il ne fait pas ce qu'il est censé faire. aucune idée par où commencer. Windows 11. aide s'il vous plaît"
+        "À chaque mise à jour d'un jeu, je stresse que quelque chose arrête de marcher.",
+        "Si The Isle commence à planter ou à se comporter autrement après un patch, quel est l'ordre sensé pour vérifier les choses ? Je vérifie les fichiers d'abord, je réinstalle les pilotes, ou j'attends juste de voir si d'autres signalent le même problème ?"
       ],
       "comments": [
-        {
-          "author": "Marrow",
-          "age": "4h",
-          "score": 0,
-          "body": "première chose, un patch est-il sorti récemment ?vérifiez la [page d'état](/) avant toute chose"
-        },
-        {
-          "author": "cableknot",
-          "age": "4h",
-          "score": 0,
-          "body": "hmm je ne suis pas sûr, comment puis-je le savoir"
-        },
-        {
-          "author": "Marrow",
-          "age": "3h",
-          "score": 0,
-          "body": "la page d'état sur le site le montre. si c'est à mi-mise à jour, attendre est la solution"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "3h",
-          "score": 0,
-          "body": "la deuxième chose concerne les paramètres Windows. les produits répertorient hvci activé, isolation principale activée, tpm activé, démarrage sécurisé activé. les mises à jour retournent parfois des choses, alors revérifiez.[liste de contrôle de configuration](/blog/how-to-set-up-escape-from-tarkov-cheats-requirements/) a la liste complète"
-        },
-        {
-          "author": "cableknot",
-          "age": "2h",
-          "score": 0,
-          "body": "comment puis-je vérifier hvci mdr"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "2h",
-          "score": 0,
-          "body": "sécurité Windows, sécurité des appareils, détails de l'isolation principale.l'intégrité de la mémoire est la bascule hvci"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "2h",
-          "score": 0,
-          "body": "assurez-vous également que vous exécutez tout ce qui nécessite des droits d'administrateur en tant qu'administrateur. et cloud dma si vous souhaitez toutes les fonctionnalités"
-        },
-        {
-          "author": "cableknot",
-          "age": "1h",
-          "score": 0,
-          "body": "ok, je vérifie maintenant"
-        },
-        {
-          "author": "cableknot",
-          "age": "45m",
-          "score": 0,
-          "body": "l'intégrité de la mémoire était désactivée. je l'ai allumé et redémarré, je testerai ce soir"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "40m",
-          "score": 0,
-          "body": "classique"
-        },
-        {
-          "author": "Marrow",
-          "age": "30m",
-          "score": 0,
-          "body": "s'il est toujours cassé, [ouvrez un ticket](/support/) sur le site ou cliquez sur Discord et incluez votre identifiant de commande. ils ne peuvent pas trouver vos affaires sans cela"
-        },
-        {
-          "author": "cableknot",
-          "age": "20m",
-          "score": 0,
-          "body": "merci à tous"
-        }
-      ]
+        { "author": "Volt", "age": "", "score": 9, "body": "Regarde d'abord les notes de patch officielles et les signalements récents. Ça te donne une idée si c'est généralisé." },
+        { "author": "PacketLoss", "age": "", "score": 8, "body": "Si le problème a l'air local, vérifier les fichiers du jeu est une étape précoce raisonnable." },
+        { "author": "Grub", "age": "", "score": 14, "body": "Ne réinstalle pas Windows parce qu'un jeu a planté. S'il te plaît." },
+        { "author": "Volt", "age": "", "score": 7, "body": "Personne ne devrait faire ça en première étape de toute façon." },
+        { "author": "Nori", "age": "", "score": 10, "body": "Note le vrai message d'erreur s'il y en a un. « C'est cassé » n'aide pas beaucoup quand on demande du support." },
+        { "author": "OP", "age": "", "score": 5, "body": "Juste. En général je redémarre Steam trois fois et j'espère le mieux." },
+        { "author": "Grub", "age": "", "score": 11, "body": "Le rituel sacré du dépannage." }
+      ],
+      "sourceTitle": "Guide de dépannage The Isle",
+      "sourcePath": "/blog/the-isle-cheat-not-working-fixes/"
     },
     {
-      "slug": "how-to-check-tarkov-cheat-status-after-patch",
-      "category": "Statut et mises à jour",
+      "slug": "the-isle-third-party-software-buying-checklist",
+      "category": "Logiciels et compatibilité",
       "categoryTone": "orange",
-      "title": "Comment savoir si le cheat Tarkov est mis à jour après un patch ?",
-      "excerpt": "Un gros patch vient d'arriver et tout le monde se demande la même chose : est-il déjà sûr de le charger ?Le fil couvre d'abord la vérification de l'état.",
-      "author": "lastextract",
-      "age": "6h",
-      "published": "2026-10-04",
-      "commentsCount": 10,
-      "upvotes": 203,
+      "title": "Que vérifier avant d'acheter un outil de jeu tiers ?",
+      "excerpt": "Une discussion sur la documentation, la compatibilité, les conditions de remboursement et les risques de compte avant de payer un logiciel de gaming tiers.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-08-30",
+      "commentsCount": 7,
+      "upvotes": 47,
       "body": [
-        "Le patch vient de tomber et j'ai hâte de jouer. comment puis-je savoir si la triche est prête ou dois-je simplement attendre ?"
+        "Question rapide pour ceux qui recherchent un logiciel de gaming avant de l'acheter.",
+        "Que vérifiez-vous vraiment en premier ? Chaque site a l'air très confiant, mais c'est dur de savoir ce qui est documenté et ce qui n'est que du marketing.",
+        "Je préfère passer dix minutes à bien vérifier plutôt que de payer un outil qui ne marche pas sur ma config ou qui crée des problèmes de compte."
       ],
       "comments": [
-        {
-          "author": "Marrow",
-          "age": "5h",
-          "score": 0,
-          "body": "[page d'état](/).la page produit vous dit littéralement de la vérifier après les gros correctifs avant de la charger"
-        },
-        {
-          "author": "lastextract",
-          "age": "5h",
-          "score": 0,
-          "body": "c'est ça? pas d'annonce de discorde ?"
-        },
-        {
-          "author": "Marrow",
-          "age": "4h",
-          "score": 0,
-          "body": "Discord est là pour les questions mais la page de statut est le premier arrêt"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "4h",
-          "score": 0,
-          "body": "la patience est dure quand le wipe vient de commencer mdr"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "3h",
-          "score": 0,
-          "body": "personne ne veut l'entendre, mais attendre quelques heures vaut mieux se précipiter. Les correctifs changent les choses et l'outil peut avoir besoin d'être actualisé."
-        },
-        {
-          "author": "lastextract",
-          "age": "3h",
-          "score": 0,
-          "body": "ouais ok. mais j'ai l'impression de perdre du temps"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "2h",
-          "score": 0,
-          "body": "vous perdez moins de temps que si quelque chose se brise en plein raid"
-        },
-        {
-          "author": "lastextract",
-          "age": "2h",
-          "score": 0,
-          "body": "juste"
-        },
-        {
-          "author": "Marrow",
-          "age": "1h",
-          "score": 0,
-          "body": "Ne présumez pas non plus que les mêmes règles s’appliquent à l’arène. les raids et l'arène sont des clés distinctes sur celui-ci. La page [Escape From Tarkov cheats](/product/) appelle uniquement les raids"
-        },
-        {
-          "author": "lastextract",
-          "age": "45m",
-          "score": 0,
-          "body": "noté, merci"
-        }
-      ]
-    },
-    {
-      "slug": "tarkov-battleye-ban-honest-talk-risk",
-      "category": "Anti-triche",
-      "categoryTone": "orange",
-      "title": "BattlEye sur Tarkov : discussion honnête sur le risque de ban",
-      "excerpt": "Une conversation directe sur BattlEye, pourquoi aucun outil n'est sans risque et quelles habitudes comptent.",
-      "author": "quietpmc",
-      "age": "4d",
-      "published": "2026-08-14",
-      "commentsCount": 11,
-      "upvotes": 331,
-      "body": [
-        "Je sais que les gens veulent un oui ou un non ici, mais à quel point est-ce vraiment risqué avec Battleye ?pas de discours marketing s'il vous plaît"
+        { "author": "ByteMe", "age": "", "score": 12, "body": "[Conditions de remboursement](/terms/). Lis-les avant de payer, pas après que quelque chose a mal tourné." },
+        { "author": "Kite", "age": "", "score": 11, "body": "La documentation de compatibilité compte. Si la version exacte du jeu et ton système d'exploitation ne sont pas couverts, ne suppose pas que ça marchera." },
+        { "author": "Fern", "age": "", "score": 10, "body": "Vérifie aussi les règles du jeu. Certains logiciels peuvent mettre ton compte en danger même si un vendeur affirme que c'est sûr." },
+        { "author": "Tusk", "age": "", "score": 9, "body": "Et méfie-toi des téléchargements qui demandent de désactiver les protections de sécurité. C'est un signal d'alarme énorme." },
+        { "author": "ByteMe", "age": "", "score": 13, "body": "D'accord. Un site qui dit « 100 % sûr » ne prouve rien." },
+        { "author": "OP", "age": "", "score": 4, "body": "Et le support ? Un serveur Discord suffit ?" },
+        { "author": "Kite", "age": "", "score": 8, "body": "C'est un moyen de contact, pas une garantie de qualité. Cherche une documentation claire, de vraies conditions et un moyen de contacter le responsable." }
       ],
-      "comments": [
-        {
-          "author": "Halvorsen",
-          "age": "3d",
-          "score": 0,
-          "body": "La réponse directe est qu'il y a un risque. quiconque vous dit le contraire vend quelque chose"
-        },
-        {
-          "author": "quietpmc",
-          "age": "3d",
-          "score": 0,
-          "body": "apprécier que"
-        },
-        {
-          "author": "Marrow",
-          "age": "3d",
-          "score": 0,
-          "body": "battleye est au niveau du noyau et est mis à jour, alors oui. rien ici n'est une promesse"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "2d",
-          "score": 0,
-          "body": "ce fil va gâcher ma nuit"
-        },
-        {
-          "author": "Marrow",
-          "age": "2d",
-          "score": 0,
-          "body": "ça devrait gâcher un peu ta soirée. ça s'appelle être informé"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "2d",
-          "score": 0,
-          "body": "les choses que les gens disent habituellement aident : paramètres modestes, suivez exactement le guide, répondez aux exigences de Windows, vérifiez l'état après les correctifs"
-        },
-        {
-          "author": "quietpmc",
-          "age": "1d",
-          "score": 0,
-          "body": "le comportement évident est-il un facteur ?"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "1d",
-          "score": 0,
-          "body": "cela vous fait signaler, et les rapports comptent. tourner sur les gens à travers les murs dans un hall rempli de monde n'est pas subtil"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "1d",
-          "score": 0,
-          "body": "lmao, c'est pratiquement tous les clips de tricheurs de tous les temps"
-        },
-        {
-          "author": "quietpmc",
-          "age": "23h",
-          "score": 0,
-          "body": "ok ouais, c'est logique. merci de ne pas édulcorer"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "22h",
-          "score": 0,
-          "body": "si vous décidez de le faire, vous acceptez le risque.c'est l'affaire.[BattlEye and Tarkov cheats](/blog/battleye-and-escape-from-tarkov-cheats-what-to-know/) est l'article le plus long si vous le souhaitez"
-        }
-      ]
+      "sourceTitle": "Informations de compatibilité logicielle",
+      "sourcePath": "/product/"
     },
     {
-      "slug": "tarkov-hwid-ban-does-a-spoofer-help",
-      "category": "Aide au bannissement",
-      "categoryTone": "green",
-      "title": "J'ai pris un ban HWID sur Tarkov, un spoofer aide-t-il vraiment ?",
-      "excerpt": "Un joueur est bloqué après un ban matériel et le fil explique ce qu'un spoofer change, ce qu'il ne peut pas réparer et comment l'exécuter.",
-      "author": "brokenpc_dave",
-      "age": "1d",
-      "published": "2026-09-09",
-      "commentsCount": 12,
-      "upvotes": 174,
-      "body": [
-        "mon nouveau compte a été banni en quelques minutes et tout le monde dit que c'est un ban hwid. qu'est-ce que c'est et est-ce qu'un spoofer répare le problème ?fatigué d'acheter de nouveaux exemplaires"
-      ],
-      "comments": [
-        {
-          "author": "Halvorsen",
-          "age": "23h",
-          "score": 0,
-          "body": "hwid ban signifie que le ban suit vos identifiants matériels, pas seulement le compte.c'est pourquoi les nouveaux comptes continuent de mourir.[HWID bans](/blog/tarkov-hwid-ban-how-hwid-spoofer-works/) explique la différence"
-        },
-        {
-          "author": "brokenpc_dave",
-          "age": "22h",
-          "score": 0,
-          "body": "ahh ok ça explique ça"
-        },
-        {
-          "author": "Marrow",
-          "age": "21h",
-          "score": 0,
-          "body": "un spoofer change ces identifiants. le [HWID spoofer](/hwid-spoofer/) nous avons des modifications sur les numéros de série des disques, les adresses Mac, les identifiants GPU et autres éléments associés.l'évasion de Tarkov est répertoriée sous les titres Battleye"
-        },
-        {
-          "author": "brokenpc_dave",
-          "age": "20h",
-          "score": 0,
-          "body": "est-ce qu'il faut autre chose ?"
-        },
-        {
-          "author": "Marrow",
-          "age": "19h",
-          "score": 0,
-          "body": "le nettoyeur. les traces restantes peuvent toujours être sur votre système, le nettoyage en fait donc partie. Le produit indique que le nettoyant est inclus.[comment fonctionne un spoofer HWID](/blog/tarkov-hwid-ban-how-hwid-spoofer-works/) couvre la commande"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "18h",
-          "score": 0,
-          "body": "donc en gros, usurper, nettoyer, puis lancer"
-        },
-        {
-          "author": "Marrow",
-          "age": "17h",
-          "score": 0,
-          "body": "suivez le guide actuel pour connaître la commande exacte, ne vous fiez pas à mon résumé"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "16h",
-          "score": 0,
-          "body": "les exigences sont Windows 10/11 64 bits, droits d'administrateur, Internet stable et hvci, isolation du noyau, tpm, démarrage sécurisé"
-        },
-        {
-          "author": "brokenpc_dave",
-          "age": "15h",
-          "score": 0,
-          "body": "et si mon ancien compte est banni ?"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "14h",
-          "score": 0,
-          "body": "ce compte reste banni. Le spoofer est destiné au matériel, pas à l'annulation d'un ban de compte. tu as besoin d'un nouveau compte"
-        },
-        {
-          "author": "brokenpc_dave",
-          "age": "13h",
-          "score": 0,
-          "body": "a du sens. prix?"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "12h",
-          "score": 0,
-          "body": "50 monthly or 150 lifetime on the product page"
-        }
-      ]
-    },
-    {
-      "slug": "can-you-stream-tarkov-with-esp-streamproof-obs",
-      "category": "Caractéristiques",
-      "categoryTone": "purple",
-      "title": "Pouvez-vous diffuser ou enregistrer Tarkov avec ESP sans qu'il apparaisse dans OBS ?",
-      "excerpt": "Un streamer demande ce que signifie réellement streamproof et le fil de discussion couvre ce qu'il fait et ne couvre pas.",
-      "author": "smallstreamer_ash",
-      "age": "8h",
-      "published": "2026-08-26",
-      "commentsCount": 10,
-      "upvotes": 95,
-      "body": [
-        "j'ai environ 12 téléspectateurs mdr mais j'enregistre. Est-ce que l'ESP Streamproof reste réellement hors des obs ou est-ce juste un mot à la mode ?"
-      ],
-      "comments": [
-        {
-          "author": "dusk_gunner",
-          "age": "7h",
-          "score": 0,
-          "body": "la page produit indique que l'esp et les menus restent hors des obs et de la plupart des outils de capture.[streamproof expliqué](/blog/streamproof-tarkov-cheats-for-streamers/) explique ce que signifie le plus"
-        },
-        {
-          "author": "smallstreamer_ash",
-          "age": "6h",
-          "score": 0,
-          "body": "la plupart?"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "6h",
-          "score": 0,
-          "body": "ouais, c'est le libellé. alors teste ta propre configuration"
-        },
-        {
-          "author": "Marrow",
-          "age": "5h",
-          "score": 0,
-          "body": "faire un enregistrement de test rapide. ouvrez le menu, activez l'ESP, enregistrez dix secondes, regardez-le en arrière. si quelque chose s'affiche, arrête"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "5h",
-          "score": 0,
-          "body": "12 viewers will absolutely spot you pre firing every corner"
-        },
-        {
-          "author": "smallstreamer_ash",
-          "age": "4h",
-          "score": 0,
-          "body": "impoli mais juste"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "4h",
-          "score": 0,
-          "body": "c’est là le vrai problème. streamproof masque la superposition, il ne cache pas le comportement. les clips sont examinés"
-        },
-        {
-          "author": "smallstreamer_ash",
-          "age": "3h",
-          "score": 0,
-          "body": "ouais, c'est un bon point. alors gardez les paramètres modestes"
-        },
-        {
-          "author": "Marrow",
-          "age": "2h",
-          "score": 0,
-          "body": "ouais, petit champ de vision, uniquement visibles, étiquettes minimales. semble plus normal à l’écran. La page [streamproof Tarkov cheats](/product/) le répertorie sous les fonctionnalités si vous souhaitez confirmer"
-        },
-        {
-          "author": "smallstreamer_ash",
-          "age": "1h",
-          "score": 0,
-          "body": "merci à tous"
-        }
-      ]
-    },
-    {
-      "slug": "tarkov-raids-key-vs-arena-key-same-cheat",
-      "category": "Questions d'achat",
+      "slug": "what-does-esp-mean-in-gaming",
+      "category": "Questions de jeu",
       "categoryTone": "blue",
-      "title": "Clé raids Tarkov vs clé Arena : est-ce le même cheat ?",
-      "excerpt": "Quelqu'un suppose qu'un seul achat couvre tout. Ce n'est pas le cas, et le fil explique pourquoi.",
-      "author": "arena_andy",
-      "age": "2d",
-      "published": "2026-08-09",
-      "commentsCount": 8,
-      "upvotes": 58,
+      "title": "Que signifie ESP dans le gaming ?",
+      "excerpt": "Un débutant demande une explication d'un acronyme courant du gaming et reçoit une réponse en langage simple sur ce que ça veut dire et pourquoi le contexte compte.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-09-02",
+      "commentsCount": 6,
+      "upvotes": 55,
       "body": [
-        "je joue aux raids et à l'arène. si j'achète le cheat eft, est-ce qu'il couvre aussi l'arène ou ai-je besoin d'autre chose ?"
+        "J'ai vu des gens parler d'ESP dans des discussions gaming et j'ai réalisé que je ne sais pas vraiment ce que signifie l'abréviation.",
+        "Est-ce un terme général pour voir des infos supplémentaires à l'écran, ou ça désigne un type particulier de logiciel ? Je le vois dans différents jeux, donc je suppose que le sens exact dépend du contexte."
       ],
       "comments": [
-        {
-          "author": "Marrow",
-          "age": "1d",
-          "score": 0,
-          "body": "la page produit indique uniquement les raids et la clé séparée de l'arène. donc non, un seul achat ne couvre pas les deux. la licence [main raids](/product/) est ce que vous achetez"
-        },
-        {
-          "author": "arena_andy",
-          "age": "1d",
-          "score": 0,
-          "body": "pouah ok. donc celui de gauche est juste pour le tarkov principal"
-        },
-        {
-          "author": "Marrow",
-          "age": "23h",
-          "score": 0,
-          "body": "ouais"
-        },
-        {
-          "author": "gloomfarmer",
-          "age": "22h",
-          "score": 0,
-          "body": "hypothèse classique"
-        },
-        {
-          "author": "arena_andy",
-          "age": "21h",
-          "score": 0,
-          "body": "tais-toi mdr"
-        },
-        {
-          "author": "dusk_gunner",
-          "age": "20h",
-          "score": 0,
-          "body": "ça vaut la peine de lire cette ligne avant d'acheter.c'est dit en haut et dans la FAQ"
-        },
-        {
-          "author": "Halvorsen",
-          "age": "19h",
-          "score": 0,
-          "body": "si vous n'êtes pas sûr de quelque chose, [demandez au support](/support/) avant de payer, un ticket ou un discord, comme vous le souhaitez"
-        },
-        {
-          "author": "arena_andy",
-          "age": "18h",
-          "score": 0,
-          "body": "ça ira. merci"
-        }
-      ]
+        { "author": "Moss", "age": "", "score": 14, "body": "En général ça veut dire perception extrasensorielle. Dans le gaming, les gens l'utilisent souvent pour des outils qui révèlent des informations que tu ne pourrais normalement pas voir." },
+        { "author": "Volt", "age": "", "score": 9, "body": "Ouais, même si parfois on utilise le mot un peu largement pour les overlays en général. Le contexte compte." },
+        { "author": "Kite", "age": "", "score": 8, "body": "Un overlay d'interface normal et un outil qui révèle des positions de joueurs cachées ne sont pas automatiquement la même chose." },
+        { "author": "Moss", "age": "", "score": 10, "body": "Exactement. Un overlay de carte qui utilise des infos que le jeu fournit légitimement, c'est une situation différente de quelque chose conçu pour révéler des ennemis cachés." },
+        { "author": "OP", "age": "", "score": 5, "body": "Ça clarifie. Je pensais toujours que c'était le nom d'un programme précis." },
+        { "author": "Volt", "age": "", "score": 7, "body": "Non, plutôt une étiquette de catégorie dans la plupart de ces conversations." }
+      ],
+      "sourceTitle": "FAQ gameplay The Isle",
+      "sourcePath": "/blog/the-isle-esp-options-explained/"
+    },
+    {
+      "slug": "the-isle-third-party-software-ban-risk",
+      "category": "Compte et sécurité",
+      "categoryTone": "orange",
+      "title": "Un logiciel tiers peut-il faire bannir ton compte de jeu ?",
+      "excerpt": "Les joueurs discutent pourquoi les affirmations de compatibilité logicielle n'annulent pas les règles du jeu et pourquoi il faut d'abord vérifier les politiques officielles.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-07-23",
+      "commentsCount": 7,
+      "upvotes": 49,
+      "body": [
+        "Est-ce que d'autres trouvent confus qu'un outil tiers dise qu'il est compatible avec un jeu, alors que les règles du jeu peuvent quand même l'interdire ?",
+        "J'essaie de comprendre la différence entre un logiciel qui tourne techniquement et un logiciel vraiment autorisé. Ça a l'air d'être deux questions très différentes."
+      ],
+      "comments": [
+        { "author": "Fern", "age": "", "score": 12, "body": "Elles sont différentes. Un programme peut se lancer correctement et quand même violer les règles du jeu." },
+        { "author": "ByteMe", "age": "", "score": 11, "body": "La compatibilité veut dire que ça peut tourner. Ça ne veut pas dire que le développeur l'approuve." },
+        { "author": "Nori", "age": "", "score": 10, "body": "Aussi, ne traite pas les affirmations de risque de ban d'un vendeur comme une information officielle. Vérifie les règles et politiques d'application du jeu lui-même." },
+        { "author": "Moss", "age": "", "score": 8, "body": "Ça s'applique à plus que les cheats, honnêtement. Mods, automatisation et autres outils tiers peuvent tous avoir des règles différentes selon le jeu." },
+        { "author": "OP", "age": "", "score": 4, "body": "Donc le seul endroit fiable pour confirmer ce qui est autorisé, c'est la politique officielle ?" },
+        { "author": "Fern", "age": "", "score": 9, "body": "C'est le point de départ sensé. Si la politique n'est pas claire, demande au support officiel plutôt que de te fier à une page de vente." },
+        { "author": "ByteMe", "age": "", "score": 7, "body": "Et rappelle-toi que personne en dehors du développeur ne peut garantir ce que sera l'application dans chaque situation." }
+      ],
+      "sourceTitle": "FAQ logiciels tiers",
+      "sourcePath": "/blog/the-isle-anti-cheat-bans-and-risk/"
+    },
+    {
+      "slug": "what-is-an-hwid-spoofer-explained",
+      "category": "Logiciels et compatibilité",
+      "categoryTone": "orange",
+      "title": "Qu'est-ce qu'un HWID spoofer, et pourquoi en parle-t-on ?",
+      "excerpt": "Une explication claire des identifiants matériels, de la terminologie courante et pourquoi les affirmations de spoofing méritent un examen attentif.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-10-07",
+      "commentsCount": 7,
+      "upvotes": 41,
+      "body": [
+        "Je vois sans cesse le terme HWID spoofer dans les discussions sur les logiciels de gaming. Je comprends que HWID a un rapport avec l'identification d'un ordinateur, mais le reste n'est pas très clair.",
+        "Est-ce un type général d'utilitaire, et y a-t-il des raisons légitimes pour lesquelles les identifiants matériels sont modifiés ou rapportés différemment ? Je cherche surtout une explication de base parce que beaucoup de discussions partent du principe que tout le monde sait déjà ce que ça veut dire."
+      ],
+      "comments": [
+        { "author": "Volt", "age": "", "score": 11, "body": "HWID désigne généralement un identifiant matériel ou un ensemble de caractéristiques d'appareil utilisées pour distinguer une machine." },
+        { "author": "Kite", "age": "", "score": 10, "body": "Un spoofer est en général un logiciel qui tente de faire apparaître des informations d'identification différemment à un programme ou système particulier." },
+        { "author": "Fern", "age": "", "score": 9, "body": "Le point important, c'est que tous les identifiants ne fonctionnent pas de la même façon, et changer une valeur rapportée ne change pas forcément tous les identifiants associés à un appareil." },
+        { "author": "Nori", "age": "", "score": 8, "body": "Aussi, le mot « spoofer » est utilisé assez largement en marketing. Tu ne devrais pas supposer qu'un produit fait tout ce que sa description laisse entendre." },
+        { "author": "OP", "age": "", "score": 4, "body": "Donc ce n'est pas forcément un changement universel de l'identité de tout le PC ?" },
+        { "author": "Volt", "age": "", "score": 7, "body": "Correct. Les détails dépendent de quel système vérifie et de ce que le logiciel change réellement." },
+        { "author": "Fern", "age": "", "score": 12, "body": "Et si le but est de contourner un système de ban ou d'application d'un jeu, ça peut violer ses règles et causer d'autres problèmes de compte." }
+      ],
+      "sourceTitle": "Glossaire des identifiants matériels",
+      "sourcePath": "/hwid-spoofer/"
+    },
+    {
+      "slug": "verify-the-isle-third-party-tool-updates",
+      "category": "Support technique",
+      "categoryTone": "green",
+      "title": "Un outil tiers dit qu'il est à jour. Comment le vérifier ?",
+      "excerpt": "Une discussion sur l'interprétation des avis de mise à jour logicielle et comment éviter les hypothèses non étayées après un patch du jeu.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-09-13",
+      "commentsCount": 7,
+      "upvotes": 34,
+      "body": [
+        "Le jeu est mis à jour, et soudain chaque page de logiciel a un avis de mise à jour. Mais comment savoir si cet avis signifie vraiment quelque chose d'utile ?",
+        "Je ne parle pas de comment installer quoi que ce soit. Je demande quelles preuves chercher avant de faire confiance à une affirmation de compatibilité."
+      ],
+      "comments": [
+        { "author": "Kite", "age": "", "score": 10, "body": "Cherche une référence précise de version ou de build plutôt qu'une vague étiquette « mis à jour »." },
+        { "author": "ByteMe", "age": "", "score": 11, "body": "La documentation vaut mieux qu'un compte à rebours et une bannière tape-à-l'œil." },
+        { "author": "Volt", "age": "", "score": 9, "body": "Consulte l'historique des versions du logiciel s'il en existe un. Un changelog daté donne plus de contexte qu'un badge « actuel »." },
+        { "author": "Nori", "age": "", "score": 8, "body": "Et assure-toi que la documentation parle de ta version réelle du jeu. Des noms similaires ne veulent pas forcément dire des versions compatibles." },
+        { "author": "OP", "age": "", "score": 4, "body": "Est-ce que vous attendriez que d'autres confirment que ça marche ?" },
+        { "author": "Kite", "age": "", "score": 7, "body": "Les retours indépendants peuvent être utiles, mais les anecdotes ne sont pas des garanties. Vérifie aussi si les retours portent sur la même version et la même config." },
+        { "author": "ByteMe", "age": "", "score": 12, "body": "La meilleure réponse, c'est la plus ennuyeuse : documentation précise, canaux de support clairs et aucune promesse qui ne peut pas être étayée." }
+      ],
+      "sourceTitle": "Documentation de compatibilité",
+      "sourcePath": "/faq/"
+    },
+    {
+      "slug": "the-isle-technical-support-request-checklist",
+      "category": "Support technique",
+      "categoryTone": "green",
+      "title": "Quelles infos inclure dans une demande de support technique ?",
+      "excerpt": "Les joueurs partagent ce qu'il faut mettre dans un post de support pour que les autres puissent diagnostiquer un problème sans redemander sans cesse les détails de base.",
+      "author": "OP",
+      "age": "",
+      "published": "2026-08-12",
+      "commentsCount": 7,
+      "upvotes": 37,
+      "body": [
+        "Chaque fois que je demande de l'aide pour un problème de jeu, les cinq premières réponses demandent toujours les mêmes infos.",
+        "Quels détails dois-je inclure dans le post d'origine pour que les gens puissent vraiment aider au lieu de jouer aux vingt questions ?",
+        "Je pense à la version du jeu, les specs PC et un message d'erreur s'il y en a un, mais peut-être qu'il me manque quelque chose d'important."
+      ],
+      "comments": [
+        { "author": "Volt", "age": "", "score": 10, "body": "Inclus ce qui s'est passé, ce que tu attendais, et si tu peux le reproduire." },
+        { "author": "Milo", "age": "", "score": 9, "body": "Les messages d'erreur exacts sont utiles. Les captures d'écran aident aussi, tant que tu masques toute info personnelle." },
+        { "author": "PacketLoss", "age": "", "score": 8, "body": "Mentionne quand ça a commencé. Si le problème est apparu après un patch ou une mise à jour de pilote, ce détail peut aider à cerner." },
+        { "author": "Grub", "age": "", "score": 14, "body": "S'il te plaît, ne poste pas « jeu cassé, fix ? » sans aucun contexte. On n'est pas médiums." },
+        { "author": "Nori", "age": "", "score": 7, "body": "Ajoute ce que tu as déjà essayé, mais liste les étapes réelles. Sinon trois personnes recommanderont la même chose." },
+        { "author": "OP", "age": "", "score": 5, "body": "Donc en gros donner assez d'infos pour reproduire plutôt que juste dire que ça ne marche pas." },
+        { "author": "Volt", "age": "", "score": 11, "body": "Exactement. Et ne poste jamais de mots de passe, de tokens de compte ou d'autres identifiants privés dans un fil de support." }
+      ],
+      "sourceTitle": "FAQ support technique",
+      "sourcePath": "/support/"
     }
   ]
 }

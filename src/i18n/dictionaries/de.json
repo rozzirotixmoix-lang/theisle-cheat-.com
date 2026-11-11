@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "EFT CHEATS",
-    "domain": "eftcheat.net",
-    "title": "Escape From Tarkov Cheats |ESP, Aimbot & Loot ESP",
-    "description": "Player-ESP, Loot-ESP, Aimbot und kein Rückstoß für PMC-Raids unter Windows, mit Loader-Updates nach Patches. Vergleichen Sie Pläne unter {siteDomain}."
+    "name": "the isle cheats",
+    "domain": "theisle-cheat.com",
+    "title": "the isle cheats für Evrima und Horde unter Windows",
+    "description": "the isle cheats: Spieler-ESP, World-ESP, Aim und Radar am PC. $35 für 31 Tage oder $150 Lifetime. Status prüfen, dann Pläne vergleichen."
   },
   "nav": [
     {
@@ -11,12 +11,6 @@
       "href": "/product/",
       "label": "Produkt",
       "shortLabel": "Produkt"
-    },
-    {
-      "id": "hwidSpoofer",
-      "href": "/hwid-spoofer/",
-      "label": "HWID-Spoofer",
-      "shortLabel": "HWID"
     },
     {
       "id": "blog",
@@ -36,19 +30,19 @@
     {
       "id": "support",
       "href": "/support/",
-      "label": "Unterstützung"
+      "label": "Support"
     }
   ],
   "hero": {
-    "status": "Escape From Tarkov, Patch-Build online",
-    "eyebrow": "Nr. 1 CHEATS-ANBIETER",
-    "titleLine1": "Escape From Tarkov",
-    "titleLine2": "Cheats",
-    "subtitle": "PMCs, Loot und Extrakte klar im Blick, dann Kämpfe mit abgestimmtem Aim und Recoil-Kontrolle beenden. Presets und Loader-Updates an Patch-Tagen über {siteDomain}.",
+    "status": "The Isle, Patch-Build online",
+    "eyebrow": "#1 CHEATS PROVIDER",
+    "titleLine1": "The Isle",
+    "titleLine2": "Raid-Kit",
+    "subtitle": "Hol the isle cheats für Evrima und Horde online, nachdem du den Status-Banner gelesen hast. Windows-Loader, Portal-Presets, danach ESP- und Aim-Feintuning.",
     "ctaPrimary": "Produkte ansehen",
     "metrics": [
       {
-        "label": "Streamproof",
+        "label": "Stream-proof",
         "strong": "Ja"
       },
       {
@@ -56,7 +50,7 @@
         "strong": "<24h"
       },
       {
-        "label": "Benutzer",
+        "label": "Nutzer",
         "strong": "300+"
       },
       {
@@ -65,142 +59,141 @@
       }
     ],
     "statusPills": [
-      "ESP aktiv",
-      "Radar online",
-      "Season-Build",
-      "Aimbot bereit",
-      "Soft Aim bereit",
-      "Kein Rückstoß",
-      "Streamproof",
-      "Loot-ESP",
-      "Skelett-ESP",
-      "UAV-Radar",
-      "Extract-ESP",
+      "ESP Active",
+      "Radar Online",
+      "Season Build",
+      "Aim Ready",
+      "Soft Aim Ready",
+      "World Markers",
+      "Stream Proof",
+      "World ESP",
+      "Skeleton ESP",
+      "Minimap Radar",
+      "Player Labels",
       "24/7 Support",
-      "Sofortige Lieferung",
-      "Raid-bereit",
-      "Trigger-Bot",
-      "Knochenauswahl",
-      "Live-Status",
-      "Automatische Updates"
+      "Instant Delivery",
+      "Evrima Ready",
+      "Combat Utils",
+      "Head Lock",
+      "Live Status",
+      "Auto Updates"
     ]
   },
   "features": {
-    "eyebrow": "Funktionen",
-    "title": "Alles, was Sie brauchen, in einem Paket",
-    "subtitle": "Spieler-ESP, Beute-ESP, Aimbot und Raid-Tools für Escape From Tarkov, gepflegt nach Patches.",
+    "eyebrow": "Features",
+    "title": "Alles, was du brauchst, in einem Paket",
+    "subtitle": "Spieler- und World-ESP, Aim-Assistance und Radar für The Isle Evrima und Horde, gepflegt nach Easy Anti-Cheat-Patches.",
     "items": [
       {
-        "title": "Spieler-ESP",
-        "subtitle": "Verfolgen Sie PMCs und Scavs.",
-        "desc": "Spielerboxen, Skelette, Namen und Entfernungsanzeigen bleiben auch bei dichten Raids lesbar.",
+        "title": "Player ESP",
+        "subtitle": "Andere Survivor klar sehen.",
+        "desc": "Box-, Snapline-, Name-, Distanz-, Health-, Stamina-, Growth-, Species-, Head-Dot- und Visible-Check-Overlays für Spieler im Busch.",
         "bullets": [
-          "PMC-, Scav- und Boss-Filter",
-          "Skelett- und Knochenmarker",
-          "Namensschilder und Entfernungsanzeigen",
-          "Gesundheits- und Ausrüstungshinweise waren aktiviert",
-          "Farbregeln pro Fraktion"
+          "Box, Snapline, Name und Distanz",
+          "Health, Stamina, Growth und Species",
+          "Head Dot und Visible-Check-Filter",
+          "Lesbare Labels in dichtem Laub"
         ],
         "tags": [
-          "escape from tarkov esp",
+          "the isle esp",
           "player esp",
-          "skeleton esp"
+          "evrima esp"
         ],
         "bento": "sm:col-span-2 lg:col-span-12 lg:col-start-1 lg:row-start-1"
       },
       {
-        "title": "Loot-ESP",
-        "subtitle": "Finden Sie schnell einen Mehrwert.",
-        "desc": "Markieren Sie Behälter, Schlüssel, Medikamente und hochrangige Beute, ohne jede Schublade durchsuchen zu müssen.",
+        "title": "World ESP",
+        "subtitle": "Die Insel um dich markieren.",
+        "desc": "NPC- und Animal-ESP plus Corpse-, Gore-, Fruit- und Water-Marker mit Max-Distance-Steuerung.",
         "bullets": [
-          "Artikelkategoriefilter und Preisstufen",
-          "Highlights der Container- und Leichenbeute",
-          "Quest- und Schlüsselgegenstandsmarkierungen",
-          "Abstands- und Namensschilder"
+          "NPC ESP und Animal ESP",
+          "Corpse-, Gore-, Fruit- und Water-Marker",
+          "World-ESP Max-Distance-Steuerung",
+          "Reichweite pro Session im Portal feinabstimmen"
         ],
         "tags": [
-          "loot esp",
-          "container esp",
-          "tarkov loot"
+          "world esp",
+          "animal esp",
+          "the isle markers"
         ],
         "bento": "sm:col-span-2 lg:col-span-8 lg:col-start-1 lg:row-start-2"
       },
       {
-        "title": "Aimbot",
+        "title": "Aim assistance",
         "subtitle": "Kontrollierte Zielhilfe.",
-        "desc": "Weiche Ziel- und Knochenauswahl mit Sichtfeld und Glättungsreglern, die auf Raids und nicht auf Rage-Standards abgestimmt sind.",
+        "desc": "FOV, Smoothing, Lock und Head-only-Optionen – erst hochdrehen, wenn konservative Portal-Presets stabil wirken.",
         "bullets": [
-          "FOV- und Glättungskontrollen",
-          "Knochenauswahl und Zielpriorität",
-          "Sichtprüfungen",
-          "Hotkey-Umschaltung pro Waffenklasse"
+          "FOV- und Smoothing-Steuerung",
+          "Lock- und Head-only-Optionen",
+          "Mit Portal-Defaults starten",
+          "Hotkeys für schnelles Umschalten"
         ],
         "tags": [
-          "aimbot",
+          "aim assistance",
           "soft aim",
-          "bone select"
+          "fov control"
         ],
         "bento": "sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-3"
       },
       {
-        "title": "Kein Rückstoß",
-        "subtitle": "Stabilerer Vollautomatikmodus.",
-        "desc": "Rückstoßkompensationsprofile pro Waffenfamilie mit Portalvoreinstellungen für gängige Builds.",
+        "title": "Movement & combat",
+        "subtitle": "Session-Utilities.",
+        "desc": "Movement- und Combat-Utilities liegen neben ESP und Aim, damit du nur aktivierst, was die aktuelle Hunt braucht.",
         "bullets": [
-          "Rückstoßprofile pro Waffe",
-          "Kraftschieber mit Kappen",
-          "Passt zu den FOV-Grenzwerten des Aimbot",
-          "Profile in der Cloud speichern"
+          "Movement-Utilities im Loader-Menü",
+          "Combat-Utilities pro Session umschaltbar",
+          "Passt zu ESP-Distanzcaps",
+          "Mix in einer Cloud-Config speichern"
         ],
         "tags": [
-          "no recoil",
-          "recoil control",
-          "weapon profiles"
+          "movement utils",
+          "combat utils",
+          "the isle cheats"
         ],
         "bento": "sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-3"
       },
       {
-        "title": "Radar & Extracts",
-        "subtitle": "Kartenbewusstsein im Raid.",
-        "desc": "2D radar, extract markers and optional UAV-style hints for orientation between fights.",
+        "title": "Radar",
+        "subtitle": "Kartenbewusstsein auf der Insel.",
+        "desc": "Radar hält nahe Spieler und Marker orientiert, wenn dichter Wald die Sichtlinien schneidet.",
         "bullets": [
-          "Extrahieren und Übergangsmarkierungen",
-          "2D radar with player blips",
-          "Optionale Übersicht im UAV-Stil",
-          "Benutzerdefinierter Zoom und Deckkraft"
+          "Radar-Overlay für nahe Ziele",
+          "Arbeitet mit Spieler- und World-ESP",
+          "Nützlich bei Nacht- und Jungle-Runs",
+          "Nur aktivieren, wenn du es brauchst"
         ],
         "tags": [
-          "radar hack",
-          "extract esp",
+          "radar",
+          "minimap",
           "map awareness"
         ],
         "bento": "sm:col-span-2 lg:col-span-8 lg:row-span-2 lg:col-start-1 lg:row-start-4"
       },
       {
-        "title": "Trigger-Bot",
-        "subtitle": "Bei Ausrichtung feuern.",
-        "desc": "Optionale Auslöseunterstützung, wenn das Fadenkreuz auf gültige Ziele trifft, mit Verzögerung und Schlüsseltoren.",
+        "title": "Visual options",
+        "subtitle": "Den Feed nach deinem Stil sehen.",
+        "desc": "Crosshair, Fullbright, Show FPS, Resolution, Time, Custom Menu- und Panic-Keys plus Custom ESP Colors.",
         "bullets": [
-          "Verzögerungs- und Haltezeit-Tuning",
-          "Team und Bot ignorieren Regeln",
-          "Von Aimbot trennen",
-          "Konservative Vorgaben im Portal"
+          "Crosshair, Fullbright, Show FPS",
+          "Resolution- und Time-Helfer",
+          "Custom Menu- und Panic-Keys",
+          "Custom ESP Colors"
         ],
         "tags": [
-          "trigger bot",
-          "fire assist",
-          "tarkov cheats"
+          "fullbright",
+          "custom esp",
+          "panic key"
         ],
         "bento": "sm:col-span-2 lg:col-span-4 lg:row-span-2 lg:col-start-9 lg:row-start-4"
       },
       {
-        "title": "Streamproof",
+        "title": "Stream Proof",
         "subtitle": "Für Creator gebaut.",
-        "desc": "Behalten Sie Overlays auf Ihrem Monitor, während die Aufnahmesoftware einen sauberen Spiel-Feed aufzeichnet.",
+        "desc": "Overlays bleiben auf deinem Monitor, während Capture-Software einen sauberen Game-Feed aufnimmt.",
         "bullets": [
-          "OBS- und Game-Bar-Aufnahmemodi",
-          "Streamproof pro Modul umschaltbar",
-          "Test-Checkliste in der Portal-Doku"
+          "OBS- und Game-Bar-Capture-Modi",
+          "Stream Proof pro Modul umschalten",
+          "Test-Checkliste in den Portal-Docs"
         ],
         "tags": [
           "obs capture",
@@ -210,30 +203,30 @@
         "bento": "sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-6"
       },
       {
-        "title": "Weitere Tools",
-        "subtitle": "Raid-Tools zur Lebensqualität.",
-        "desc": "Nachtsicht, Wärmebild-Highlights, kein Schwanken und andere Schalter, zusammengefasst in einer Registerkarte „Dienstprogramme“.",
+        "title": "Misc utilities",
+        "subtitle": "Menüs und Configs.",
+        "desc": "Englische und russische Menüs, speicherbare Configs und die übrigen Session-Toggles mit dem Rest des Loaders gruppiert.",
         "bullets": [
-          "Es waren keine Schwankungs- und Ausdauer-Helfer aktiviert",
-          "Nachtsicht- und Wärmebildmodi",
-          "Fadenkreuz- und FOV-Helfer",
-          "Hotkey-Manager"
+          "Englische und russische Menüs",
+          "Speicherbare Configs pro PC",
+          "Session-Toggles an einem Ort",
+          "Nach Easy Anti-Cheat-Patches neu laden"
         ],
         "tags": [
-          "no sway",
-          "night vision",
-          "tarkov utilities"
+          "saveable configs",
+          "ru menu",
+          "the isle utilities"
         ],
         "bento": "sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-6"
       },
       {
-        "title": "Cloud-Konfiguration & Updates",
-        "subtitle": "Patch-Day bereit.",
-        "desc": "Gleiche Voreinstellungen auf jedem PC; Portal-Updates verfolgen Escape From Tarkov- und BattlEye-Patchtage.",
+        "title": "Cloud Config & Updates",
+        "subtitle": "Patchday-bereit.",
+        "desc": "Dieselben Presets auf jedem PC; Portal-Updates folgen The Isle- und Easy Anti-Cheat-Patchtagen.",
         "bullets": [
           "Cloud-Backup für Slider-Profile",
-          "Loader-Push innerhalb weniger Stunden nach Patches",
-          "Discord #status für Build-Notizen"
+          "Loader-Push innerhalb von Stunden nach Patches",
+          "Discord #status für Build-Notes"
         ],
         "tags": [
           "cloud sync",
@@ -246,189 +239,189 @@
   },
   "whyUs": {
     "eyebrow": "Warum wir",
-    "title": "Raid-Tools, die durch Patches und nicht durch Versprechen unterstützt werden",
-    "subtitle": "Viele Cheat-Shops liefern veraltete Loader, offensichtliche Rage-Presets und Ticket-Bots. {siteDomain} konzentriert sich auf Patch-Day-Loader-Builds, konservative ESP- und Zielvorgaben sowie Live-Discord-Operatoren.",
-    "usLabel": "EFT CHEATS",
+    "title": "Island-Tooling mit Patches im Rücken, nicht mit Versprechen",
+    "subtitle": "Viele Cheat-Shops liefern veraltete Loader, offensichtliche Rage-Presets und Ticket-Bots. {siteDomain} fokussiert Patchday-Loader-Builds, konservative ESP- und Aim-Defaults und Live-Discord-Operatoren.",
+    "usLabel": "the isle cheats",
     "otherLabel": "Typischer Anbieter",
     "rows": [
       {
-        "title": "Patch-Day-Loader-Updates",
-        "desc": "BattlEye-fähige Builds werden innerhalb weniger Stunden nach den Escape From Tarkov-Updates veröffentlicht; Überprüfen Sie den #Status von Discord, bevor Sie in einen Raid laden."
+        "title": "Patchday-Loader-Updates",
+        "desc": "Easy Anti-Cheat-bewusste Builds innerhalb von Stunden nach The Isle-Updates; prüfe Discord #status, bevor du einem Server joinest."
       },
       {
-        "title": "Humanisierte Ziel- und ESP-Standardeinstellungen",
-        "desc": "FOV-Begrenzungen, Glättungs- und Distanzfilter werden im Portal konservativ ausgeliefert, sodass Overlays lesbar bleiben, und nicht bei Wall-of-Box-Rage-Modi."
+        "title": "Humanisierte Aim- & ESP-Defaults",
+        "desc": "FOV-Caps, Smoothing und Distanzfilter kommen im Portal konservativ, damit Overlays lesbar bleiben – keine Wall-of-Box-Rage-Modi."
       },
       {
-        "title": "Live-Discord-Betreiber",
-        "desc": "Echte Ingenieure für Loader-Setup, Raid-Konfigurationen und HWID-Resets: Schichtabdeckung rund um die Uhr, kein Kopieren und Einfügen von FAQ-Tickets."
+        "title": "Live-Discord-Operatoren",
+        "desc": "Echte Engineers für Loader-Setup, Evrima-Configs und HWID-Resets: 24/7 Schichtabdeckung, keine Copy-Paste-FAQ-Tickets."
       },
       {
-        "title": "Externer Loader + Stream-Proof",
-        "desc": "Overlay-Suite mit OBS-Aufnahmemodi, keine riskante DLL-Injektion in den Escape From Tarkov-Prozess, wie sie bei älteren Anbietern noch üblich ist."
+        "title": "External Loader + Stream Proof",
+        "desc": "Overlay-Suite mit OBS-Capture-Modi, ohne DLL-Injection in den The Isle-Prozess wie bei Legacy-Anbietern."
       },
       {
-        "title": "Cloud-Voreinstellungssynchronisierung",
-        "desc": "PMC-, Scav- und Per-Map-Profile werden im Portal gesichert, dieselben Schieberegler auf jedem PC, ohne dass sie von Grund auf neu erstellt werden müssen."
+        "title": "Cloud-Preset-Sync",
+        "desc": "Evrima-, Horde- und Session-Profile sichern ins Portal – dieselben Slider auf jedem PC, ohne von null neu aufzubauen."
       },
       {
-        "title": "HWID-Reset und Lizenzverschiebungen",
-        "desc": "HWID-Freigaben und maschinelle Übertragungen werden über Discord-Operationen abgewickelt, die meisten Anbieter sperren ein Rig oder berechnen für jeden Austausch eine Gebühr."
+        "title": "HWID-Reset & Lizenzumzüge",
+        "desc": "HWID-Clears und Maschinen-Transfers über Discord-Ops; die meisten Anbieter sperren einen Rig oder verlangen für jeden Swap."
       }
     ],
     "metrics": [
       {
         "value": "<24h",
         "title": "Patch-Turnaround",
-        "desc": "Durchschnittliche Zeit bis zum Versand eines Lader-Builds nach größeren Änderungen an Escape From Tarkov oder BattlEye."
+        "desc": "Durchschnittliche Zeit bis zum Loader-Build nach größeren The Isle- oder Easy Anti-Cheat-Änderungen."
       },
       {
         "value": "24/7",
-        "title": "Betreiberunterstützung",
-        "desc": "Discord-Techniker sind für Einrichtungs-, Konfigurations- und Kontoprobleme im Einsatz."
+        "title": "Operator-Support",
+        "desc": "Discord-Engineers im Schichtbetrieb für Setup, Configs und Account-Themen."
       },
       {
         "value": "300+",
-        "title": "Aktive Betreiber",
-        "desc": "Windows-Spieler, die ESP, Aimbot und Dienstprogramme auf {siteDomain} ausführen."
+        "title": "Aktive Operatoren",
+        "desc": "Windows-Spieler mit ESP, Aim-Assistance und Utilities auf {siteDomain}."
       }
     ]
   },
   "setup": {
-    "eyebrow": "Einrichtungsanleitung",
-    "titleLead": "Von der Kasse bis zu Ihrem ersten Raid in nur wenigen Minuten",
-    "titleHighlight": "drei einfache Schritte",
-    "intro": "Der Einstieg ist einfach. Folgen Sie dem Ablauf des Betreiberportals, um den Loader herunterzuladen, Voreinstellungen zu laden und Escape From Tarkov unter Windows zu starten, mit Live-Discord-Hilfe, falls Sie etwas blockiert.",
+    "eyebrow": "Setup-Guide",
+    "titleLead": "Vom Checkout zur ersten Session in nur",
+    "titleHighlight": "drei einfachen Schritten",
+    "intro": "Folge dem Operator-Portal-Flow: Loader laden, Presets laden und The Isle unter Windows starten. Discord-Hilfe ist da, wenn ein Schritt blockiert.",
     "ctaPrimary": "Produkte ansehen",
-    "ctaSecondary": "Häufig gestellte Fragen zur Einrichtung",
+    "ctaSecondary": "Setup-FAQ",
     "ctaPrimaryHref": "/product/",
     "ctaSecondaryHref": "/faq/",
     "steps": [
       {
         "step": "Schritt 1",
-        "title": "Portal entsperren und Loader herunterladen",
-        "desc": "Schließen Sie den Checkout ab, öffnen Sie Ihr Operator-Dashboard und laden Sie den neuesten Patch-Loader-Build für Windows herunter."
+        "title": "Portal freischalten & Loader laden",
+        "desc": "Checkout abschließen, Operator-Dashboard öffnen und den neuesten Patch-Loader-Build für Windows ziehen."
       },
       {
         "step": "Schritt 2",
-        "title": "Module starten und konfigurieren",
-        "desc": "Führen Sie den externen Loader aus, importieren Sie Raid-Voreinstellungen und optimieren Sie ESP, Aimbot und No-Reoil-Schieberegler."
+        "title": "Starten & Module konfigurieren",
+        "desc": "External Loader starten, Portal-Presets importieren und ESP- sowie Aim-Assistance-Slider zuerst offline einstellen."
       },
       {
         "step": "Schritt 3",
-        "title": "Überprüfen Sie den Status und starten Sie Escape From Tarkov",
-        "desc": "Überprüfen Sie das Live-Statusbanner, starten Sie den Spielclient und spielen Sie mit im Portal gespeicherten Cloud-Profilen."
+        "title": "Status prüfen & The Isle starten",
+        "desc": "Live-Statusbanner prüfen, Steam-Client starten und mit Cloud-Profilen aus dem Portal spielen."
       }
     ]
   },
   "compatibility": {
-    "eyebrow": "Plattformunterstützung",
-    "title": "Läuft auf Ihrem Gerät.",
-    "subtitle": "Überprüfen Sie nach Aktualisierungen das Live-Statusbanner, bevor Sie Escape From Tarkov starten.",
+    "eyebrow": "Plattform-Support",
+    "title": "Läuft auf deinem Rig.",
+    "subtitle": "Prüfe das Live-Statusbanner, bevor du The Isle nach Updates startest.",
     "items": [
-      "Windows 10 und 11",
-      "Escape From Tarkov",
-      "BattlEye-Client",
-      "Automatischer Updater",
-      "Cloud-Synchronisierung konfigurieren",
-      "Discord-Unterstützung",
-      "HWID zurückgesetzt",
-      "Externer Lader"
+      "Windows 10 & 11",
+      "The Isle Evrima / Horde",
+      "Easy Anti-Cheat",
+      "Steam",
+      "Config Cloud Sync",
+      "Discord Support",
+      "HWID Reset",
+      "External Loader"
     ]
   },
   "cheats": {
     "eyebrow": "Hauptprodukt",
-    "title": "Escape From Tarkov-Cheats",
-    "subtitle": "Player-ESP, Loot-ESP, Aimbot, kein Rückstoß und Raid-Dienstprogramme mit vorrangiger Patch-Lieferung.",
-    "viewAll": "Produktdetails anzeigen",
+    "title": "the isle cheats",
+    "subtitle": "Spieler-, NPC- und Tier-ESP, Umweltmarker und HUD-Tools für The Isle: Evrima.",
+    "viewAll": "Produktdetails ansehen",
     "explore": "Entdecken",
     "items": [
       {
-        "badge": "Begrenzte Slots",
-        "tier": "Privat",
+        "badge": "Limited slots",
+        "tier": "Private",
         "name": "Elite",
-        "title": "Tarkov Cheats mit ESP, Aimbot & Loot ESP",
-        "desc": "Spieler-ESP, Loot-ESP, Aimbot und kein Rückstoß für die wichtigsten Tarkov-Raids. Separate Lizenz von Arena. Sofortige Lieferung; Überprüfen Sie den Status nach Patches.",
-        "heroDesc": "Nur-Raid-Lizenz mit streamproof Overlays und sofortiger Portal-Lieferung. Starte mit konservativen Presets und tune ESP sowie Aim nach dem Live-Status.",
+        "title": "Evrima-ESP-Suite mit konfigurierbaren Visuals",
+        "desc": "Spieler-, NPC- und Tier-ESP, Leichen- und Ressourcenmarker, Snaplines, Distanzlabels und Misc-HUD für The Isle: Evrima. Cloud DMA separat und Pflicht. Sofortige Lieferung; Status nach Patches prüfen.",
+        "heroDesc": "ESP- und Visual-Overlays für Evrima unter Windows. HVCI, Core Isolation, TPM, Secure Boot und Cloud DMA vor dem Kauf prüfen.",
         "features": [
-          "Spieler-ESP",
-          "Loot-ESP",
-          "Aimbot",
-          "Kein Rückstoß",
-          "Extraktionsmarker",
-          "Streamproof"
+          "Player ESP",
+          "NPC ESP",
+          "Animal ESP",
+          "Weltmarker",
+          "Misc HUD",
+          "Nur Evrima"
         ],
-        "more": 9,
+        "more": 6,
         "href": "/product/",
         "variant": "limited"
       }
     ]
   },
   "products": {
-    "eyebrow": "Speichern",
+    "eyebrow": "Store",
     "title": "Unsere Produkte",
-    "subtitle": "Raid-Cheats plus ein Hardware-Dienstprogramm, zwei Checkout-Pfade für PMC-Spiel und Maschinenwiederherstellung.",
-    "viewAll": "Alle Cheats anzeigen",
+    "subtitle": "Hauptlizenz für The Isle plus HWID Spoofer: getrennte Checkout-Pfade für Evrima-Play und Maschinen-Recovery.",
+    "viewAll": "Alle Cheats ansehen",
     "backToCheats": "Zurück zum Produkt",
     "showcaseHeading": "Produktübersicht",
     "experience": {
-      "eyebrow": "Erfahrung",
-      "title": "Loader-Ebenen · Nach dem Bezahlen",
-      "subtitle": "Verwenden Sie die Screenshots oben für das Modullayout. Nachfolgend erfahren Sie, was jede Ebene tut und wie der Portalzugang nach dem Kauf funktioniert.",
-      "previewLabel": "Ebenen im Spiel",
-      "accessDividerTop": "Vorschau",
-      "accessDividerBottom": "Zugang"
+      "eyebrow": "Experience",
+      "title": "Loader-Layer · Nach dem Checkout",
+      "subtitle": "Nutze die Screenshots oben für das Modul-Layout; darunter steht, was jede Layer macht und wie Portalzugang nach dem Kauf funktioniert.",
+      "previewLabel": "Ingame-Layer",
+      "accessDividerTop": "Preview",
+      "accessDividerBottom": "Access"
     },
     "hwidPage": {
-      "showcaseHeading": "Fake-Dashboard-Aufnahmen",
-      "overviewSubtitle": "Wie Festplatten-, MAC- und GPU-ID-Tools zur Portalvorbereitung, -überprüfung und Post-Spoof-Starts passen, bestätigen Sie zuerst den Status auf {siteDomain}.",
+      "showcaseHeading": "Portal-Panel-Screenshots",
+      "overviewSubtitle": "Disk-, MAC- und GPU-ID-Tools für Prep, Verifikation und Launches nach einem Spoof. Status zuerst auf {siteDomain} bestätigen.",
       "highlights": {
-        "eyebrow": "Schnell gelesen",
-        "title": "Was das Dienstprogramm anstrebt",
-        "desc": "Hardware-Fingerabdruckwiederherstellung, bevor Sie ein neues Escape From Tarkov-Konto anhängen, siehe die vollständige Toolliste unten."
+        "eyebrow": "Kurzüberblick",
+        "title": "Was dieses Utility abdeckt",
+        "desc": "Maschinen-Fingerabdruck wiederherstellen, bevor du einen frischen The Isle-Account verknüpfst. Die volle Tool-Liste steht unten."
       },
       "featuresSection": {
-        "eyebrow": "Werkzeuge",
-        "title": "Portalmodule enthalten",
-        "desc": "Zehn Wiederherstellungsprogramme, die Sie nach dem Auschecken über das Betreiberportal aktivieren und anpassen können."
+        "eyebrow": "Tooling",
+        "title": "Module im Portal",
+        "desc": "Zehn Recovery-Utilities, die du nach dem Checkout im Operator-Portal aktivierst und einstellst."
       },
       "experience": {
         "eyebrow": "Nach dem Kauf",
-        "title": "Dashboard-Ansichten · Zugriffsschritte",
-        "subtitle": "In der linken Spalte werden die einzelnen Screenshots erläutert. In der rechten Spalte wird aufgeführt, wie der Portalzugriff und die Spoof-Meilensteine nach der Zahlung funktionieren.",
-        "previewLabel": "Panelansichten",
-        "accessDividerTop": "Benutzeroberfläche",
-        "accessDividerBottom": "Schritte"
+        "title": "Panel-Shots · Access-Flow",
+        "subtitle": "Screenshots links; rechts Portalzugang und Spoof-Milestones nach der Zahlung.",
+        "previewLabel": "Panel-Views",
+        "accessDividerTop": "UI",
+        "accessDividerBottom": "Steps"
       },
-      "highlightsMore": "Plus {count} weitere Wiederherstellungstools im Portal, scrollen Sie zum vollständigen Modulraster."
+      "highlightsMore": "Plus {count} weitere Recovery-Tools im Portal. Scrolle zum vollen Modul-Grid."
     },
-    "swipeHint": "Für weitere Screenshots wischen",
-    "checkoutEyebrow": "Kasse",
-    "checkoutSelect": "Abonnement auswählen",
+    "swipeHint": "Wischen für mehr Screenshots",
+    "checkoutEyebrow": "Checkout",
+    "checkoutSelect": "Abo wählen",
     "checkoutSingle": "Kaufoption",
-    "checkoutTotal": "Insgesamt",
+    "checkoutTotal": "Gesamt",
     "bestValue": "Bester Wert",
-    "planMonthly": "Monatlich",
-    "planLifetime": "Lebenszeit",
-    "planOneTime": "Einmaliger Zugriff",
-    "planPerMonth": "USD/Monat",
+    "planMonthly": "Monthly",
+    "planLifetime": "Lifetime",
+    "planOneTime": "Einmaliger Zugang",
+    "planPerMonth": "USD / Monat",
     "planOneTimeNote": "USD, einmalig",
-    "get": "Erhalten",
+    "get": "Holen",
     "explore": "Entdecken",
     "buyNow": "Jetzt kaufen",
-    "viewDetails": "Details anzeigen",
+    "viewDetails": "Details ansehen",
     "items": [
       {
-        "badge": "Verfügbar",
-        "category": "Systemdienstprogramm",
-        "title": "HWID Spoofer für Escape From Tarkov",
-        "subtitle": "Seriennummern-Checks, UEFI-Spoof-Schalter und Seed-Rotation im Portal durchgehen, dann Kaltstart vor dem Login auf einem frischen Account.",
-        "desc": "Rotieren Sie Festplattenserien, MAC-Adressen und GPU-IDs über das Betreiberportal, schließen Sie die Setup-Checkliste ab, bevor Sie Escape From Tarkov starten.",
+        "badge": "Available",
+        "category": "System utility",
+        "title": "PC-Fingerabdruck-Reset für Easy Anti-Cheat Hardware-Flags",
+        "subtitle": "Wähle dieses Tool, wenn the isle easy anti cheat neue Logins auf einem PC blockiert, die woanders noch funktionieren. Spoofen, Kaltneustart, dann Identifiers bestätigen.",
+        "desc": "Über das Operator-Portal Disk-Serials, MAC-Adressen und GPU-IDs ändern, dann die Setup-Checkliste abschließen, bevor du The Isle startest.",
         "features": [
-          "Kit zur Laufwerksbereinigung und Spoofing",
-          "Rotierende Serienprofile",
-          "Kompatibilitätsscan vor dem Spoofing",
-          "Eingabeaufforderungen zur Neustartbestätigung"
+          "Drive Cleanup und Spoof-Kit",
+          "Serial-Profile-Rotation",
+          "Kompatibilitätsscan vor dem Spoof",
+          "Verifikationsprompts nach dem Reboot"
         ],
         "more": 9,
         "href": "/hwid-spoofer/"
@@ -437,158 +430,163 @@
   },
   "blog": {
     "eyebrow": "Blog",
-    "title": "Anleitungen und Updates",
-    "subtitle": "ESP- und Aimbot-Setup, Beutefilter und Patch-Day-Checks für Escape From Tarkov.",
-    "latestTitle": "Tarkov Cheat Guides & Patch-Day-Notizen",
-    "latestSubtitle": "Filtern Sie nach Themen, um Einrichtungsanleitungen, detaillierte Informationen zu Funktionen und Patch-Day-Notizen zu finden.",
+    "title": "Guides und Updates",
+    "subtitle": "ESP- und Aim-Setup, Weltmarker und Easy Anti-Cheat Patchday-Checks für The Isle.",
+    "latestTitle": "the isle cheat Guides & Patchday-Notes",
+    "latestSubtitle": "Nach Thema filtern: Setup-Guides, Feature Deep-Dives und Patchday-Notes.",
     "filterAll": "Alle Artikel",
-    "emptyFilter": "Keine Artikel entsprechen diesem Filter.",
-    "emptyArchive": "Noch keine Artikel. Hier werden neue Guides auftauchen.",
+    "emptyFilter": "Keine Artikel passen zu diesem Filter.",
+    "emptyArchive": "Noch keine Artikel. Neue Guides erscheinen hier.",
     "viewAll": "Alle Artikel ansehen",
     "read": "Lesen",
-    "articleActionsAria": "Lesen Sie weiter",
-    "buyCta": "Escape From Tarkov Cheats kaufen",
-    "buyHwidCta": "HWID-Spoofer kaufen",
-    "moreArticles": "Weitere Artikel",
-    "sidebarAria": "Artikelseitenleiste",
+    "articleActionsAria": "Weiterlesen",
+    "buyCta": "the isle cheats kaufen",
+    "buyHwidCta": "HWID Spoofer kaufen",
+    "moreArticles": "Mehr Artikel",
+    "sidebarAria": "Artikel-Sidebar",
     "tocTitle": "In diesem Artikel",
-    "relatedTitle": "Verwandte Leitfäden",
+    "relatedTitle": "Verwandte Guides",
     "filterToolbarAria": "Artikel nach Thema filtern",
     "items": []
   },
   "workflow": {
-    "eyebrow": "Wie es funktioniert",
-    "badge": "4 easy steps",
-    "titleBefore": "Von der Statusprüfung bis",
-    "titleHighlight": "gespeichertes Profil.",
-    "subtitle": "Ein direkter Weg von der Statusprüfung zu einem Raid-Profil, das Sie in jeder Sitzung wiederverwenden können.",
+    "eyebrow": "So funktioniert's",
+    "badge": "4 einfache Schritte",
+    "titleBefore": "Vom Status-Check zum",
+    "titleHighlight": "gespeicherten Profil.",
+    "subtitle": "Ein gerader Weg vom Status-Check zu einem Evrima-Profil, das du jede Session wiederverwenden kannst.",
     "ctaLabel": "Produkte ansehen",
     "ctaHref": "/product/",
-    "ctaSecondary": "Häufig gestellte Fragen zur Einrichtung",
+    "ctaSecondary": "Setup-FAQ",
     "ctaSecondaryHref": "/faq/",
     "items": [
       {
         "num": "01",
         "phase": "Vor dem Kauf",
-        "title": "Überprüfen Sie den Live-Status",
-        "desc": "Lesen Sie das Live-Banner auf {siteDomain}, bevor Sie kaufen oder starten."
+        "title": "Live-Status prüfen",
+        "desc": "Lies das Live-Banner auf {siteDomain}, bevor du kaufst oder startest."
       },
       {
         "num": "02",
-        "phase": "Kasse",
-        "title": "Wählen Sie Ihr Produkt",
-        "desc": "Wählen Sie Raid-Cheats oder das Hardware-Dienstprogramm, je nachdem, was mit Sperren, Rigs oder Konto-Resets übereinstimmt."
+        "phase": "Checkout",
+        "title": "Produkt wählen",
+        "desc": "Wähle the isle cheats oder HWID Spoofer – je nachdem, welche Flags, Rigs oder Account-Resets du hast."
       },
       {
         "num": "03",
-        "phase": "Lader",
-        "title": "Starten und konfigurieren",
-        "desc": "Laden Sie es vom Portal herunter, aktivieren Sie Module und stimmen Sie ESP und Zielschieberegler zunächst offline ab."
+        "phase": "Loader",
+        "title": "Starten & konfigurieren",
+        "desc": "Aus dem Portal laden, Module aktivieren und ESP- sowie Aim-Slider zuerst offline einstellen."
       },
       {
         "num": "04",
-        "phase": "Im Spiel",
-        "title": "Speichern Sie Ihr Profil",
-        "desc": "Wenn sich die Einstellungen richtig anfühlen, speichern Sie PMC und ordnen Sie die Voreinstellungen der Cloud zu."
+        "phase": "Ingame",
+        "title": "Profil speichern",
+        "desc": "Wenn die Settings stimmen, speichere Evrima- und Horde-Presets in der Cloud."
       }
     ]
   },
   "support": {
-    "eyebrow": "Unterstützung",
-    "title": "Tarkov Cheats Support",
-    "subtitle": "Lassen Sie uns wissen, wie wir helfen können.",
+    "eyebrow": "Support",
+    "title": "the isle cheats Support",
+    "subtitle": "Loader-, Checkout- und Statusfragen für The Isle Evrima und Horde unter Windows. Operatoren decken die Hauptlizenz und HWID Spoofer ab. Prüfe den Live-Status-Banner, bevor du nach einem Game- oder Easy-Anti-Cheat-Patch ein Ticket öffnest.",
     "channels": [
       {
         "icon": "users",
-        "title": "Chatten Sie vor dem Bezahlen",
-        "desc": "Sprechen Sie mit unserem Team über Stufen und Zugang.",
-        "linkLabel": "Zur Kasse gehen"
+        "title": "Chat vor dem Checkout",
+        "desc": "Frage nach monatlich $35 (31 Tage) vs. Lifetime $150 und was Cloud DMA abdeckt, bevor du zahlst. Bestätige, welche Produktseite passt: the isle cheats oder HWID Spoofer.",
+        "linkLabel": "Checkout starten",
+        "href": "/go/the-isle/"
       },
       {
         "icon": "headphones",
-        "title": "Chatten Sie, um zu unterstützen",
-        "desc": "Wir sind für Sie da, wenn es um Loader-, HWID- und Kontoprobleme geht.",
+        "title": "Chat zum Support",
+        "desc": "Nach dem Kauf auf Steam-Windows-Builds: Loader-Fehler, HWID-Spoofer-Tickets, Lizenzumzüge und Portalzugang, der nach der Zahlung nicht freischaltet.",
         "linkLabel": "{supportEmail}",
         "href": "mailto:{supportEmail}"
       },
       {
         "icon": "navFaq",
-        "title": "Lesen Sie die FAQ",
-        "desc": "Kompatibilität, Banns und Einrichtung vor dem Kauf.",
-        "linkLabel": "Alle FAQ anzeigen",
+        "title": "FAQ lesen",
+        "desc": "Kompatibilität, Easy-Anti-Cheat-Status, Preise und Setup-Schritte vor dem Kauf oder bevor du ein Ticket öffnest.",
+        "linkLabel": "Alle FAQ ansehen",
         "href": "/faq/"
       },
       {
         "icon": "clock",
         "title": "Live-Operatoren",
-        "desc": "Discord-Ingenieure sind rund um die Uhr im Einsatz.",
+        "desc": "Discord-Engineers rund um die Uhr für Portal-, Loader- und Patchday-Fragen. Nutze die Ticket-Checkliste unten, damit die erste Antwort schneller greift.",
         "linkLabel": "Kontaktseite öffnen",
         "href": "/support/"
       }
     ],
-    "ticketTitle": "Fügen Sie es Ihrem Ticket bei",
+    "ticketTitle": "Im Ticket angeben",
     "ticketItems": [
       {
-        "title": "E-Mail bestellen",
-        "desc": "Die Adresse, die beim Checkout auf {siteDomain} oder über unseren Partner-Checkout verwendet wird."
+        "title": "Bestell-E-Mail",
+        "desc": "Die Adresse beim Checkout auf {siteDomain} oder über unseren Partner-Checkout. Füge die Bestell-ID hinzu, wenn die Quittung eine zeigt."
       },
       {
         "title": "Plattform",
-        "desc": "Windows 10 oder 11 und Ihre Escape From Tarkov-Clientversion."
+        "desc": "Windows 10 oder 11, Steam und dein The Isle Evrima- oder Horde-Build. Nenne CPU- und GPU-Marken, wenn der Loader nicht startet."
       },
       {
-        "title": "Fehlerdetails",
-        "desc": "Screenshot oder genaue Nachricht vom Loader oder Game-Client."
+        "title": "Fehlerdetail",
+        "desc": "Screenshot oder exakte Meldung vom Loader oder Game-Client. Sag, ob der Status-Banner online war, als der Fehler auftrat."
+      },
+      {
+        "title": "Produkt",
+        "desc": "Nenne the isle cheats oder HWID Spoofer und ob du monatlich oder Lifetime gekauft hast, damit Operatoren den richtigen Portalpfad öffnen."
       }
     ]
   },
   "faq": {
     "eyebrow": "FAQ",
-    "title": "Klare Antworten vor dem Bezahlen.",
-    "subtitle": "Kompatibilität, Banns und Zugang, keine vagen Versprechungen.",
+    "title": "Klare Antworten vor dem Checkout.",
+    "subtitle": "Kompatibilität, Bans und Zugang – keine vagen Versprechen.",
     "items": [
       {
         "num": "01",
-        "q": "Wo überprüfe ich, ob Escape From Tarkov-Cheats online sind?",
-        "a": "Das Live-Status-Banner befindet sich auf {siteDomain} und im Discord #status-Kanal. Schauen Sie immer nach einem Escape From Tarkov- oder BattlEye-Update nach."
+        "q": "Wo prüfe ich, ob The Isle Cheats online sind?",
+        "a": "Das Live-Statusbanner steht auf {siteDomain} und im Discord-Kanal #status. Prüfe immer nach einem The Isle- oder Easy Anti-Cheat-Update."
       },
       {
         "num": "02",
         "q": "Was passiert nach dem Kauf?",
-        "a": "Ihr Portal schaltet den Loader, die Setup-Anleitung und die Konfigurationsbibliothek über unseren Partner-Checkout frei. Befolgen Sie die Anleitung, bevor Sie Escape From Tarkov starten."
+        "a": "Dein Portal schaltet Loader, Setup-Guide und Config-Bibliothek über unseren Partner-Checkout frei. Folge dem Guide, bevor du The Isle startest."
       },
       {
         "num": "03",
-        "q": "Kann ich für Escape From Tarkov-Cheats von Drittanbietern gesperrt werden?",
-        "a": "Ja, jede Änderung birgt Risiken. BattlEye- und Berichtssysteme entwickeln sich weiter. Lesen Sie vor der Verwendung den aktuellen Status und akzeptieren Sie das Risiko."
+        "q": "Kann ich mit Drittanbieter-the isle cheats gebannt werden?",
+        "a": "Ja, jede Modifikation birgt Risiko. Easy Anti-Cheat und Meldesysteme entwickeln sich weiter. Lies den aktuellen Status und akzeptiere das Risiko vor der Nutzung."
       },
       {
         "num": "04",
         "q": "Welche Plattformen werden unterstützt?",
-        "a": "Escape From Tarkov nur unter Windows 10/11 64-Bit. macOS und Linux werden nicht unterstützt."
+        "a": "The Isle nur unter Windows 10/11 64-Bit. macOS und Linux werden nicht unterstützt."
       },
       {
         "num": "05",
         "q": "Kann ich meine Lizenz auf einen neuen PC übertragen?",
-        "a": "Ja, nutzen Sie den HWID-Reset in Ihrem Portal oder eröffnen Sie ein Discord-Ticket. Die Limits hängen von Ihrer Stufe ab."
+        "a": "Ja, nutze den HWID-Reset in deinem Portal oder öffne ein Discord-Ticket. Limits hängen von deiner Stufe ab."
       },
       {
         "num": "06",
-        "q": "Wo sind Produkte und Dienstprogramme aufgeführt?",
-        "a": "Produkt- und HWID-Spoofer live unter {siteDomain}/product/ und {siteDomain}/hwid-spoofer/ mit Funktionslisten und Checkout über unseren Partner."
+        "q": "Wo sind Produkte und Utilities gelistet?",
+        "a": "Produkt und HWID Spoofer leben unter {siteDomain}/product/ und {siteDomain}/hwid-spoofer/ mit Feature-Listen und Checkout über unseren Partner."
       }
     ]
   },
   "footer": {
-    "tagline": "Escape From Tarkov-Cheats mit ESP, Aimbot und Loot ESP für PC. {siteDomain}",
+    "tagline": "The Isle Cheats mit Spieler-ESP, World-ESP, Aim-Assistance und Radar für PC. {siteDomain}",
     "explore": "Entdecken",
     "exploreLinks": [
       {
         "id": "products",
         "href": "/",
-        "label": "Funktionsübersicht",
-        "ariaLabel": "Funktionen",
-        "scrollTarget": "Funktionen"
+        "label": "Feature-Überblick",
+        "ariaLabel": "Features",
+        "scrollTarget": "features"
       },
       {
         "id": "products",
@@ -599,8 +597,8 @@
       {
         "id": "hwidSpoofer",
         "href": "/hwid-spoofer/",
-        "label": "HWID-Spoofer",
-        "ariaLabel": "HWID-Spoofer"
+        "label": "HWID Spoofer",
+        "ariaLabel": "HWID Spoofer"
       },
       {
         "id": "blog",
@@ -618,232 +616,232 @@
     "supportLinks": [
       {
         "href": "/faq/",
-        "label": "Häufig gestellte Fragen vor dem Kauf",
+        "label": "FAQ vor dem Kauf",
         "ariaLabel": "FAQ"
       },
       {
         "href": "/support/",
-        "label": "Kontaktieren Sie den Support",
-        "ariaLabel": "Unterstützung"
+        "label": "Support kontaktieren",
+        "ariaLabel": "Support"
       }
     ],
-    "support": "Unterstützung",
-    "legal": "Legal",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Allgemeine Geschäftsbedingungen",
-    "about": "Über"
+    "support": "Support",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "about": "Über uns"
   },
   "legalPages": {
     "about": {
-      "title": "Über EFT CHEATS",
-      "description": "EFT CHEATS bietet Escape From Tarkov-Cheats, HWID-Spoofer und PC-Supportressourcen unter {siteDomain}.",
+      "title": "Über the isle cheats",
+      "description": "the isle cheats veröffentlicht The Isle Produktseiten, Statusnotizen und Supportkanäle auf {siteDomain}.",
       "sections": [
         {
           "heading": "Wer wir sind",
           "paragraphs": [
-            "EFT CHEATS ist eine PC-orientierte Ressource für Escape From Tarkov-Spieler, die Spieler-ESP, Loot-ESP, Aimbot und No-Reoil-Workflows erkunden. Wir veröffentlichen Einrichtungsanleitungen und Live-Statusnotizen, damit Sie die Escape From Tarkov-Cheats vor dem Auschecken bewerten können.",
-            "Alle Produktnamen werden nur zur Identifizierung verwendet."
+            "the isle cheats ist eine PC-Ressource für Spieler, die Spieler-ESP, World-ESP, Aim-Assistance und Radar für The Isle Evrima und Horde bewerten. Wir veröffentlichen Setup-Notes und Live-Status, damit du die Fakten vor dem Checkout lesen kannst.",
+            "Die Hauptlizenz kostet monatlich $35 für 31 Tage oder Lifetime $150 einmalig. Cloud DMA ist ein separater Kauf und für die volle Funktionalität erforderlich. Alle Produktnamen dienen nur der Identifikation."
           ]
         },
         {
           "heading": "Was wir veröffentlichen",
           "paragraphs": [
-            "Unsere Website behandelt Escape From Tarkov Cheats und HWID Spoofer. Blog-Artikel erläutern Raid-Konfigurationen, Patch-Day-Checks und das Update-Verhalten von BattlEye.",
-            "Der Inhalt wird aktualisiert, wenn Patches verfügbar sind oder Loader-Module verschoben werden. Überprüfen Sie vor jeder Sitzung das Statusbanner der Homepage und den #Status von Discord."
+            "Diese Site deckt the isle cheats und HWID Spoofer ab. Guides erklären Loader-Presets, Cloud-DMA-Anforderungen und Easy Anti-Cheat Patchday-Checks.",
+            "Inhalte werden aktualisiert, wenn Patches landen oder Loader-Module sich ändern. Prüfe das Homepage-Statusbanner und Discord #status vor jeder Session. Feature-Listen auf den Produktseiten sind die Quelle der Wahrheit für den Checkout."
           ]
         },
         {
-          "heading": "Unterstützung",
+          "heading": "Support",
           "paragraphs": [
-            "Fragen zur Kompatibilität, zu Loader-Fehlern oder zum Checkout werden über Discord und den E-Mail-Support beantwortet. Geben Sie beim Öffnen eines Tickets Ihre Bestell-E-Mail-Adresse, Ihr Spielkonto und Ihre Windows-Version an."
+            "Kompatibilität, Loader-Fehler und Checkout-Fragen laufen über Discord und E-Mail. Gib Bestell-E-Mail, Steam-Account, Windows 10- oder 11-Build und The Isle Evrima- oder Horde-Clientversion an, wenn du ein Ticket öffnest."
           ]
         }
       ]
     },
     "privacy": {
       "title": "Datenschutzrichtlinie",
-      "description": "Wie EFT CHEATS mit Analysen, Cookies und Kontaktdaten umgeht, wenn Sie {siteDomain} verwenden.",
+      "description": "Wie {siteDomain} Analytics, Cookies und Kontaktdaten für Besucher von the isle cheats handhabt.",
       "sections": [
         {
-          "heading": "Informationen, die wir sammeln",
+          "heading": "Welche Daten wir erheben",
           "paragraphs": [
-            "Wenn Google Analytics aktiviert ist, können wir standardmäßige Webanalysen wie Seitenaufrufe, Gerätetyp, Browser und ungefähre Region erfassen. Der Checkout und die Lizenzlieferung erfolgen auf externen Checkout-Seiten. Wir speichern keine Zahlungskartendaten auf {siteDomain}."
+            "Wir können Standard-Webanalytics wie Seitenaufrufe, Gerätetyp, Browser und ungefähre Region über Google Analytics erheben, wenn aktiviert. Checkout und Lizenzlieferung laufen auf externen Checkout-Seiten; Zahlungskartendaten speichern wir nicht auf {siteDomain}."
           ]
         },
         {
-          "heading": "Wie wir Daten verwenden",
+          "heading": "Wie wir Daten nutzen",
           "paragraphs": [
-            "Analysen helfen uns zu verstehen, welche Leitfäden und Produktseiten nützlich sind, damit wir Inhalte verbessern und defekte Links beheben können. Support-Tickets können die von Ihnen angegebene E-Mail-Adresse und den Nachrichteninhalt behalten, bis das Problem behoben ist."
+            "Analytics helfen zu sehen, welche Produkt- und FAQ-Seiten genutzt werden, damit wir kaputte Links und Setup-Schritte klären. Support-Tickets können die E-Mail-Adresse und Nachricht behalten, bis das Thema gelöst ist."
           ]
         },
         {
-          "heading": "Kekse",
+          "heading": "Cookies",
           "paragraphs": [
-            "Wir verwenden nur die für die Analyse erforderlichen Cookies. Sie können Cookies in Ihren Browsereinstellungen blockieren; Der Kerninhalt der Website bleibt auch ohne sie zugänglich."
+            "Wir nutzen minimale Cookies für Analytics. Du kannst Cookies im Browser blockieren; Kerninhalte der Site bleiben ohne sie zugänglich."
           ]
         },
         {
-          "heading": "Unterstützung",
+          "heading": "Support",
           "paragraphs": [
-            "Bei Fragen zum Datenschutz nutzen Sie die Optionen auf der Support-Seite. Die Kauf- und Rückerstattungsregeln finden Sie in unseren Allgemeinen Geschäftsbedingungen."
+            "Bei Datenschutzfragen nutze die Optionen auf der Support-Seite. Kauf- und Rückerstattungsregeln stehen in unseren AGB."
           ]
         }
       ]
     },
     "terms": {
-      "title": "Allgemeine Geschäftsbedingungen",
-      "description": "Kauf-, Lizenz-, Rückerstattungs- und Nutzungsbedingungen für EFT CHEATS-Produkte und {siteDomain}.",
+      "title": "AGB",
+      "description": "Kauf-, Lizenz-, Rückerstattungs- und Nutzungsbedingungen für the isle cheats Produkte und {siteDomain}.",
       "sections": [
         {
           "heading": "Vereinbarung",
           "paragraphs": [
-            "Letzte Aktualisierung: September 2026. Durch die Nutzung von {siteDomain} oder den Abschluss der Kaufabwicklung für ein hier aufgeführtes Produkt stimmen Sie diesen Allgemeinen Geschäftsbedingungen und unserer Datenschutzrichtlinie zu."
+            "Zuletzt aktualisiert: September 2026. Mit der Nutzung von {siteDomain} oder dem Abschluss eines Checkouts für ein hier gelistetes Produkt akzeptierst du diese AGB und unsere Datenschutzrichtlinie."
           ]
         },
         {
-          "heading": "Was Sie kaufen",
+          "heading": "Was du kaufst",
           "paragraphs": [
-            "Wir verkaufen Escape From Tarkov Cheats und HWID Spoofer, die über ein Betreiberportal und einen Loader für Escape From Tarkov unter Windows bereitgestellt werden.",
-            "Funktionslisten auf jeder Produktseite beschreiben, was zum Zeitpunkt des Kaufs enthalten ist. Module können sich ändern, wenn Escape From Tarkov oder Anti-Cheat-Systeme aktualisiert werden."
+            "Wir verkaufen the isle cheats und HWID Spoofer, geliefert über Operator-Portal und Loader für The Isle Evrima und Horde unter Windows.",
+            "Feature-Listen auf jeder Produktseite beschreiben, was zum Kaufzeitpunkt enthalten ist. Module können sich ändern, wenn The Isle oder Easy Anti-Cheat aktualisieren. Cloud DMA ist ein separater Kauf und für die volle Funktionalität von the isle cheats erforderlich."
           ]
         },
         {
-          "heading": "Kasse und Lieferung",
+          "heading": "Checkout und Lieferung",
           "paragraphs": [
-            "Zahlung und Lizenzlieferung erfolgen über externe Checkout-Seiten. {siteDomain} verarbeitet oder speichert keine Zahlungskartennummern.",
-            "Verwenden Sie nach dem Kauf das in Ihrem Bestellvorgang verlinkte Betreiberportal, um den aktuellen Loader und die Einrichtungsanleitung herunterzuladen, bevor Sie Escape From Tarkov starten."
+            "Zahlung und Lizenzlieferung laufen auf externen Checkout-Seiten. {siteDomain} verarbeitet oder speichert keine Zahlungskartennummern.",
+            "Nach dem Kauf nutze das Operator-Portal aus deinem Bestellflow, um den aktuellen Loader und Setup-Guide zu laden, bevor du The Isle startest."
           ]
         },
         {
           "heading": "Lizenznutzung",
           "paragraphs": [
-            "Lizenzen sind nur für Ihren persönlichen Gebrauch bestimmt. Geben Sie keine Loader-Dateien, Portal-Anmeldungen oder Lizenzschlüssel weiter. HWID- und Gerätelimits hängen von Ihrer Stufe ab und werden im Portal durchgesetzt."
+            "Lizenzen sind nur für den persönlichen Gebrauch. Teile keine Loader-Dateien, Portal-Logins oder Lizenzkeys. HWID- und Geräte-Limits hängen von deiner Stufe ab und werden im Portal durchgesetzt."
           ]
         },
         {
-          "heading": "Rückerstattungen und Einkäufe",
+          "heading": "Rückerstattungen und Käufe",
           "paragraphs": [
-            "Alle Verkäufe sind endgültig, sobald die Kaufabwicklung abgeschlossen ist. Wir erstatten keine Rückerstattung für Kaufentscheidungen, Kontosperrungen, BattlEye-Strafen oder Probleme, die durch das Ignorieren von Einrichtungsanleitungen oder das Ausführen von Modulen entstehen, während das Statusbanner offline angezeigt wird.",
-            "Wenn das Produkt bei einem unterstützten Setup nicht wie beschrieben funktioniert: Escape From Tarkov unter Windows 10/11, aktueller Loader vom Portal und das Live-Status-Banner, das beim Start online angezeigt wird, kontaktieren Sie uns über die Support-Seite. Fügen Sie Ihre Bestell-E-Mail, Windows-Version, Spiel-Build und Screenshots oder den genauen Fehlertext vom Loader hinzu.",
-            "Wir können nach unserem Ermessen eine Reparatur, einen Ersatzzugang oder eine teilweise/vollständige Rückerstattung anbieten, wenn wir einen Fehler unsererseits bestätigen. Wir sind nicht verpflichtet, jede Anfrage zu genehmigen."
+            "Alle Verkäufe sind endgültig, sobald der Checkout abgeschlossen ist. Wir erstatten keine Meinungsänderungen, Account-Bans, Easy Anti-Cheat-Strafen oder Probleme durch Ignorieren von Setup-Guides oder durch Starten von Modulen, während das Statusbanner offline zeigt.",
+            "Wenn das Produkt auf einem unterstützten Setup nicht wie beschrieben funktioniert (The Isle unter Windows 10/11 über Steam, aktueller Loader aus dem Portal und Live-Statusbanner online beim Start), kontaktiere uns über die Support-Seite. Gib Bestell-E-Mail, Windows-Version, Game-Build und Screenshots oder exakten Fehlertext vom Loader an.",
+            "Wir können nach eigenem Ermessen einen Fix, Ersatzzugang oder eine teilweise/volle Rückerstattung anbieten, wenn wir einen Fehler auf unserer Seite bestätigen. Wir sind nicht verpflichtet, jede Anfrage zu genehmigen."
           ]
         },
         {
           "heading": "Verfügbarkeit und Risiko",
           "paragraphs": [
-            "Tools von Drittanbietern für Escape From Tarkov können zu Konflikten mit Spielaktualisierungen und BattlEye führen. Sie nutzen diese Software auf eigenes Risiko, einschließlich möglicher Kontoaktionen.",
-            "Überprüfen Sie vor jedem Raid den Statusbanner der Homepage. Nicht laden, während Module offline sind oder nach einem Patch falsch ausgerichtet sind."
+            "Drittanbieter-Tools für The Isle können mit Game-Updates und Easy Anti-Cheat kollidieren. Du nutzt diese Software auf eigenes Risiko, einschließlich möglicher Account-Maßnahmen.",
+            "Prüfe das Homepage-Statusbanner vor jeder Session. Starte nicht, während Module offline oder nach einem Patch falsch ausgerichtet sind."
           ]
         },
         {
           "heading": "Änderungen",
           "paragraphs": [
-            "Wir können diese Bedingungen aktualisieren. Das Datum „Letzte Aktualisierung“ oben ändert sich, wenn wir dies tun. Die fortgesetzte Nutzung der Website nach Änderungen bedeutet, dass Sie die geänderten Bedingungen akzeptieren."
+            "Wir können diese Bedingungen aktualisieren. Das Datum „Zuletzt aktualisiert“ oben ändert sich dann. Fortgesetzte Nutzung der Site nach Änderungen bedeutet, dass du die überarbeiteten Bedingungen akzeptierst."
           ]
         },
         {
-          "heading": "Unterstützung",
+          "heading": "Support",
           "paragraphs": [
-            "Für Konditionen, Rechnungen oder Fragen zum Ladevorgang verwenden Sie die Schaltflächen auf der Support-Seite. Informationen zum Umgang mit Website-Daten finden Sie auch in unserer Datenschutzerklärung."
+            "Bei Fragen zu Bedingungen, Abrechnung oder Loader nutze die Buttons auf der Support-Seite. Siehe auch unsere Datenschutzrichtlinie zur Handhabung von Site-Daten."
           ]
         }
       ]
     },
     "support": {
-      "title": "EFT CHEATS Support",
-      "description": "Erhalten Sie Unterstützung für Loader-, HWID- und Checkout-Fragen unter {siteDomain}."
+      "title": "the isle cheats Support",
+      "description": "Support für Loader-, HWID- und Checkout-Fragen auf {siteDomain}."
     }
   },
   "common": {
-    "breadcrumbHome": "Zuhause",
+    "breadcrumbHome": "Home",
     "breadcrumbProducts": "Produkt",
     "breadcrumbBlog": "Blog",
     "breadcrumbForum": "Forum",
     "breadcrumbFaq": "FAQ",
-    "breadcrumbAbout": "Über",
-    "breadcrumbPrivacy": "Privatsphäre",
-    "breadcrumbTerms": "Bedingungen",
-    "breadcrumbSupport": "Unterstützung",
-    "contactSupport": "Kontaktieren Sie den Support"
+    "breadcrumbAbout": "Über uns",
+    "breadcrumbPrivacy": "Datenschutz",
+    "breadcrumbTerms": "AGB",
+    "breadcrumbSupport": "Support",
+    "contactSupport": "Support kontaktieren"
   },
   "notFound": {
-    "metaDescription": "Die von Ihnen angeforderte Seite konnte auf {siteDomain} nicht gefunden werden.",
+    "metaDescription": "Die angeforderte Seite wurde auf {siteDomain} nicht gefunden.",
     "title": "Seite nicht gefunden",
-    "body": "Diese URL existiert nicht oder wurde möglicherweise verschoben. Gehen Sie zurück zur Startseite oder öffnen Sie die Produkt- und HWID-Seiten.",
-    "backHome": "Zurück nach Hause",
+    "body": "Diese URL existiert nicht oder wurde verschoben. Zurück zur Homepage oder zu den Produkt- und HWID-Seiten.",
+    "backHome": "Zur Startseite",
     "viewProducts": "Produkte ansehen",
     "viewElite": "Produktseite ansehen"
   },
   "pages": {
     "faq": {
-      "eyebrow": "Hilfecenter",
-      "title": "Escape From Tarkov Cheats FAQ: Setup, Pläne & BattlEye",
-      "description": "Antworten zu Escape From Tarkov Cheats: Setup, Monats- und Lifetime-Pläne, ESP- und Aim-Module, BattlEye-Status und Checkout-Hilfe auf {siteDomain}.",
-      "schemaName": "FAQ zu Escape From Tarkov-Cheats",
-      "schemaDescription": "Antworten zu Raid-Cheats, ESP, Aimbot, Beutefiltern, Loader-Setup, Preisen und Checkout unter {siteDomain}."
+      "eyebrow": "Help Center",
+      "title": "the isle cheats FAQ: Setup, Pläne & Easy Anti-Cheat",
+      "description": "Antworten zu Setup, Preisen, ESP, Aim und Easy Anti-Cheat Status für The Isle unter Windows.",
+      "schemaName": "the isle cheats FAQ",
+      "schemaDescription": "Antworten zu The Isle ESP, Aim-Assistance, Radar, Loader-Setup, Preisen und Checkout auf {siteDomain}."
     },
     "forum": {
-      "eyebrow": "Escape From Tarkov-Community-Forum",
-      "title": "Escape From Tarkov Community-Forum",
-      "description": "Archivierte, schreibgeschützte Threads zu Loader-Setup, Loot-ESP, Patch-Status und HWID-Banns. Antworten sind geschlossen.",
-      "exploreGuides": "Entdecken Sie die Reiseführer",
-      "postsAria": "Community-Beiträge",
-      "sortAria": "Postsortierung",
+      "eyebrow": "The Isle Community-Forum",
+      "title": "The Isle Community-Forum",
+      "description": "Archivierte, schreibgeschützte Threads zu Loader-Setup, ESP-Modulen, Patch-Status und HWID-Flags. Antworten sind geschlossen.",
+      "exploreGuides": "Guides entdecken",
+      "postsAria": "Community-Posts",
+      "sortAria": "Posts sortieren",
       "sortPopular": "Beliebt",
       "sortLatest": "Neueste",
-      "sortTop": "Am meisten diskutiert",
+      "sortTop": "Meistdiskutiert",
       "filterAria": "Diskussionen nach Thema filtern",
       "filterAll": "Alle Themen",
-      "resultsCount": "Diskussionen anleiten",
-      "voteAria": "Diskussionsabstimmung",
-      "upvoteAria": "Stimmen Sie dieser Diskussion zu",
-      "downvoteUnavailableAria": "Downvoting ist nicht möglich",
-      "guideTeam": "EFT CHEATS-Guide-Team",
-      "guideBasedQa": "Leitfadenbasierte Fragen und Antworten",
-      "fromGuide": "Aus dem Leitfaden:",
+      "resultsCount": "Guide-Diskussionen",
+      "voteAria": "Diskussion bewerten",
+      "upvoteAria": "Diese Diskussion upvoten",
+      "downvoteUnavailableAria": "Downvoting nicht verfügbar",
+      "guideTeam": "the isle cheats Guide-Team",
+      "guideBasedQa": "Guide-basierte Q&A",
+      "fromGuide": "Aus dem Guide:",
       "comments": "Kommentare",
       "closedThread": "Geschlossener Thread",
       "closedBy": "Vom Archiv geschlossen",
       "repliesClosed": "Antworten sind geschlossen",
       "readDiscussion": "Diskussion lesen",
-      "empty": "Es stimmen keine Diskussionen überein. Versuchen Sie es mit einer anderen Suche oder einem anderen Thema.",
-      "emptyArchive": "Noch keine Diskussionen. Hier werden neue Threads angezeigt.",
+      "empty": "Keine passenden Diskussionen. Andere Suche oder anderes Thema versuchen.",
+      "emptyArchive": "Noch keine Diskussionen. Neue Threads erscheinen hier.",
       "categoryGeneral": "Allgemein",
-      "categoryGuides": "Anleitungen und Builds",
-      "categoryPatch": "Patch-Talk",
-      "categoryCommunity": "Gemeinschaft",
+      "categoryGuides": "Guides & Builds",
+      "categoryPatch": "Patch Talk",
+      "categoryCommunity": "Community",
       "paginationAria": "Diskussionsseiten",
       "pagePrevious": "Zurück",
-      "pageNext": "Als nächstes",
-      "sidebarTitle": "EFT CHEATS Community",
-      "sidebarIntro": "Schreibgeschütztes Archiv. Threads bleiben zu Referenzzwecken aktiv, Sie können keinen Thread starten oder darauf antworten.",
-      "statsDiscussions": "Diskussionen anleiten",
+      "pageNext": "Weiter",
+      "sidebarTitle": "the isle cheats Community",
+      "sidebarIntro": "Schreibgeschütztes Archiv. Threads bleiben zur Referenz; du kannst keinen Thread starten oder antworten.",
+      "statsDiscussions": "Guide-Diskussionen",
       "statsTopics": "Themen",
-      "exploreAllGuides": "Entdecken Sie alle Reiseführer",
-      "communitiesHeading": "Gemeinschaften",
-      "browseRelated": "Durchsuchen Sie verwandte Fragen und Antworten",
-      "browseAllCommunities": "Durchsuchen Sie alle Communities",
+      "exploreAllGuides": "Alle Guides entdecken",
+      "communitiesHeading": "Communities",
+      "browseRelated": "Verwandte Q&A browsen",
+      "browseAllCommunities": "Alle Communities browsen",
       "guidelinesHeading": "Community-Richtlinien",
-      "guideline1": "Bleiben Sie freundlich und konstruktiv",
-      "guideline2": "Bleiben Sie beim Thema und fügen Sie Kontext hinzu",
-      "guideline3": "Markieren Sie Spoiler und sensible Inhalte",
-      "readFullGuidelines": "Lesen Sie die vollständigen Richtlinien",
-      "sidebarFoot": "Über · Richtlinien · Datenschutz · Bedingungen"
+      "guideline1": "Freundlich und konstruktiv bleiben",
+      "guideline2": "Beim Thema bleiben und Kontext liefern",
+      "guideline3": "Spoiler und sensible Inhalte markieren",
+      "readFullGuidelines": "Vollständige Richtlinien lesen",
+      "sidebarFoot": "Über uns · Richtlinien · Datenschutz · AGB"
     },
     "utilities": {
-      "title": "HWID-Spoofer",
-      "description": "Maschinenwiederherstellung, wenn neue Konten woanders funktionieren, auf diesem PC jedoch sofort fehlschlagen.",
-      "viewDetails": "Ansicht",
-      "includes": "Beinhaltet:",
-      "schemaName": "HWID-Spoofer"
+      "title": "HWID Spoofer",
+      "description": "PC wiederherstellen, wenn neue Accounts woanders funktionieren, hier aber sofort scheitern.",
+      "viewDetails": "Ansehen",
+      "includes": "Enthält:",
+      "schemaName": "HWID Spoofer"
     }
   },
   "ui": {
     "skipLink": "Zum Hauptinhalt springen",
-    "browseCheatsNav": "Versuchen Sie es jetzt",
-    "homeAria": "EFT CHEATS nach Hause",
+    "browseCheatsNav": "Jetzt testen",
+    "homeAria": "the isle cheats Startseite",
     "menuOpen": "Menü öffnen",
-    "themeLight": "Wechseln Sie in den Lichtmodus",
+    "themeLight": "Zum Light Mode wechseln",
     "languageSwitcherLabel": "Sprache",
     "languageNames": {
       "en": "English",

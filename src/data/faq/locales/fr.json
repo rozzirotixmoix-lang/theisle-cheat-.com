@@ -1,122 +1,182 @@
 [
   {
     "id": "status",
-    "q": "Où puis-je vérifier si les cheats d'Escape From Tarkov sont en ligne ?",
-    "a": "La bannière de statut en direct se trouve sur {siteDomain} et dans le canal Discord #status. Vérifiez toujours après une mise à jour d'Escape From Tarkov ou de BattlEye."
+    "q": "Où vérifier si les cheats The Isle sont en ligne ?",
+    "a": "La bannière de statut en direct est sur {siteDomain} et dans le canal Discord #status. Vérifiez toujours après une mise à jour The Isle ou Easy Anti-Cheat."
   },
   {
     "id": "after-buy",
-    "q": "Que se passe-t-il après mon achat ?",
-    "a": "Votre portail déverrouille le chargeur, le guide de configuration et la bibliothèque de configuration via notre caisse partenaire. Suivez le guide avant de lancer Escape From Tarkov."
+    "q": "Que se passe-t-il après l'achat ?",
+    "a": "Votre portail débloque le loader, le guide d'installation et la bibliothèque de configs via le paiement partenaire. Suivez le guide avant de lancer The Isle."
   },
   {
     "id": "ban-risk",
-    "q": "Puis-je être banni en utilisant des cheats tiers sur Escape From Tarkov ?",
-    "a": "Oui, toute modification comporte des risques. BattleEye et les systèmes de rapport évoluent. Lisez l'état actuel et acceptez le risque avant utilisation. Consultez notre guide <a href=\"/blog/battleye-and-escape-from-tarkov-cheats-what-to-know/\">cheats BattlEye et Tarkov</a> pour connaître le contexte."
+    "q": "Puis-je être banni en utilisant des the isle cheats tiers ?",
+    "a": "Oui, toute modification comporte un risque. Easy Anti-Cheat et les systèmes de signalement évoluent. Lisez le statut actuel et acceptez le risque avant utilisation."
   },
   {
     "id": "platforms",
     "q": "Quelles plateformes sont prises en charge ?",
-    "a": "Escape From Tarkov sur Windows 10/11 64 bits uniquement. macOS et Linux ne sont pas pris en charge."
+    "a": "The Isle sur Windows 10/11 64 bits uniquement. macOS et Linux ne sont pas pris en charge."
   },
   {
     "id": "license-move",
     "q": "Puis-je déplacer ma licence vers un nouveau PC ?",
-    "a": "Oui, utilisez la réinitialisation HWID dans votre portail ou ouvrez un ticket Discord. Les limites dépendent de votre niveau."
+    "a": "Oui. Lancez le reset HWID du portail, ou ouvrez un ticket Discord si l'option portail est indisponible. Les limites dépendent de votre offre."
   },
   {
     "id": "products-page",
-    "q": "Où les produits et utilitaires sont-ils répertoriés ?",
-    "a": "<a href=\"/product/\">Escape From Tarkov Cheats</a> et <a href=\"/hwid-spoofer/\">HWID Spoofer</a> sont les deux produits que nous vendons, avec des listes de fonctionnalités et un paiement via notre partenaire."
+    "q": "Où sont listés les produits et utilitaires ?",
+    "a": "<a href=\"/product/\">the isle cheats</a> et <a href=\"/hwid-spoofer/\">HWID Spoofer</a> sont les deux produits que nous vendons, listes de fonctions et paiement via notre partenaire."
   },
   {
     "id": "what-is-esp",
-    "q": "Qu’est-ce qu’Escape From Tarkov ESP ?",
-    "a": "Le joueur ESP montre les PMC, les Scavs et les boss avec des boîtes, des squelettes et des lectures de distance. Loot ESP met en évidence les conteneurs et les objets de valeur. Le <a href=\"/product/\">Produit</a> comprend des superpositions de sensibilisation ainsi qu'un aimbot en option et des modules sans recul."
+    "q": "Qu'est-ce que l'ESP The Isle ?",
+    "a": "L'ESP joueurs affiche les autres survivants avec boîte, snapline, nom, distance, santé, stamina, croissance et espèce. L'ESP monde couvre les overlays NPC et animaux plus les marqueurs cadavre, gore, fruit et eau. <a href=\"/product/\">the isle cheats</a> inclut aussi l'assistance aim et le radar."
   },
   {
     "id": "esp-vs-aim",
-    "q": "Quelle est la différence entre ESP et aimbot ?",
-    "a": "L'ESP et les points forts du butin sont des superpositions d'informations ;ils ne bougent pas votre réticule. Aimbot, No Recoil et Trigger Bot sont des aides au combat sur <a href=\"/product/\">Escape From Tarkov Cheats</a>, réglées séparément dans le chargeur."
+    "q": "Quelle est la différence entre ESP et assistance aim ?",
+    "a": "L'ESP est un overlay d'information ; il ne déplace pas votre viseur. L'assistance aim sur <a href=\"/product/\">the isle cheats</a> ajoute FOV, smoothing, lock et options head-only que vous réglez séparément dans le loader."
   },
   {
     "id": "elite-slots",
-    "q": "Pourquoi les places pour Escape From Tarkov Cheats sont-elles limitées ?",
-    "a": "Escape From Tarkov Cheats est une version privée avec prise en charge directe des développeurs et livraison prioritaire des correctifs. Le nombre limité de places garde des cycles de patch rapides. Vérifiez la bannière d'état avant de procéder au paiement."
+    "q": "Pourquoi les slots the isle cheats sont-ils limités ?",
+    "a": "C'est un build privé avec support dev direct et livraison de patch prioritaire. Les plafonds de slots gardent les cycles de patch rapides. Vérifiez la bannière de statut avant le paiement."
   },
   {
     "id": "stream-proof",
-    "q": "OBS peut-il capturer ma superposition ?",
-    "a": "Le mode anti-diffusion sur <a href=\"/product/\">Produit</a> masque les superpositions du partage OBS et Discord. Testez un enregistrement local avant de passer en direct."
+    "q": "OBS peut-il capturer mon overlay ?",
+    "a": "Le mode stream-proof sur <a href=\"/product/\">the isle cheats</a> masque les overlays pour OBS et le partage Discord. Testez un enregistrement local avant de passer en live."
   },
   {
     "id": "build-status",
-    "q": "La version restera-t-elle en ligne après chaque patch ?",
-    "a": "Non. Le statut en ligne est affiché sur la page du produit et sur la bannière de statut au moment de l'achat uniquement. Arrêtez-vous si la version affiche une mise à jour, des tests ou hors ligne après une mise à jour de BattlEye."
+    "q": "Le build restera-t-il en ligne après chaque patch ?",
+    "a": "Non. Le statut en ligne est affiché sur la page produit et la bannière de statut au moment de l'achat uniquement. Arrêtez si le build indique updating, testing ou offline après une mise à jour Easy Anti-Cheat."
   },
   {
     "id": "esp-safer",
-    "q": "L'ESP est-il plus discret que l'aimbot ?",
-    "a": "L'ESP est souvent moins évident que l'aimbot au maximum, mais cela reste une triche. BattlEye n'ignore pas les superpositions car vous avez désactivé l'assistance à la visée."
+    "q": "L'ESP est-il plus discret que l'assistance aim ?",
+    "a": "L'ESP est souvent moins évident qu'une assistance aim poussée à fond, mais c'est toujours un cheat. Easy Anti-Cheat n'ignore pas les overlays parce que vous avez laissé l'aide aim désactivée."
   },
   {
     "id": "hwid-when",
-    "q": "Quand dois-je ajouter le HWID Spoofer à ma configuration ?",
-    "a": "<a href=\"/hwid-spoofer/\">HWID Spoofer</a> est destiné lorsque de nouvelles connexions Escape From Tarkov meurent sur un PC mais réussissent ailleurs : application du matériel, et non résultats BattlEye uniquement sur le compte. Une fois les identifiants vérifiés, associez un nouveau compte à <a href=\"/product/\">Escape From Tarkov Cheats</a> et vérifiez l'état sur {siteDomain} avant d'effectuer un raid."
+    "q": "Quand HWID Spoofer a-t-il sa place dans un setup ?",
+    "a": "Ajoutez <a href=\"/hwid-spoofer/\">HWID Spoofer</a> quand les nouvelles connexions The Isle échouent sur un PC mais réussissent ailleurs. Ce schéma pointe vers une enforcement matérielle, pas un résultat anti-cheat limité au compte. Une fois les identifiants vérifiés propres, associez un compte frais à <a href=\"/product/\">the isle cheats</a> et vérifiez le statut sur {siteDomain} avant de jouer."
   },
   {
     "id": "external-loader",
-    "q": "Le chargeur est-il injecté dans le dossier du jeu ?",
-    "a": "EFT CHEATS s'exécute en externe avec la synchronisation de la configuration cloud, aucun fichier n'est injecté dans le répertoire Escape From Tarkov. Le risque BattleEye s’applique toujours. Voir <a href=\"/product/\">Produit</a>."
+    "q": "Le loader est-il injecté dans le dossier du jeu ?",
+    "a": "Le loader tourne en externe avec sync de config cloud, sans fichiers injectés dans le répertoire The Isle. Le risque Easy Anti-Cheat s'applique toujours. Voir <a href=\"/product/\">the isle cheats</a>."
   },
   {
     "id": "blog-vs-cheats",
-    "q": "Les codes de triche des blogs sont-ils les mêmes que les codes de triche des raids en direct ?",
-    "a": "Non. Les articles de blog sur les tests hors ligne ou locaux ne remplacent pas le liveloader. Les raids PMC utilisent <a href=\"/product/\">Produit</a> lorsque le statut est en ligne."
+    "q": "Les codes cheat du blog sont-ils les mêmes que le loader live ?",
+    "a": "Non. Les articles de blog sur les tests hors ligne ou locaux ne remplacent pas le loader live. Les sessions live utilisent <a href=\"/product/\">the isle cheats</a> quand le statut est en ligne."
   },
   {
     "id": "blog-setup",
-    "q": "Où les guides de configuration de blog pointent-ils pour l’achat ?",
-    "a": "Les guides renvoient au <a href=\"/product/\">Produit</a> et au <a href=\"/hwid-spoofer/\">HWID Spoofer</a>. Le paiement s'effectue via notre partenaire, ne collez jamais de fichiers de chargement à partir de DM Discord aléatoires."
+    "q": "Vers où les guides d'installation du blog pointent-ils pour l'achat ?",
+    "a": "Les guides renvoient vers <a href=\"/product/\">the isle cheats</a> et <a href=\"/hwid-spoofer/\">HWID Spoofer</a>. Le paiement passe par notre partenaire ; ne collez jamais de fichiers loader provenant de DM Discord aléatoires."
   },
   {
     "id": "who-cheats",
-    "q": "Qui devrait acheter les cheats Escape From Tarkov ?",
-    "a": "Les raiders PMC qui veulent un joueur ESP, un butin ESP, un aimbot, pas de recul et une livraison prioritaire des correctifs lorsque les emplacements sont ouverts."
+    "q": "Qui devrait acheter the isle cheats ?",
+    "a": "Les joueurs Windows qui veulent ESP joueurs, ESP monde, assistance aim, radar et livraison de patch prioritaire pour The Isle Evrima et Horde quand des slots sont ouverts."
   },
   {
     "id": "vac-update",
-    "q": "Que dois-je faire après une mise à jour de BattlEye ?",
-    "a": "Vérifiez le statut de {siteDomain} et le #statut de Discord. Ne lancez pas tant que la bannière n'est pas affichée en ligne. Chargez des préréglages conservateurs après n’importe quel patch."
+    "q": "Que faire après une mise à jour Easy Anti-Cheat ?",
+    "a": "Vérifiez le statut sur {siteDomain} et Discord #status. Ne lancez pas tant que la bannière n'affiche pas online. Chargez des presets conservateurs après tout patch."
   },
   {
     "id": "discord-help",
-    "q": "Comment puis-je obtenir de l'aide pour l'installation ?",
-    "a": "Ouvrez Discord après l'achat avec votre e-mail de commande, la version Windows et la version du client Escape From Tarkov. Le personnel parcourt la configuration du chargeur en direct."
+    "q": "Comment obtenir de l'aide pour l'installation ?",
+    "a": "Ouvrez Discord après l'achat avec votre e-mail de commande, la version Windows et le build client The Isle. Le staff vous guide en direct pour le setup du loader."
   },
   {
-    "id": "pmc-scav-raids",
-    "q": "Les modules fonctionnent-ils dans les raids PMC et Scav ?",
-    "a": "Oui.<a href=\"/product/\">Produit</a> inclut les préréglages PMC et Scav dans le portail. Réglez les plafonds de distance ESP et visez le lissage avant votre premier raid."
+    "id": "evrima-horde",
+    "q": "Les modules fonctionnent-ils sur Evrima et Horde ?",
+    "a": "Oui. <a href=\"/product/\">the isle cheats</a> couvre The Isle Evrima et Horde. Réglez les plafonds de distance ESP et le smoothing aim avant votre première session live."
   },
   {
     "id": "zoom-hack",
-    "q": "Quel niveau inclut le radar et l'extrait ESP ?",
-    "a": "Le radar 2D et les marqueurs d'extraction sont inclus avec <a href=\"/product/\">Escape From Tarkov Cheats</a>. Utilisez-les pour vous orienter entre les combats et planifier vos extractions."
+    "q": "Quelle offre inclut le radar ?",
+    "a": "Le radar est livré avec <a href=\"/product/\">the isle cheats</a> aux côtés de l'ESP joueurs et monde. Utilisez-le pour vous orienter quand le feuillage coupe les lignes de vue."
   },
   {
     "id": "trigger-bot",
-    "q": "Le produit inclut-il un robot déclencheur ?",
-    "a": "Le robot déclencheur en option est livré avec un <a href=\"/product/\">Produit</a> aux côtés de l'aimbot et sans recul. Commencez par des préréglages de délai conservateurs dans le portail."
+    "q": "Le produit inclut-il des utilitaires de mouvement et de combat ?",
+    "a": "Oui. Les utilitaires de mouvement et de combat sont livrés avec <a href=\"/product/\">the isle cheats</a> à côté de l'assistance aim. Commencez par les presets conservateurs du portail."
   },
   {
     "id": "private-cheats",
-    "q": "Que sont les cheats privés d'Escape From Tarkov ?",
-    "a": "Privé signifie les clés par utilisateur et les versions maintenues, et non les packs zip publics. EFT CHEATS expédie la livraison du portail pour la suite complète de raid sur une seule licence de triche."
+    "q": "Que sont les cheats The Isle privés ?",
+    "a": "Privé signifie des clés par utilisateur et des builds maintenus, pas des packs zip publics. La livraison portail couvre la suite Windows complète sur une licence cheats."
   },
   {
     "id": "faq-more",
     "q": "Où est la FAQ complète ?",
-    "a": "Ce site comprend des FAQ d'atterrissage et des sections par page. Consultez la <a href=\"/faq/\">FAQ complète</a> pour toutes les réponses sur les produits, les cheats et les blogs, ou lisez les <a href=\"/blog/\">guides de blog</a> pour des guides détaillés."
+    "a": "Ce site inclut des FAQ d'accueil et des sections par page. Consultez la <a href=\"/faq/\">FAQ complète</a> pour toutes les réponses produit, cheat et blog, ou lisez les <a href=\"/blog/\">guides du blog</a> pour les dossiers approfondis."
+  },
+  {
+    "id": "blog-guide-start",
+    "q": "Les codes cheat hors ligne remplacent-ils le loader live ?",
+    "a": "Non. Les tests locaux ou hors ligne ne remplacent pas le loader opérateur. Les sessions live utilisent le produit sur {siteDomain} quand le statut affiche online."
+  },
+  {
+    "id": "blog-guide-tier",
+    "q": "Quelle offre correspond à ce guide ?",
+    "a": "Les guides de setup et de fonctions correspondent aux modules de <a href=\"/product/\">the isle cheats</a>. Les articles HWID et ban vont avec <a href=\"/hwid-spoofer/\">HWID Spoofer</a> quand le matériel est flaggé."
+  },
+  {
+    "id": "blog-guide-status",
+    "q": "Ce guide est-il encore valide après un patch ?",
+    "a": "Vérifiez la date de l'article et la bannière de statut en direct. Les articles de jour de patch indiquent quand les modules changent : Discord #status a les dernières notes de build."
+  },
+  {
+    "id": "blog-setup-loader",
+    "q": "Où télécharger le loader ?",
+    "a": "Uniquement depuis votre portail opérateur après le paiement, pas via des liens tiers dans les commentaires ou les DM."
+  },
+  {
+    "id": "blog-setup-lobby",
+    "q": "Dois-je tester les réglages avant une session live ?",
+    "a": "Oui. Chargez d'abord des presets ESP et aim conservateurs hors ligne. Augmentez FOV, smoothing et plafonds de distance ESP monde sur plusieurs sessions."
+  },
+  {
+    "id": "blog-sec-vac",
+    "q": "Cet article signifie-t-il que le build reste en ligne ?",
+    "a": "Aucun article ne remplace la bannière de statut en direct. Vérifiez {siteDomain} et Discord #status après chaque patch avant de lancer."
+  },
+  {
+    "id": "blog-default-1",
+    "q": "Les guides du blog sont-ils la documentation produit officielle ?",
+    "a": "Les articles expliquent les workflows et renvoient vers <a href=\"/product/\">the isle cheats</a> et <a href=\"/hwid-spoofer/\">HWID Spoofer</a>. Les listes de fonctions sur ces pages font foi pour le paiement."
+  },
+  {
+    "id": "blog-default-2",
+    "q": "Besoin d'aide pour appliquer ce guide ?",
+    "a": "Ouvrez Discord avec votre e-mail de commande et le slug de l'article. Le staff se réfère aux mêmes presets portail mentionnés dans les guides."
+  },
+  {
+    "id": "blog-default-3",
+    "q": "Les réglages de cet article fonctionneront-ils au prochain patch ?",
+    "a": "Revérifiez le statut après chaque mise à jour The Isle. Les presets portail suivent les notes de patch ; rechargez les configs au lieu de copier d'anciens sliders."
+  },
+  {
+    "id": "blog-slug-esp",
+    "q": "Quel produit couvre l'ESP de cet article ?",
+    "a": "<a href=\"/product/\">the isle cheats</a> inclut l'ESP joueurs, l'ESP monde et le radar décrits dans nos guides The Isle."
+  },
+  {
+    "id": "blog-slug-aim",
+    "q": "Quel produit inclut les modules aim de cet article ?",
+    "a": "<a href=\"/product/\">the isle cheats</a> livre l'assistance aim avec FOV, smoothing, lock et options head-only dans le loader."
+  },
+  {
+    "id": "blog-slug-hwid",
+    "q": "Les guides de récupération remplacent-ils les pages produit HWID Spoofer ou cheats ?",
+    "a": "Les guides accompagnent <a href=\"/hwid-spoofer/\">HWID Spoofer</a> et <a href=\"/product/\">the isle cheats</a>. Les pages produit définissent le périmètre du workflow et des résultats réalistes."
   }
 ]

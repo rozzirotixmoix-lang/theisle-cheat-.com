@@ -29,12 +29,12 @@ export function websiteSchema(locale?: SchemaLocale, description?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'EFT CHEATS',
+    name: 'the isle cheats',
     url: `${SITE_ORIGIN}/`,
     inLanguage: schemaLanguage(locale),
     description:
       description ??
-      'Escape From Tarkov cheats with player ESP, loot ESP, aimbot and no recoil for PMC raids on Windows.',
+      'the isle cheats for The Isle Evrima and Horde on Windows: player ESP, world ESP, aim assistance, and radar.',
   };
 }
 
@@ -52,7 +52,7 @@ export function organizationSchema(locale?: SchemaLocale) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'EFT CHEATS',
+    name: 'the isle cheats',
     url: `${SITE_ORIGIN}/`,
     logo: absoluteAssetUrl(BRAND_LOGO_SCHEMA),
     email: SUPPORT_EMAIL,
@@ -85,7 +85,7 @@ export function collectionPageSchema(input: {
     inLanguage: schemaLanguage(input.locale),
     isPartOf: {
       '@type': 'WebSite',
-      name: 'EFT CHEATS',
+      name: 'the isle cheats',
       url: `${SITE_ORIGIN}/`,
     },
   };
@@ -106,7 +106,7 @@ export function webPageSchema(input: {
     inLanguage: schemaLanguage(input.locale),
     isPartOf: {
       '@type': 'WebSite',
-      name: 'EFT CHEATS',
+      name: 'the isle cheats',
       url: `${SITE_ORIGIN}/`,
     },
   };
@@ -145,7 +145,7 @@ export function discussionForumPostingSchema(input: {
     inLanguage: schemaLanguage(input.locale),
     author: { '@type': 'Person', name: input.author },
     commentCount: input.comments,
-    isPartOf: { '@type': 'CollectionPage', name: 'EFT CHEATS Community Forum', url: canonicalUrl('/forum/') },
+    isPartOf: { '@type': 'CollectionPage', name: 'the isle cheats Community Forum', url: canonicalUrl('/forum/') },
   };
 }
 
@@ -173,7 +173,7 @@ export function productSchema(input: {
     sku: input.sku ?? input.url.replace(/\//g, '-'),
     brand: {
       '@type': 'Brand',
-      name: 'EFT CHEATS',
+      name: 'the isle cheats',
     },
     ...(input.image ? { image: absoluteAssetUrl(input.image) } : {}),
     offers: {
@@ -184,7 +184,7 @@ export function productSchema(input: {
       availability: 'https://schema.org/InStock',
       seller: {
         '@type': 'Organization',
-        name: 'EFT CHEATS',
+        name: 'the isle cheats',
       },
     },
   };
@@ -217,11 +217,11 @@ export function articleSchema(input: {
     inLanguage: schemaLanguage(input.locale),
     author: {
       '@type': 'Organization',
-      name: 'EFT CHEATS',
+      name: 'the isle cheats',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'EFT CHEATS',
+      name: 'the isle cheats',
       logo: {
         '@type': 'ImageObject',
         url: absoluteAssetUrl(BRAND_LOGO_SCHEMA),

@@ -12,6 +12,7 @@ import { formatForumRelative } from '../../utils/forumTime';
 
 const buildNow = new Date();
 import BrandLogo from '../../components/BrandLogo.astro';
+import { BRAND_LOGO_ALT_FORUM } from '../../config/brand';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
 const f = t.pages.forum;
@@ -115,7 +116,7 @@ const sourceTimestamp = (path?: string) => {
           <section class="forum-side-card forum-about" id="community-guidelines">
             <div class="forum-side-card__banner"></div>
             <div class="forum-about__content">
-              <div class="forum-about__title"><span class="forum-community-avatar forum-community-avatar--brand"><BrandLogo size={34} /></span><h2>{f.sidebarTitle}</h2></div>
+              <div class="forum-about__title"><span class="forum-community-avatar forum-community-avatar--brand"><BrandLogo size={34} alt={BRAND_LOGO_ALT_FORUM} /></span><h2>{f.sidebarTitle}</h2></div>
               <p>{f.sidebarIntro}</p>
               <div class="forum-stats"><span><b>{forumPosts.length}</b> {f.statsDiscussions}</span><span><b>{forumCategories.length}</b> {f.statsTopics}</span></div>
               <a class="forum-join" href={lp('/blog/')}>{f.exploreAllGuides}</a>

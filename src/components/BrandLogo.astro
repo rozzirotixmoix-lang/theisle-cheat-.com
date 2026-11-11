@@ -8,9 +8,11 @@ interface Props {
   class?: string;
   /** Header / above-the-fold: eager load, no lazy. */
   priority?: boolean;
+  /** Slot-specific description of the artwork. */
+  alt?: string;
 }
 
-const { size = 32, class: className, priority = false } = Astro.props;
+const { size = 32, class: className, priority = false, alt = BRAND_LOGO_ALT } = Astro.props;
 
 const brandWidths =
   size <= 32 ? ([32, 64] as const) : size <= 48 ? ([64, 128] as const) : ([128, 512] as const);
@@ -18,7 +20,7 @@ const brandWidths =
 
 <ResponsiveImage
   src={BRAND_LOGO_MASTER}
-  alt={BRAND_LOGO_ALT}
+  alt={alt}
   width={size}
   height={size}
   widths={brandWidths}

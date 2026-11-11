@@ -4,6 +4,7 @@ import ResponsiveImage from './ResponsiveImage.astro';
 import Icon from './icons/Icon.astro';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/starwind/carousel';
 import { useLocale } from '../i18n';
+import { GALLERY_IMAGE_SIZES, GALLERY_IMAGE_WIDTHS } from '../utils/responsiveImage';
 
 interface Props {
   images: ProductSlide[];
@@ -56,9 +57,10 @@ function isVideo(slide: ProductSlide) {
                   alt={slide.alt}
                   width={960}
                   height={540}
+                  widths={GALLERY_IMAGE_WIDTHS}
                   loading={priority && i === 0 ? 'eager' : 'lazy'}
                   fetchPriority={priority && i === 0 ? 'high' : undefined}
-                  sizes="(min-width: 1024px) 720px, 320px"
+                  sizes={GALLERY_IMAGE_SIZES}
                   class="media-slider__media"
                 />
               )}

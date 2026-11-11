@@ -10,7 +10,21 @@ export interface ProductPlan {
   badge?: string;
 }
 
-const standardPlans: ProductPlan[] = [
+/** Main Product plans from the Pricing Reference URL (Monthly 31 days $35, Lifetime $150). */
+const mainProductPlans: ProductPlan[] = [
+  { id: 'monthly', label: 'Monthly', priceUsd: 35, priceNote: 'USD / 31 days' },
+  {
+    id: 'lifetime',
+    label: 'Lifetime',
+    priceUsd: 150,
+    priceNote: 'USD · one-time',
+    recommended: true,
+    badge: 'Best value',
+  },
+];
+
+/** HWID Spoofer plans stay as on the template page (Part 3 must not change them). */
+const hwidSpooferPlans: ProductPlan[] = [
   { id: 'monthly', label: 'Monthly', priceUsd: 35, priceNote: 'USD / month' },
   {
     id: 'lifetime',
@@ -22,8 +36,9 @@ const standardPlans: ProductPlan[] = [
   },
 ];
 
-export function getProductPlans(_productSlug: string): ProductPlan[] {
-  return standardPlans;
+export function getProductPlans(productSlug: string): ProductPlan[] {
+  if (productSlug === 'hwid-spoofer') return hwidSpooferPlans;
+  return mainProductPlans;
 }
 
 export function getFeaturedPlan(productSlug: string): ProductPlan | undefined {

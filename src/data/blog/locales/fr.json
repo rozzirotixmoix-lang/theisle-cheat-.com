@@ -1,734 +1,663 @@
 [
   {
-    "tag": "Caractéristiques",
-    "title": "Tarkov Loot ESP : Comment filtrer le butin par prix, catégorie et conteneur",
-    "slug": "tarkov-loot-esp-filters-price-category-containers",
-    "image": "/images/gameplay/eft-esp-daylight-player-highlights.webp",
-    "imageAlt": "Vue du raid Escape From Tarkov avec étiquettes ESP de butin indiquant les noms et les prix des articles",
-    "desc": "Un aperçu pratique du butin ESP de Tarkov : filtres de prix, catégories de butin, conteneurs et préréglages, et comment garder votre écran lisible au lieu d'être encombré.",
-    "metaTitle": "Tarkov Loot ESP : filtres, prix et conteneurs expliqués",
-    "metaDescription": "Découvrez comment Tarkov Loot ESP fonctionne, y compris les filtres de prix minimaux, les catégories de butin, les conteneurs, les objets de quête et les préréglages, et comment le configurer pour des raids plus rapides et plus propres.",
-    "date": "2026-07-16",
-    "readTime": "6 min read",
-    "body": [
-      {
-        "type": "p",
-        "text": "Le butin est la seule raison pour laquelle la plupart des gens organisent des raids à Tarkov. C’est aussi là que l’on perd beaucoup de temps. Vous videz une pièce, ouvrez trois conteneurs et repartez sans rien qui vaut les emplacements. Loot ESP existe pour résoudre ce problème, et la différence entre une bonne et une mauvaise configuration se résume aux filtres."
-      },
-      {
-        "type": "h2",
-        "text": "Ce que fait réellement le butin ESP"
-      },
-      {
-        "type": "p",
-        "text": "Loot ESP dessine des étiquettes sur les objets et les conteneurs dans le monde, afin que vous puissiez voir ce qui se trouve à proximité sans vérifier chaque étagère et chaque tiroir. Dans le menu de triche d'Escape From Tarkov, la section de butin couvre les objets au sol, les conteneurs, les cachettes, les cadavres, les ordinateurs et autres endroits similaires, avec la distance et le prix indiqués à côté de ce qu'elle trouve."
-      },
-      {
-        "type": "p",
-        "text": "L’erreur que font la plupart des gens est de tout allumer. Un écran rempli d’étiquettes pour des éléments courants n’est que du bruit. Les outils qui comptent sont les filtres."
-      },
-      {
-        "type": "h2",
-        "text": "Commencez avec un prix minimal"
-      },
-      {
-        "type": "p",
-        "text": "Le paramètre le plus utile est le prix minimal. Fixez un sol, et tout ce qui se trouve en dessous ne sera tout simplement pas dessiné. Si vous recherchez un but lucratif, un étage supérieur vous permet de garder une vue dégagée et de vous indiquer les objets qui valent la peine d'être transportés. Si vous recherchez des objets de troc ou des besoins de quête spécifiques, baissez-le plus bas et utilisez plutôt les options de recherche et de catégorie."
-      },
-      {
-        "type": "p",
-        "text": "Il existe également une option pour ignorer les éléments que vous n'avez pas sélectionnés, ce qui est pratique une fois que vous avez une courte liste de ce qui vous intéresse."
-      },
-      {
-        "type": "h2",
-        "text": "Utilisez des catégories au lieu d'une liste géante"
-      },
-      {
-        "type": "p",
-        "text": "Le butin est regroupé en catégories telles que militaire, technique, médical et précieux, avec un groupe commun distinct pour les objets du quotidien. La sélection de catégories vous permet de décider du type de raid que vous effectuez. Une course médicale rapide et une course de butin technique nécessitent des étiquettes très différentes."
-      },
-      {
-        "type": "p",
-        "text": "Les types de conteneurs sont filtrés séparément. Vous pouvez choisir si les caisses à bois, les cachettes, les ordinateurs, les cadavres et les cadavres sont affichés, ce qui est important car chaque conteneur que vous vérifiez coûte du temps et expose votre position."
-      },
-      {
-        "type": "h2",
-        "text": "Dessiner la distance, l'affichage des prix et les couleurs"
-      },
-      {
-        "type": "p",
-        "text": "Dessiner la distance contrôle la distance à laquelle les étiquettes apparaissent. La courte distance permet de garder les choses bien rangées à l’intérieur des bâtiments. Une distance plus longue est utile sur les cartes ouvertes. L'affichage des prix ajoute de la valeur à chaque étiquette et la coloration personnalisée du butin vous permet de faire ressortir les objets de grande valeur afin que votre œil les trouve instantanément. Choisissez des couleurs que vous pouvez lire d’un seul coup d’œil."
-      },
-      {
-        "type": "h2",
-        "text": "Objets de quête et extraits"
-      },
-      {
-        "type": "p",
-        "text": "Quest ESP marque les éléments et objectifs liés à la quête, ce qui vous évite beaucoup de retours en arrière si vous travaillez sur des tâches. Les marqueurs d'extraction et de transition indiquent où vous pouvez partir, ce qui est utile lorsqu'un raid commence à mal se dérouler et que vous devez vous engager sur un itinéraire."
-      },
-      {
-        "type": "h2",
-        "text": "Les préréglages permettent de gagner du temps"
-      },
-      {
-        "type": "p",
-        "text": "Les préréglages de butin vous permettent de stocker une configuration de filtre et de basculer entre eux. Un préréglage pour les courses de grande valeur, un pour la chasse aux quêtes, un pour un balayage général. Le système de configuration prend également en charge l'enregistrement, le chargement, l'importation et l'exportation, afin que vous ne reconstruisiez pas votre configuration à chaque fois."
-      },
-      {
-        "type": "h2",
-        "text": "Gardez-le lisible"
-      },
-      {
-        "type": "p",
-        "text": "Une bonne règle est d’en montrer moins que ce dont vous pensez avoir besoin. Fixez un prix plancher, choisissez deux ou trois catégories et gardez une distance de tirage raisonnable. Si vous louchez sur les étiquettes, c’est que vous en avez trop."
-      },
-      {
-        "type": "h2",
-        "text": "Commencer"
-      },
-      {
-        "type": "p",
-        "text": "Si vous souhaitez obtenir un butin ESP avec le prix complet, la catégorie, le conteneur et les commandes prédéfinies, les [Escape From Tarkov cheats](/product/) l'incluent aux côtés du joueur ESP, de l'aimbot et des options diverses. Vérifiez la page d'état après les correctifs avant de les charger, consultez [setup Requirements](/blog/how-to-set-up-escape-from-tarkov-cheats-requirements/) et notez que le composant Cloud DMA est requis pour bénéficier de toutes les fonctionnalités. Les forfaits commencent par un [abonnement mensuel ou à vie](/blog/escape-from-tarkov-cheats-price-monthly-vs-lifetime/), avec une option à vie si vous prévoyez de rester à long terme."
-      }
-    ]
-  },
-  {
-    "tag": "Caractéristiques",
-    "title": "Réglages de l'aimbot Tarkov expliqués : FOV, os, choix de cible et plus",
-    "slug": "tarkov-aimbot-settings-explained",
-    "image": "/images/gameplay/eft-esp-night-vision-skeletons.webp",
-    "imageAlt": "Onglet Aimbot du menu de triche Escape From Tarkov affichant les options de FOV et de cible",
-    "desc": "Chaque menu Aimbot semble écrasant la première fois. Voici ce que font les principales options de l’aimbot Tarkov et comment les configurer sans faire de dégâts.",
-    "metaTitle": "Réglages de l'aimbot Tarkov expliqués : FOV, os et cibles",
-    "metaDescription": "Un guide simple des options de l'aimbot Tarkov, y compris la clé de visée, le champ de vision, les contrôles de visibilité, l'os intelligent, la sélection et la prédiction des cibles, avec des conseils sur la création d'une configuration.",
-    "date": "2026-05-10",
-    "readTime": "7 min read",
-    "body": [
-      {
-        "type": "p",
-        "text": "L'onglet Aimbot dans un menu de triche de Tarkov comporte de nombreuses options, et la plupart d'entre elles ne sont utiles que si vous comprenez ce qu'elles changent. Ceci est une présentation pas à pas des principales options, basée sur les options répertoriées pour les cheats Escape From Tarkov."
-      },
-      {
-        "type": "h2",
-        "text": "Les bases : clé de visée et FOV"
-      },
-      {
-        "type": "p",
-        "text": "Activer la visée active la fonction et la touche de visée décide du moment où elle s'enclenche. La plupart des gens l'associent à un bouton de la souris sur lequel ils appuient déjà lorsqu'ils se battent, cela semble donc naturel."
-      },
-      {
-        "type": "p",
-        "text": "FOV est le cercle autour de votre réticule dans lequel les cibles peuvent être sélectionnées. Vous pouvez le dessiner à l'écran, définir sa taille, le colorer et le rendre dynamique. Un champ de vision plus petit signifie que l'aimbot ne réagit qu'aux cibles proches de l'endroit où vous regardez déjà. Un grand champ de vision signifie qu'il peut attraper des personnes loin de votre réticule, ce qui est plus puissant mais semble également beaucoup plus évident pour quiconque vous regarde."
-      },
-      {
-        "type": "h2",
-        "text": "Distance et visibilité"
-      },
-      {
-        "type": "p",
-        "text": "La distance maximale de l'aimbot limite la distance à laquelle il ciblera. Les engagements de Tarkov varient énormément d'une carte à l'autre, donc une valeur inférieure convient aux cartes intérieures lourdes et une valeur plus élevée aux cartes ouvertes."
-      },
-      {
-        "type": "p",
-        "text": "Only Visible indique à l'aimbot d'ignorer les cibles que vous ne pouvez pas réellement voir. Activez-le si vous souhaitez un comportement qui reste plus proche de ce qu'un joueur normal pourrait voir. Laissez-le désactivé et vous demandez à l’outil de suivre la couverture."
-      },
-      {
-        "type": "h2",
-        "text": "Sélection des cibles et coéquipiers"
-      },
-      {
-        "type": "p",
-        "text": "La sélection de la cible décide qui sera choisi lorsque plus d'une personne est à portée. Les options de coéquipier vous permettent de marquer vos coéquipiers afin de ne pas les pointer du doigt, avec la possibilité d'ajouter rapidement un coéquipier. Si vous jouez en groupe, configurez-le avant le raid, pas pendant celui-ci."
-      },
-      {
-        "type": "h2",
-        "text": "Bones : os intelligent, os forcé et priorité"
-      },
-      {
-        "type": "p",
-        "text": "Smart Bone permet à l'aimbot de choisir parmi une liste de parties du corps, et l'option de priorité vous permet de les classer. Forcer l'os le verrouille sur un. Dans un jeu où l'armure et les munitions décident des combats, le choix des os compte délibérément plus que de les laisser par défaut."
-      },
-      {
-        "type": "h2",
-        "text": "Des extras à connaître"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "La prédiction tient compte du mouvement de la cible.",
-          "Le verrouillage de la cible vous maintient sur une cible une fois choisie.",
-          "Afficher la cible et la couleur de la cible en surbrillance qui est actuellement sélectionnée.",
-          "Dessiner un réticule vous donne un point de référence clair.",
-          "Les traceurs de balles montrent où vont vos tirs, ce qui aide lors du réglage d'une configuration.",
-          "L'accès instantané existe en option, mais il s'agit du paramètre le plus agressif de la liste."
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "Une façon sensée de créer une configuration"
-      },
-      {
-        "type": "p",
-        "text": "Commencez petit. Choisissez un champ de vision modeste, activez Uniquement visible, définissez une distance qui convient à votre carte habituelle et utilisez Smart Bone avec une courte liste. Modifiez un paramètre à la fois et testez-le. Enregistrez le résultat dans le système de configuration, qui prend en charge l'enregistrement, le chargement, l'importation et l'exportation."
-      },
-      {
-        "type": "p",
-        "text": "Les paramètres qui semblent flagrants ont tendance à attirer l’attention des autres joueurs, et aucun paramètre ne supprime entièrement les risques. Tricher dans un jeu en ligne peut entraîner des bannissements, alors construisez votre configuration en gardant cela à l'esprit."
-      },
-      {
-        "type": "h2",
-        "text": "Où l'obtenir"
-      },
-      {
-        "type": "p",
-        "text": "Si vous souhaitez le menu complet de l'aimbot ainsi que les outils ESP et divers, consultez les [Tarkov aimbot options](/product/). Il est vendu uniquement pour les raids principaux et utilise une clé distincte d'Arena, et le composant Cloud DMA est requis pour bénéficier de toutes les fonctionnalités. Associez-le à [loot ESP filters](/blog/tarkov-loot-esp-filters-price-category-containers/) et lisez [BattlEye considérations](/blog/battleye-and-escape-from-tarkov-cheats-what-to-know/) avant de partir en raid."
-      }
-    ]
-  },
-  {
-    "tag": "Guides d'achat",
-    "title": "Prix des cheats Escape From Tarkov : mensuel ou à vie",
-    "slug": "escape-from-tarkov-cheats-price-monthly-vs-lifetime",
-    "image": "/images/gameplay/eft-esp-enemies-through-concrete-wall.webp",
-    "imageAlt": "Escape From Tarkov triche les options de plan mensuel et à vie",
-    "desc": "Mensuel ou à vie ?Voici les prix, le seuil de rentabilité et les éléments supplémentaires à vérifier avant de payer.",
-    "metaTitle": "Prix des cheats Escape From Tarkov : mensuel ou à vie",
-    "metaDescription": "Le mois coûte 35 $ et la durée de vie est de 150 $ avec les mêmes fonctionnalités. Découvrez quand chacun a du sens, ce qui est vendu séparément et ce qu'il faut vérifier avant d'acheter.",
-    "date": "2026-10-15",
-    "readTime": "5 min read",
+    "tag": "Guides de cheats de jeux",
+    "title": "Prix de The Isle Cheats : Mensuel vs Accès à Vie Comparés",
+    "h1": "Prix de The Isle Cheats : Mensuel vs Accès à Vie Comparés",
+    "slug": "the-isle-cheats-price-monthly-vs-lifetime",
+    "image": "/images/gameplay/isle-daylight-valley-minimap-esp.webp",
+    "imageAlt": "Menu The Isle cheat montrant les options ESP à côté des prix mensuel et à vie",
+    "desc": "Mensuel ou à vie ? Voici ce que coûte chaque plan, ce qu’il inclut, et le moment où l’accès à vie devient le choix le moins cher.",
+    "metaTitle": "Prix de The Isle Cheats : Mensuel vs À Vie Comparés",
+    "metaDescription": "Voyez ce que coûtent The Isle cheats : $35 pour 31 jours ou $150 à vie. Inclut un calcul de seuil de rentabilité et à qui chaque plan convient.",
+    "date": "2026-08-14",
+    "readTime": "5 min de lecture",
     "featured": true,
     "body": [
       {
         "type": "p",
-        "text": "Si vous recherchez des cheats pour Escape From Tarkov, le prix est probablement l’une des premières choses auxquelles vous souhaitez obtenir une réponse. Voici les chiffres réels et comment choisir entre les deux plans."
+        "text": "Si vous regardez The Isle cheats, la première question pratique est ce que cela coûtera et combien de temps vous en aurez réellement besoin. Il y a deux plans, et le bon dépend surtout de la durée pendant laquelle vous comptez continuer à jouer à Evrima."
       },
-      {
-        "type": "h2",
-        "text": "Les deux plans"
-      },
-      {
-        "type": "table",
-        "headers": [
-          "Planifier",
-          "Accéder",
-          "Prix"
-        ],
-        "rows": [
-          [
-            "Mensuel",
-            "31 days",
-            "$35"
-          ],
-          [
-            "Durée de vie",
-            "Accès illimité",
-            "$150 once"
-          ]
-        ]
-      },
+      { "type": "h2", "text": "Tarifs actuels" },
       {
         "type": "p",
-        "text": "Les deux forfaits incluent les mêmes fonctionnalités. Vous ne payez pas plus pour des outils supplémentaires. La seule différence est la durée pendant laquelle vous avez accès."
-      },
-      {
-        "type": "h2",
-        "text": "Quand la mensualité a du sens"
-      },
-      {
-        "type": "p",
-        "text": "Une mensualité est la façon la moins risquée de commencer. Si vous testez la triche sur votre propre configuration, ne jouez que par courtes rafales ou si vous n'êtes pas sûr de rester avec Tarkov jusqu'au prochain wipe, 35 $ pour 31 jours maintiennent votre engagement faible."
-      },
-      {
-        "type": "h2",
-        "text": "Quand la vie a du sens"
-      },
-      {
-        "type": "p",
-        "text": "Le calcul est simple. Quatre mois d'accès mensuel coûtent 140 $.Le cinquième mois vous fait dépasser 150 $.Si vous prévoyez d’utiliser le cheat pendant cinq mois ou plus, la durée de vie est l’option la moins chère et vous arrêtez de penser aux renouvellements."
-      },
-      {
-        "type": "p",
-        "text": "La durée de vie convient également aux personnes qui jouent régulièrement sur des wipes et ne souhaitent pas racheter."
-      },
-      {
-        "type": "h2",
-        "text": "Que devez-vous savoir d'autre avant de payer"
-      },
-      {
-        "type": "p",
-        "text": "DMA en nuage.[Cloud DMA](/blog/tarkov-cloud-dma-explained-do-you-need-it/) est requis pour bénéficier de toutes les fonctionnalités et constitue un achat distinct des forfaits mensuels et à vie. Prévoyez-le à l’avance pour qu’il n’y ait pas de surprises."
-      },
-      {
-        "type": "p",
-        "text": "Raids uniquement. Ce produit est destiné aux principaux raids Tarkov. Il utilise une clé distincte d’Arena, donc un achat ici ne couvre pas Arena."
-      },
-      {
-        "type": "p",
-        "text": "Votre PC. Vous avez besoin de Windows 10 ou 11 avec HVCI, Core Isolation, TPM et Secure Boot activés. Notre [system requis](/blog/how-to-set-up-escape-from-tarkov-cheats-requirements/) couvre cela plus en détail."
-      },
-      {
-        "type": "p",
-        "text": "Livraison et accompagnement. La livraison est instantanée après l'achat et vous obtenez un chargeur à utiliser. Si quelque chose ne va pas, vous pouvez ouvrir un ticket sur le site ou contacter Discord avec votre identifiant de commande."
-      },
-      {
-        "type": "p",
-        "text": "Après les correctifs. Vérifiez la page d'état après les correctifs majeurs avant de vous lancer dans un raid."
-      },
-      {
-        "type": "h2",
-        "text": "Ce qui est inclus dans le prix"
-      },
-      {
-        "type": "p",
-        "text": "L'ensemble de fonctionnalités couvre le joueur ESP avec boîte, squelette, santé, distance et plus encore, le butin ESP avec filtres de prix et de catégorie, un aimbot avec FOV, options d'os et de visibilité, pas de recul et autres options diverses, et un système de configuration pour sauvegarder et partager les configurations. Il est également décrit comme étant résistant aux flux pour la plupart des outils de capture."
-      },
-      {
-        "type": "h2",
-        "text": "Prêt à acheter"
-      },
-      {
-        "type": "p",
-        "text": "Si vous avez fait votre choix, rendez-vous sur la page [buy Escape From Tarkov cheats](/go/escape-from-tarkov/) pour choisir mensuellement ou à vie. Si vous êtes indécis, commencez mensuellement. Vous pouvez toujours décider de vous engager plus tard."
-      }
-    ]
-  },
-  {
-    "tag": "Guides d'achat",
-    "title": "Tarkov Cloud DMA expliqué : qu'est-ce que c'est et si vous en avez besoin",
-    "slug": "tarkov-cloud-dma-explained-do-you-need-it",
-    "image": "/images/gameplay/eft-esp-daylight-player-highlights.webp",
-    "imageAlt": "Schéma de configuration de la triche Escape From Tarkov avec connexion Cloud DMA",
-    "desc": "Cloud DMA apparaît dans presque toutes les conversations de triche de Tarkov. Voici de quoi il s’agit et où il s’intègre dans votre achat.",
-    "metaTitle": "Tarkov Cloud DMA expliqué : en avez-vous besoin ?",
-    "metaDescription": "Cloud DMA est requis pour bénéficier de toutes les fonctionnalités de nos cheats Escape From Tarkov. Voici ce que cela signifie, son rapport avec les plans et ce qu'il faut savoir avant d'acheter.",
-    "date": "2026-06-04",
-    "readTime": "6 min read",
-    "body": [
-      {
-        "type": "p",
-        "text": "Si vous avez regardé les cheats de Tarkov pendant plus de cinq minutes, vous avez vu le terme DMA. Cloud DMA est la version qui apparaît dans nos produits, et il vaut la peine de la comprendre avant d'acheter."
-      },
-      {
-        "type": "h2",
-        "text": "DMA en termes simples"
-      },
-      {
-        "type": "p",
-        "text": "DMA signifie accès direct à la mémoire. Dans le monde de la triche, une configuration DMA signifie traditionnellement utiliser un matériel distinct pour lire les données du jeu au lieu de tout exécuter sur la même machine que le jeu. Cette approche est populaire car Tarkov utilise BattlEye, qui fonctionne au niveau du noyau."
-      },
-      {
-        "type": "h2",
-        "text": "Où s'intègre Cloud DMA"
-      },
-      {
-        "type": "p",
-        "text": "Cloud DMA est l'option hébergée répertoriée avec les cheats [Escape From Tarkov avec Cloud DMA](/product/). Le produit répertorie Cloud DMA dans son ensemble de fonctionnalités et il est décrit comme requis pour bénéficier de toutes les fonctionnalités. Si vous recherchez des étapes exactes sur la manière dont la connexion est établie, celles-ci sont fournies après l'achat via le guide et les canaux d'assistance, suivez donc les instructions actuelles plutôt que de vous fier aux conseils généraux d'Internet."
-      },
-      {
-        "type": "h2",
-        "text": "Quel est le rapport avec le plan que vous achetez"
-      },
-      {
-        "type": "p",
-        "text": "Cette partie fait trébucher les gens. Les [plans](/blog/escape-from-tarkov-cheats-price-monthly-vs-lifetime/) mensuels et à vie couvrent la triche elle-même. Cloud DMA est un achat distinct. Ainsi, le coût total de fonctionnement du produit avec toutes les fonctions correspond au forfait que vous choisissez plus Cloud DMA."
-      },
-      {
-        "type": "h2",
-        "text": "En avez-vous besoin ?"
-      },
-      {
-        "type": "p",
-        "text": "Si vous voulez toutes les fonctionnalités, oui. La page produit indique que Cloud DMA est requis pour bénéficier de toutes les fonctionnalités. Si vous souhaitez uniquement parcourir le menu, vous n’aurez peut-être pas besoin de vous y précipiter, mais vous n’obtiendrez pas une expérience complète sans lui."
-      },
-      {
-        "type": "h2",
-        "text": "Ce dont votre PC a encore besoin"
-      },
-      {
-        "type": "p",
-        "text": "Cloud DMA ne supprime pas votre propre configuration système requise. Le produit demande Windows 10 ou 11 avec HVCI, Core Isolation, TPM et Secure Boot activés. Lisez notre [setup checklist](/blog/how-to-set-up-escape-from-tarkov-cheats-requirements/) pour une liste de contrôle complète."
-      },
-      {
-        "type": "h2",
-        "text": "Questions à poser à l'assistance avant d'acheter"
-      },
-      {
-        "type": "p",
-        "text": "Si vous n'êtes pas sûr, demandez avant de payer, pas après. Les bonnes questions sont de savoir quel est l'ordre d'installation actuel, que faire après un correctif et quelles informations inclure dans un ticket. Le support est disponible via un ticket sur le site ou sur Discord. Incluez votre numéro de commande lorsque vous les contactez."
-      },
-      {
-        "type": "h2",
-        "text": "Étape suivante"
-      },
-      {
-        "type": "p",
-        "text": "Une fois que vous savez ce que vous achetez, la page [Escape From Tarkov triche avec Cloud DMA](/product/) affiche les deux plans et les exigences Cloud DMA.N'oubliez pas que le produit est uniquement destiné aux raids principaux et utilise une clé distincte de celle d'Arena."
-      }
-    ]
-  },
-  {
-    "tag": "Anti-triche",
-    "title": "BattlEye et cheats Escape From Tarkov : ce que vous devez savoir",
-    "slug": "battleye-and-escape-from-tarkov-cheats-what-to-know",
-    "image": "/images/gameplay/eft-esp-night-vision-skeletons.webp",
-    "imageAlt": "Écran de chargement anti-triche BattlEye pour Escape From Tarkov",
-    "desc": "BattlEye est l'anti-triche derrière Tarkov. Voici une explication claire de ce que c’est, des risques et de la manière de l’aborder de manière judicieuse.",
-    "metaTitle": "BattlEye et cheats Tarkov : ce que vous devez savoir",
-    "metaDescription": "Un regard honnête sur BattlEye dans Escape From Tarkov, ce que cela signifie pour les utilisateurs de triche, pourquoi les vérifications de statut sont importantes après les correctifs et que faire en cas de ban.",
-    "date": "2026-09-07",
-    "readTime": "6 min read",
-    "body": [
-      {
-        "type": "p",
-        "text": "Escape From Tarkov utilise BattlEye comme anti-triche. Si vous envisagez d’utiliser des cheats dans le jeu, vous devez comprendre ce que cela signifie."
-      },
-      {
-        "type": "h2",
-        "text": "Qu'est-ce que BattleEye ?"
-      },
-      {
-        "type": "p",
-        "text": "BattlEye est un anti-triche au niveau du noyau. Cela signifie qu'il fonctionne avec un accès approfondi à votre système et qu'il est utilisé dans un certain nombre de jeux. Dans Tarkov, c'est la couche principale qui tente d'attraper les logiciels de triche."
-      },
-      {
-        "type": "h2",
-        "text": "Ce que cela signifie pour les utilisateurs tricheurs"
-      },
-      {
-        "type": "p",
-        "text": "Soyons directs. Aucune triche n'élimine le risque de ban, et tout vendeur qui vous dit le contraire vend trop. Les fournisseurs d'anti-triche mettent à jour leur détection et leur correctif de jeux. Ce que vous pouvez faire, c'est utiliser un produit qui est activement entretenu et l'aborder avec prudence."
-      },
-      {
-        "type": "p",
-        "text": "C'est pourquoi la page du produit vous demande de vérifier la page d'état après les correctifs avant de les charger. Si un correctif vient d'arriver, attendez que l'état soit mis à jour."
-      },
-      {
-        "type": "h2",
-        "text": "Pourquoi les bans de compte et les bans de matériel diffèrent"
-      },
-      {
-        "type": "p",
-        "text": "Certaines bans s'appliquent à votre compte. D'autres associent la pénalité à vos identifiants matériels. Une ban matériel suit votre PC, pas seulement votre connexion, ce qui la rend beaucoup plus perturbatrice. Nous abordons cela en détail dans notre article [HWID ban](/blog/tarkov-hwid-ban-how-hwid-spoofer-works/)."
-      },
-      {
-        "type": "h2",
-        "text": "Des habitudes qui réduisent votre exposition"
-      },
-      {
-        "type": "p",
-        "text": "Ce sont des points pratiques, pas des garanties."
+        "text": "La page produit liste deux options :"
       },
       {
         "type": "ul",
         "items": [
-          "Gardez vos paramètres modestes. Un comportement évident attire les rapports des autres joueurs.",
-          "Suivez exactement le guide de configuration actuel et ne sautez pas d'étapes.",
-          "Répondez à la configuration système requise répertoriée pour le produit, notamment HVCI, Core Isolation, TPM et Secure Boot.",
-          "Vérifiez l’état après chaque gros patch.",
-          "Ne partagez pas les détails de votre chargeur ou de votre commande."
+          "Mensuel : $35 pour 31 jours d’accès",
+          "À vie : $150 pour un accès illimité"
         ]
       },
       {
-        "type": "h2",
-        "text": "Si un ban se produit"
+        "type": "p",
+        "text": "Les prix peuvent changer, confirmez donc le montant sur la page produit au moment du paiement."
+      },
+      { "type": "h2", "text": "Quand l’accès à vie commence à valoir le coup" },
+      {
+        "type": "p",
+        "text": "Voici le calcul simple. Quatre périodes mensuelles coûtent $140, ce qui reste sous $150. Une cinquième période vous amène à $175. L’accès à vie devient donc l’option la moins chère dès que vous prévoyez d’utiliser le cheat pendant cinq périodes de 31 jours ou plus."
       },
       {
         "type": "p",
-        "text": "Si votre compte est banni, ce compte disparaît et vous en aurez besoin d’un nouveau. Si votre matériel est signalé, un usurpateur matériel est un moyen par lequel les gens tentent de revenir avec une nouvelle empreinte matérielle. Notre [HWID spoofer](/hwid-spoofer/) répertorie Escape From Tarkov sous les titres BattlEye et comprend un nettoyeur."
+        "text": "Si vous n’êtes pas sûr de jouer encore dans cinq mois, le mensuel est l’engagement le plus bas. Si The Isle est déjà votre jeu principal et que vous jouez la plupart des semaines, l’accès à vie fait économiser à long terme et vous évite de penser aux renouvellements."
       },
-      {
-        "type": "h2",
-        "text": "Prendre la décision"
-      },
+      { "type": "h2", "text": "À qui chaque plan convient" },
       {
         "type": "p",
-        "text": "La tricherie comporte des risques et vous devez décider en gardant cela à l’esprit. Si vous décidez d'aller de l'avant, les [Escape From Tarkov cheats](/product/) sont vendus pour les raids principaux avec ESP, aimbot et diverses fonctionnalités, et [Cloud DMA](/blog/tarkov-cloud-dma-explained-do-you-need-it/) est requis pour une fonctionnalité complète. L'assistance est disponible par ticket ou Discord si vous avez besoin d'aide avec le processus en cours."
-      }
-    ]
-  },
-  {
-    "tag": "Aide au bannissement",
-    "title": "Ban HWID sur Tarkov : ce que c'est et comment fonctionne un spoofer HWID",
-    "slug": "tarkov-hwid-ban-how-hwid-spoofer-works",
-    "image": "/images/gameplay/eft-esp-enemies-through-concrete-wall.webp",
-    "imageAlt": "Interface de spoofer HWID pour les jeux BattlEye, y compris Escape From Tarkov",
-    "desc": "Un ban HWID suit votre matériel, pas seulement votre compte. Voici comment cela fonctionne et pour quoi un spoofer équipé d’un nettoyeur est conçu.",
-    "metaTitle": "Ban HWID sur Tarkov : comment fonctionne un spoofer HWID",
-    "metaDescription": "Frappé par un ban Tarkov HWID ?Découvrez ce que c'est, ce que change un spoofer, ce que fait le nettoyeur, ainsi que les exigences et les prix de notre HWID Spoofer.",
-    "date": "2026-05-17",
-    "readTime": "7 min read",
-    "body": [
-      {
-        "type": "p",
-        "text": "Un ban HWID est l’une des choses les plus frustrantes qui puissent arriver dans Tarkov, car elle ne se limite pas à votre compte. Voici de quoi il s’agit et comment un spoofer s’intègre."
-      },
-      {
-        "type": "h2",
-        "text": "Qu'est-ce qu'un ban HWID"
-      },
-      {
-        "type": "p",
-        "text": "HWID signifie ID matériel. Un ban HWID lie la sanction aux identifiants de votre PC, tels que les numéros de série des disques, les adresses MAC et les identifiants GPU, plutôt qu'à votre compte uniquement. C’est pourquoi créer un nouveau compte ne résout souvent pas le problème. Le jeu reconnaît toujours la machine."
-      },
-      {
-        "type": "h2",
-        "text": "Ce qu'un spoofer change"
-      },
-      {
-        "type": "p",
-        "text": "Un usurpateur modifie ces identifiants matériels afin que votre PC présente une empreinte digitale différente. Le [HWID spoofer](/hwid-spoofer/) est conçu pour cela et il modifie les numéros de série des disques, les adresses MAC, les ID GPU et les identifiants associés."
-      },
-      {
-        "type": "h2",
-        "text": "À quoi sert le nettoyant"
-      },
-      {
-        "type": "p",
-        "text": "L'usurpation d'identité matérielle à elle seule ne suffit pas toujours, car des traces restantes peuvent rester sur votre système. Le spoofer comprend un nettoyeur qui efface ces traces avant de relancer le jeu. L’exécution du nettoyage fait partie du processus et non un supplément facultatif."
-      },
-      {
-        "type": "h2",
-        "text": "Tarkov est-il pris en charge"
-      },
-      {
-        "type": "p",
-        "text": "Oui. Escape From Tarkov est répertorié sous les titres [BattlEye](/blog/battleye-and-escape-from-tarkov-cheats-what-to-know/), et le produit indique que le spoofing est acceptable sur tous les jeux BattlEye. Il répertorie également la prise en charge des titres EAC, des jeux Ricochet, de Valorant via Vanguard et autres."
-      },
-      {
-        "type": "h2",
-        "text": "Une limite honnête"
-      },
-      {
-        "type": "p",
-        "text": "Un spoofer traite les identifiants matériels. Cela n’annule pas un ban de compte. Si votre compte a été banni, vous aurez besoin d'un nouveau compte pour jouer. Et aucun outil ne garantit un résultat, alors suivez attentivement le guide actuel."
-      },
-      {
-        "type": "h2",
-        "text": "Conditions requises avant de commencer"
+        "text": "Le mensuel vous convient si :"
       },
       {
         "type": "ul",
         "items": [
-          "Windows 10 ou 11, 64 bits",
-          "HVCI, Core Isolation, TPM et Secure Boot activés",
-          "Droits d'administrateur pour les étapes d'usurpation d'identité et de nettoyage",
-          "Une connexion Internet stable pour l'activation et les mises à jour"
+          "Vous voulez essayer le menu avant de vous engager sur le long terme",
+          "Vous ne jouez que par à-coups, par exemple autour d’une mise à jour ou d’un nouveau serveur",
+          "Vous préférez garder le coût initial bas"
         ]
       },
       {
-        "type": "h2",
-        "text": "L'ordre compte"
+        "type": "p",
+        "text": "L’accès à vie vous convient si :"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Vous jouez régulièrement à Evrima et comptez continuer",
+          "Vous ne voulez pas renouveler chaque mois",
+          "Vous voulez que l’accès reste en place d’une mise à jour à l’autre, sous réserve des conditions du produit"
+        ]
       },
       {
         "type": "p",
-        "text": "Exécutez le spoofing et le nettoyage avant de lancer le jeu, et suivez les instructions actuelles de votre compte ou de votre canal de ticket pour connaître la séquence exacte. Si vous n'êtes pas sûr d'une étape, demandez à l'assistance avant de lancer le jeu."
+        "text": "Consultez la [FAQ](/faq/) pour savoir exactement ce que couvre l’accès à vie avant d’acheter, car les conditions sont la seule chose qu’il vaut mieux lire plutôt que d’assumer."
+      },
+      { "type": "h2", "text": "Ce que le prix inclut" },
+      {
+        "type": "p",
+        "text": "Vous payez pour un ensemble complet d’outils, pas pour une seule fonction. Selon la page produit, cela inclut :"
       },
       {
-        "type": "h2",
-        "text": "Tarifs"
+        "type": "ul",
+        "items": [
+          "ESP joueurs, PNJ et animaux avec boxes, snaplines, noms, distance, santé, endurance, croissance et espèce",
+          "Marqueurs de cadavres, fruits et eau",
+          "Aimbot, radar, FOV et contrôles du ciel",
+          "Configs sauvegardables et menus en anglais ou russe",
+          "Une touche de menu personnalisée, une touche panique personnalisée et des couleurs ESP personnalisées",
+          "Support 24/7 et livraison numérique instantanée"
+        ]
+      },
+      { "type": "h2", "text": "Quoi vérifier avant de payer" },
+      {
+        "type": "p",
+        "text": "Le prix n’est qu’une partie de la décision. Assurez-vous d’abord que ceci est vrai pour votre configuration :"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Vous jouez à Evrima. Le produit est listé pour Evrima uniquement.",
+          "Vous êtes sur Windows 10 ou 11 avec un CPU Intel ou AMD.",
+          "Votre PC répond aux paramètres de sécurité listés : HVCI, Core Isolation, TPM et Secure Boot sont tous indiqués comme ON.",
+          "Vous savez que Cloud DMA est listé comme requis pour la fonctionnalité complète."
+        ]
       },
       {
         "type": "p",
-        "text": "Le HWID Spoofer coûte 50 $ par mois pendant 31 jours, ou 150 $ pour un accès à vie. La livraison est instantanée et l'assistance est disponible 24 heures sur 24."
+        "text": "Si l’un de ces points ne correspond pas à votre machine, réglez cela d’abord et demandez au support via un ticket avant d’acheter."
       },
+      { "type": "h2", "text": "Faut-il ajouter un spoofer ?" },
       {
-        "type": "h2",
-        "text": "Étape suivante"
+        "type": "p",
+        "text": "Certains acheteurs prennent aussi un [HWID Spoofer](/hwid-spoofer/) en achat séparé. Il est tarifé indépendamment à $50 par mois ou $150 à vie. C’est optionnel, et notre article sur [ce à quoi s’attendre après le checkout](/faq/) couvre le fonctionnement de la livraison."
+      },
+      { "type": "h2", "text": "En résumé" },
+      {
+        "type": "p",
+        "text": "Le mensuel à $35 est la façon simple d’entrer. L’accès à vie à $150 est le meilleur rapport si vous jouerez plus de quatre mois. Quel que soit votre choix, consultez la [page de statut en direct](/) avant d’acheter pour connaître l’état actuel du produit."
       },
       {
         "type": "p",
-        "text": "Si vous avez été frappé par un ban matériel ou si vous souhaitez vous préparer, consultez le [HWID spoofer](/hwid-spoofer/). Si vous regardez également la triche elle-même, les [Escape From Tarkov cheats](/product/) sont disponibles séparément."
+        "text": "Prêt à y aller ? Vous pouvez obtenir [the isle cheats](/product/) ici et choisir le plan qui correspond à votre façon de jouer."
       }
     ]
   },
   {
-    "tag": "Guides de configuration",
-    "title": "Comment installer les cheats Escape From Tarkov : prérequis et dépannage",
-    "slug": "how-to-set-up-escape-from-tarkov-cheats-requirements",
-    "image": "/images/gameplay/eft-esp-daylight-player-highlights.webp",
-    "imageAlt": "Liste de contrôle des paramètres de sécurité Windows pour la configuration de la triche Escape From Tarkov",
-    "desc": "La plupart des problèmes de configuration proviennent d'une courte liste de causes. Voici la liste de contrôle et les mesures à prendre lorsque les choses ne fonctionnent pas.",
-    "metaTitle": "Prérequis et checklist d'installation des cheats Tarkov",
-    "metaDescription": "Une liste de contrôle de configuration pratique pour les cheats Escape From Tarkov : Windows, HVCI, Core Isolation, TPM, Secure Boot, accès au chargeur, Cloud DMA et que faire en cas d'échec.",
-    "date": "2026-06-12",
-    "readTime": "6 min read",
+    "tag": "Guides de cheats de jeux",
+    "title": "ESP de The Isle Expliqué : Options Dinosaure, Joueur, Fruit et Eau",
+    "h1": "ESP de The Isle Expliqué : Ce que Chaque Option Affiche et Quand Elle Aide",
+    "slug": "the-isle-esp-options-explained",
+    "image": "/images/gameplay/isle-tall-grass-esp-boxes.webp",
+    "imageAlt": "Overlay ESP de The Isle montrant des boxes de dinosaures avec labels santé, espèce et distance",
+    "desc": "L’ESP dans The Isle est plus utile qu’il n’y paraît. Voici ce que chaque option affiche et comment garder l’écran lisible.",
+    "metaTitle": "ESP de The Isle Expliqué : Chaque Option et Ce Qu’Elle Affiche",
+    "metaDescription": "Un guide clair de l’ESP The Isle : marqueurs dinosaure, joueur, cadavre, fruit et eau, plus tags de croissance, endurance et espèce, et comment les régler.",
+    "date": "2026-05-09",
+    "readTime": "5 min de lecture",
     "body": [
       {
         "type": "p",
-        "text": "La plupart des problèmes rencontrés par les gens pour faire fonctionner les cheats Tarkov proviennent d'une courte liste de causes. Parcourez d’abord cette liste de contrôle."
+        "text": "ESP signifie perception extrasensorielle. En pratique, c’est de l’information dessinée sur l’écran du jeu que vous n’auriez pas normalement : où sont les joueurs et les animaux, ce qu’ils sont, à quelle distance et à quel point ils sont en forme. Dans un jeu de survie avec de grandes cartes et une végétation dense, cela change votre façon de vous déplacer."
       },
       {
-        "type": "h2",
-        "text": "Configuration système requise"
+        "type": "p",
+        "text": "The Isle justifie bien l’ESP parce qu’une grande partie du jeu consiste à lire l’environnement. Vous êtes un dinosaure qui essaie de manger, boire, grandir et éviter de mourir. Savoir ce qui vous entoure compte plus que la visée."
+      },
+      { "type": "h2", "text": "Les catégories principales" },
+      {
+        "type": "p",
+        "text": "La page produit regroupe les options visuelles en quelques types clairs."
+      },
+      { "type": "h3", "text": "Qui et quoi est à proximité" },
+      {
+        "type": "ul",
+        "items": [
+          "Player ESP marque les autres joueurs.",
+          "NPC ESP marque les créatures non joueurs.",
+          "Animal ESP marque la faune.",
+          "Species montre ce qu’est une cible, ce qui compte quand une silhouette lointaine peut être une menace ou un snack.",
+          "Growth montre à quel point un dinosaure est développé. Une cible adulte et une jeune sont des situations très différentes."
+        ]
+      },
+      { "type": "h3", "text": "Comment c’est dessiné" },
+      {
+        "type": "ul",
+        "items": [
+          "Box et Snapline vous donnent un rectangle autour de la cible et une ligne qui pointe vers elle.",
+          "Name et Distance ajoutent des labels texte.",
+          "Head Dot marque la position de la tête.",
+          "Player Direction montre dans quelle direction une cible regarde.",
+          "Visible Check sert à séparer les cibles que vous voyez de celles derrière un abri.",
+          "L’aperçu du menu montre aussi des styles squelette et glow pour l’ESP dinosaure."
+        ]
+      },
+      { "type": "h3", "text": "État de la cible" },
+      {
+        "type": "ul",
+        "items": [
+          "Health et Stamina montrent à quel point une cible est blessée ou fatiguée. La stamina est surtout pertinente dans The Isle, où en manquer décide des poursuites.",
+          "Corpse marque les animaux morts, utile pour trouver de la nourriture en carnivore."
+        ]
+      },
+      { "type": "h3", "text": "Marqueurs de survie et du monde" },
+      {
+        "type": "ul",
+        "items": [
+          "Fruit et Water marquent les ressources.",
+          "Max Distance définit jusqu’où l’ESP dessinera. L’aperçu du menu montre 300m comme valeur."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Certaines options, comme Gore, sont listées sur la page produit sans plus de détail, donc regardez le menu lui-même pour voir exactement ce qu’elles affichent."
+      },
+      { "type": "h2", "text": "Garder l’écran lisible" },
+      {
+        "type": "p",
+        "text": "Plus d’information n’est pas toujours mieux. Quelques habitudes aident :"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Commencez par boxes, noms et distance, puis ajoutez des extras un par un.",
+          "Utilisez Max Distance pour couper le bruit des cibles lointaines dont vous n’avez pas besoin.",
+          "Utilisez Custom ESP Colors pour que les différents types de cibles se distinguent d’un coup d’œil.",
+          "Enregistrez votre setup comme config pour basculer entre une vue minimale et une vue complète."
+        ]
+      },
+      { "type": "h2", "text": "Au-delà de l’ESP" },
+      {
+        "type": "p",
+        "text": "Le même menu inclut aussi aimbot, radar, FOV et contrôles du ciel, ainsi que des extras comme crosshair, fullbright, affichages FPS et heure, une touche de menu personnalisée et une touche panique personnalisée. La langue du menu peut être l’anglais ou le russe."
+      },
+      { "type": "h2", "text": "Pour qui c’est fait" },
+      {
+        "type": "p",
+        "text": "Si vous voulez un overlay pensé autour des mécaniques de survie d’Evrima, avec infos nourriture, eau, croissance et espèce, le menu convient. Vous pouvez voir la liste complète et les tarifs sur la [page produit](/product/). Avant d’acheter, vérifiez les exigences : Evrima uniquement, Windows 10 ou 11, et les paramètres de sécurité listés là. Pour un aperçu général de ce qu’il faut comparer, voir notre guide sur [quoi regarder dans The Isle cheats](/blog/the-isle-cheats-price-monthly-vs-lifetime/)."
+      }
+    ]
+  },
+  {
+    "tag": "Guides de cheats de jeux",
+    "title": "Comment Configurer The Isle Cheats sous Windows : Exigences et Premier Lancement",
+    "h1": "Comment Configurer The Isle Cheats sous Windows, Étape par Étape",
+    "slug": "how-to-set-up-the-isle-cheats-windows",
+    "image": "/images/gameplay/isle-beach-shoreline-player-esp.webp",
+    "imageAlt": "Checklist des paramètres de sécurité Windows à côté du menu The Isle cheat",
+    "desc": "Avant d’acheter ou de lancer quoi que ce soit, passez les exigences en revue. Ce guide couvre la checklist et quoi faire le premier jour.",
+    "metaTitle": "Comment Configurer The Isle Cheats sous Windows (Guide 2026)",
+    "metaDescription": "Vérifiez les exigences de votre PC, comprenez les paramètres de sécurité et apprenez quoi faire au premier lancement de The Isle cheats sous Windows 10 ou 11.",
+    "date": "2026-06-27",
+    "readTime": "5 min de lecture",
+    "body": [
+      {
+        "type": "p",
+        "text": "La plupart des problèmes de configuration viennent du fait de sauter les exigences, pas du logiciel. Ce guide passe en revue ce qu’il faut vérifier avant de lancer, et à quoi s’attendre lors de votre première session."
+      },
+      {
+        "type": "p",
+        "text": "Pour l’ordre exact des étapes, suivez toujours le guide actuel fourni avec votre achat. Les guides sont mis à jour avec le produit, et cet article sert à vous y préparer."
+      },
+      { "type": "h2", "text": "Étape 1 : confirmer les bases" },
+      {
+        "type": "p",
+        "text": "La page produit liste ceci comme base :"
       },
       {
         "type": "ul",
         "items": [
           "Windows 10 ou 11",
           "Processeur Intel ou AMD",
-          "HVCI activé",
-          "Isolation du noyau activée",
-          "TPM activé",
-          "Démarrage sécurisé activé",
-          "Une connexion Internet stable"
+          "Evrima uniquement. Si vous jouez à une autre version de The Isle, ce produit n’est pas listé pour elle.",
+          "Une connexion internet stable"
         ]
       },
+      { "type": "h2", "text": "Étape 2 : vérifier les paramètres de sécurité" },
       {
         "type": "p",
-        "text": "Ces paramètres sont répertoriés sur la page du produit, ne présumez donc pas que vous pouvez les ignorer."
+        "text": "La page produit liste ce qui suit comme ON :"
       },
       {
-        "type": "h2",
-        "text": "Ce que vous recevez"
-      },
-      {
-        "type": "p",
-        "text": "Après l'achat, vous bénéficiez d'une livraison immédiate ainsi que d'un accès au chargeur. Le produit est destiné aux raids principaux de Tarkov et utilise une clé distincte de celle d'Arena, alors assurez-vous d'avoir acheté la bonne."
-      },
-      {
-        "type": "h2",
-        "text": "Cloud DMA"
+        "type": "ul",
+        "items": ["HVCI", "Core Isolation", "TPM", "Secure Boot"]
       },
       {
         "type": "p",
-        "text": "[Cloud DMA](/blog/tarkov-cloud-dma-explained-do-you-need-it/) est requis pour bénéficier de toutes les fonctionnalités et est acheté séparément des forfaits mensuels et à vie. Si des fonctionnalités semblent manquer, confirmez d’abord cette partie de votre configuration."
+        "text": "Elle note aussi que Cloud DMA est requis pour la fonctionnalité complète. Si vous n’êtes pas sûr de ce que cela implique pour votre setup, demandez avant d’acheter plutôt qu’après. La [documentation](/faq/) est le premier endroit à consulter, et un [ticket de support](/support/) vous donne une réponse directe."
       },
       {
-        "type": "h2",
-        "text": "Avant chaque séance"
+        "type": "p",
+        "text": "Pour vérifier cela sur votre propre PC, regardez dans Sécurité Windows sous Sécurité de l’appareil pour Core isolation et l’état de Secure Boot. Informations système (msinfo32) montre aussi l’état de Secure Boot, et le TPM peut être vérifié via l’outil de gestion TPM de Windows."
+      },
+      { "type": "h2", "text": "Étape 3 : obtenir l’accès après le checkout" },
+      {
+        "type": "p",
+        "text": "La livraison est numérique et instantanée après l’achat. Vous recevez l’accès au loader, et le guide actuel de votre commande sera dans votre compte ou canal de tickets. Gardez-le ouvert pendant la configuration."
+      },
+      { "type": "h2", "text": "Étape 4 : premier lancement" },
+      {
+        "type": "p",
+        "text": "Quand vous chargez, le menu s’ouvre avec la touche INSERT par défaut. Vous verrez les onglets Visuals, World, Aimbot et Misc."
+      },
+      {
+        "type": "p",
+        "text": "Voici une première session sensée :"
       },
       {
         "type": "ul",
         "items": [
-          "Vérifiez la page d'état, surtout après un patch Tarkov.",
-          "Assurez-vous que vos paramètres de sécurité Windows ci-dessus sont toujours activés, car les mises à jour peuvent les modifier.",
-          "Suivez le guide actuel dans votre compte pour la commande de lancement.",
-          "Chargez-vous dans un raid seulement après avoir effectué ce qui précède."
+          "1. Ouvrez Visuals et activez seulement quelques éléments : boxes, noms et distance.",
+          "2. Réglez un Max Distance qui garde l’écran lisible.",
+          "3. Choisissez des couleurs ESP que vous pouvez distinguer rapidement.",
+          "4. Sous Misc, définissez votre propre touche de menu et touche panique. La touche panique vaut la peine d’être réglée avant d’en avoir besoin.",
+          "5. Enregistrez le setup comme config."
         ]
       },
       {
-        "type": "h2",
-        "text": "Si quelque chose ne fonctionne pas"
+        "type": "p",
+        "text": "Si vous préférez lire le menu en russe, l’option de langue est là. L’anglais est aussi disponible."
+      },
+      { "type": "h2", "text": "Étape 5 : monter progressivement" },
+      {
+        "type": "p",
+        "text": "Ajoutez les options World comme fruit et eau, puis les autres outils, un à la fois. Il est plus facile d’ajuster quelques réglages que de démêler trente."
+      },
+      { "type": "h2", "text": "Avant chaque session" },
+      {
+        "type": "ul",
+        "items": [
+          "Consultez la [page de statut](/) pour d’éventuelles notes de mise à jour.",
+          "Assurez-vous que The Isle n’a pas récemment été patché.",
+          "Lancez dans l’ordre décrit par votre guide."
+        ]
+      },
+      { "type": "h2", "text": "Si quelque chose ne va pas" },
+      {
+        "type": "p",
+        "text": "Rassemblez d’abord les détails : votre version de Windows, lesquels des quatre paramètres de sécurité sont actifs, et ce que vous avez vu. Puis [ouvrez un ticket de support](/support/) avec ces informations. Cela accélère beaucoup les choses. Nous avons aussi un guide séparé pour [quand le cheat ne fonctionne pas](/blog/the-isle-cheat-not-working-fixes/)."
       },
       {
         "type": "p",
-        "text": "Vérifiez d'abord l'état. Si un correctif vient de sortir, le produit attend peut-être une mise à jour."
-      },
-      {
-        "type": "p",
-        "text": "Revérifiez vos paramètres Windows. Vérifiez HVCI, Core Isolation, TPM et Secure Boot."
-      },
-      {
-        "type": "p",
-        "text": "Confirmez le produit. Les raids Tarkov et Arena utilisent des clés différentes."
-      },
-      {
-        "type": "p",
-        "text": "Contactez l'assistance. Vous pouvez ouvrir un ticket sur le site ou utiliser Discord. Incluez votre numéro de commande afin qu’ils puissent trouver rapidement votre achat. Décrivez ce que vous avez fait et ce qui s'est passé en termes simples."
-      },
-      {
-        "type": "h2",
-        "text": "Conseils de configuration pour les nouveaux utilisateurs"
-      },
-      {
-        "type": "p",
-        "text": "Le menu dispose d'un système de configuration qui vous permet d'enregistrer, de charger, d'importer et d'exporter des configurations. Une fois que vous avez trouvé une mise en page qui fonctionne, enregistrez-la. Cela permet de gagner beaucoup de temps après un correctif ou une réinstallation."
-      },
-      {
-        "type": "h2",
-        "text": "Prêt à commencer"
-      },
-      {
-        "type": "p",
-        "text": "Vous pouvez voir les [plan options](/blog/escape-from-tarkov-cheats-price-monthly-vs-lifetime/) et la liste complète des fonctionnalités sur la page [Escape From Tarkov cheats](/product/). L'accès mensuel coûte 35 $ et la durée de vie est de 150 $, avec les mêmes fonctionnalités sur les deux."
+        "text": "Prêt à commencer ? Obtenez [the isle cheats](/product/) ici et gardez votre checklist d’exigences sous la main."
       }
     ]
   },
   {
-    "tag": "Caractéristiques",
-    "title": "Cheats streamproof Tarkov : ce que cela signifie pour les streamers",
-    "slug": "streamproof-tarkov-cheats-for-streamers",
-    "image": "/images/gameplay/eft-esp-night-vision-skeletons.webp",
-    "imageAlt": "Gameplay d'Escape From Tarkov capturé dans OBS sans superposition de triche visible",
-    "desc": "Streamproof signifie que l'ESP et le menu n'apparaissent pas dans votre capture. Voici ce que cela couvre et ce que cela ne couvre pas.",
-    "metaTitle": "Cheats streamproof Tarkov : OBS et enregistrement expliqués",
-    "metaDescription": "Ce que signifie streamproof pour les tricheurs de Tarkov, comment l'ESP et le menu restent hors d'OBS et de la plupart des outils de capture, et ce que les streamers et enregistreurs doivent toujours garder à l'esprit.",
-    "date": "2026-10-05",
-    "readTime": "6 min read",
+    "tag": "Guides de cheats de jeux",
+    "title": "The Isle Cheat Ne Fonctionne Pas ? Une Checklist Pratique de Dépannage",
+    "h1": "The Isle Cheat Ne Fonctionne Pas ? Parcourez d’Abord Cette Checklist",
+    "slug": "the-isle-cheat-not-working-fixes",
+    "image": "/images/gameplay/isle-night-forest-esp-distance-labels.webp",
+    "imageAlt": "Checklist de dépannage pour The Isle cheat qui ne charge pas sous Windows",
+    "desc": "La plupart des problèmes ont une cause simple. Parcourez cette liste avant de contacter le support, et vous la trouverez en général.",
+    "metaTitle": "The Isle Cheat Ne Fonctionne Pas ? Correctifs et Checklist",
+    "metaDescription": "Si The Isle cheat ne charge pas ou si le menu ne s’ouvre pas, suivez cette checklist couvrant exigences, mises à jour, paramètres de sécurité et support.",
+    "date": "2026-09-22",
+    "readTime": "5 min de lecture",
     "body": [
       {
         "type": "p",
-        "text": "Si vous diffusez ou enregistrez vos raids Tarkov, vous vous posez probablement une question sur les cheats : est-ce que quelqu'un verra la superposition dans mes images ?C’est à cela que sert Streamproof."
+        "text": "Quand un cheat cesse de fonctionner, la cause est généralement l’une d’une poignée de choses. Parcourez-les dans l’ordre. La plupart se vérifient en moins d’une minute."
+      },
+      { "type": "h2", "text": "1. Êtes-vous sur Evrima ?" },
+      {
+        "type": "p",
+        "text": "Le produit est listé pour Evrima uniquement. Si vous êtes sur une autre branche ou version de The Isle, cela seul peut l’expliquer."
+      },
+      { "type": "h2", "text": "2. Le jeu vient-il d’être mis à jour ?" },
+      {
+        "type": "p",
+        "text": "Après un patch du jeu, tout cheat peut avoir besoin d’une mise à jour avant de refonctionner. Consultez la [page de statut](/) pour l’état actuel du produit. Si une mise à jour est en attente, attendre est le bon choix. Relancer en boucle n’aide pas et peut créer plus de confusion quand vous contactez le support."
+      },
+      { "type": "h2", "text": "3. Vérifiez les quatre paramètres de sécurité" },
+      {
+        "type": "p",
+        "text": "La page produit liste ceux-ci comme ON :"
       },
       {
-        "type": "h2",
-        "text": "Ce que signifie Streamproof"
+        "type": "ul",
+        "items": ["HVCI", "Core Isolation", "TPM", "Secure Boot"]
       },
       {
         "type": "p",
-        "text": "Streamproof signifie que l'ESP et le menu ne sont pas intégrés dans votre capture. Les cheats Escape From Tarkov sont décrites comme étant à l'épreuve du streaming, l'ESP et les menus restant hors OBS et la plupart des outils de capture. Ce que vous voyez sur votre moniteur n’est pas ce que voient vos téléspectateurs."
+        "text": "Si l’un d’eux a été désactivé, que ce soit par vous, une mise à jour Windows ou un autre outil, le produit peut ne pas fonctionner comme prévu. Les mises à jour Windows et les installations de pilotes changent parfois cela sans grand avis, donc cela vaut la peine de revérifier même si cela marchait la semaine dernière."
       },
-      {
-        "type": "h2",
-        "text": "Pourquoi c'est important"
-      },
+      { "type": "h2", "text": "4. Souvenez-vous de l’exigence Cloud DMA" },
       {
         "type": "p",
-        "text": "Au-delà des spectateurs, les enregistrements sont partagés, découpés et revus. Si une superposition apparaît dans un clip, tout le monde peut la voir. Garder la capture propre supprime ce problème particulier."
+        "text": "La page produit note que Cloud DMA est requis pour la fonctionnalité complète. Si des fonctions manquent ou se comportent bizarrement, confirmez que cette partie est en place. La [FAQ](/faq/) et votre guide le couvrent."
       },
-      {
-        "type": "h2",
-        "text": "Ce qu'il ne couvre pas"
-      },
+      { "type": "h2", "text": "5. Suivez l’ordre de lancement de votre guide" },
       {
         "type": "p",
-        "text": "Soyez réaliste quant aux limites."
+        "text": "Des étapes faites dans le mauvais ordre sont une cause fréquente de problèmes de chargement. Rouvrez le guide depuis votre compte ou canal de tickets et suivez-le exactement comme écrit, plutôt que de mémoire."
+      },
+      { "type": "h2", "text": "6. Réduisez le reste de ce qui tourne" },
+      {
+        "type": "p",
+        "text": "D’autres outils d’overlay ou de monitoring peuvent parfois interférer avec le comportement de la fenêtre du jeu. C’est un comportement PC général plutôt que quelque chose de spécifique à un produit. Fermez les overlays supplémentaires, outils de capture et utilitaires de réglage, puis retestez."
+      },
+      { "type": "h2", "text": "7. Vérifiez les bases" },
+      {
+        "type": "ul",
+        "items": [
+          "Windows 10 ou 11 sur un CPU Intel ou AMD",
+          "Une connexion internet stable",
+          "Un redémarrage propre du PC"
+        ]
+      },
+      { "type": "h2", "text": "8. Ouvrez un ticket avec des détails" },
+      {
+        "type": "p",
+        "text": "Si la checklist n’a pas résolu le problème, ouvrez un [ticket de support](/support/). Incluez :"
       },
       {
         "type": "ul",
         "items": [
-          "Le libellé est « la plupart des outils de capture », pas tous les outils. Testez votre propre configuration avant de passer en direct.",
-          "Streamproof ne change pas la façon dont le jeu ou [BattlEye](/blog/battleye-and-escape-from-tarkov-cheats-what-to-know/) voit votre système. Cela n'affecte que ce qui est capturé à l'écran.",
-          "Votre comportement se voit toujours. La visée impossible, ou le fait de savoir où se trouvent les joueurs à travers les murs, est perceptible par les spectateurs et les autres joueurs."
+          "Votre version de Windows",
+          "Lesquels des quatre paramètres de sécurité sont actifs",
+          "Quand cela a fonctionné pour la dernière fois",
+          "Ce que vous voyez maintenant, en mots clairs ou avec une capture"
         ]
       },
       {
-        "type": "h2",
-        "text": "Testez avant de mettre en ligne"
+        "type": "p",
+        "text": "Ces informations permettent au support de commencer par la réponse plutôt que par les questions. Le support est listé comme disponible 24/7."
+      },
+      { "type": "h2", "text": "Si vous n’êtes pas encore client" },
+      {
+        "type": "p",
+        "text": "Si vous êtes arrivé ici en décidant d’acheter ou non, cette liste sert aussi de contrôle avant achat. Si votre PC passe tout, la [page produit](/product/) a la liste complète des fonctions et les plans. Notre [guide de configuration](/blog/how-to-set-up-the-isle-cheats-windows/) parcourt une première session."
+      }
+    ]
+  },
+  {
+    "tag": "Guides de cheats de jeux",
+    "title": "HWID Spoofer The Isle : Revenir Après un Ban Matériel",
+    "h1": "HWID Spoofer The Isle : Ce Qu’Il Fait et Quand Vous en Avez Besoin",
+    "slug": "the-isle-hwid-spoofer-ban-recovery",
+    "image": "/images/gameplay/isle-free-camera-deer-esp.webp",
+    "imageAlt": "Bannière produit HWID Spoofer pour la récupération après ban matériel",
+    "desc": "Un ban matériel suit votre PC, pas seulement votre compte. Voici ce qu’un spoofer change et quoi vérifier avant d’acheter.",
+    "metaTitle": "HWID Spoofer The Isle : Se Remettre d’un Ban Matériel",
+    "metaDescription": "Ce qu’est un ban HWID, ce qu’un spoofer change, et ce qu’il faut savoir sur les étapes cleaner, exigences et tarifs avant d’en acheter un pour The Isle.",
+    "date": "2026-07-11",
+    "readTime": "5 min de lecture",
+    "body": [
+      {
+        "type": "p",
+        "text": "Un ban de compte et un ban matériel sont des choses différentes, et la différence décide de ce qui vous ramènera réellement dans le jeu."
+      },
+      { "type": "h2", "text": "Ce qu’est un ban HWID" },
+      {
+        "type": "p",
+        "text": "HWID signifie hardware ID. Un ban matériel lie la sanction à des identifiants sur votre PC, pas seulement à votre compte. C’est pourquoi un nouveau compte sur la même machine peut encore être bloqué."
+      },
+      { "type": "h2", "text": "Ce qu’un spoofer change" },
+      {
+        "type": "p",
+        "text": "Selon la page produit, le [HWID Spoofer](/hwid-spoofer/) change des identifiants matériels tels que numéros de série de disque, adresses MAC, IDs GPU et IDs liés, afin que la machine présente une empreinte matérielle nouvelle. Un cleaner est inclus, qui efface les traces restantes avant de relancer le jeu."
       },
       {
         "type": "p",
-        "text": "Effectuez un court enregistrement test avant de diffuser. Ouvrez le menu, activez l'ESP, enregistrez quelques secondes et lisez-le. Si quelque chose apparaît, arrêtez-vous et contactez l'assistance."
-      },
-      {
-        "type": "h2",
-        "text": "Des paramètres qui conviennent aux streamers"
+        "text": "Deux points méritent d’être dits clairement :"
       },
       {
         "type": "ul",
         "items": [
-          "Gardez l'ESP minimal. Moins d’étiquettes semblent plus naturelles à l’écran.",
-          "Utilisez un champ de vision aimbot modeste et uniquement visible, comme indiqué dans notre guide [aimbot settings](/blog/tarkov-aimbot-settings-explained/).",
-          "Enregistrez une configuration conviviale pour le flux afin de pouvoir la charger rapidement.",
-          "Gardez vos raccourcis clavier mémorisés pour ne jamais avoir à fouiller dans le menu."
+          "Un spoofer traite les identifiants matériels. Il n’annule pas un ban de compte. Si votre compte lui-même a été banni, vous auriez encore besoin d’un autre compte.",
+          "Les résultats dépendent du respect des étapes dans le bon ordre."
+        ]
+      },
+      { "type": "h2", "text": "The Isle et couverture anti-cheat" },
+      {
+        "type": "p",
+        "text": "La fiche cheat de The Isle mentionne Easy Anti-Cheat. La page spoofer indique que le spoofing convient à tous les jeux Easy Anti-Cheat, et liste une large gamme de titres sur EAC, BattlEye, Ricochet et d’autres systèmes. Si vous voulez confirmer la couverture pour votre situation exacte avant d’acheter, demandez via un [ticket](/support/)."
+      },
+      { "type": "h2", "text": "Exigences" },
+      {
+        "type": "p",
+        "text": "La page liste :"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Windows 10 ou 11, 64 bits",
+          "Droits administrateur pour les étapes de spoof et de nettoyage",
+          "HVCI, Core Isolation, TPM et Secure Boot tous ON",
+          "Une connexion internet stable pour l’activation et les mises à jour"
+        ]
+      },
+      { "type": "h2", "text": "Quand l’exécuter" },
+      {
+        "type": "p",
+        "text": "Les conseils de la page sont d’exécuter le spoof et le nettoyage avant de lancer le jeu dans lequel vous avez été banni, et de suivre le guide actuel dans votre compte ou canal de tickets pour l’ordre exact. N’improvisez pas la séquence."
+      },
+      { "type": "h2", "text": "Tarifs" },
+      {
+        "type": "ul",
+        "items": [
+          "Mensuel : $50 pour 31 jours",
+          "À vie : $150 pour un accès illimité"
         ]
       },
       {
-        "type": "h2",
-        "text": "Plan et exigences"
+        "type": "p",
+        "text": "Si vous n’en avez besoin que pour une récupération ponctuelle, le mensuel est le choix le plus léger. Si vous jouez sur plusieurs jeux avec anti-cheat ou prévoyez d’en avoir encore besoin, l’accès à vie convient mieux."
+      },
+      { "type": "h2", "text": "Est-ce le bon outil pour vous ?" },
+      {
+        "type": "p",
+        "text": "Posez-vous trois questions :"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "1. Le ban a-t-il été appliqué à mon matériel, ou seulement à mon compte ?",
+          "2. Mon PC répond-il aux exigences ci-dessus ?",
+          "3. Suis-je prêt à suivre le guide dans l’ordre ?"
+        ]
       },
       {
         "type": "p",
-        "text": "Le produit est destiné aux raids principaux, utilise une clé distincte d'Arena et nécessite Windows 10 ou 11 avec HVCI, Core Isolation, TPM et Secure Boot activés. Cloud DMA est requis pour bénéficier de toutes les fonctionnalités. L'accès mensuel coûte 35 $ et la durée de vie est de 150 $."
-      },
-      {
-        "type": "h2",
-        "text": "Commencez"
+        "text": "Si les réponses sont oui, le [HWID Spoofer](/hwid-spoofer/) est fait pour ce travail. Si vous n’êtes pas encore sûr d’avoir un ban matériel, demandez d’abord au [support](/support/), et la [FAQ](/faq/) explique les bases. Si vous prévoyez aussi d’utiliser le cheat, la page [the isle cheats](/product/) liste l’ensemble complet des fonctions."
       },
       {
         "type": "p",
-        "text": "Vous pouvez consulter les fonctionnalités et les plans sur la page [streamproof Tarkov cheats](/product/). Vérifiez la page d'état après les correctifs avant de démarrer une session et contactez l'assistance par ticket ou Discord si votre test de capture montre quelque chose d'inattendu."
+        "text": "Pour une explication plus large du fonctionnement des bans matériels, nous couvrons aussi [comment fonctionnent les bans HWID dans un autre jeu](/blog/the-isle-anti-cheat-bans-and-risk/)."
+      }
+    ]
+  },
+  {
+    "tag": "Guides de cheats de jeux",
+    "title": "Anti-Cheat de The Isle Expliqué : Bans, Bans Matériels et Risque Réaliste",
+    "h1": "Anti-Cheat de The Isle : Comment Fonctionnent les Bans et à Quoi Ressemble Vraiment le Risque",
+    "slug": "the-isle-anti-cheat-bans-and-risk",
+    "image": "/images/gameplay/isle-combat-wireframe-dinosaurs.webp",
+    "imageAlt": "Aperçu de l’anti-cheat The Isle Evrima et du risque de ban",
+    "desc": "Aucun cheat n’est sans risque. Voici comment fonctionnent les bans dans The Isle et les façons sensées dont les joueurs en réduisent les chances.",
+    "metaTitle": "Anti-Cheat de The Isle : Bans, Bans HWID et Risque Réel",
+    "metaDescription": "Un regard honnête sur l’anti-cheat de The Isle, la différence entre bans de compte et matériels, et comment les joueurs gèrent le risque en utilisant des cheats.",
+    "date": "2026-05-30",
+    "readTime": "4 min de lecture",
+    "body": [
+      {
+        "type": "p",
+        "text": "Quiconque envisage des cheats dans The Isle devrait comprendre le risque avant de dépenser de l’argent. Voici une explication directe de la façon dont les bans tendent à fonctionner et de ce que vous pouvez raisonnablement faire."
+      },
+      { "type": "h2", "text": "Quel anti-cheat est concerné" },
+      {
+        "type": "p",
+        "text": "La fiche produit de The Isle fait référence à Easy Anti-Cheat, et le cheat est décrit comme conçu pour fonctionner avec. La page produit étiquette le cheat Undetected, qui est le statut actuel. Le statut de détection peut changer après des mises à jour, traitez-le donc comme un instantané, pas une promesse."
+      },
+      { "type": "h2", "text": "Deux types de ban" },
+      {
+        "type": "ul",
+        "items": [
+          "Ban de compte : le compte est bloqué du jeu.",
+          "Ban matériel : des identifiants de votre PC sont bloqués, donc même un nouveau compte peut être refusé."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Notre page [HWID Spoofer](/hwid-spoofer/) couvre le second cas, et elle est listée comme prenant en charge les jeux Easy Anti-Cheat."
+      },
+      { "type": "h2", "text": "Le logiciel n’est pas le seul moyen d’être banni" },
+      {
+        "type": "p",
+        "text": "Les joueurs ont tendance à se concentrer sur la détection, mais beaucoup de bans viennent d’autres joueurs. Les serveurs communautaires peuvent être gérés par des admins qui examinent les signalements. Si votre jeu paraît nettement inhumain, quelqu’un peut vous signaler, quel que soit le logiciel utilisé."
+      },
+      { "type": "h2", "text": "Façons réalistes de gérer le risque" },
+      {
+        "type": "p",
+        "text": "Aucune de celles-ci n’élimine le risque. Elles le réduisent."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "1. Consultez la [page de statut](/) avant chaque session. Notre page de statut montre l’état actuel.",
+          "2. Ne jouez pas juste après une mise à jour du jeu sans vérifier d’abord.",
+          "3. Utilisez davantage l’ESP que tout ce qui vous fait paraître artificiel. L’information est difficile à repérer. Les réactions parfaites ne le sont pas.",
+          "4. Gardez des réglages modestes. Un FOV plus petit et un comportement plus fluide attirent moins l’attention que des valeurs extrêmes.",
+          "5. Définissez votre touche panique dans le menu pour pouvoir cacher l’overlay rapidement.",
+          "6. Pensez à ce que vous pouvez vous permettre de perdre. Si un compte compte beaucoup pour vous, tenez-en compte.",
+          "7. Connaissez vos options de récupération avant d’en avoir besoin."
+        ]
+      },
+      { "type": "h2", "text": "Comment lire les affirmations « undetected »" },
+      {
+        "type": "p",
+        "text": "N’importe quel vendeur peut écrire ce mot. Un meilleur test est s’ils publient une page de statut, offrent un vrai support et expliquent les exigences honnêtement. Notre guide sur [comment juger les affirmations undetected](/faq/) entre plus dans le détail."
+      },
+      { "type": "h2", "text": "Où cela vous laisse" },
+      {
+        "type": "p",
+        "text": "Tricher dans un jeu en ligne comporte un risque et le choix vous appartient. Si vous décidez d’aller de l’avant, regardez la liste complète des fonctions sur la page [the isle cheats](/product/), vérifiez soigneusement les exigences et lisez la [FAQ](/faq/) pour savoir à quoi vous attendre."
+      }
+    ]
+  },
+  {
+    "tag": "Guides de cheats de jeux",
+    "title": "Guide de Croissance The Isle Evrima : Comment Manger, Boire et Survivre Assez Longtemps pour Grandir",
+    "h1": "Guide de Croissance The Isle Evrima : Manger, Boire et Rester en Vie",
+    "slug": "the-isle-evrima-growth-guide",
+    "image": "/images/gameplay/isle-beach-dual-dinos-nameplates.webp",
+    "imageAlt": "Un jeune dinosaure buvant à une source d’eau dans The Isle Evrima",
+    "desc": "La croissance dans The Isle se résume à rester nourri, hydraté et en vie. Ces habitudes aident, surtout aux premiers stades.",
+    "metaTitle": "Guide de Croissance The Isle Evrima : Manger, Boire, Survivre",
+    "metaDescription": "Conseils pratiques pour grandir dans The Isle Evrima : gérer nourriture et eau, éviter les combats tant qu’on est petit, et comprendre ce qui ralentit la croissance.",
+    "date": "2026-10-03",
+    "readTime": "4 min de lecture",
+    "body": [
+      {
+        "type": "p",
+        "text": "Grandir dans The Isle est lent volontairement. La plupart des joueurs perdent du progrès non parce qu’ils ne savent pas quoi faire, mais parce qu’ils meurent au mauvais moment. Ce guide couvre les habitudes qui comptent le plus."
+      },
+      {
+        "type": "p",
+        "text": "Les chiffres exacts changent avec les patches, traitez donc ceci comme un guide général plutôt que des valeurs fixes."
+      },
+      { "type": "h2", "text": "Pensez en termes de trois barres" },
+      {
+        "type": "p",
+        "text": "Votre dinosaure a faim, soif et stamina. La croissance dépend de garder les deux premières en bon état sur de longues périodes sans mourir. La stamina décide si vous pouvez échapper à un problème."
+      },
+      { "type": "h2", "text": "Premiers stades : évitez, ne combattez pas" },
+      {
+        "type": "p",
+        "text": "Les petits dinosaures sont fragiles. À faible croissance :"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Restez loin des animaux et joueurs plus grands",
+          "Déplacez-vous le long des abris plutôt qu’en terrain découvert",
+          "Reposez-vous et mangez dans des zones plus calmes de la carte",
+          "Reculez tôt quand quelque chose de plus grand apparaît"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Mourir tout petit vous coûte des heures. Les combats payent rarement."
+      },
+      { "type": "h2", "text": "Nourriture" },
+      {
+        "type": "p",
+        "text": "Ce que vous mangez dépend de votre espèce. Les carnivores s’appuient sur les kills et les carcasses. Les herbivores sur les plantes et les fruits. Apprenez quelles sources de nourriture sont courantes près de votre spawn, et y revenir plutôt que d’errer vers de nouvelles."
+      },
+      { "type": "h2", "text": "Eau" },
+      {
+        "type": "p",
+        "text": "Buvez avant d’être désespéré. Les sources d’eau sont aussi là où les animaux se rassemblent, ce qui les rend risquées. Approchez prudemment, regardez d’abord autour et partez une fois fini plutôt que de rester."
+      },
+      { "type": "h2", "text": "Gérez la stamina" },
+      {
+        "type": "p",
+        "text": "Sprinter coûte de la stamina et vous laisse lent quand elle est vide. Utilisez des rafales pour fuir, pas pour les déplacements du quotidien."
+      },
+      { "type": "h2", "text": "Faites attention à votre environnement" },
+      {
+        "type": "p",
+        "text": "Beaucoup de la survie dans The Isle vient de remarquer de petites choses : mouvement, sons, où vont les autres dinosaures. Si vous êtes nouveau, prenez le temps d’apprendre la carte et où se trouvent les ressources."
+      },
+      { "type": "h2", "text": "Où s’intègrent les outils d’overlay" },
+      {
+        "type": "p",
+        "text": "Certains joueurs utilisent des outils d’overlay pour faciliter cela. Par exemple, les options de notre [guide ESP The Isle](/blog/the-isle-esp-options-explained/) incluent des marqueurs pour fruit, eau, cadavres et croissance, plus des tags espèce et santé. Ce genre d’information est exactement ce qui accélère la chasse aux ressources. Si vous voulez y regarder, la page [the isle cheats](/product/) liste tout ce qui est inclus. Notez que l’usage de cheats dans un jeu en ligne comporte un risque de ban, que nous expliquons dans notre [article anti-cheat](/blog/the-isle-anti-cheat-bans-and-risk/)."
+      },
+      { "type": "h2", "text": "Une routine simple" },
+      {
+        "type": "ul",
+        "items": [
+          "1. Spawner et scanner la zone",
+          "2. Boire et manger dans une poche sûre",
+          "3. Se reposer jusqu’à ce que la stamina revienne",
+          "4. Se déplacer vers la ressource suivante le long des abris",
+          "5. Rester hors des combats inutiles"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Répétez-la, et la croissance suit."
       }
     ]
   }

@@ -1,6 +1,6 @@
 # Cloudflare Workers + static assets. The dashboard deploy command is
 # `npx wrangler deploy`, which runs the build below first.
-name = "eftcheat-net"
+name = "theisle-cheat-com"
 main = "workers/site.js"
 compatibility_date = "2026-09-12"
 
@@ -8,11 +8,11 @@ compatibility_date = "2026-09-12"
 command = "npm run build"
 
 [[routes]]
-pattern = "eftcheat.net"
+pattern = "theisle-cheat.com"
 custom_domain = true
 
 [[routes]]
-pattern = "www.eftcheat.net"
+pattern = "www.theisle-cheat.com"
 custom_domain = true
 
 [assets]

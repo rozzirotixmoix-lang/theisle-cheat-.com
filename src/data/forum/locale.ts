@@ -13,14 +13,19 @@ const byLocale: Record<Exclude<SiteLocale, 'en'>, ForumPack> = {
   fr: frForum as ForumPack,
 };
 
-export function getForumCategories(locale: SiteLocale) {
-  if (locale === 'en') return forumCategoriesEn;
-  return byLocale[locale]?.categories ?? forumCategoriesEn;
-}
-
 export function getForumPosts(locale: SiteLocale): ForumPost[] {
   if (locale === 'en') return forumPostsEn;
-  return byLocale[locale]?.posts ?? forumPostsEn;
+  const localized = byLocale[locale]?.posts;
+  if (localized && localized.length > 0) return localized;
+  return forumPostsEn;
+}
+
+export function getForumCategories(locale: SiteLocale) {
+  if (locale === 'en') return forumCategoriesEn;
+  const localizedPosts = byLocale[locale]?.posts;
+  // Match EN categories when falling back to EN threads.
+  if (!localizedPosts || localizedPosts.length === 0) return forumCategoriesEn;
+  return byLocale[locale]?.categories ?? forumCategoriesEn;
 }
 
 export function getForumPost(slug: string, locale: SiteLocale): ForumPost | undefined {

@@ -33,7 +33,7 @@ export function buildRssFeed(): string {
  <channel>
  <title>${SITE_NAME} Blog</title>
  <link>${SITE_ORIGIN}/blog/</link>
- <description>Escape From Tarkov cheat guides, patch notes, and setup walkthroughs from ${SITE_DOMAIN}.</description>
+ <description>The Isle cheat guides, patch notes, and setup walkthroughs from ${SITE_DOMAIN}.</description>
  <language>en-us</language>
  <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
  <atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />

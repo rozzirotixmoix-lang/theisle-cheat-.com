@@ -38,6 +38,8 @@ const imgSrc = desktopOnly
   : defaultWebpSrc(src, widths);
 const pictureSizes = desktopOnly ? '(min-width: 1024px) 490px, 1px' : sizes;
 const pictureMedia = desktopOnly ? '(min-width: 1024px)' : undefined;
+/** Sync decode for LCP/priority images; async for below-fold lazy loads. */
+const decoding = loading === 'eager' || fetchPriority === 'high' ? 'sync' : 'async';
 ---
 
 {
@@ -51,7 +53,7 @@ const pictureMedia = desktopOnly ? '(min-width: 1024px)' : undefined;
         width={width}
         height={height}
         loading={loading}
-        decoding="async"
+        decoding={decoding}
         fetchpriority={fetchPriority}
         sizes={pictureSizes}
         class={className}
@@ -64,7 +66,7 @@ const pictureMedia = desktopOnly ? '(min-width: 1024px)' : undefined;
       width={width}
       height={height}
       loading={loading}
-      decoding="async"
+      decoding={decoding}
       fetchpriority={fetchPriority}
       class={className}
     />

@@ -2,6 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /go/
 
-Sitemap: https://eftcheat.net/sitemap.xml
+Sitemap: https://theisle-cheat.com/sitemap.xml
 
-# RSS: https://eftcheat.net/rss.xml
+# RSS: https://theisle-cheat.com/rss.xml

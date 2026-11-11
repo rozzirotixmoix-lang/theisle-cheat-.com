@@ -1,16 +1,24 @@
 /** Default Open Graph / Twitter preview (first hero slide). */
-export const DEFAULT_OG_GAMEPLAY_IMAGE = '/images/gameplay/eft-esp-daylight-player-highlights.webp';
+export const DEFAULT_OG_GAMEPLAY_IMAGE = '/images/gameplay/isle-daylight-valley-minimap-esp.webp';
 
 export const DEFAULT_OG_GAMEPLAY_ALT =
-  'Escape From Tarkov first-person view with player ESP showing red-highlighted figures, skeleton outlines, and distance labels in a sunlit industrial yard.';
+  'Jungle dinosaur with dino stats panel, minimap, and ESP tracers in The Isle.';
 
-/** Intrinsic size of master gameplay sources (all three attachments share this resolution). */
+/** Intrinsic size of the default OG master (after format normalize). */
 export const DEFAULT_OG_GAMEPLAY_WIDTH = 1024;
 export const DEFAULT_OG_GAMEPLAY_HEIGHT = 576;
 
-/** Homepage + product gallery use the same three masters, once each per slider. */
-export const EFT_SHOWCASE_GALLERY_KEYS = [
-  'gpDaylightEsp',
-  'gpNightEsp',
-  'gpWallEsp',
+/** Homepage + product gallery: every attached gameplay screenshot once per slider. */
+export const SHOWCASE_GALLERY_KEYS = [
+  'gpDaylightValley',
+  'gpNightForest',
+  'gpBeachShoreline',
+  'gpTallGrass',
+  'gpForestOmniraptor',
+  'gpBeachDual',
+  'gpFreeCameraDeer',
+  'gpCombatWireframe',
+  'gpCombatTriceratops',
+  'gpCombatJungleAim',
+  'gpCombatLatch',
 ] as const;

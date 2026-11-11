@@ -96,5 +96,8 @@ export function productPath(slug: string): string {
   if (slug === 'hwid-spoofer') {
     return HWID_SPOOFER_PATH;
   }
+  if (slug === 'skin-changer') {
+    return '/go/skin-changer/';
+  }
   return `${PRODUCT_BASE}${slug}/`;
 }

@@ -17,18 +17,16 @@ const out = path.join('public', '_redirects');
 fs.writeFileSync(out, `${lines.join('\n')}\n`);
 console.log(`Wrote ${lines.length - 1} redirect rules → ${out}`);
 
-/** Fallback pages when a host serves files instead of `_redirects`. Hover still shows `/go/…`. */
-function escapeHtml(value) {
-  return value.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
-}
-
+/**
+ * Placeholder pages for `/go/…` when a host lists directories.
+ * Destination URLs live only in `_redirects` + `checkout-redirects.mjs` (never in HTML markup).
+ * Local `serve.mjs` / middleware / Netlify `_redirects` perform the 302.
+ */
 let checkoutPages = 0;
-for (const [from, to] of CHECKOUT_PATH_REDIRECTS.entries()) {
+for (const [from] of CHECKOUT_PATH_REDIRECTS.entries()) {
   if (!from.endsWith('/')) continue;
   const dir = path.join('public', from);
   fs.mkdirSync(dir, { recursive: true });
-  const href = escapeHtml(to);
-  const jsUrl = JSON.stringify(to);
   fs.writeFileSync(
     path.join(dir, 'index.html'),
     `<!doctype html>
@@ -37,13 +35,13 @@ for (const [from, to] of CHECKOUT_PATH_REDIRECTS.entries()) {
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
 <title>Continue</title>
-<meta http-equiv="refresh" content="0;url=${href}">
-<script>var dest=${jsUrl};var extra=location.search?location.search.slice(1):"";if(extra)dest+=(dest.indexOf("?")>=0?"&":"?")+extra;location.replace(dest);</script>
 </head>
-<body></body>
+<body>
+<p>Checkout continue. If you are not redirected, return to the product page and use Buy again.</p>
+</body>
 </html>
 `,
   );
   checkoutPages += 1;
 }
-console.log(`Wrote ${checkoutPages} checkout redirect pages → public/go/`);
+console.log(`Wrote ${checkoutPages} checkout placeholder pages → public/go/ (destinations only in _redirects)`);

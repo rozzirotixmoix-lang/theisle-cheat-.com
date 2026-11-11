@@ -1,7 +1,7 @@
 {
-  "name": "EFT CHEATS",
-  "short_name": "EFT CHEATS",
-  "description": "Escape From Tarkov cheats with player ESP, loot ESP, aimbot and no recoil for PMC raids.",
+  "name": "the isle cheats",
+  "short_name": "the isle cheats",
+  "description": "the isle cheats for The Isle Evrima and Horde on Windows: player ESP, world ESP, aim assistance and radar.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -16,7 +16,7 @@
       "purpose": "any"
     },
     {
-      "src": "/images/brand/eft-cheats-logo-512.webp",
+      "src": "/images/brand/the-isle-cheats-logo-512.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any"

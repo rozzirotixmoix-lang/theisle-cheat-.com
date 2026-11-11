@@ -25,6 +25,7 @@ import { Button } from '@/components/starwind/button';
 import { Prose } from '@/components/starwind/prose';
 import BlogPostCta from '../../components/BlogPostCta.astro';
 import { normalizeInternalPath, ROUTES } from '../../utils/path';
+import { GALLERY_IMAGE_WIDTHS, responsiveSrcSet, webpSrc } from '../../utils/responsiveImage';
 
 export function getStaticPaths() {
   return getAllBlogSlugs().map((slug) => ({ params: { slug } }));
@@ -71,6 +72,10 @@ const published = parseBlogDate(post.date);
 const documentTitle = post.metaTitle ?? pageTitle(post.title, undefined, locale);
 const documentDescription = post.metaDescription ?? post.desc;
 const heroAlt = post.imageAlt ?? post.title;
+/** Preload 640w (typical article LCP pick); srcset still lists 400/640/960. */
+const lcpImage = webpSrc(post.image, 640);
+const lcpSrcSet = responsiveSrcSet(post.image, GALLERY_IMAGE_WIDTHS);
+const lcpSizes = '(min-width: 768px) 720px, 100vw';
 ---
 
 <BaseLayout
@@ -84,7 +89,7 @@ const heroAlt = post.imageAlt ?? post.title;
   articleModifiedTime={published}
   jsonLd={[
     articleSchema({
-      name: post.title,
+      name: post.h1 ?? post.title,
       description: documentDescription,
       url: canonicalUrl(lp(postPath)),
       image: post.image,
@@ -94,6 +99,16 @@ const heroAlt = post.imageAlt ?? post.title;
     breadcrumbSchema(breadcrumbs),
   ]}
 >
+  <link
+    slot="head"
+    rel="preload"
+    as="image"
+    href={lcpImage}
+    imagesrcset={lcpSrcSet}
+    imagesizes={lcpSizes}
+    type="image/webp"
+    fetchpriority="high"
+  />
   <article class="py-8 md:py-12">
     <div class="mx-auto max-w-6xl px-5">
       <Breadcrumbs items={breadcrumbs} />
@@ -110,15 +125,16 @@ const heroAlt = post.imageAlt ?? post.title;
               alt={heroAlt}
               width={960}
               height={540}
+              widths={GALLERY_IMAGE_WIDTHS}
               loading="eager"
               fetchPriority="high"
-              sizes="(min-width: 768px) 720px, 100vw"
+              sizes={lcpSizes}
               class="w-full object-cover"
             />
           </figure>
 
           <header class="blog-article__header">
-            <h1 class="blog-article__title">{post.title}</h1>
+            <h1 class="blog-article__title">{post.h1 ?? post.title}</h1>
             <p class="blog-article__lead">{post.desc}</p>
             {
               post.author && (

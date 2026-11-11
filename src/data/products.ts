@@ -5,7 +5,7 @@ import { deepApplySiteTokens } from '../i18n/brandTokens';
 import type { SiteLocale } from '../i18n/locales';
 import type { Translations } from '../i18n/types';
 import { checkoutForSlug } from '../config/checkout';
-import { EFT_SHOWCASE_GALLERY_KEYS } from '../config/gameplayMedia';
+import { SHOWCASE_GALLERY_KEYS } from '../config/gameplayMedia';
 import { HWID_GALLERY_KEYS } from '../config/hwidMedia';
 import type { IconName } from '../components/icons/types';
 import { getProductCopyBundle, registerProductCopyBundle, type ProductCopyBundle } from './products/exportCopy';
@@ -73,32 +73,33 @@ export interface ProductPage {
   relatedForumSlugs: string[];
 }
 
-/** Guides paired with each product detail page */
+/** Guides paired with each product detail page. Cleared in Part 2; refilled in Part 11. */
 export const productRelatedBlogSlugs: Record<string, string[]> = {
   elite: [
-    'escape-from-tarkov-cheats-price-monthly-vs-lifetime',
-    'how-to-set-up-escape-from-tarkov-cheats-requirements',
-    'tarkov-cloud-dma-explained-do-you-need-it',
-    'tarkov-loot-esp-filters-price-category-containers',
-    'tarkov-aimbot-settings-explained',
-    'streamproof-tarkov-cheats-for-streamers',
-    'battleye-and-escape-from-tarkov-cheats-what-to-know',
+    'the-isle-cheats-price-monthly-vs-lifetime',
+    'the-isle-esp-options-explained',
+    'how-to-set-up-the-isle-cheats-windows',
+    'the-isle-cheat-not-working-fixes',
+    'the-isle-anti-cheat-bans-and-risk',
+    'the-isle-evrima-growth-guide',
   ],
-  'hwid-spoofer': [
-    'tarkov-hwid-ban-how-hwid-spoofer-works',
-    'battleye-and-escape-from-tarkov-cheats-what-to-know',
-  ],
+  'hwid-spoofer': ['the-isle-hwid-spoofer-ban-recovery', 'the-isle-anti-cheat-bans-and-risk'],
 };
 
-/** Community threads paired with each product detail page */
+/** Community threads paired with each product detail page. */
 export const productRelatedForumSlugs: Record<string, string[]> = {
   elite: [
-    'tarkov-cheats-monthly-or-lifetime-worth-it',
-    'do-i-need-cloud-dma-for-tarkov-cheats',
-    'tarkov-cheat-loader-not-working-what-to-check',
-    'how-to-check-tarkov-cheat-status-after-patch',
+    'what-does-esp-mean-in-gaming',
+    'the-isle-third-party-software-buying-checklist',
+    'the-isle-third-party-software-ban-risk',
+    'the-isle-technical-support-request-checklist',
   ],
-  'hwid-spoofer': ['tarkov-hwid-ban-does-a-spoofer-help', 'tarkov-battleye-ban-honest-talk-risk'],
+  'hwid-spoofer': [
+    'what-is-an-hwid-spoofer-explained',
+    'the-isle-third-party-software-ban-risk',
+    'verify-the-isle-third-party-tool-updates',
+    'the-isle-update-problems-troubleshooting',
+  ],
 };
 
 const productBase = PRODUCT_BASE;
@@ -106,23 +107,23 @@ const productBase = PRODUCT_BASE;
 const hwidAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '01',
-    title: 'Confirm spoofer status',
-    desc: 'Read the live banner on {siteDomain} and Discord #status after BattlEye changes before you buy. Compatibility notes live on the status page.',
+    title: 'Check status before buying',
+    desc: 'After anti-cheat updates, open the live banner on {siteDomain} plus Discord #status. The status page holds compatibility notes.',
   },
   {
     num: '02',
-    title: 'Select monthly or lifetime',
-    desc: 'Monthly and lifetime plans include the same portal tools; pick the duration that matches how long you need hardware recovery access.',
+    title: 'Choose monthly or lifetime',
+    desc: 'Both monthly and lifetime unlock the same portal tools. Match the plan length to how long you need hardware recovery access.',
   },
   {
     num: '03',
-    title: 'Verify setup with ops',
-    desc: 'Open Discord with your order email and Windows version so staff can flag obvious driver or shared-PC conflicts early.',
+    title: 'Review setup with ops',
+    desc: 'Bring your order email and Windows version into Discord so staff can spot clear driver issues or shared-PC problems early.',
   },
   {
     num: '04',
-    title: 'Run the portal checklist',
-    desc: 'Restore point, driver cleanup, spoof pass, cold reboot, and identifier verification, and only then sign into a fresh Escape From Tarkov account.',
+    title: 'Finish the portal checklist',
+    desc: 'Take a restore point, clean drivers, run the spoof, cold reboot, verify identifiers, and only afterward sign into a fresh The Isle account.',
   },
 ];
 
@@ -130,12 +131,12 @@ const defaultAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '01',
     title: 'Review current status',
-    desc: 'Check the live banner on {siteDomain} and Discord #status before purchase, especially after an Escape From Tarkov or BattlEye update.',
+    desc: 'Check the live banner on {siteDomain} and Discord #status before purchase, especially after a The Isle or Easy Anti-Cheat update.',
   },
   {
     num: '02',
     title: 'Choose your access tier',
-    desc: 'Select Escape From Tarkov Cheats or the utility that matches your goal. Review the feature list before checkout via our partner checkout.',
+    desc: 'Select the isle cheats or the utility that matches your goal. Review the feature list before checkout via our partner checkout.',
   },
   {
     num: '03',
@@ -145,7 +146,7 @@ const defaultAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '04',
     title: 'Follow guided setup',
-    desc: 'Use only the operator portal, patch loader, and setup guide. Test offline, load presets, then run PMC raids when status is online.',
+    desc: 'Use only the operator portal, patch loader, and setup guide. Test offline, load presets, then play when status is online.',
   },
 ];
 
@@ -157,39 +158,87 @@ function acquisitionFor(productName: string): ProductAcquisition {
 }
 
 const sharedGoodToKnow =
-  'Escape From Tarkov and BattlEye receive frequent updates. Confirm module availability on the live status panel at {siteDomain} before you purchase or launch. Cloud DMA is a separate purchase when required for full functionality.';
+  'The Isle and Easy Anti-Cheat receive frequent updates. Confirm module availability on the live status panel at {siteDomain} before you purchase or launch. Cloud DMA is a separate purchase and is required for full functionality.';
 
 const sharedLimitations =
-  'Third-party software in Escape From Tarkov can violate Battlestate Games terms and lead to BattlEye bans or account action. You use this software at your own risk. Compatibility and availability can change after game, BattlEye, or Windows updates without notice.';
+  'Third-party software in The Isle can violate the game publisher terms and lead to Easy Anti-Cheat bans or account action. You use this software at your own risk. Compatibility and availability can change after game, Easy Anti-Cheat, or Windows updates without notice.';
 
-const eftSystemRequirements: SystemRequirement[] = [
-  { icon: 'reqWindows', text: 'Windows 10 or 11 64-bit (Intel or AMD).' },
+const productSystemRequirements: SystemRequirement[] = [
+  {
+    icon: 'reqWindows',
+    text: 'Windows 10 or 11 (64-bit) with HVCI, Core Isolation, TPM, and Secure Boot enabled.',
+  },
   { icon: 'reqWifi', text: 'Stable internet and loader access after purchase.' },
-  { icon: 'reqSettings', text: 'Current Escape From Tarkov client; check status after major patches.' },
-  { icon: 'reqShieldGuide', text: 'Cloud DMA is a separate purchase when required for full functionality.' },
+  { icon: 'reqSettings', text: 'Steam client; The Isle: Evrima only. Check status after patches.' },
+  { icon: 'reqShieldGuide', text: 'Cloud DMA is a separate purchase and is required for full functionality.' },
 ];
 
 const galleryRaw = {
-  gpDaylightEsp: {
-    src: '/images/gameplay/eft-esp-daylight-player-highlights.webp',
-    alt: 'Escape From Tarkov first-person view with player ESP showing red-highlighted figures, skeleton outlines, and distance labels in a sunlit industrial yard.',
-    caption: 'Player ESP in daylight raids',
-    captionDesc:
-      'Red and green player highlights, skeleton wireframes, and distance readouts over an outdoor industrial map.',
+  gpDaylightValley: {
+    src: '/images/gameplay/isle-daylight-valley-minimap-esp.webp',
+    alt: 'Jungle dinosaur with dino stats panel, minimap, and ESP tracers in The Isle.',
+    caption: 'Dino stats and radar',
+    captionDesc: 'Growth, hunger, and bone bars beside minimap and distance ESP in the forest.',
   },
-  gpNightEsp: {
-    src: '/images/gameplay/eft-esp-night-vision-skeletons.webp',
-    alt: 'Escape From Tarkov night-vision scene with skeleton ESP, PMC and Scav labels, and meter readouts visible through interior walls.',
-    caption: 'Skeleton ESP at night',
-    captionDesc:
-      'Stick-figure skeletons, name tags, and distance markers through walls in a green-tinted indoor raid.',
+  gpNightForest: {
+    src: '/images/gameplay/isle-night-forest-esp-distance-labels.webp',
+    alt: 'Night beach shoreline with yellow ESP snaplines and player labels.',
+    caption: 'Shoreline night ESP',
+    captionDesc: 'Moonlit sand with tracers and nameplates across the waterline.',
   },
-  gpWallEsp: {
-    src: '/images/gameplay/eft-esp-enemies-through-concrete-wall.webp',
-    alt: 'Escape From Tarkov first-person aim with red wallhack silhouettes and weapon labels visible through a concrete wall outdoors.',
-    caption: 'ESP through hard cover',
-    captionDesc:
-      'Red enemy silhouettes and weapon callouts rendered through a concrete barrier while aiming down sights.',
+  gpBeachShoreline: {
+    src: '/images/gameplay/isle-beach-shoreline-player-esp.webp',
+    alt: 'Striped raptor in jungle with pink radar overlay and survival HUD.',
+    caption: 'Jungle raptor ESP',
+    captionDesc: 'Third-person run through foliage with tracers and corner radar.',
+  },
+  gpTallGrass: {
+    src: '/images/gameplay/isle-tall-grass-esp-boxes.webp',
+    alt: 'Gallimimus herd running through tall grass at dawn.',
+    caption: 'Herd in tall grass',
+    captionDesc: 'Open field flock silhouetted against pines and morning haze.',
+  },
+  gpForestOmniraptor: {
+    src: '/images/gameplay/isle-forest-omniraptor-esp-panel.webp',
+    alt: 'World ESP menu over tall grass showing corpses, food, and water toggles.',
+    caption: 'World loot ESP',
+    captionDesc: 'In-game world tab with distance slider and colored object filters.',
+  },
+  gpBeachDual: {
+    src: '/images/gameplay/isle-beach-dual-dinos-nameplates.webp',
+    alt: 'Ceratosaurus facing another carnivore over a kill in grassland.',
+    caption: 'Predator standoff',
+    captionDesc: 'Two theropods at a carcass with misty forest behind.',
+  },
+  gpFreeCameraDeer: {
+    src: '/images/gameplay/isle-free-camera-deer-esp.webp',
+    alt: 'Show Entities menu in jungle with species labels and distance slider.',
+    caption: 'Entity list ESP',
+    captionDesc: 'Tall grass scene with snaplines, weights, and growth readouts.',
+  },
+  gpCombatWireframe: {
+    src: '/images/gameplay/isle-combat-wireframe-dinosaurs.webp',
+    alt: 'First-person wireframe ESP on targets with loot labels and snaplines.',
+    caption: 'Wireframe target ESP',
+    captionDesc: 'Chams-style overlay with boxes, skeletons, and range text.',
+  },
+  gpCombatTriceratops: {
+    src: '/images/gameplay/isle-combat-wireframe-triceratops.webp',
+    alt: 'Exploit toggles over night grass with Triceratops ESP labels.',
+    caption: 'Exploit and FOV controls',
+    captionDesc: 'Menu for FOV, sky, and fog with labeled dinosaurs in the field.',
+  },
+  gpCombatJungleAim: {
+    src: '/images/gameplay/isle-combat-jungle-wireframe-aim.webp',
+    alt: 'Visuals menu with player, dinosaur, world, and radar cheat toggles.',
+    caption: 'Visuals config panel',
+    captionDesc: 'Purple-themed UI for ESP boxes, species info, loot, and radar range.',
+  },
+  gpCombatLatch: {
+    src: '/images/gameplay/isle-combat-latch-wireframe.webp',
+    alt: 'Misc settings menu with cloud DMA status and stream-proof toggles.',
+    caption: 'Misc and cloud status',
+    captionDesc: 'Hotkeys, config save, and connected Cloud DMA relay indicators.',
   },
 } satisfies Record<
   string,
@@ -213,22 +262,32 @@ function slide(...keys: GalleryKey[]): ProductSlide[] {
   });
 }
 
-const eftShowcaseSlides = slide(...EFT_SHOWCASE_GALLERY_KEYS);
+const showcaseSlides = slide(...SHOWCASE_GALLERY_KEYS);
 
 const hwidGalleryRaw = {
-  hwidSerialCheck: {
-    src: '/images/hwid-spoofer/hwid-spoofer-serial-check-panel.webp',
-    alt: 'Operator portal serial screen with disk, board, display, UUID, GPU, and network rows marked changed or unchanged beside a check-serials action.',
-    caption: 'Identifier diff view',
-    captionDesc:
-      'Scan each hardware row for changed versus unchanged values, then reboot only after the diff matches the portal checklist.',
+  hwidStatusPanel: {
+    src: '/images/hwid-spoofer/hwid-status-panel-not-spoofed.webp',
+    alt: 'Visuals menu with player, dinosaur, world, and radar cheat toggles.',
+    caption: 'Visuals config panel',
+    captionDesc: 'ESP modules for players, dinos, world loot, and on-screen radar.',
   },
-  hwidUefiSpoof: {
-    src: '/images/hwid-spoofer/hwid-spoofer-uefi-spoof-panel.webp',
-    alt: 'UEFI spoof tab showing permanent spoof switch, GPU and ethernet toggles, and a seed field on a dark mountain-themed dashboard.',
-    caption: 'UEFI toggle board',
-    captionDesc:
-      'Enable GPU or ethernet spoofing, set a seed, and trigger permanent spoof without leaving the UEFI tab.',
+  hwidCleanerRun: {
+    src: '/images/hwid-spoofer/hwid-cleaner-run-panel.webp',
+    alt: 'Misc settings menu with cloud DMA status and stream-proof toggles.',
+    caption: 'Misc and cloud status',
+    captionDesc: 'Panic keys, config profiles, and live Cloud DMA connection state.',
+  },
+  hwidMotherboardReady: {
+    src: '/images/hwid-spoofer/hwid-motherboard-spoof-ready.webp',
+    alt: 'Show Entities menu in jungle with species labels and distance slider.',
+    caption: 'Entity list ESP',
+    captionDesc: 'Distance-filtered labels for dinos, AI, and world objects.',
+  },
+  hwidMotherboardProgress: {
+    src: '/images/hwid-spoofer/hwid-motherboard-spoof-progress.webp',
+    alt: 'World ESP menu over tall grass showing corpses, food, and water toggles.',
+    caption: 'World loot ESP',
+    captionDesc: 'Corpse, meat, fruit, and water filters with a 2000 m range slider.',
   },
 } satisfies Record<
   string,
@@ -269,12 +328,12 @@ const tierAbout: Record<string, ProductPage['about']> = {
   elite: [
     {
       type: 'p',
-      text: 'This license covers main Escape From Tarkov raids with player ESP, loot ESP, aimbot, no recoil, radar and extract helpers. Arena is a separate product key. Cloud DMA is optional when you need full hardware pass-through.',
+      text: 'This license is for The Isle: Evrima on Windows. It adds player, NPC, and animal ESP with boxes, names, distance, health, stamina, growth, species, player direction, head dots, visible checks, and snaplines, plus world markers for corpses, gore, fruit, and water. Interface options include crosshair, fullbright, show FPS, resolution, time, custom menu and panic keys, and custom ESP colors, with saveable configs. Menus are available in English and Russian. Cloud DMA is a separate purchase and is required for full functionality. Verify system requirements and the live status page before you install or launch.',
     },
-    { type: 'h2', text: 'Tune before you queue' },
+    { type: 'h2', text: 'Tune before you play' },
     {
       type: 'p',
-      text: 'Load portal presets offline first, then raise ESP distance and aim smoothing over several sessions. Discord staff help with loader tabs if a module conflicts after a BattlEye patch.',
+      text: 'Load portal presets offline first, then raise ESP max distance and label density over several sessions. Discord staff help with loader tabs if a module conflicts after an Easy Anti-Cheat patch.',
     },
   ],
 };
@@ -284,32 +343,32 @@ const tierBodies: Record<string, ProductPage['body']> = {
     { type: 'h2', text: 'Plans and delivery' },
     {
       type: 'p',
-      text: 'Choose monthly ($35) or lifetime ($150) at checkout. The operator portal unlocks instantly with loader download, preset library and patch notes. Check the live status banner before every session.',
+      text: 'Choose monthly ($35 for 31 days) or lifetime ($150, one-time) at checkout. The operator portal unlocks instantly with loader download, preset library and patch notes. Check the live status banner before every session.',
     },
     { type: 'h2', text: 'Module layout' },
     {
       type: 'p',
-      text: 'ESP, loot, aim, weapons, radar and utilities each have their own loader tab so you can disable combat assists while keeping loot filters during stash runs.',
+      text: 'Player, dinosaur, world, and misc panels sit in the loader menu so you can enable only the overlays and HUD helpers you need for each session.',
     },
   ],
 };
 
 const utilityBodies: Record<string, ProductPage['body']> = {
   'hwid-spoofer': [
-    { type: 'h2', text: 'Signals this utility fits' },
+    { type: 'h2', text: 'When this tool matches' },
     {
       type: 'p',
-      text: 'Reach for it when new Escape From Tarkov logins fail immediately on one machine yet succeed on another, which points to hardware enforcement. Skip it for account-only BattlEye outcomes; pair a clean account with conservative presets from [Escape From Tarkov Cheats](/product/) once identifiers look fresh. First run the portal compatibility scan, snapshot a Windows restore point, and after a cold reboot confirm identifiers actually changed before opening the game.',
+      text: 'Use it if brand-new The Isle logins die on one PC but work on a different machine. That pattern points to hardware enforcement, not an account-only anti-cheat result. Skip this utility when the penalty stays on the account alone. After identifiers look fresh, pair a clean login with conservative presets from [the isle cheats](/product/). Start with the portal compatibility scan, create a Windows restore point, finish a cold reboot, and confirm the IDs actually changed before opening the game.',
     },
-    { type: 'h2', text: 'Checklist order' },
+    { type: 'h2', text: 'Step sequence' },
     {
       type: 'p',
-      text: 'Restore point, driver cleanup, spoof pass, cold reboot, identifier verification, then a low-profile cheat profile before raiding. The portal and HWID blog guide mirror the same step order. Do not stack two spoof tools; shared or work PCs may be poor fits; driver-level edits stay your risk. Read the status page on {siteDomain} before checkout and again before launch.',
+      text: 'Create a restore point, clean drivers, run the spoof, cold reboot, verify identifiers, then load a low-profile cheat profile. Portal docs and the HWID blog guide follow that same order. Never stack two spoof tools. Shared or work PCs may be unsuitable. Driver-level edits stay your risk. Check {siteDomain} status once before you pay and once more before you launch.',
     },
-    { type: 'h2', text: 'System requirements' },
+    { type: 'h2', text: 'What you need to run it' },
     {
       type: 'p',
-      text: 'Run it on 64-bit Windows 10 or 11 from an administrator account. Make a Windows restore point first, keep a steady connection while the portal verification tools run, and finish every step of the portal guide before you open Escape From Tarkov again.',
+      text: 'Use an administrator account on 64-bit Windows 10 or 11. Create a Windows restore point first. Keep a steady connection while portal verification tools run. Complete every portal guide step before opening The Isle again.',
     },
   ],
 };
@@ -319,64 +378,79 @@ const productContent: Record<
   Pick<ProductPage, 'overview' | 'images' | 'fullFeatures' | 'goodToKnow' | 'limitations' | 'systemRequirements'>
 > = {
   elite: {
-    images: eftShowcaseSlides,
+    images: showcaseSlides,
     goodToKnow: sharedGoodToKnow,
     limitations: sharedLimitations,
-    systemRequirements: eftSystemRequirements,
+    systemRequirements: productSystemRequirements,
     fullFeatures: [
-      'Player ESP (box, skeleton, health, distance)',
-      'PMC, Scav and boss ESP filters',
-      'Loot ESP with category and price filters',
-      'Container, corpse and quest item highlights',
-      'Extract and transition markers',
-      'Aimbot with FOV, smoothing and bone select',
-      'No recoil and no sway toggles',
-      'Stream-proof overlays',
-      'Hotkeys and config save/load',
-      '2D radar and OOF arrows',
-      'Raids only (separate key from Arena)',
+      'Player ESP: box, snapline, name, distance, health, stamina, growth, species, player direction, head dot, visible check',
+      'NPC ESP and animal ESP',
+      'World markers: corpse, gore, fruit, and water',
+      'World ESP max-distance controls',
+      'Misc: crosshair, fullbright, show FPS, resolution, time, custom menu key, panic key, custom ESP colors',
+      'Saveable configs',
+      'English and Russian menus',
+      'Designed for Easy Anti-Cheat; check status after patches',
       'Instant delivery via operator portal',
-      'Windows 10/11; Intel/AMD',
-      'Check live status after BattlEye patches',
-      'Cloud DMA optional for full functionality',
+      'Windows 10/11 with HVCI, Core Isolation, TPM, and Secure Boot enabled',
+      'The Isle: Evrima only (Steam)',
+      'Cloud DMA required for full functionality (separate purchase)',
     ],
     overview: {
-      title: 'One license for PMC raids on Windows',
+      title: 'ESP and visuals for The Isle: Evrima',
       paragraphs: [
-        'Escape From Tarkov Cheats bundles awareness and combat modules for main raids: player and loot ESP, aimbot, no recoil, radar, extract markers and stream-proof overlays. The loader groups settings by tab so you can run loot-only profiles or full combat loadouts.',
-        'Licenses cover Windows 10 and 11 on Intel or AMD. Raids-only access excludes Arena; add Cloud DMA separately when your setup requires it. Monthly and lifetime plans are listed at checkout. Confirm online status on {siteDomain} before you buy or launch.',
+        'Enhance Evrima sessions with player, NPC, and animal ESP, environmental markers, and a configurable visuals menu. Overlays can show boxes, names, distance, health, stamina, growth, species, direction, snaplines, and loot indicators so you pick up situational detail without guessing in the bush.',
+        'Built for Windows 10 and 11 when HVCI, Core Isolation, TPM, and Secure Boot are enabled. Monthly is $35 for 31 days; lifetime is $150 one-time. Cloud DMA is a separate purchase and is required for full functionality. Confirm compatibility and online status on {siteDomain} before you buy or launch.',
+      ],
+    },
+  },
+  'skin-changer': {
+    images: showcaseSlides.slice(0, 1),
+    goodToKnow: sharedGoodToKnow,
+    limitations: sharedLimitations,
+    systemRequirements: productSystemRequirements,
+    fullFeatures: [
+      'High-tier weapon skins',
+      'Outfit packs',
+      'Knife finish library',
+      'Multi-title support',
+    ],
+    overview: {
+      title: 'Skin Changer',
+      paragraphs: [
+        'Low-footprint client that applies premium weapon skins, outfits, and knife styles on supported PC games.',
       ],
     },
   },
   'hwid-spoofer': {
     images: hwidShowcaseSlides,
     goodToKnow:
-      'Run the portal compatibility scan before any spoof pass. Snapshot a Windows restore point first. After a cold reboot, confirm identifier changes before you launch Escape From Tarkov.',
+      'Before any spoof pass, run the portal compatibility scan. Create a Windows restore point first. After a cold reboot, confirm the identifier changes before launching The Isle.',
     limitations:
-      'Designed for hardware-level flags, not account-only BattlEye restrictions. Never run two spoof tools together. Shared or work PCs may be unsuitable. Driver-level edits remain your risk; read the status page on {siteDomain} before checkout.',
+      'Designed for hardware-level flags rather than account-only anti-cheat restrictions. Do not run two spoof tools at once. Shared or work PCs may be unsuitable. Driver-level edits stay your risk. Check the status page on {siteDomain} before checkout.',
     systemRequirements: [
-      { icon: 'reqWindows', text: 'Admin rights on 64-bit Windows 10 or 11 for the portal steps.' },
-      { icon: 'reqRestorePoint', text: 'Ability to create a Windows restore point before the first spoof pass.' },
-      { icon: 'reqShieldGuide', text: 'Finish the full portal guide before you open Escape From Tarkov after a spoof.' },
-      { icon: 'reqWifi', text: 'Stable internet for portal verification and identifier diff tools.' },
+      { icon: 'reqWindows', text: 'Administrator rights on 64-bit Windows 10 or 11 for portal steps.' },
+      { icon: 'reqRestorePoint', text: 'Ability to create a Windows restore point before the first spoof.' },
+      { icon: 'reqShieldGuide', text: 'Complete the full portal guide before opening The Isle after a spoof.' },
+      { icon: 'reqWifi', text: 'Steady internet while portal verification and identifier diff tools run.' },
     ],
     fullFeatures: [
-      'Disk serial profiling kit',
-      'MAC rotation controls',
-      'Restore-point walkthrough',
-      'Pre-flight compatibility scan',
-      'Driver overlap detection',
-      'Post-spoof validation steps',
-      'Identifier change report',
-      'Cold-reboot instructions',
-      'Portal milestone checklist',
-      'Discord hardware recovery desk',
+      'Disk serial profiling panel',
+      'MAC rotation controls in portal',
+      'Restore-point setup walkthrough',
+      'Compatibility scan before spoof',
+      'Driver collision checks',
+      'After-spoof validation prompts',
+      'Changed-ID report view',
+      'Cold-reboot step guide',
+      'Portal milestone checklist UI',
+      'Discord hardware recovery channel',
     ],
     overview: {
-      title: 'Hardware-first recovery for flagged rigs',
+      title: 'Recovery aimed at the machine fingerprint',
       paragraphs: [
-        'BattlEye can tie bans to PC fingerprints while the Escape From Tarkov account still looks clean. This utility bundles disk, MAC, and GPU ID tooling with a restore-point checklist, portal compatibility scan, and post-reboot verification prompts designed to confirm changes before you raid again.',
-        'Pick it when brand-new accounts collapse on one rig but work elsewhere, not when the penalty is account-only. After spoofing, load conservative presets from {siteDomain} and confirm the live status banner before your first PMC session.',
+        'Anti-cheat can bind bans to PC fingerprints even when the The Isle account still looks clean. This utility groups disk, MAC, and GPU ID tooling with a restore-point checklist, a portal compatibility scan, and post-reboot verification prompts designed to confirm changes before you play again.',
+        'Choose it when brand-new accounts fail on one rig yet work elsewhere, not when the penalty is account-only. After the spoof, pull conservative presets on {siteDomain}, then re-check the status banner ahead of your next session.',
       ],
     },
   },
@@ -386,7 +460,7 @@ function buildTierPages(t: Translations): ProductPage[] {
   return t.cheats.items.map((cheat) => {
     const slug = slugFromHref(cheat.href);
     const content = productContent[slug];
-    const displayName = 'Escape From Tarkov Cheats';
+    const displayName = 'the isle cheats';
     return {
       slug,
       kind: 'tier',
@@ -416,13 +490,14 @@ function buildTierPages(t: Translations): ProductPage[] {
 }
 
 function buildUtilityPages(t: Translations): ProductPage[] {
-  const slug = HWID_SPOOFER_SLUG;
-  const product = t.products.items.find((item) => slugFromHref(item.href) === slug);
-  const content = productContent[slug];
-  if (!product || !content) return [];
+  const pages: ProductPage[] = [];
 
-  return [
-    {
+  for (const product of t.products.items) {
+    const slug = slugFromHref(product.href);
+    const content = productContent[slug];
+    if (!content) continue;
+
+    pages.push({
       slug,
       kind: 'utility',
       badge: product.badge,
@@ -436,10 +511,10 @@ function buildUtilityPages(t: Translations): ProductPage[] {
       buyUrl: checkoutForSlug(slug),
       images: content.images,
       overview: content.overview,
-      acquisition: {
-        title: acquisitionFor(product.title).title,
-        steps: hwidAcquisitionSteps,
-      },
+      acquisition:
+        slug === 'hwid-spoofer'
+          ? { title: 'How to get HWID Spoofer', steps: hwidAcquisitionSteps }
+          : acquisitionFor(product.title),
       goodToKnow: content.goodToKnow,
       limitations: content.limitations,
       fullFeatures: content.fullFeatures,
@@ -447,8 +522,10 @@ function buildUtilityPages(t: Translations): ProductPage[] {
       body: utilityBodies[slug] ?? [],
       relatedBlogSlugs: productRelatedBlogSlugs[slug] ?? [],
       relatedForumSlugs: productRelatedForumSlugs[slug] ?? [],
-    },
-  ];
+    });
+  }
+
+  return pages;
 }
 
 export function getProductPages(locale: SiteLocale): ProductPage[] {
@@ -487,7 +564,7 @@ export function getAllCheatSlugs() {
 }
 
 export function getHeroSlides(_locale: SiteLocale): ProductSlide[] {
-  return eftShowcaseSlides;
+  return showcaseSlides;
 }
 
 const productCopyByLocale: Record<Exclude<SiteLocale, 'en'>, ProductCopyBundle> = {
@@ -507,7 +584,7 @@ function buildEnglishProductCopyBundle(): ProductCopyBundle {
   const tiers = Object.fromEntries(
     tierSlugs.map((slug) => {
       const content = productContent[slug];
-      const displayName = 'Escape From Tarkov Cheats';
+      const displayName = 'the isle cheats';
       return [
         slug,
         {
@@ -543,12 +620,16 @@ function buildEnglishProductCopyBundle(): ProductCopyBundle {
     sharedGoodToKnow,
     sharedLimitations,
     acquisitionSteps: defaultAcquisitionSteps.map(({ num, title, desc }) => ({ num, title, desc })),
-    systemRequirements: eftSystemRequirements.map((r) => r.text),
+    systemRequirements: productSystemRequirements.map((r) => r.text),
     gallery: Object.values(galleryRaw).map(({ alt, caption, captionDesc }) => ({
       alt,
       caption,
       captionDesc,
     })),
+    hwidGallery: HWID_GALLERY_KEYS.map((key) => {
+      const { alt, caption, captionDesc } = hwidGalleryRaw[key];
+      return { alt, caption, captionDesc };
+    }),
     tiers,
     utilities,
   };
@@ -575,14 +656,13 @@ function applyProductCopy(page: ProductPage, locale: SiteLocale): ProductPage {
     steps,
   };
 
-  const images =
-    page.kind === 'tier'
-      ? page.images.map((slide, index) => {
-          const g = copy.gallery[index];
-          if (!g) return slide;
-          return { ...slide, alt: g.alt, caption: g.caption, captionDesc: g.captionDesc };
-        })
-      : page.images;
+  const gallerySource =
+    page.kind === 'tier' ? copy.gallery : (copy.hwidGallery ?? []);
+  const images = page.images.map((slide, index) => {
+    const g = gallerySource[index];
+    if (!g) return slide;
+    return { ...slide, alt: g.alt, caption: g.caption, captionDesc: g.captionDesc };
+  });
 
   const systemRequirements = page.systemRequirements.map((req, index) => ({
     ...req,
