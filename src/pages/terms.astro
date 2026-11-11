@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { useLocale } from '../i18n';
-import { resolvePageSeo } from '../config/seo';
+import { resolvePageSeo, visiblePageTitle } from '../config/seo';
 import LegalPage from '../components/LegalPage.astro';
 import { breadcrumbSchema, webPageSchema } from '../utils/schema';
 
@@ -27,7 +27,7 @@ const seo = resolvePageSeo('/terms/', locale);
   ]}
 >
   <LegalPage
-    title={content.title}
+    title={visiblePageTitle(content.title)}
     description={content.description}
     breadcrumbLabel={t.common.breadcrumbTerms}
     sections={content.sections}

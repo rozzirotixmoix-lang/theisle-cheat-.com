@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getHwidSpooferPage } from '../../data/products';
-import { resolvePageSeo } from '../../config/seo';
+import { resolvePageSeo, visiblePageTitle } from '../../config/seo';
+import { getFeaturedPlan } from '../../data/productPricing';
 import { breadcrumbSchema, productSchema } from '../../utils/schema';
 import ProductDetail from '../../components/ProductDetail.astro';
 import { useLocale } from '../../i18n';
@@ -16,6 +17,7 @@ if (!product) {
 }
 
 const pagePath = HWID_SPOOFER_PATH;
+const defaultPlan = getFeaturedPlan(product.slug);
 const breadcrumbs = [
   { name: t.common.breadcrumbHome, path: '/' },
   { name: product.title, path: pagePath },
@@ -42,6 +44,7 @@ const lcpSizes = GALLERY_IMAGE_SIZES;
       image: product.images[0]?.src,
       sku: product.slug,
       locale,
+      priceUsd: defaultPlan?.priceUsd,
     }),
     breadcrumbSchema(breadcrumbs),
   ]}
@@ -60,7 +63,7 @@ const lcpSizes = GALLERY_IMAGE_SIZES;
       />
     )
   }
-  <ProductDetail product={product} breadcrumbs={breadcrumbs} pageTitle={seo.title} />
+  <ProductDetail product={product} breadcrumbs={breadcrumbs} pageTitle={visiblePageTitle(seo.title)} />
 
   <section class="border-t border-border pb-12 pt-6">
     <div class="mx-auto max-w-6xl px-5">

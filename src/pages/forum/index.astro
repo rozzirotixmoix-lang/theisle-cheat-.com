@@ -5,7 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Icon from '../../components/icons/Icon.astro';
 import { getForumCategories, getForumPosts } from '../../data/forum/locale';
 import { getBlogPosts, getBlogPostTimestamp } from '../../data/blog';
-import { resolvePageSeo } from '../../config/seo';
+import { resolvePageSeo, visiblePageTitle } from '../../config/seo';
 import { breadcrumbSchema, collectionPageSchema } from '../../utils/schema';
 import { useLocale } from '../../i18n';
 import { formatForumRelative } from '../../utils/forumTime';
@@ -48,7 +48,7 @@ const sourceTimestamp = (path?: string) => {
       <header class="forum-hero">
         <div>
           <p class="section-header__eyebrow">{f.eyebrow}</p>
-          <h1>{seo.title}</h1>
+          <h1>{visiblePageTitle(seo.title)}</h1>
           <p class="forum-hero__copy">{f.description}</p>
         </div>
         <div class="forum-hero__actions">

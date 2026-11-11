@@ -7,7 +7,7 @@ import {
   getNonFeaturedBlogPosts,
 } from '../../data/blog';
 import { useLocale } from '../../i18n';
-import { resolvePageSeo } from '../../config/seo';
+import { resolvePageSeo, visiblePageTitle } from '../../config/seo';
 import { breadcrumbSchema, collectionPageSchema } from '../../utils/schema';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
@@ -55,7 +55,7 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
       <Breadcrumbs items={breadcrumbs} />
       <header class="section-header mb-8 max-w-2xl" data-reveal>
         <p class="section-header__eyebrow">{t.blog.eyebrow}</p>
-        <h1 class="section-header__title">{seo.title}</h1>
+        <h1 class="section-header__title">{visiblePageTitle(seo.title)}</h1>
         <p class="section-header__subtitle">{seo.description}</p>
       </header>
       {featured && <BlogCard post={featured} index={0} eager showDate layout="featured" />}

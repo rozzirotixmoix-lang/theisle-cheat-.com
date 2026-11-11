@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { useLocale } from '../i18n';
-import { resolvePageSeo } from '../config/seo';
+import { resolvePageSeo, visiblePageTitle } from '../config/seo';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ContactSupportSection from '../components/ContactSupportSection.astro';
 import { breadcrumbSchema, webPageSchema } from '../utils/schema';
@@ -33,5 +33,5 @@ const seo = resolvePageSeo('/support/', locale);
       ]}
     />
   </div>
-  <ContactSupportSection titleId="support-page-title" pageTitle={seo.title} showTicketTips />
+  <ContactSupportSection titleId="support-page-title" pageTitle={visiblePageTitle(seo.title)} showTicketTips />
 </BaseLayout>

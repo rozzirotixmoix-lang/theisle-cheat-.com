@@ -106,6 +106,32 @@ function collapseRepeatedTitleWords(title: string): string {
     .replace(/\b(Cheats),\s+\1\b/gi, '$1');
 }
 
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/** Visible H1 / hero title only — keeps `normalizeDocumentTitle` output in `<title>` and meta. */
+export function visiblePageTitle(title: string): string {
+  const domain = SITE_DOMAIN;
+  const escaped = escapeRegExp(domain);
+  let out = title.trim();
+  const suffixPatterns = [
+    new RegExp(`\\s*[|–—:\\-]\\s*${escaped}\\s*$`, 'i'),
+    new RegExp(`\\s+on\\s+${escaped}\\s*$`, 'i'),
+    new RegExp(`\\s+at\\s+${escaped}\\s*$`, 'i'),
+    new RegExp(`\\s+for\\s+${escaped}\\s*$`, 'i'),
+    new RegExp(`\\s+sur\\s+${escaped}\\s*$`, 'i'),
+    new RegExp(`\\s+en\\s+${escaped}\\s*$`, 'i'),
+    new RegExp(`\\s+auf\\s+${escaped}\\s*$`, 'i'),
+    new RegExp(`\\s+über\\s+${escaped}\\s*$`, 'i'),
+    new RegExp(`\\s+para\\s+${escaped}\\s*$`, 'i'),
+  ];
+  for (const pattern of suffixPatterns) {
+    out = out.replace(pattern, '');
+  }
+  return out.replace(/\s*[|–—:\-]\s*$/, '').trim();
+}
+
 export function normalizeDocumentTitle(title: string, locale?: string): string {
   const trimmed = collapseRepeatedTitleWords(title.trim().replace(/\s+/g, ' '));
   if (!trimmed) return trimmed;

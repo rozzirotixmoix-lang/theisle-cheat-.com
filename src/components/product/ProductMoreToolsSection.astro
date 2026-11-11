@@ -68,7 +68,10 @@ const cards = [
             </ul>
 
             <div class="mt-5 border-t border-border pt-5">
-              <Button as="a" href={card.href} variant="primary" class="w-full rounded-xl">
+              <p class="text-sm text-muted-foreground">
+                From <span class="text-xl font-bold text-foreground">$35</span> / month
+              </p>
+              <Button as="a" href={card.href} variant="primary" class="mt-4 w-full rounded-xl">
                 {t.products.buy}
               </Button>
             </div>
