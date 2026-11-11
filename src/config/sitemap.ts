@@ -1,4 +1,4 @@
-import type { SitemapItem } from '@astrojs/sitemap';
+import { ChangeFreqEnum, type SitemapItem } from '@astrojs/sitemap';
 import { blogPosts, getAllBlogSlugs } from '../data/blog';
 import { getForumPosts } from '../data/forum/locale';
 import { getAllProductSlugs } from '../data/products';
@@ -11,7 +11,7 @@ import { parseBlogDate } from '../utils/schema';
 
 const buildDate = new Date().toISOString();
 
-const blogLastmod = new Map(
+const blogLastmod = new Map<string, string>(
   blogPosts.map((post) => [`/blog/${post.slug}/`, parseBlogDate(post.date)] as const),
 );
 
@@ -31,38 +31,38 @@ export function sitemapSerialize(item: SitemapItem): SitemapItem | undefined {
 
   if (path === '/') {
     item.priority = 1;
-    item.changefreq = 'weekly';
+    item.changefreq = ChangeFreqEnum.WEEKLY;
     return item;
   }
 
   if (path === '/blog/') {
     item.priority = 0.9;
-    item.changefreq = 'weekly';
+    item.changefreq = ChangeFreqEnum.WEEKLY;
     return item;
   }
 
   if (path === '/forum/') {
     item.priority = 0.8;
-    item.changefreq = 'daily';
+    item.changefreq = ChangeFreqEnum.DAILY;
     return item;
   }
 
   if (path.startsWith('/forum/')) {
     item.priority = 0.6;
-    item.changefreq = 'weekly';
+    item.changefreq = ChangeFreqEnum.WEEKLY;
     return item;
   }
 
   if (path.startsWith('/blog/')) {
     item.priority = 0.7;
-    item.changefreq = 'monthly';
+    item.changefreq = ChangeFreqEnum.MONTHLY;
     item.lastmod = blogLastmod.get(path) ?? buildDate;
     return item;
   }
 
   if (path === '/product/' || path.startsWith('/product/') || path === '/hwid-spoofer/') {
     item.priority = 0.8;
-    item.changefreq = 'weekly';
+    item.changefreq = ChangeFreqEnum.WEEKLY;
     return item;
   }
 
@@ -74,12 +74,12 @@ export function sitemapSerialize(item: SitemapItem): SitemapItem | undefined {
     path === '/faq/'
   ) {
     item.priority = 0.5;
-    item.changefreq = 'yearly';
+    item.changefreq = ChangeFreqEnum.YEARLY;
     return item;
   }
 
   item.priority = 0.6;
-  item.changefreq = 'monthly';
+  item.changefreq = ChangeFreqEnum.MONTHLY;
   return item;
 }
 

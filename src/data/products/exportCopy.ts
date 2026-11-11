@@ -27,6 +27,7 @@ export interface ProductCopyBundle {
   utilities: Record<
     string,
     {
+      about?: ProductPage['about'];
       body: ProductPage['body'];
       overview: ProductOverview;
       goodToKnow: string;

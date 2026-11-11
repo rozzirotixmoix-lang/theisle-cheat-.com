@@ -248,7 +248,7 @@ type GalleryKey = keyof typeof galleryRaw;
 
 function slide(...keys: GalleryKey[]): ProductSlide[] {
   return keys.map((key) => {
-    const item = galleryRaw[key];
+    const item: ProductSlide = galleryRaw[key];
     if (!item) throw new Error(`Missing gallery key: ${String(key)}`);
     const { src, alt, caption, captionDesc, videoSrc } = item;
     return {
@@ -297,7 +297,7 @@ type HwidGalleryKey = keyof typeof hwidGalleryRaw;
 
 function hwidSlide(...keys: HwidGalleryKey[]): ProductSlide[] {
   return keys.map((key) => {
-    const item = hwidGalleryRaw[key];
+    const item: ProductSlide = hwidGalleryRaw[key];
     const { src, alt, caption, captionDesc, videoSrc } = item;
     return {
       src,
@@ -671,7 +671,7 @@ function applyProductCopy(page: ProductPage, locale: SiteLocale): ProductPage {
     ...page,
     overview: bucket.overview,
     body: bucket.body,
-    about: 'about' in bucket ? bucket.about : page.about,
+    about: bucket.about ?? page.about,
     goodToKnow: bucket.goodToKnow,
     limitations: bucket.limitations,
     acquisition,

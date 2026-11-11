@@ -5,7 +5,7 @@ export interface SiteConfig {
   description: string;
 }
 
-export type NavId = 'products' | 'hwidSpoofer' | 'blog' | 'forum' | 'faq' | 'support';
+export type NavId = 'features' | 'products' | 'hwidSpoofer' | 'blog' | 'forum' | 'faq' | 'support';
 
 export interface NavLink {
   id: NavId;

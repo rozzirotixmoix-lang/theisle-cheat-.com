@@ -83,7 +83,10 @@ function resolveFile(pathname) {
   if (!path.extname(normalized)) normalized += '.html';
 
   const filePath = path.normalize(path.join(distDir, normalized));
-  if (!filePath.startsWith(distDir)) return null;
+  const relative = path.relative(distDir, filePath);
+  if (relative === '..' || relative.startsWith(`..${path.sep}`) || path.isAbsolute(relative)) {
+    return null;
+  }
   return filePath;
 }
 
@@ -216,6 +219,14 @@ const server = http.createServer((req, res) => {
   }
 
   const { pathname, query, fragment } = splitUrl(req.url);
+  // Reject malformed escapes before redirects or file lookup can process the URL.
+  try {
+    decodeURIComponent(pathname);
+  } catch {
+    res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
+    res.end('Bad request');
+    return;
+  }
   const checkoutRedirect = resolveCheckoutPathRedirect(pathname);
   if (checkoutRedirect) {
     const location =

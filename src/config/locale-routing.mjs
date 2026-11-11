@@ -4,7 +4,7 @@ export const PREFIXED_LOCALES = ['es', 'de', 'fr'];
 
 /** Collapse `/en/`, `/en/about/`, and `/en/en/..` to unprefixed English. */
 export function stripEnglishLocalePrefix(pathname) {
-  if (!pathname.startsWith('/en')) return null;
+  if (pathname !== '/en' && !pathname.startsWith('/en/')) return null;
 
   let path = pathname;
   while (true) {

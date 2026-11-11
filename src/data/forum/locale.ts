@@ -1,11 +1,15 @@
 import type { SiteLocale } from '../../i18n/locales';
 import type { ForumPost } from './types';
+import type { IconName } from '../../components/icons/types';
 import { forumCategories as forumCategoriesEn, forumPosts as forumPostsEn } from '../forum';
 import esForum from './locales/es.json';
 import deForum from './locales/de.json';
 import frForum from './locales/fr.json';
 
-type ForumPack = { categories: typeof forumCategoriesEn; posts: ForumPost[] };
+type ForumPack = {
+  categories: { name: string; tone: ForumPost['categoryTone']; icon: IconName }[];
+  posts: ForumPost[];
+};
 
 const byLocale: Record<Exclude<SiteLocale, 'en'>, ForumPack> = {
   es: esForum as ForumPack,

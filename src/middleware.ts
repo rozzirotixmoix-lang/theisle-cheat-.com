@@ -12,8 +12,9 @@ export const onRequest = defineMiddleware((context, next) => {
     const destination = checkoutTarget.includes('?')
       ? `${checkoutTarget}${search.replace('?', '&')}`
       : `${checkoutTarget}${search}`;
-    return context.redirect(destination, 302, {
-      headers: { 'X-Robots-Tag': 'noindex, nofollow' },
+    return new Response(null, {
+      status: 302,
+      headers: { Location: destination, 'X-Robots-Tag': 'noindex, nofollow' },
     });
   }
 

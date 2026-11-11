@@ -12,13 +12,14 @@ import {
 
 interface Props {
   items: BreadcrumbItem[];
+  class?: string;
 }
 
-const { items } = Astro.props;
+const { items, class: className } = Astro.props;
 const { lp } = useLocale(Astro.currentLocale);
 ---
 
-<Breadcrumb class="mb-4">
+<Breadcrumb class:list={['mb-4', className]}>
   <BreadcrumbList>
     {items.map((item, index) => {
       const isLast = index === items.length - 1;
