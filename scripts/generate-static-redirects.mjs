@@ -49,14 +49,15 @@ const GO_PLACEHOLDER_META = {
   },
 };
 
-function checkoutPlaceholderHtml(slug) {
+function checkoutPlaceholderHtml(slug, fromPath) {
   const meta = GO_PLACEHOLDER_META[slug] ?? {
     title: `Checkout redirect | theisle-cheat.com`,
     description:
       'Partner checkout redirect from theisle-cheat.com. If nothing happens, open the product page and use Buy again.',
     product: 'product',
   };
-  const canonical = `${SITE_URL}/product/`;
+  const canonical = `${SITE_URL}${fromPath.endsWith('/') ? fromPath.slice(0, -1) : fromPath}/`;
+  const productHref = `${SITE_URL}/product/`;
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -69,12 +70,15 @@ function checkoutPlaceholderHtml(slug) {
 <meta property="og:title" content="${meta.title}">
 <meta property="og:description" content="${meta.description}">
 <meta property="og:url" content="${canonical}">
+<link rel="alternate" hreflang="en" href="${canonical}">
+<link rel="alternate" hreflang="x-default" href="${canonical}">
 <meta property="og:type" content="website">
 </head>
 <body>
 <main>
 <h1>${meta.product} checkout</h1>
-<p>Redirecting to our secure partner checkout. If you are not redirected within a few seconds, return to the <a href="${canonical}">product page</a> and use Buy again.</p>
+<p>Redirecting to our secure partner checkout for ${meta.product}. This page exists only as a fallback when automatic forwarding does not start.</p>
+<p>If you are not redirected within a few seconds, return to the <a href="${productHref}">The Isle cheats product page</a> on theisle-cheat.com and use Buy again. Order questions go through <a href="${SITE_URL}/support/">support</a>.</p>
 </main>
 </body>
 </html>
@@ -87,7 +91,7 @@ for (const [from] of CHECKOUT_PATH_REDIRECTS.entries()) {
   const slug = from.replace(/^\/go\//, '').replace(/\/$/, '');
   const dir = path.join('public', from);
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), checkoutPlaceholderHtml(slug));
+  fs.writeFileSync(path.join(dir, 'index.html'), checkoutPlaceholderHtml(slug, from));
   checkoutPages += 1;
 }
 console.log(`Wrote ${checkoutPages} checkout placeholder pages → public/go/ (destinations only in _redirects)`);

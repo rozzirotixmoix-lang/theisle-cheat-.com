@@ -218,6 +218,9 @@ export interface Translations {
     tocTitle: string;
     relatedTitle: string;
     filterToolbarAria: string;
+    navHome: string;
+    navProduct: string;
+    navForum: string;
     items: BlogPost[];
   };
   workflow: {
@@ -259,6 +262,10 @@ export interface Translations {
     exploreLinks: NavLink[];
     supportLinks: { href: string; label: string; ariaLabel: string }[];
     support: string;
+    share: string;
+    shareOnX: string;
+    shareOnFacebook: string;
+    shareOnReddit: string;
     legal: string;
     privacy: string;
     terms: string;
@@ -312,11 +319,17 @@ export interface Translations {
       description: string;
       schemaName: string;
       schemaDescription: string;
+      linkProduct: string;
+      linkHwid: string;
+      linkSupport: string;
+      linkBlog: string;
     };
     forum: {
       eyebrow: string;
       title: string;
       description: string;
+      linkProduct: string;
+      linkSupport: string;
       exploreGuides: string;
       postsAria: string;
       sortAria: string;

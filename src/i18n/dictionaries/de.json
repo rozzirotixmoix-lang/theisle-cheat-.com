@@ -431,6 +431,9 @@
     "tocTitle": "In diesem Artikel",
     "relatedTitle": "Verwandte Guides",
     "filterToolbarAria": "Artikel nach Thema filtern",
+    "navHome": "Zur Startseite",
+    "navProduct": "Evrima-Produkt-Checkout öffnen",
+    "navForum": "Forum-Archiv durchsuchen",
     "items": []
   },
   "workflow": {
@@ -610,6 +613,10 @@
       }
     ],
     "support": "Support",
+    "share": "Diese Seite teilen",
+    "shareOnX": "Auf X (Twitter) teilen",
+    "shareOnFacebook": "Auf Facebook teilen",
+    "shareOnReddit": "Auf Reddit teilen",
     "legal": "Rechtliches",
     "privacy": "Datenschutz",
     "terms": "AGB",
@@ -762,12 +769,18 @@
       "title": "the isle cheats FAQ: Setup, Pläne & Easy Anti-Cheat",
       "description": "Antworten zu Setup, Preisen, ESP, Aim und Easy Anti-Cheat Status für The Isle unter Windows.",
       "schemaName": "the isle cheats FAQ",
-      "schemaDescription": "Antworten zu The Isle ESP, Aim-Assistance, Radar, Loader-Setup, Preisen und Checkout auf {siteDomain}."
+      "schemaDescription": "Antworten zu The Isle ESP, Aim-Assistance, Radar, Loader-Setup, Preisen und Checkout auf {siteDomain}.",
+      "linkProduct": "Evrima-Cheat-Pläne vergleichen",
+      "linkHwid": "HWID-Spoofer-Details ansehen",
+      "linkSupport": "Support-Formular öffnen",
+      "linkBlog": "Setup- und Patch-Guides lesen"
     },
     "forum": {
       "eyebrow": "The Isle Community-Forum",
       "title": "The Isle Community-Forum",
       "description": "Archivierte, schreibgeschützte Threads zu Loader-Setup, ESP-Modulen, Patch-Status und HWID-Flags. Antworten sind geschlossen.",
+      "linkProduct": "Evrima-Produktspezifikationen ansehen",
+      "linkSupport": "Support vor dem Checkout kontaktieren",
       "exploreGuides": "Guides entdecken",
       "postsAria": "Community-Posts",
       "sortAria": "Posts sortieren",

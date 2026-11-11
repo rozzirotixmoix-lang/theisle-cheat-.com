@@ -1,7 +1,7 @@
 ---
 import "@/styles/starwind.css";
 import { getTranslations } from '../i18n';
-import { localizePath } from '../i18n/paths';
+import { localizePath, stripLocalePrefix } from '../i18n/paths';
 import type { SiteLocale } from '../i18n/locales';
 import {
   RSS_FEED_PATH,
@@ -18,6 +18,7 @@ import {
   absoluteAssetUrl,
 } from '../config/seo';
 import { hreflangAlternatesForPath } from '../config/hreflang';
+import { normalizeSeoPath } from '../config/pageSeo';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import JsonLd from '../components/JsonLd.astro';
@@ -72,7 +73,7 @@ const canonicalPathResolved = canonicalPath ?? localizePath(Astro.url.pathname, 
 const canonical = canonicalUrl(canonicalPathResolved);
 const hreflangAlternates = noindex
   ? []
-  : hreflangAlternatesForPath(canonicalPathResolved, canonical, locale);
+  : hreflangAlternatesForPath(normalizeSeoPath(stripLocalePrefix(canonicalPathResolved)), canonical, locale);
 const ogLocaleAlternates = (['en', 'es', 'de', 'fr'] as const).filter((code) => code !== locale);
 const ogImageUrl = absoluteAssetUrl(ogImage);
 const robotsContent = noindex
@@ -182,7 +183,7 @@ const robotsContent = noindex
     <main id="main-content">
       <slot />
     </main>
-    <Footer />
+    <Footer shareUrl={canonical} shareTitle={documentTitle} />
     {jsonLd && <JsonLd data={jsonLd} />}
     <script is:inline>
       document.querySelectorAll('[data-sw-theme-control]').forEach((input) => {

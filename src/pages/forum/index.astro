@@ -48,12 +48,12 @@ const sourceTimestamp = (path?: string) => {
       <header class="forum-hero">
         <div>
           <p class="section-header__eyebrow">{f.eyebrow}</p>
-          <h1>{f.title}</h1>
+          <h1>{seo.title}</h1>
           <p class="forum-hero__copy">{f.description}</p>
         </div>
         <div class="forum-hero__actions">
-          <a class="forum-create" href={lp('/product/')}><Icon name="navProducts" size={17} /> {t.nav.find((l) => l.id === 'products')?.label ?? 'Product'}</a>
-          <a class="forum-create forum-create--muted" href={lp('/support/')}><Icon name="headphones" size={17} /> {t.nav.find((l) => l.id === 'support')?.label ?? 'Support'}</a>
+          <a class="forum-create" href={lp('/product/')}><Icon name="navProducts" size={17} /> {f.linkProduct}</a>
+          <a class="forum-create forum-create--muted" href={lp('/support/')}><Icon name="headphones" size={17} /> {f.linkSupport}</a>
         </div>
       </header>
 

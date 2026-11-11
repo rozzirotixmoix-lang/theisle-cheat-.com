@@ -22,10 +22,10 @@ export const en: Translations = {
   hero: {
     status: 'The Isle, patch build online',
     eyebrow: '#1 CHEATS PROVIDER',
-    titleLine1: 'The Isle Cheats for',
-    titleLine2: 'Evrima on Windows',
+    titleLine1: 'The Isle Cheats for Evrima:',
+    titleLine2: 'ESP, HUD and radar on Windows',
     subtitle:
-      'Bring The Isle Cheats online for Evrima after you read the status banner. Windows loader, portal presets, then ESP distance and overlay tuning.',
+      'Bring the menu online for Evrima after you read the status banner on theisle-cheat.com. Windows loader, portal presets, then ESP distance and overlay tuning.',
     ctaPrimary: 'View products',
     metrics: [
       { label: 'Stream-proof', strong: 'Yes' },
@@ -369,7 +369,7 @@ export const en: Translations = {
   blog: {
     eyebrow: 'Blog',
     title: 'Guides and updates',
-    pageH1: 'The Isle cheat guides and patch-day notes',
+    pageH1: 'The Isle cheat guides on theisle-cheat.com',
     subtitle: 'ESP and aim setup, world markers, and Easy Anti-Cheat patch-day checks for The Isle.',
     latestTitle: 'Browse guides by topic',
     latestSubtitle: 'Filter by topic to find setup guides, feature deep-dives, and patch-day notes.',
@@ -386,6 +386,9 @@ export const en: Translations = {
     tocTitle: 'In this article',
     relatedTitle: 'Related guides',
     filterToolbarAria: 'Filter articles by topic',
+    navHome: 'Return to homepage',
+    navProduct: 'Open Evrima product checkout',
+    navForum: 'Browse forum archive threads',
     items: [],
   },
   workflow: {
@@ -522,17 +525,21 @@ export const en: Translations = {
       'The Isle cheats with ESP overlays, world markers, aim assistance and radar for Windows. Guides and live status on {siteDomain}.',
     explore: 'Explore',
     exploreLinks: [
-      { id: 'products', href: '/', label: 'Feature overview', ariaLabel: 'Features', scrollTarget: 'features' },
-      { id: 'products', href: productBase, label: 'Product', ariaLabel: 'Product' },
-      { id: 'hwidSpoofer', href: '/hwid-spoofer/', label: 'HWID Spoofer', ariaLabel: 'HWID Spoofer' },
-      { id: 'blog', href: '/blog/', label: 'Blog', ariaLabel: 'Blog' },
-      { id: 'forum', href: '/forum/', label: 'Forum', ariaLabel: 'Forum' },
+      { id: 'features', href: '/', label: 'Homepage feature overview', ariaLabel: 'Homepage features section', scrollTarget: 'features' },
+      { id: 'products', href: productBase, label: 'Evrima cheats product page', ariaLabel: 'Evrima cheats product' },
+      { id: 'hwidSpoofer', href: '/hwid-spoofer/', label: 'HWID spoofer utility', ariaLabel: 'HWID spoofer product page' },
+      { id: 'blog', href: '/blog/', label: 'The Isle setup guides', ariaLabel: 'Blog guides' },
+      { id: 'forum', href: '/forum/', label: 'Community forum archive', ariaLabel: 'Forum discussions' },
     ],
     supportLinks: [
       { href: '/faq/', label: 'Pre-purchase FAQ', ariaLabel: 'FAQ' },
       { href: '/support/', label: 'Contact support', ariaLabel: 'Support' },
     ],
     support: 'Support',
+    share: 'Share this page',
+    shareOnX: 'Share on X (Twitter)',
+    shareOnFacebook: 'Share on Facebook',
+    shareOnReddit: 'Share on Reddit',
     legal: 'Legal',
     privacy: 'Privacy Policy',
     terms: 'Terms & Conditions',
@@ -687,18 +694,24 @@ export const en: Translations = {
   pages: {
     faq: {
       eyebrow: 'Help center',
-      title: 'the isle cheats FAQ: Setup, Plans & Easy Anti-Cheat',
+      title: 'The Isle Cheats FAQ: Plans, ESP and Setup Help',
       description:
         'Setup, pricing, ESP, aim, and Easy Anti-Cheat status answers for The Isle on Windows.',
       schemaName: 'the isle cheats FAQ',
       schemaDescription:
         'Answers on The Isle ESP, aim assistance, radar, loader setup, pricing, and checkout at {siteDomain}.',
+      linkProduct: 'Compare Evrima cheat plans',
+      linkHwid: 'Review HWID spoofer details',
+      linkSupport: 'Open support contact form',
+      linkBlog: 'Read setup and patch guides',
     },
     forum: {
       eyebrow: 'The Isle community forum',
-      title: 'The Isle Community Forum',
+      title: 'The Isle Cheats Forum: Setup and HWID Threads',
       description:
         'Archived, read-only threads on loader setup, ESP modules, patch status, and HWID flags. Replies are closed.',
+      linkProduct: 'View Evrima product specifications',
+      linkSupport: 'Contact support before checkout',
       exploreGuides: 'Explore the guides',
       postsAria: 'Community posts',
       sortAria: 'Post sorting',

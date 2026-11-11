@@ -431,6 +431,9 @@
     "tocTitle": "En este artículo",
     "relatedTitle": "Guías relacionadas",
     "filterToolbarAria": "Filtrar artículos por tema",
+    "navHome": "Volver a la página principal",
+    "navProduct": "Abrir checkout del producto Evrima",
+    "navForum": "Ver archivo del foro",
     "items": []
   },
   "workflow": {
@@ -610,6 +613,10 @@
       }
     ],
     "support": "Soporte",
+    "share": "Compartir esta página",
+    "shareOnX": "Compartir en X (Twitter)",
+    "shareOnFacebook": "Compartir en Facebook",
+    "shareOnReddit": "Compartir en Reddit",
     "legal": "Legal",
     "privacy": "Política de privacidad",
     "terms": "Términos y condiciones",
@@ -762,12 +769,18 @@
       "title": "FAQ de the isle cheats: setup, planes y Easy Anti-Cheat",
       "description": "Respuestas de setup, planes, ESP, aim y estado de Easy Anti-Cheat para The Isle en Windows.",
       "schemaName": "FAQ de the isle cheats",
-      "schemaDescription": "Respuestas sobre ESP de The Isle, asistencia de aim, radar, setup del loader, planes y pago en {siteDomain}."
+      "schemaDescription": "Respuestas sobre ESP de The Isle, asistencia de aim, radar, setup del loader, planes y pago en {siteDomain}.",
+      "linkProduct": "Comparar planes de cheats Evrima",
+      "linkHwid": "Revisar detalles del HWID spoofer",
+      "linkSupport": "Abrir formulario de soporte",
+      "linkBlog": "Leer guías de setup y parches"
     },
     "forum": {
       "eyebrow": "Foro de la comunidad de The Isle",
       "title": "Foro de la comunidad de The Isle",
       "description": "Hilos archivados de solo lectura sobre setup del loader, módulos ESP, estado de parches y flags HWID. Las respuestas están cerradas.",
+      "linkProduct": "Ver especificaciones del producto Evrima",
+      "linkSupport": "Contactar soporte antes del checkout",
       "exploreGuides": "Explorar las guías",
       "postsAria": "Publicaciones de la comunidad",
       "sortAria": "Ordenar publicaciones",

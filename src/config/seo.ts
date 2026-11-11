@@ -5,7 +5,7 @@ import {
   DEFAULT_OG_GAMEPLAY_IMAGE,
   DEFAULT_OG_GAMEPLAY_WIDTH,
 } from './gameplayMedia';
-import { SITE_DOMAIN as INDEXNOW_HOST_NAME, SITE_URL } from './site';
+import { SITE_DOMAIN as INDEXNOW_HOST_NAME, SITE_URL, SITE_DOMAIN } from './site';
 import { getPageSeoEntry } from './pageSeo';
 
 export const SITE_ORIGIN = SITE_URL;
@@ -63,14 +63,26 @@ export function clampMetaDescription(text: string, min = 120, max = 158): string
   return slice.trim();
 }
 
+function collapseRepeatedTitleWords(title: string): string {
+  return title
+    .replace(/\b(The Isle Cheats)\s+\1\b/gi, '$1')
+    .replace(/\b(The Isle)\s+\1\b/gi, '$1')
+    .replace(/\b(theisle-cheat\.com)\s+\1\b/gi, '$1');
+}
+
 export function normalizeDocumentTitle(title: string, locale?: string): string {
-  const trimmed = title.trim().replace(/\s+/g, ' ');
+  const trimmed = collapseRepeatedTitleWords(title.trim().replace(/\s+/g, ' '));
   if (!trimmed) return trimmed;
   const t = getTranslations(locale);
   let out = trimmed.length > 60 ? pageTitle(trimmed, undefined, locale) : trimmed;
   if (out.length < 50) {
-    const withBrand = pageTitle(out, t.site.name, locale);
-    if (withBrand.length <= 60 && withBrand.length > out.length) out = withBrand;
+    const withDomain = `${out} | ${SITE_DOMAIN}`;
+    if (withDomain.length <= 60) {
+      out = withDomain;
+    } else {
+      const withBrand = pageTitle(out, t.site.name, locale);
+      if (withBrand.length <= 60 && withBrand.length > out.length) out = withBrand;
+    }
   }
   return out;
 }
