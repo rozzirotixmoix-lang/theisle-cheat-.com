@@ -342,7 +342,7 @@ const tierBodies: Record<string, ProductPage['body']> = {
     { type: 'h2', text: 'Plans and delivery' },
     {
       type: 'p',
-      text: 'Choose monthly or lifetime at checkout. The operator portal unlocks instantly with loader download, preset library and patch notes. Check the live status banner before every session.',
+      text: 'Choose monthly ($35 for 31 days) or lifetime ($150, one-time) at checkout. The operator portal unlocks instantly with loader download, preset library and patch notes. Check the live status banner before every session.',
     },
     { type: 'h2', text: 'Module layout' },
     {
@@ -398,7 +398,7 @@ const productContent: Record<
       title: 'ESP and visuals for The Isle: Evrima',
       paragraphs: [
         'Enhance Evrima sessions with player, NPC, and animal ESP, environmental markers, and a configurable visuals menu. Overlays can show boxes, names, distance, health, stamina, growth, species, direction, snaplines, and loot indicators so you pick up situational detail without guessing in the bush.',
-        'Built for Windows 10 and 11 when HVCI, Core Isolation, TPM, and Secure Boot are enabled. Monthly and lifetime plans are available at checkout. Cloud DMA is a separate purchase and is required for full functionality. Confirm compatibility and online status on {siteDomain} before you buy or launch.',
+        'Built for Windows 10 and 11 when HVCI, Core Isolation, TPM, and Secure Boot are enabled. Monthly is $35 for 31 days; lifetime is $150 one-time. Cloud DMA is a separate purchase and is required for full functionality. Confirm compatibility and online status on {siteDomain} before you buy or launch.',
       ],
     },
   },
