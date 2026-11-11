@@ -10,7 +10,7 @@ export const en: Translations = {
     domain: SITE_DOMAIN,
     title: 'The Isle Cheats for Evrima: ESP and HUD on Windows',
     description:
-      'The Isle menu for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans and check live status on theisle-cheat.com.',
+      'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans; check live status before checkout.',
   },
   nav: [
     {
@@ -775,7 +775,7 @@ export const en: Translations = {
     '/': {
       title: 'The Isle Cheats for Evrima: ESP and HUD on Windows',
       description:
-        'The Isle menu for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans and check live status on theisle-cheat.com.',
+        'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime plans; check live status before checkout.',
     },
     '/product/': {
       title: 'The Isle Evrima Cheats: ESP Overlays and HUD',
@@ -798,9 +798,9 @@ export const en: Translations = {
         'Read-only The Isle cheats forum threads on loader setup, patches, ban recovery and HWID notes. Browse community posts; new replies are closed.',
     },
     '/faq/': {
-      title: 'The Isle Cheats FAQ: Plans, ESP and Setup Help',
+      title: 'The Isle Cheats FAQ: Plans and ESP',
       description:
-        'The Isle cheats FAQ on monthly vs lifetime plans, ESP modules, Windows security settings, Easy Anti-Cheat status and checkout help on {siteDomain}.',
+        'The Isle cheats FAQ: monthly vs lifetime plans, ESP modules, Windows security, Easy Anti-Cheat status and checkout help on {siteDomain}.',
     },
     '/terms/': {
       title: 'The Isle Cheats Terms: Sale, License and Refunds',
@@ -813,7 +813,7 @@ export const en: Translations = {
         'Privacy policy for {siteDomain}: how cookies, analytics and support ticket data are used when you browse The Isle cheats pages or contact support.',
     },
     '/about/': {
-      title: 'About The Isle Cheats Store on {siteDomain}',
+      title: 'About The Isle Cheats Store',
       description:
         'Learn who publishes The Isle cheats product pages, live status notes and Discord support for buyers on {siteDomain} before you checkout.',
     },

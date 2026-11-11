@@ -94,7 +94,18 @@ export function clampMetaDescription(text: string, min = 110, maxChars = 155, ma
     const extended = `${out.replace(/[.!?]\s*$/, '')}${suffix}`;
     if (metaDescriptionFits(extended, maxChars, maxPx)) out = extended;
   }
-  return out;
+  const danglingTail =
+    /\s+(a|an|the|and|or|of|for|to|in|on|with|at|is|it|be|without|after|de|en|sur|auf|über|para)$/iu;
+  while (danglingTail.test(out)) out = out.replace(danglingTail, '').trim();
+  return out.replace(/[,;:.]\s*$/, '').trim();
+}
+
+function stripDanglingTitleTail(text: string): string {
+  const dangling =
+    /\s+(a|an|the|and|or|of|for|to|in|on|with|at|is|it|be|without|after|de|en|sur|auf|über|para)$/iu;
+  let out = text.trim();
+  while (dangling.test(out)) out = out.replace(dangling, '').trim();
+  return out.replace(/\s*[|–—:\-,]\s*$/, '').trim();
 }
 
 function collapseRepeatedTitleWords(title: string): string {
@@ -129,7 +140,12 @@ export function visiblePageTitle(title: string): string {
   for (const pattern of suffixPatterns) {
     out = out.replace(pattern, '');
   }
-  return out.replace(/\s*[|–—:\-]\s*$/, '').trim();
+  return stripDanglingTitleTail(out);
+}
+
+/** Visible H1 text aligned with the document `<title>` (without domain / brand suffix). */
+export function documentHeadline(title: string, locale?: string): string {
+  return visiblePageTitle(normalizeDocumentTitle(title, locale));
 }
 
 export function normalizeDocumentTitle(title: string, locale?: string): string {
@@ -151,6 +167,14 @@ export function normalizeDocumentTitle(title: string, locale?: string): string {
     }
   }
   if (out.length > 60) out = pageTitle(out, undefined, locale);
+  if (out.includes(` | ${SITE_DOMAIN}`)) {
+    const [base, suffix] = out.split(` | ${SITE_DOMAIN}`);
+    const cleaned = stripDanglingTitleTail(base ?? out);
+    const candidate = `${cleaned} | ${SITE_DOMAIN}`;
+    out = candidate.length <= 60 ? candidate : pageTitle(candidate, undefined, locale);
+  } else {
+    out = stripDanglingTitleTail(out);
+  }
   return out;
 }
 

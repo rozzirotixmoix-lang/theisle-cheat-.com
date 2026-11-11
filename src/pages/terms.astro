@@ -27,7 +27,7 @@ const seo = resolvePageSeo('/terms/', locale);
   ]}
 >
   <LegalPage
-    title={visiblePageTitle(content.title)}
+    title={visiblePageTitle(seo.title)}
     description={content.description}
     breadcrumbLabel={t.common.breadcrumbTerms}
     sections={content.sections}

@@ -27,7 +27,7 @@ const seo = resolvePageSeo('/privacy/', locale);
   ]}
 >
   <LegalPage
-    title={visiblePageTitle(content.title)}
+    title={visiblePageTitle(seo.title)}
     description={content.description}
     breadcrumbLabel={t.common.breadcrumbPrivacy}
     sections={content.sections}

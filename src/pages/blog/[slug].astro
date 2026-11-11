@@ -5,7 +5,13 @@ import { useLocale } from '../../i18n';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
 import { getAllBlogSlugs, getBlogPost, getRelatedBlogPosts } from '../../data/blog';
-import { canonicalUrl, clampMetaDescription, normalizeDocumentTitle, SITE_ORIGIN, visiblePageTitle } from '../../config/seo';
+import {
+  canonicalUrl,
+  clampMetaDescription,
+  documentHeadline,
+  normalizeDocumentTitle,
+  SITE_ORIGIN,
+} from '../../config/seo';
 import {
   articleSchema,
   breadcrumbSchema,
@@ -134,7 +140,7 @@ const lcpSizes = '(min-width: 768px) 720px, 100vw';
           </figure>
 
           <header class="blog-article__header">
-            <h1 class="blog-article__title">{visiblePageTitle(post.h1 ?? post.title)}</h1>
+            <h1 class="blog-article__title">{documentHeadline(post.metaTitle ?? post.title, locale)}</h1>
             <p class="blog-article__lead">{post.desc}</p>
             {
               post.author && (
