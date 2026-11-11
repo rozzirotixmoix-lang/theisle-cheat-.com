@@ -529,7 +529,7 @@ export const blogPostsEn: BlogPostFull[] = [
     h1: 'The Isle Anti-Cheat: How Bans Work and What Risk Really Looks Like',
     slug: 'the-isle-anti-cheat-bans-and-risk',
     image: imgCombat,
-    imageAlt: 'Two theropods on a sunny shoreline with name and health overlays in The Isle.',
+    imageAlt: 'Combat showcase with holographic wireframe dinosaurs in a grassy arena in The Isle.',
     desc: 'No cheat is risk free. Here is how bans work in The Isle and the sensible ways players reduce the chances of one.',
     metaTitle: 'The Isle Anti-Cheat: Bans, HWID Bans and Real Risk',
     metaDescription:
@@ -598,7 +598,7 @@ export const blogPostsEn: BlogPostFull[] = [
     h1: 'The Isle Evrima Growth Guide: Eating, Drinking and Staying Alive',
     slug: 'the-isle-evrima-growth-guide',
     image: imgDual,
-    imageAlt: 'A young dinosaur drinking at a water source in The Isle Evrima',
+    imageAlt: 'Combat showcase with two holographic dinosaurs fighting inside a red targeting ring in The Isle.',
     desc: 'Growth in The Isle comes down to staying fed, hydrated and alive. These habits help, especially in the early stages.',
     metaTitle: 'The Isle Evrima Growth Guide: Eat, Drink, Survive',
     metaDescription:

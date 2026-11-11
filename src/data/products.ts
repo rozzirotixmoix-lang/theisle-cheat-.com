@@ -217,7 +217,7 @@ const galleryRaw = {
   },
   gpCombatWireframe: {
     src: '/images/gameplay/isle-combat-wireframe-dinosaurs.webp',
-    alt: 'First-person wireframe ESP on targets with loot labels and snaplines.',
+    alt: 'Combat showcase with holographic wireframe dinosaurs in a grassy arena in The Isle.',
     caption: 'Wireframe target ESP',
     captionDesc: 'Chams-style overlay with boxes, skeletons, and range text.',
   },
