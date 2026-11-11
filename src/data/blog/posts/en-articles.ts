@@ -16,7 +16,7 @@ export const blogPostsEn: BlogPostFull[] = [
     h1: 'The Isle Cheats: Monthly vs Lifetime Access Compared',
     slug: 'the-isle-cheats-price-monthly-vs-lifetime',
     image: imgDaylight,
-    imageAlt: 'The Isle cheat menu showing ESP options and monthly and lifetime plan choices',
+    imageAlt: 'Striped raptor on a tropical beach with ESP tracers, radar, and survival HUD in The Isle.',
     desc: 'Monthly or lifetime? Here is what each plan includes and when lifetime is the better long-term fit.',
     metaTitle: 'The Isle Cheats: Monthly vs Lifetime Compared',
     metaDescription:
@@ -138,8 +138,8 @@ export const blogPostsEn: BlogPostFull[] = [
     title: 'The Isle ESP Explained: Dinosaur, Player, Fruit and Water Options',
     h1: 'The Isle ESP Explained: What Each Option Shows and When It Helps',
     slug: 'the-isle-esp-options-explained',
-    image: imgTallGrass,
-    imageAlt: 'The Isle ESP overlay showing dinosaur boxes with health, species and distance labels',
+    image: imgNight,
+    imageAlt: 'Night jungle with white snaplines and player distance labels in The Isle.',
     desc: 'ESP in The Isle is more useful than it first sounds. Here is what each option shows and how to keep your screen readable.',
     metaTitle: 'The Isle ESP Explained: Every Option and What It Shows',
     metaDescription:
@@ -235,7 +235,7 @@ export const blogPostsEn: BlogPostFull[] = [
     h1: 'How to Set Up The Isle Cheats on Windows, Step by Step',
     slug: 'how-to-set-up-the-isle-cheats-windows',
     image: imgBeach,
-    imageAlt: 'Windows security settings checklist beside The Isle cheat menu',
+    imageAlt: 'Valley overlook with minimap radar and colored ESP entity tags in The Isle.',
     desc: 'Before you buy or launch anything, run through the requirements. This guide covers the checklist and what to do on day one.',
     metaTitle: 'How to Set Up The Isle Cheats on Windows (2026 Guide)',
     metaDescription:
@@ -340,8 +340,8 @@ export const blogPostsEn: BlogPostFull[] = [
     title: 'The Isle Cheat Not Working? A Practical Troubleshooting Checklist',
     h1: 'The Isle Cheat Not Working? Work Through This Checklist First',
     slug: 'the-isle-cheat-not-working-fixes',
-    image: imgNight,
-    imageAlt: 'Troubleshooting checklist for The Isle cheat not loading on Windows',
+    image: imgTallGrass,
+    imageAlt: 'Omniraptor crouched in fallen jungle logs with species and growth ESP readouts in The Isle.',
     desc: 'Most issues have a simple cause. Work through this list before contacting support, and you will usually find it.',
     metaTitle: 'The Isle Cheat Not Working? Fixes and Checklist',
     metaDescription:
@@ -431,7 +431,7 @@ export const blogPostsEn: BlogPostFull[] = [
     h1: 'The Isle HWID Spoofer: What It Does and When You Need One',
     slug: 'the-isle-hwid-spoofer-ban-recovery',
     image: imgFreeCam,
-    imageAlt: 'HWID spoofer product banner for hardware ban recovery',
+    imageAlt: 'Dense jungle grass with white tracers and distance readouts through foliage in The Isle.',
     desc: 'A hardware ban follows your PC, not just your account. Here is what a spoofer changes and what to check before you buy.',
     metaTitle: 'The Isle HWID Spoofer: Recover From a Hardware Ban',
     metaDescription:
@@ -529,7 +529,7 @@ export const blogPostsEn: BlogPostFull[] = [
     h1: 'The Isle Anti-Cheat: How Bans Work and What Risk Really Looks Like',
     slug: 'the-isle-anti-cheat-bans-and-risk',
     image: imgCombat,
-    imageAlt: 'The Isle Evrima anti-cheat and ban risk overview',
+    imageAlt: 'Two theropods on a sunny shoreline with name and health overlays in The Isle.',
     desc: 'No cheat is risk free. Here is how bans work in The Isle and the sensible ways players reduce the chances of one.',
     metaTitle: 'The Isle Anti-Cheat: Bans, HWID Bans and Real Risk',
     metaDescription:

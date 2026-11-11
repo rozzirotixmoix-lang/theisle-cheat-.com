@@ -2,7 +2,7 @@
 export const DEFAULT_OG_GAMEPLAY_IMAGE = '/images/gameplay/isle-daylight-valley-minimap-esp.webp';
 
 export const DEFAULT_OG_GAMEPLAY_ALT =
-  'Jungle dinosaur with dino stats panel, minimap, and ESP tracers in The Isle.';
+  'Striped raptor on a tropical beach with ESP tracers, radar, and survival HUD in The Isle.';
 
 /** Intrinsic size of the default OG master (after format normalize). */
 export const DEFAULT_OG_GAMEPLAY_WIDTH = 1024;

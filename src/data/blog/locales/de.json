@@ -5,7 +5,7 @@
     "h1": "The Isle Cheats: Monatlich vs Lifetime-Zugang im Vergleich",
     "slug": "the-isle-cheats-price-monthly-vs-lifetime",
     "image": "/images/gameplay/isle-daylight-valley-minimap-esp.webp",
-    "imageAlt": "The Isle Cheat-Menü mit ESP-Optionen und monatlichen sowie Lifetime-Plänen",
+    "imageAlt": "Striped raptor on a tropical beach with ESP tracers, radar, and survival HUD in The Isle.",
     "desc": "Monatlich oder Lifetime? Hier steht, was jeder Plan enthält und wann Lifetime langfristig besser passt.",
     "metaTitle": "The Isle Cheats: Monatlich vs Lifetime im Vergleich",
     "metaDescription": "Vergleiche monatliche und Lifetime-Pläne für The Isle cheats, was enthalten ist und für wen welcher Plan passt.",
@@ -17,7 +17,10 @@
         "type": "p",
         "text": "Wenn du dir The Isle cheats anschaust, ist die erste praktische Frage, wie lange du Zugang wirklich brauchst. Es gibt zwei Pläne, und der richtige hängt vor allem davon ab, wie lange du Evrima noch spielen willst."
       },
-      { "type": "h2", "text": "Planoptionen" },
+      {
+        "type": "h2",
+        "text": "Planoptionen"
+      },
       {
         "type": "p",
         "text": "Die Produktseite listet zwei Optionen:"
@@ -33,7 +36,10 @@
         "type": "p",
         "text": "Plandetails können sich ändern, also bestätige die aktuellen Optionen auf der Produktseite beim Checkout."
       },
-      { "type": "h2", "text": "Ab wann Lifetime Sinn ergibt" },
+      {
+        "type": "h2",
+        "text": "Ab wann Lifetime Sinn ergibt"
+      },
       {
         "type": "p",
         "text": "Wenn du den Cheat über viele 31-Tage-Zeiträume nutzen willst, gewinnt Lifetime meist an Komfort, weil du keine wiederholten Verlängerungen brauchst. Wenn du unsicher bist, ob du nach wenigen Monaten noch spielst, hält monatlich die Verpflichtung niedriger."
@@ -42,7 +48,10 @@
         "type": "p",
         "text": "Wenn du unsicher bist, ob du in fünf Monaten noch spielst, ist monatlich die kleinere Verpflichtung. Wenn The Isle bereits dein Hauptspiel ist und du die meisten Wochen spielst, spart Lifetime auf Dauer Geld und erspart dir, an Verlängerungen zu denken."
       },
-      { "type": "h2", "text": "Für wen welcher Plan passt" },
+      {
+        "type": "h2",
+        "text": "Für wen welcher Plan passt"
+      },
       {
         "type": "p",
         "text": "Monatlich passt, wenn:"
@@ -71,7 +80,10 @@
         "type": "p",
         "text": "Schau in die [FAQ](/faq/), was Lifetime genau abdeckt, bevor du kaufst – die Bedingungen sind das eine, was man besser liest als annimmt."
       },
-      { "type": "h2", "text": "Was jeder Plan enthält" },
+      {
+        "type": "h2",
+        "text": "Was jeder Plan enthält"
+      },
       {
         "type": "p",
         "text": "Beide Pläne schalten ein volles Toolset frei, nicht nur eine einzelne Funktion. Laut Produktseite gehört dazu:"
@@ -87,7 +99,10 @@
           "24/7-Support und sofortige digitale Lieferung"
         ]
       },
-      { "type": "h2", "text": "Was du vor dem Kauf prüfen solltest" },
+      {
+        "type": "h2",
+        "text": "Was du vor dem Kauf prüfen solltest"
+      },
       {
         "type": "p",
         "text": "Die Planwahl ist nur ein Teil der Entscheidung. Stelle zuerst sicher, dass das für dein Setup gilt:"
@@ -105,12 +120,18 @@
         "type": "p",
         "text": "Wenn etwas davon nicht zu deinem Rechner passt, kläre das zuerst und frage vor dem Kauf per Ticket beim Support nach."
       },
-      { "type": "h2", "text": "Sollst du einen Spoofer dazunehmen?" },
+      {
+        "type": "h2",
+        "text": "Sollst du einen Spoofer dazunehmen?"
+      },
       {
         "type": "p",
         "text": "Manche Käufer nehmen zusätzlich einen [HWID Spoofer](/hwid-spoofer/) als separaten Kauf mit eigenen monatlichen und Lifetime-Plänen. Er ist optional, und unser Artikel zu [was nach dem Checkout zu erwarten ist](/faq/) erklärt, wie die Lieferung funktioniert."
       },
-      { "type": "h2", "text": "Fazit" },
+      {
+        "type": "h2",
+        "text": "Fazit"
+      },
       {
         "type": "p",
         "text": "Monatlich ist der einfache Einstieg. Lifetime passt besser, wenn du über viele Monate hinweg regelmäßig spielst. Was auch immer du wählst: Prüfe vor dem Kauf die [Live-Statusseite](/), damit du den aktuellen Stand des Produkts kennst."
@@ -126,8 +147,8 @@
     "title": "The Isle ESP erklärt: Dinosaurier-, Spieler-, Obst- und Wasseroptionen",
     "h1": "The Isle ESP erklärt: Was jede Option zeigt und wann sie hilft",
     "slug": "the-isle-esp-options-explained",
-    "image": "/images/gameplay/isle-tall-grass-esp-boxes.webp",
-    "imageAlt": "The Isle ESP-Overlay mit Dinosaurier-Boxen sowie Gesundheits-, Spezies- und Distanzlabels",
+    "image": "/images/gameplay/isle-night-forest-esp-distance-labels.webp",
+    "imageAlt": "Night jungle with white snaplines and player distance labels in The Isle.",
     "desc": "ESP in The Isle ist nützlicher, als es zuerst klingt. Hier steht, was jede Option zeigt und wie du den Bildschirm lesbar hältst.",
     "metaTitle": "The Isle ESP erklärt: Jede Option und was sie zeigt",
     "metaDescription": "Ein klarer Guide zu The Isle ESP: Dinosaurier-, Spieler-, Leichen-, Obst- und Wassermarker plus Wachstums-, Ausdauer- und Spezies-Tags und wie du sie einrichtest.",
@@ -142,12 +163,18 @@
         "type": "p",
         "text": "The Isle eignet sich gut für ESP, weil so viel vom Spiel darum geht, die Umgebung zu lesen. Du bist ein Dinosaurier, der essen, trinken, wachsen und nicht sterben will. Zu wissen, was um dich herum ist, zählt mehr als Zielen."
       },
-      { "type": "h2", "text": "Die Hauptkategorien" },
+      {
+        "type": "h2",
+        "text": "Die Hauptkategorien"
+      },
       {
         "type": "p",
         "text": "Die Produktseite gruppiert visuelle Optionen in ein paar klare Typen."
       },
-      { "type": "h3", "text": "Wer und was in der Nähe ist" },
+      {
+        "type": "h3",
+        "text": "Wer und was in der Nähe ist"
+      },
       {
         "type": "ul",
         "items": [
@@ -158,7 +185,10 @@
           "Growth zeigt, wie weit ein Dinosaurier entwickelt ist. Ein ausgewachsenes Ziel und ein junges sind völlig andere Situationen."
         ]
       },
-      { "type": "h3", "text": "Wie es gezeichnet wird" },
+      {
+        "type": "h3",
+        "text": "Wie es gezeichnet wird"
+      },
       {
         "type": "ul",
         "items": [
@@ -170,7 +200,10 @@
           "Die Menüvorschau zeigt außerdem Skelett- und Glow-Styles für Dinosaurier-ESP."
         ]
       },
-      { "type": "h3", "text": "Zustand des Ziels" },
+      {
+        "type": "h3",
+        "text": "Zustand des Ziels"
+      },
       {
         "type": "ul",
         "items": [
@@ -178,7 +211,10 @@
           "Corpse markiert tote Tiere – nützlich, um als Fleischfresser Futter zu finden."
         ]
       },
-      { "type": "h3", "text": "Survival- und Weltmarker" },
+      {
+        "type": "h3",
+        "text": "Survival- und Weltmarker"
+      },
       {
         "type": "ul",
         "items": [
@@ -190,7 +226,10 @@
         "type": "p",
         "text": "Einige Optionen wie Gore stehen auf der Produktseite ohne weiteren Detail, also schau im Menü selbst, was sie genau anzeigen."
       },
-      { "type": "h2", "text": "Den Bildschirm lesbar halten" },
+      {
+        "type": "h2",
+        "text": "Den Bildschirm lesbar halten"
+      },
       {
         "type": "p",
         "text": "Mehr Information ist nicht immer besser. Ein paar Gewohnheiten helfen:"
@@ -204,12 +243,18 @@
           "Speichere dein Setup als Config, damit du zwischen Minimal- und Vollansicht wechseln kannst."
         ]
       },
-      { "type": "h2", "text": "Über ESP hinaus" },
+      {
+        "type": "h2",
+        "text": "Über ESP hinaus"
+      },
       {
         "type": "p",
         "text": "Dasselbe Menü enthält auch Aimbot, Radar, FOV und Himmelssteuerungen sowie Extras wie Crosshair, Fullbright, FPS- und Zeitanzeigen, eine eigene Menütaste und eine eigene Paniktaste. Die Menüsprache kann Englisch oder Russisch sein."
       },
-      { "type": "h2", "text": "Für wen das ist" },
+      {
+        "type": "h2",
+        "text": "Für wen das ist"
+      },
       {
         "type": "p",
         "text": "Wenn du ein Overlay willst, das um Evimas Survival-Mechaniken gebaut ist – mit Infos zu Futter, Wasser, Wachstum und Spezies – passt das Menü. Die volle Liste und Preise findest du auf der [Produktseite](/product/). Prüfe vor dem Kauf die Anforderungen: nur Evrima, Windows 10 oder 11 und die dort gelisteten Sicherheitseinstellungen. Für einen allgemeinen Blick darauf, was du vergleichen solltest, siehe unseren Guide zu [worauf du bei The Isle cheats achten solltest](/blog/the-isle-cheats-price-monthly-vs-lifetime/)."
@@ -222,7 +267,7 @@
     "h1": "The Isle Cheats unter Windows einrichten, Schritt für Schritt",
     "slug": "how-to-set-up-the-isle-cheats-windows",
     "image": "/images/gameplay/isle-beach-shoreline-player-esp.webp",
-    "imageAlt": "Checkliste der Windows-Sicherheitseinstellungen neben dem The Isle Cheat-Menü",
+    "imageAlt": "Valley overlook with minimap radar and colored ESP entity tags in The Isle.",
     "desc": "Bevor du etwas kaufst oder startest, geh die Anforderungen durch. Dieser Guide deckt die Checkliste und den ersten Tag ab.",
     "metaTitle": "The Isle Cheats unter Windows einrichten (Guide 2026)",
     "metaDescription": "Prüfe deine PC-Anforderungen, verstehe die Sicherheitseinstellungen und lerne, was beim ersten Start von The Isle cheats unter Windows 10 oder 11 zu tun ist.",
@@ -237,7 +282,10 @@
         "type": "p",
         "text": "Für die genaue Schrittfolge folge immer dem aktuellen Guide aus deinem Kauf. Guides werden mit dem Produkt aktualisiert; dieser Artikel bereitet dich darauf vor."
       },
-      { "type": "h2", "text": "Schritt 1: die Basics bestätigen" },
+      {
+        "type": "h2",
+        "text": "Schritt 1: die Basics bestätigen"
+      },
       {
         "type": "p",
         "text": "Die Produktseite listet das als Basis:"
@@ -251,14 +299,22 @@
           "Eine stabile Internetverbindung"
         ]
       },
-      { "type": "h2", "text": "Schritt 2: Sicherheitseinstellungen prüfen" },
+      {
+        "type": "h2",
+        "text": "Schritt 2: Sicherheitseinstellungen prüfen"
+      },
       {
         "type": "p",
         "text": "Die Produktseite listet Folgendes als ON:"
       },
       {
         "type": "ul",
-        "items": ["HVCI", "Core Isolation", "TPM", "Secure Boot"]
+        "items": [
+          "HVCI",
+          "Core Isolation",
+          "TPM",
+          "Secure Boot"
+        ]
       },
       {
         "type": "p",
@@ -268,12 +324,18 @@
         "type": "p",
         "text": "Um das auf deinem eigenen PC zu prüfen, schau unter Windows-Sicherheit bei Gerätesicherheit nach Core isolation und Secure-Boot-Status. Systeminformationen (msinfo32) zeigen ebenfalls den Secure-Boot-Status, und TPM lässt sich über das TPM-Verwaltungstool in Windows prüfen."
       },
-      { "type": "h2", "text": "Schritt 3: Zugang nach dem Checkout" },
+      {
+        "type": "h2",
+        "text": "Schritt 3: Zugang nach dem Checkout"
+      },
       {
         "type": "p",
         "text": "Die Lieferung ist digital und sofort nach dem Kauf. Du erhältst Loader-Zugang, und der aktuelle Guide zu deiner Bestellung liegt in deinem Account oder Ticket-Kanal. Lass ihn offen, während du das Setup durchgehst."
       },
-      { "type": "h2", "text": "Schritt 4: erster Start" },
+      {
+        "type": "h2",
+        "text": "Schritt 4: erster Start"
+      },
       {
         "type": "p",
         "text": "Wenn du lädst, öffnet sich das Menü standardmäßig mit der INSERT-Taste. Du siehst Tabs für Visuals, World, Aimbot und Misc."
@@ -296,12 +358,18 @@
         "type": "p",
         "text": "Wenn du das Menü lieber auf Russisch liest, ist die Sprachoption da. Englisch ist ebenfalls verfügbar."
       },
-      { "type": "h2", "text": "Schritt 5: langsam aufbauen" },
+      {
+        "type": "h2",
+        "text": "Schritt 5: langsam aufbauen"
+      },
       {
         "type": "p",
         "text": "Füge World-Optionen wie Obst und Wasser hinzu, dann die anderen Tools – eins nach dem anderen. Ein paar Einstellungen zu tunen ist leichter, als dreißig zu entwirren."
       },
-      { "type": "h2", "text": "Vor jeder Session" },
+      {
+        "type": "h2",
+        "text": "Vor jeder Session"
+      },
       {
         "type": "ul",
         "items": [
@@ -310,7 +378,10 @@
           "Starte in der Reihenfolge, die dein Guide beschreibt."
         ]
       },
-      { "type": "h2", "text": "Wenn etwas schiefgeht" },
+      {
+        "type": "h2",
+        "text": "Wenn etwas schiefgeht"
+      },
       {
         "type": "p",
         "text": "Sammle zuerst die Details: deine Windows-Version, welche der vier Sicherheitseinstellungen an sind und was du gesehen hast. Dann [öffne ein Support-Ticket](/support/) mit diesen Infos. Das beschleunigt vieles. Wir haben auch einen separaten Guide für [wenn der Cheat nicht funktioniert](/blog/the-isle-cheat-not-working-fixes/)."
@@ -326,8 +397,8 @@
     "title": "The Isle Cheat funktioniert nicht? Eine praktische Troubleshooting-Checkliste",
     "h1": "The Isle Cheat funktioniert nicht? Geh zuerst diese Checkliste durch",
     "slug": "the-isle-cheat-not-working-fixes",
-    "image": "/images/gameplay/isle-night-forest-esp-distance-labels.webp",
-    "imageAlt": "Troubleshooting-Checkliste für The Isle Cheat, der unter Windows nicht lädt",
+    "image": "/images/gameplay/isle-tall-grass-esp-boxes.webp",
+    "imageAlt": "Omniraptor crouched in fallen jungle logs with species and growth ESP readouts in The Isle.",
     "desc": "Die meisten Probleme haben eine einfache Ursache. Geh diese Liste durch, bevor du den Support kontaktierst – meist findest du sie so.",
     "metaTitle": "The Isle Cheat funktioniert nicht? Fixes und Checkliste",
     "metaDescription": "Wenn The Isle Cheat nicht lädt oder das Menü nicht öffnet, geh diese Checkliste zu Anforderungen, Updates, Sicherheitseinstellungen und Support durch.",
@@ -338,45 +409,71 @@
         "type": "p",
         "text": "Wenn ein Cheat nicht mehr funktioniert, liegt die Ursache meist an einer Handvoll Dinge. Geh sie der Reihe nach durch. Die meisten Prüfungen dauern weniger als eine Minute."
       },
-      { "type": "h2", "text": "1. Bist du auf Evrima?" },
+      {
+        "type": "h2",
+        "text": "1. Bist du auf Evrima?"
+      },
       {
         "type": "p",
         "text": "Das Produkt ist nur für Evrima gelistet. Wenn du auf einem anderen Branch oder einer anderen Version von The Isle bist, kann das allein die Erklärung sein."
       },
-      { "type": "h2", "text": "2. Hat das Spiel gerade ein Update bekommen?" },
+      {
+        "type": "h2",
+        "text": "2. Hat das Spiel gerade ein Update bekommen?"
+      },
       {
         "type": "p",
         "text": "Nach einem Game-Patch braucht jeder Cheat möglicherweise ein Update, bevor er wieder funktioniert. Prüfe die [Statusseite](/) für den aktuellen Stand des Produkts. Wenn ein Update aussteht, ist Warten die richtige Entscheidung. Wiederholtes Starten hilft nicht und sorgt nur für mehr Verwirrung, wenn du den Support kontaktierst."
       },
-      { "type": "h2", "text": "3. Die vier Sicherheitseinstellungen prüfen" },
+      {
+        "type": "h2",
+        "text": "3. Die vier Sicherheitseinstellungen prüfen"
+      },
       {
         "type": "p",
         "text": "Die Produktseite listet diese als ON:"
       },
       {
         "type": "ul",
-        "items": ["HVCI", "Core Isolation", "TPM", "Secure Boot"]
+        "items": [
+          "HVCI",
+          "Core Isolation",
+          "TPM",
+          "Secure Boot"
+        ]
       },
       {
         "type": "p",
         "text": "Wenn eine davon ausgeschaltet wurde – von dir, einem Windows-Update oder einem anderen Tool – funktioniert das Produkt möglicherweise nicht wie erwartet. Windows-Updates und Treiberinstallationen ändern das manchmal ohne große Ankündigung, also lohnt sich ein erneuter Check, selbst wenn es letzte Woche noch ging."
       },
-      { "type": "h2", "text": "4. An die Cloud-DMA-Anforderung denken" },
+      {
+        "type": "h2",
+        "text": "4. An die Cloud-DMA-Anforderung denken"
+      },
       {
         "type": "p",
         "text": "Die Produktseite weist darauf hin, dass Cloud DMA für die volle Funktionalität erforderlich ist. Wenn Features fehlen oder sich merkwürdig verhalten, bestätige, dass dieser Teil stimmt. Die [FAQ](/faq/) und dein Guide decken das ab."
       },
-      { "type": "h2", "text": "5. Die Startreihenfolge in deinem Guide einhalten" },
+      {
+        "type": "h2",
+        "text": "5. Die Startreihenfolge in deinem Guide einhalten"
+      },
       {
         "type": "p",
         "text": "Schritte in falscher Reihenfolge sind eine häufige Ursache für Ladeprobleme. Öffne den Guide aus deinem Account oder Ticket-Kanal neu und geh ihn genau wie geschrieben durch – nicht aus dem Gedächtnis."
       },
-      { "type": "h2", "text": "6. Andere laufende Programme reduzieren" },
+      {
+        "type": "h2",
+        "text": "6. Andere laufende Programme reduzieren"
+      },
       {
         "type": "p",
         "text": "Andere Overlay- oder Monitoring-Tools können manchmal stören, wie sich ein Spielfenster verhält. Das ist allgemeines PC-Verhalten, nichts Produktspezifisches. Schließe zusätzliche Overlays, Capture-Tools und Tuning-Utilities und teste erneut."
       },
-      { "type": "h2", "text": "7. Basics prüfen" },
+      {
+        "type": "h2",
+        "text": "7. Basics prüfen"
+      },
       {
         "type": "ul",
         "items": [
@@ -385,7 +482,10 @@
           "Ein frischer Neustart des PCs"
         ]
       },
-      { "type": "h2", "text": "8. Ticket mit Details öffnen" },
+      {
+        "type": "h2",
+        "text": "8. Ticket mit Details öffnen"
+      },
       {
         "type": "p",
         "text": "Wenn die Checkliste es nicht gelöst hat, öffne ein [Support-Ticket](/support/). Gib an:"
@@ -403,7 +503,10 @@
         "type": "p",
         "text": "Mit diesen Infos kann der Support bei der Antwort starten statt bei den Fragen. Support ist als 24/7 verfügbar gelistet."
       },
-      { "type": "h2", "text": "Wenn du noch kein Kunde bist" },
+      {
+        "type": "h2",
+        "text": "Wenn du noch kein Kunde bist"
+      },
       {
         "type": "p",
         "text": "Wenn du hier gelandet bist, während du noch überlegst zu kaufen, dient diese Liste auch als Vorab-Check. Wenn dein PC alles besteht, hat die [Produktseite](/product/) die volle Feature-Liste und die Pläne. Unser [Setup-Guide](/blog/how-to-set-up-the-isle-cheats-windows/) führt dich durch die erste Session."
@@ -416,7 +519,7 @@
     "h1": "The Isle HWID Spoofer: Was er macht und wann du einen brauchst",
     "slug": "the-isle-hwid-spoofer-ban-recovery",
     "image": "/images/gameplay/isle-free-camera-deer-esp.webp",
-    "imageAlt": "HWID Spoofer Produktbanner zur Wiederherstellung nach Hardware-Ban",
+    "imageAlt": "Dense jungle grass with white tracers and distance readouts through foliage in The Isle.",
     "desc": "Ein Hardware-Ban folgt deinem PC, nicht nur deinem Account. Hier steht, was ein Spoofer ändert und was du vor dem Kauf prüfen solltest.",
     "metaTitle": "The Isle HWID Spoofer: Von einem Hardware-Ban erholen",
     "metaDescription": "Was ein HWID-Ban ist, was ein Spoofer ändert und was du zu Cleaner-Schritten, Anforderungen und Preisen wissen solltest, bevor du einen für The Isle kaufst.",
@@ -427,12 +530,18 @@
         "type": "p",
         "text": "Ein Account-Ban und ein Hardware-Ban sind unterschiedliche Dinge – und der Unterschied entscheidet, was dich wirklich zurück ins Spiel bringt."
       },
-      { "type": "h2", "text": "Was ein HWID-Ban ist" },
+      {
+        "type": "h2",
+        "text": "Was ein HWID-Ban ist"
+      },
       {
         "type": "p",
         "text": "HWID steht für Hardware-ID. Ein Hardware-Ban bindet die Strafe an Identifikatoren auf deinem PC, nicht nur an deinen Account. Deshalb kann ein neuer Account auf derselben Maschine immer noch blockiert werden."
       },
-      { "type": "h2", "text": "Was ein Spoofer ändert" },
+      {
+        "type": "h2",
+        "text": "Was ein Spoofer ändert"
+      },
       {
         "type": "p",
         "text": "Laut Produktseite ändert der [HWID Spoofer](/hwid-spoofer/) Hardware-Identifikatoren wie Festplatten-Seriennummern, MAC-Adressen, GPU-IDs und verwandte IDs, sodass die Maschine einen frischen Hardware-Fingerprint zeigt. Ein Cleaner ist enthalten und entfernt Restspuren, bevor du das Spiel erneut startest."
@@ -448,12 +557,18 @@
           "Ergebnisse hängen davon ab, die Schritte in der richtigen Reihenfolge zu befolgen."
         ]
       },
-      { "type": "h2", "text": "The Isle und Anti-Cheat-Abdeckung" },
+      {
+        "type": "h2",
+        "text": "The Isle und Anti-Cheat-Abdeckung"
+      },
       {
         "type": "p",
         "text": "Die Cheat-Listung von The Isle erwähnt Easy Anti-Cheat. Die Spoofer-Seite sagt, dass Spoofing bei allen Easy-Anti-Cheat-Spielen in Ordnung ist, und listet eine große Bandbreite an Titeln über EAC, BattlEye, Ricochet und andere Systeme. Wenn du die Abdeckung für deine genaue Situation vor dem Kauf bestätigen willst, frage per [Ticket](/support/)."
       },
-      { "type": "h2", "text": "Anforderungen" },
+      {
+        "type": "h2",
+        "text": "Anforderungen"
+      },
       {
         "type": "p",
         "text": "Die Seite listet:"
@@ -467,12 +582,18 @@
           "Eine stabile Internetverbindung für Aktivierung und Updates"
         ]
       },
-      { "type": "h2", "text": "Wann du ihn ausführst" },
+      {
+        "type": "h2",
+        "text": "Wann du ihn ausführst"
+      },
       {
         "type": "p",
         "text": "Die Seite empfiehlt, Spoof und Cleanup auszuführen, bevor du das Spiel startest, in dem du gebannt wurdest, und dem aktuellen Guide in deinem Account oder Ticket-Kanal für die genaue Reihenfolge zu folgen. Improvisiere die Sequenz nicht."
       },
-      { "type": "h2", "text": "Preise" },
+      {
+        "type": "h2",
+        "text": "Preise"
+      },
       {
         "type": "ul",
         "items": [
@@ -484,7 +605,10 @@
         "type": "p",
         "text": "Wenn du ihn nur für eine einmalige Wiederherstellung brauchst, ist monatlich die leichtere Wahl. Wenn du über mehrere Spiele mit Anti-Cheat spielst oder erwartest, ihn wieder zu brauchen, passt Lifetime besser."
       },
-      { "type": "h2", "text": "Ist es das richtige Tool für dich?" },
+      {
+        "type": "h2",
+        "text": "Ist es das richtige Tool für dich?"
+      },
       {
         "type": "p",
         "text": "Stell dir drei Fragen:"
@@ -513,7 +637,7 @@
     "h1": "The Isle Anti-Cheat: Wie Bans funktionieren und wie Risiko wirklich aussieht",
     "slug": "the-isle-anti-cheat-bans-and-risk",
     "image": "/images/gameplay/isle-combat-wireframe-dinosaurs.webp",
-    "imageAlt": "Überblick zu The Isle Evrima Anti-Cheat und Ban-Risiko",
+    "imageAlt": "Two theropods on a sunny shoreline with name and health overlays in The Isle.",
     "desc": "Kein Cheat ist risikofrei. Hier steht, wie Bans in The Isle funktionieren und wie Spieler die Chancen darauf vernünftig senken.",
     "metaTitle": "The Isle Anti-Cheat: Bans, HWID-Bans und reales Risiko",
     "metaDescription": "Ein ehrlicher Blick auf The Isles Anti-Cheat, den Unterschied zwischen Account- und Hardware-Bans und wie Spieler Risiko beim Cheat-Einsatz managen.",
@@ -524,12 +648,18 @@
         "type": "p",
         "text": "Wer Cheats in The Isle in Betracht zieht, sollte das Risiko verstehen, bevor Geld ausgegeben wird. Hier eine direkte Erklärung, wie Bans typischerweise funktionieren und was du vernünftig dagegen tun kannst."
       },
-      { "type": "h2", "text": "Welches Anti-Cheat im Spiel ist" },
+      {
+        "type": "h2",
+        "text": "Welches Anti-Cheat im Spiel ist"
+      },
       {
         "type": "p",
         "text": "Die Produktlistung von The Isle verweist auf Easy Anti-Cheat, und der Cheat wird als dafür gebaut beschrieben. Die Produktseite kennzeichnet den Cheat als Undetected – das ist der aktuelle Status. Der Detection-Status kann sich nach Updates ändern, also behandle ihn als Momentaufnahme, nicht als Versprechen."
       },
-      { "type": "h2", "text": "Zwei Arten von Ban" },
+      {
+        "type": "h2",
+        "text": "Zwei Arten von Ban"
+      },
       {
         "type": "ul",
         "items": [
@@ -541,12 +671,18 @@
         "type": "p",
         "text": "Unsere [HWID Spoofer](/hwid-spoofer/)-Seite deckt den zweiten Fall ab und ist als Unterstützung für Easy-Anti-Cheat-Spiele gelistet."
       },
-      { "type": "h2", "text": "Software ist nicht der einzige Weg zum Ban" },
+      {
+        "type": "h2",
+        "text": "Software ist nicht der einzige Weg zum Ban"
+      },
       {
         "type": "p",
         "text": "Spieler fokussieren sich oft auf Detection, aber viele Bans kommen von anderen Spielern. Community-Server können von Admins betrieben werden, die Reports prüfen. Wenn dein Spiel offensichtlich unmenschlich wirkt, kann dich jemand melden – unabhängig davon, welche Software du nutzt."
       },
-      { "type": "h2", "text": "Realistische Wege, Risiko zu managen" },
+      {
+        "type": "h2",
+        "text": "Realistische Wege, Risiko zu managen"
+      },
       {
         "type": "p",
         "text": "Nichts davon entfernt das Risiko. Sie reduzieren es."
@@ -563,12 +699,18 @@
           "7. Kenn deine Recovery-Optionen, bevor du sie brauchst."
         ]
       },
-      { "type": "h2", "text": "Wie man „undetected“-Claims liest" },
+      {
+        "type": "h2",
+        "text": "Wie man „undetected“-Claims liest"
+      },
       {
         "type": "p",
         "text": "Jeder Verkäufer kann dieses Wort schreiben. Ein besserer Test ist, ob sie eine Statusseite veröffentlichen, echten Support bieten und Anforderungen ehrlich erklären. Unser Guide dazu, [wie man Undetected-Claims beurteilt](/faq/), geht tiefer."
       },
-      { "type": "h2", "text": "Wo dich das lässt" },
+      {
+        "type": "h2",
+        "text": "Wo dich das lässt"
+      },
       {
         "type": "p",
         "text": "Cheaten in einem Online-Spiel birgt Risiko, und die Entscheidung liegt bei dir. Wenn du weitermachst, schau dir die volle Feature-Liste auf der Seite [the isle cheats](/product/) an, prüfe die Anforderungen sorgfältig und lies die [FAQ](/faq/), damit du weißt, was dich erwartet."
@@ -596,12 +738,18 @@
         "type": "p",
         "text": "Genaue Zahlen ändern sich mit Patches, also behandle das als allgemeine Orientierung statt als feste Werte."
       },
-      { "type": "h2", "text": "In drei Balken denken" },
+      {
+        "type": "h2",
+        "text": "In drei Balken denken"
+      },
       {
         "type": "p",
         "text": "Dein Dinosaurier hat Hunger, Durst und Stamina. Wachstum hängt davon ab, die ersten beiden über lange Strecken gesund zu halten, ohne zu sterben. Stamina entscheidet, ob du Ärger entkommen kannst."
       },
-      { "type": "h2", "text": "Frühe Phasen: ausweichen, nicht kämpfen" },
+      {
+        "type": "h2",
+        "text": "Frühe Phasen: ausweichen, nicht kämpfen"
+      },
       {
         "type": "p",
         "text": "Kleine Dinosaurier sind zerbrechlich. Bei niedrigem Wachstum:"
@@ -619,32 +767,50 @@
         "type": "p",
         "text": "Als Kleiner zu sterben kostet dich Stunden. Kämpfe zahlen sich selten aus."
       },
-      { "type": "h2", "text": "Futter" },
+      {
+        "type": "h2",
+        "text": "Futter"
+      },
       {
         "type": "p",
         "text": "Was du isst, hängt von deiner Spezies ab. Fleischfresser setzen auf Kills und Kadaver. Pflanzenfresser auf Pflanzen und Obst. Lerne, welche Futterquellen in der Nähe deines Spawns üblich sind, und kehre dorthin zurück, statt auf neue zu wandern."
       },
-      { "type": "h2", "text": "Wasser" },
+      {
+        "type": "h2",
+        "text": "Wasser"
+      },
       {
         "type": "p",
         "text": "Trink, bevor du verzweifelt bist. Wasserquellen sind auch Orte, an denen sich Tiere sammeln – das macht sie riskant. Nähere dich vorsichtig, schau zuerst um und geh weiter, sobald du fertig bist, statt zu verweilen."
       },
-      { "type": "h2", "text": "Stamina managen" },
+      {
+        "type": "h2",
+        "text": "Stamina managen"
+      },
       {
         "type": "p",
         "text": "Sprinten kostet Stamina und lässt dich langsam zurück, wenn sie leer ist. Nutze kurze Schübe zum Wegkommen, nicht für den Alltagsweg."
       },
-      { "type": "h2", "text": "Auf die Umgebung achten" },
+      {
+        "type": "h2",
+        "text": "Auf die Umgebung achten"
+      },
       {
         "type": "p",
         "text": "Viel Survival in The Isle kommt davon, kleine Dinge zu bemerken: Bewegung, Geräusche, wohin andere Dinosaurier gehen. Wenn du neu bist, nimm dir Zeit, die Map und die Ressourcenorte zu lernen."
       },
-      { "type": "h2", "text": "Wo Overlay-Tools reinpassen" },
+      {
+        "type": "h2",
+        "text": "Wo Overlay-Tools reinpassen"
+      },
       {
         "type": "p",
         "text": "Manche Spieler nutzen Overlay-Tools, um das zu erleichtern. Zum Beispiel enthalten die Optionen in unserem [The Isle ESP-Guide](/blog/the-isle-esp-options-explained/) Marker für Obst, Wasser, Leichen und Wachstum sowie Spezies- und Gesundheitstags. Genau solche Infos machen die Ressourcensuche schneller. Wenn du es dir anschauen willst, listet die Seite [the isle cheats](/product/) alles Enthaltene. Beachte, dass Cheats in einem Online-Spiel Ban-Risiko mitbringen – das erklären wir in unserem [Anti-Cheat-Artikel](/blog/the-isle-anti-cheat-bans-and-risk/)."
       },
-      { "type": "h2", "text": "Eine einfache Routine" },
+      {
+        "type": "h2",
+        "text": "Eine einfache Routine"
+      },
       {
         "type": "ul",
         "items": [
