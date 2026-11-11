@@ -28,7 +28,18 @@ for (const f of files) {
   if (title.length < 30) issues.push({ rel, issue: 'title short', len: title.length, title });
   if (title.length > 60) issues.push({ rel, issue: 'title long', len: title.length, title });
   if (desc.length < 70) issues.push({ rel, issue: 'desc short', len: desc.length, desc: desc.slice(0, 80) });
-  if (desc.length > 160) issues.push({ rel, issue: 'desc long', len: desc.length, desc: desc.slice(0, 80) });
+  if (desc.length > 155) issues.push({ rel, issue: 'desc long', len: desc.length, desc: desc.slice(0, 80) });
+  const descPx = (() => {
+    let w = 0;
+    for (const ch of desc) {
+      if (ch === ' ') w += 4;
+      else if (/[WMmw@%]/.test(ch)) w += 12;
+      else if (/[A-Z]/.test(ch)) w += 8;
+      else w += 7;
+    }
+    return w;
+  })();
+  if (descPx > 990) issues.push({ rel, issue: 'desc wide', px: descPx, len: desc.length, desc: desc.slice(0, 80) });
 
   const tkey = title.toLowerCase();
   if (!titles.has(tkey)) titles.set(tkey, []);

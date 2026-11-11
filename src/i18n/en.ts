@@ -783,7 +783,7 @@ export const en: Translations = {
     '/blog/': {
       title: 'The Isle Cheat Guides: ESP Setup and Patch Notes',
       description:
-        'The Isle cheat guides covering Windows setup, ESP tuning, Easy Anti-Cheat checks and plan comparisons. Filter articles by topic on {siteDomain}.',
+        'The Isle cheat guides for Windows setup, ESP tuning, Easy Anti-Cheat checks and plan picks. Browse topics on {siteDomain}.',
     },
     '/forum/': {
       title: 'The Isle Cheats Forum: Setup and HWID Threads',

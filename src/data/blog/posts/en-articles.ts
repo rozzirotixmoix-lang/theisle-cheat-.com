@@ -531,7 +531,7 @@ export const blogPostsEn: BlogPostFull[] = [
     image: imgCombat,
     imageAlt: 'Combat showcase with holographic wireframe dinosaurs in a grassy arena in The Isle.',
     desc: 'No cheat is risk free. Here is how bans work in The Isle and the sensible ways players reduce the chances of one.',
-    metaTitle: 'The Isle Anti-Cheat: Bans, HWID Bans and Real Risk',
+    metaTitle: 'Easy Anti Cheat in The Isle: Bans, HWID and Risk',
     metaDescription:
       'An honest look at The Isle’s anti-cheat, the difference between account and hardware bans, and how players manage risk when using cheats.',
     date: '2026-05-30',

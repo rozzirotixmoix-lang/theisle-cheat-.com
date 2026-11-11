@@ -51,16 +51,45 @@ export function absoluteAssetUrl(path: string): string {
   return `${SITE_ORIGIN}${normalized}`;
 }
 
-/** SERP-safe meta description length (Seobility / Google snippet guidance). */
-export function clampMetaDescription(text: string, min = 120, max = 158): string {
+/** Approximate Google SERP snippet width (Arial 20px heuristic). */
+export function metaDescriptionPixelWidth(text: string): number {
+  let w = 0;
+  for (const ch of text) {
+    if (ch === ' ') w += 4;
+    else if (/[WMmw@%]/.test(ch)) w += 12;
+    else if (/[A-Z]/.test(ch)) w += 8;
+    else w += 7;
+  }
+  return w;
+}
+
+function metaDescriptionFits(text: string, maxChars: number, maxPx: number): boolean {
+  return text.length <= maxChars && metaDescriptionPixelWidth(text) <= maxPx;
+}
+
+/** SERP-safe meta description (≤155 chars and ≤990px for Seobility). */
+export function clampMetaDescription(text: string, min = 110, maxChars = 155, maxPx = 990): string {
   const normalized = text.trim().replace(/\s+/g, ' ');
   if (!normalized) return normalized;
-  if (normalized.length <= max && normalized.length >= min) return normalized;
-  if (normalized.length < min) return normalized;
-  const slice = normalized.slice(0, max);
-  const boundary = Math.max(slice.lastIndexOf(' '), slice.lastIndexOf(';'), slice.lastIndexOf(','));
-  if (boundary >= min) return slice.slice(0, boundary).replace(/[,;:]\s*$/, '').trim();
-  return slice.trim();
+  if (normalized.length < min && metaDescriptionFits(normalized, maxChars, maxPx)) return normalized;
+
+  let out = normalized;
+  const floor = Math.min(min, 90);
+  while (!metaDescriptionFits(out, maxChars, maxPx) && out.length > floor) {
+    let end = Math.min(out.length - 1, maxChars);
+    while (
+      end > floor &&
+      (end > maxChars || metaDescriptionPixelWidth(out.slice(0, end)) > maxPx)
+    ) {
+      const slice = out.slice(0, end);
+      const boundary = Math.max(slice.lastIndexOf(' '), slice.lastIndexOf(';'), slice.lastIndexOf(','));
+      end = boundary > floor ? boundary : end - 4;
+    }
+    const next = out.slice(0, end).replace(/[,;:–-]\s*$/, '').trim();
+    if (!next || next === out) break;
+    out = next;
+  }
+  return out;
 }
 
 function collapseRepeatedTitleWords(title: string): string {
@@ -84,6 +113,7 @@ export function normalizeDocumentTitle(title: string, locale?: string): string {
       if (withBrand.length <= 60 && withBrand.length > out.length) out = withBrand;
     }
   }
+  if (out.length > 60) out = pageTitle(out, undefined, locale);
   return out;
 }
 

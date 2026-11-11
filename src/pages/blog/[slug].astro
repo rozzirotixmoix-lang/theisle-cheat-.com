@@ -5,7 +5,7 @@ import { useLocale } from '../../i18n';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
 import { getAllBlogSlugs, getBlogPost, getRelatedBlogPosts } from '../../data/blog';
-import { canonicalUrl, pageTitle, SITE_ORIGIN } from '../../config/seo';
+import { canonicalUrl, clampMetaDescription, normalizeDocumentTitle, SITE_ORIGIN } from '../../config/seo';
 import {
   articleSchema,
   breadcrumbSchema,
@@ -69,8 +69,8 @@ function slugify(text: string): string {
     .replace(/^-|-$/g, '');
 }
 const published = parseBlogDate(post.date);
-const documentTitle = pageTitle(post.metaTitle ?? post.title, undefined, locale);
-const documentDescription = post.metaDescription ?? post.desc;
+const documentTitle = normalizeDocumentTitle(post.metaTitle ?? post.title, locale);
+const documentDescription = clampMetaDescription(post.metaDescription ?? post.desc);
 const heroAlt = post.imageAlt ?? post.title;
 /** Preload 640w (typical article LCP pick); srcset still lists 400/640/960. */
 const lcpImage = webpSrc(post.image, 640);

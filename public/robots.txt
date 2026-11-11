@@ -1,6 +1,14 @@
 User-agent: *
 Allow: /
 Disallow: /go/
+Disallow: /privacy/
+Disallow: /terms/
+Disallow: /es/privacy/
+Disallow: /de/privacy/
+Disallow: /fr/privacy/
+Disallow: /es/terms/
+Disallow: /de/terms/
+Disallow: /fr/terms/
 
 Sitemap: https://theisle-cheat.com/sitemap.xml
 
