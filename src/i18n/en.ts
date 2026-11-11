@@ -8,9 +8,9 @@ export const en: Translations = {
   site: {
     name: SITE_NAME,
     domain: SITE_DOMAIN,
-    title: 'the isle cheats for The Isle: Evrima on Windows',
+    title: 'The Isle Cheats for Evrima: ESP, HUD on Windows',
     description:
-      'the isle cheats: player, NPC, and animal ESP, world markers, and visual HUD tools for Evrima. $35 for 31 days or $150 lifetime. Check status, then compare plans.',
+      'The Isle Cheats with player, NPC and animal ESP plus HUD markers for Evrima. $35 per month or $150 lifetime. Check status first.',
   },
   nav: [
     { id: 'products', href: `${productBase}`, label: 'Product', shortLabel: 'Product' },
@@ -22,10 +22,10 @@ export const en: Translations = {
   hero: {
     status: 'The Isle, patch build online',
     eyebrow: '#1 CHEATS PROVIDER',
-    titleLine1: 'The Isle',
-    titleLine2: 'Raid Kit',
+    titleLine1: 'The Isle Cheats for',
+    titleLine2: 'Evrima on Windows',
     subtitle:
-      'Bring the isle cheats online for The Isle: Evrima after you read the status banner. Windows loader, portal presets, then ESP distance and overlay tuning.',
+      'Bring The Isle Cheats online for Evrima after you read the status banner. Windows loader, portal presets, then ESP distance and overlay tuning.',
     ctaPrimary: 'View products',
     metrics: [
       { label: 'Stream-proof', strong: 'Yes' },
@@ -175,7 +175,7 @@ export const en: Translations = {
     eyebrow: 'Why us',
     title: 'Island tooling backed by patches, not promises',
     subtitle:
-      'Many cheat shops ship stale loaders, obvious rage presets, and ticket bots. {siteDomain} focuses on patch-day loader builds, conservative ESP and aim defaults, and live Discord operators.',
+      'Many cheat shops ship stale loaders, obvious rage presets, and ticket bots. The Isle Cheats on {siteDomain} focus on patch-day loader builds, conservative ESP defaults, and live Discord operators.',
     usLabel: 'the isle cheats',
     otherLabel: 'Typical provider',
     rows: [
@@ -762,54 +762,54 @@ export const en: Translations = {
   },
   pageSeo: {
     '/': {
-      title: 'the isle cheats for The Isle: Evrima on Windows',
+      title: 'The Isle Cheats for Evrima: ESP, HUD on Windows',
       description:
-        'the isle cheats: player, NPC, and animal ESP, world markers, and visual HUD tools for Evrima. $35 for 31 days or $150 lifetime. Check status, then compare plans.',
+        'The Isle Cheats with player, NPC and animal ESP plus HUD markers for Evrima. $35 per month or $150 lifetime. Check status first.',
     },
     '/product/': {
-      title: 'the isle evrima cheats: ESP and visual overlays',
+      title: 'Evrima Cheats: ESP Overlays and HUD Tools',
       description:
-        'the isle evrima cheats for Evrima only: player and animal ESP, snaplines, world markers, and misc HUD tools. $35 monthly or $150 lifetime before checkout.',
+        'Evrima-only ESP overlays: players, animals, snaplines, world markers and misc HUD. $35 monthly or $150 lifetime before checkout.',
     },
     '/hwid-spoofer/': {
-      title: 'the isle easy anti cheat PC fingerprint reset',
+      title: 'HWID Spoofer: PC Fingerprint Reset Utility',
       description:
-        'Reset disk, MAC, and GPU IDs under the isle easy anti cheat hardware checks. Finish the portal checklist, then verify before The Isle.',
+        'Reset disk, MAC and GPU IDs when hardware blocks new logins. Finish the portal checklist, then verify before launching.',
     },
     '/blog/': {
-      title: 'the isle cheats 2026 guides: ESP, aim, and patch notes',
+      title: 'Guides: ESP Setup, Patches and Pricing',
       description:
-        'Setup walkthroughs, ESP and aim tuning, world markers, and Easy Anti-Cheat status checklists published on {siteDomain}.',
+        'Setup walkthroughs, ESP tuning, world markers and Easy Anti-Cheat status checklists on {siteDomain}.',
     },
     '/forum/': {
-      title: 'the isle cheats forum: setup, status, and HWID threads',
+      title: 'Community Forum: Setup and HWID Threads',
       description:
-        'Read-only The Isle discussions on loader setup, patches, and guides. New threads and replies are closed.',
+        'Read-only discussions on loader setup, patches and recovery guides. New threads and replies are closed.',
     },
     '/faq/': {
-      title: 'the isle cheats FAQ: setup, pricing, and Easy Anti-Cheat',
+      title: 'FAQ: Pricing, Setup and Anti-Cheat Status',
       description:
-        'Answers on $35 monthly or $150 lifetime, ESP and aim modules, Easy Anti-Cheat status, Windows setup, and checkout help on {siteDomain}.',
+        'Answers on $35 monthly vs $150 lifetime, ESP modules, Windows setup and checkout help on {siteDomain}.',
     },
     '/terms/': {
-      title: 'Terms of sale and license use for the isle cheats',
+      title: 'Terms of Sale and License Use',
       description:
-        'Refund rules, license limits, checkout delivery, Cloud DMA notes, and risk disclosure for products sold via {siteDomain}.',
+        'Refund rules, license limits, checkout delivery, Cloud DMA notes and risk disclosure for {siteDomain} products.',
     },
     '/privacy/': {
-      title: 'Privacy policy for theisle-cheat.com analytics',
+      title: 'Privacy Policy: Cookies and Analytics',
       description:
-        'How {siteDomain} uses cookies, analytics, and the information you send when opening a support ticket.',
+        'How {siteDomain} uses cookies, analytics and ticket data when you contact support.',
     },
     '/about/': {
-      title: 'About the isle cheats on theisle-cheat.com',
+      title: 'About This Store and Support Channels',
       description:
-        'Who publishes the isle cheats product pages, status notes, and Discord support channels on {siteDomain}.',
+        'Who publishes product pages, live status notes and Discord support for buyers on {siteDomain}.',
     },
     '/support/': {
-      title: 'the isle cheats support: loader, HWID, and checkout',
+      title: 'Support: Loader, HWID and Checkout Help',
       description:
-        'the isle cheats support for portal access, loader errors, HWID tickets, and billing questions on {siteDomain}.',
+        'Help with portal access, loader errors, HWID tickets and billing questions on {siteDomain}.',
     },
   },
   ui: {

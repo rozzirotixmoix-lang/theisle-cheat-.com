@@ -5,13 +5,7 @@ const { t, lp } = useLocale(Astro.currentLocale);
 import { setupStepIcons } from "../data/sectionIcons";
 import Icon from "./icons/Icon.astro";
 import { Button } from "@/components/starwind/button";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/starwind/card";
+import { Card, CardHeader, CardTitle } from "@/components/starwind/card";
 
 const why = t.whyUs;
 const lastRowIndex = why.rows.length - 1;
@@ -27,7 +21,7 @@ const lastRowIndex = why.rows.length - 1;
 
     {/* Desktop comparison, centered, reference-style columns */}
     <div
-      class="mt-14 hidden justify-center lg:flex"
+      class="mt-14 flex justify-center overflow-x-auto pb-2 lg:overflow-visible lg:pb-0"
       role="group"
       aria-label="the isle cheats compared with typical providers"
     >
@@ -38,9 +32,9 @@ const lastRowIndex = why.rows.length - 1;
           {
             why.rows.map((row) => (
               <div class="why-compare-feature-row flex flex-col justify-center gap-2">
-                <h3 class="font-[family-name:var(--font-heading)] text-lg font-bold leading-snug text-foreground md:text-xl">
+                <p class="font-[family-name:var(--font-heading)] text-lg font-bold leading-snug text-foreground md:text-xl">
                   {row.title}
-                </h3>
+                </p>
                 <p class="text-sm leading-relaxed text-muted-foreground">
                   {row.desc}
                 </p>
@@ -113,42 +107,6 @@ const lastRowIndex = why.rows.length - 1;
       </div>
     </div>
 
-    {/* Mobile / tablet stacked rows */}
-    <ul class="mt-10 space-y-4 lg:hidden" role="list" data-reveal-stagger>
-      {
-        why.rows.map((row) => (
-          <li>
-            <Card class="gap-0 overflow-hidden py-0">
-              <CardHeader class="card-title-band pb-4 pt-5">
-                <CardTitle class="text-base normal-case leading-snug">
-                  {row.title}
-                </CardTitle>
-              </CardHeader>
-              <CardContent class="pb-4 pt-4">
-                <p class="text-sm leading-relaxed text-muted-foreground">
-                  {row.desc}
-                </p>
-              </CardContent>
-              <CardFooter class="flex flex-wrap items-center justify-between gap-3">
-                <div class="flex items-center gap-2 text-sm">
-                  <span class="flex size-9 shrink-0 items-center justify-center rounded-full bg-primary/15 ring-1 ring-primary/40">
-                    <Icon name="circleCheck" size={18} />
-                  </span>
-                  <span class="font-medium text-foreground">{why.usLabel}</span>
-                </div>
-                <div class="flex items-center gap-2 text-sm text-muted-foreground">
-                  <span class="flex size-9 shrink-0 items-center justify-center rounded-full bg-muted ring-1 ring-border">
-                    <Icon name="x" size={16} />
-                  </span>
-                  <span>{why.otherLabel}</span>
-                </div>
-              </CardFooter>
-            </Card>
-          </li>
-        ))
-      }
-    </ul>
-
     <div
       class="mt-16 grid max-w-5xl gap-10 border-t border-border pt-12 text-left sm:grid-cols-3 sm:gap-8 lg:mx-auto lg:text-center"
       aria-label="Platform metrics"
@@ -213,9 +171,9 @@ const lastRowIndex = why.rows.length - 1;
                   class="deployment-step-marker-icon"
                 />
               </div>
-              <h3 class="deployment-step-title" style={`--step-col: ${i + 1}`}>
+              <p class="deployment-step-title" style={`--step-col: ${i + 1}`}>
                 {step.title}
-              </h3>
+              </p>
             </li>
           ))
         }

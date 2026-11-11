@@ -64,8 +64,11 @@ const {
 
 const ogImageAlt = ogImageAltProp ?? (ogImage === DEFAULT_OG_IMAGE ? DEFAULT_OG_IMAGE_ALT : title);
 
-const canonical = canonicalUrl(canonicalPath ?? localizePath(Astro.url.pathname, locale));
-const hreflangAlternates = noindex ? [] : hreflangAlternatesForPath(Astro.url.pathname);
+const canonicalPathResolved = canonicalPath ?? localizePath(Astro.url.pathname, locale);
+const canonical = canonicalUrl(canonicalPathResolved);
+const hreflangAlternates = noindex
+  ? []
+  : hreflangAlternatesForPath(Astro.url.pathname, canonical, locale);
 const ogLocaleAlternates = (['en', 'es', 'de', 'fr'] as const).filter((code) => code !== locale);
 const ogImageUrl = absoluteAssetUrl(ogImage);
 const robotsContent = noindex

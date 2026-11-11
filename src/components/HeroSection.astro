@@ -107,17 +107,23 @@ const heroMarqueePills = [
           {pill.label}
         </Badge>
       ))}
-      <span class="hero-marquee__repeat">
-        {heroMarqueePills.map((pill) => (
-          <Badge variant="outline" class="group/badge shrink-0 gap-1 py-0.5 pl-1.5 pr-2.5 text-xs whitespace-nowrap">
-            <Icon name={pill.icon} size={13} />
-            {pill.label}
-          </Badge>
-        ))}
-      </span>
     </div>
   </div>
 </section>
+
+<script is:inline>
+  (() => {
+    const track = document.querySelector('#hero .hero-marquee__track');
+    if (!track || !window.matchMedia('(min-width: 1024px)').matches) return;
+    const repeat = document.createElement('span');
+    repeat.className = 'hero-marquee__repeat';
+    repeat.setAttribute('aria-hidden', 'true');
+    for (const child of [...track.children]) {
+      repeat.appendChild(child.cloneNode(true));
+    }
+    track.appendChild(repeat);
+  })();
+</script>
 
 <style is:global>
   @media (min-width: 1024px) {
