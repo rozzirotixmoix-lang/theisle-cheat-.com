@@ -3,7 +3,7 @@
     "name": "the isle cheats",
     "domain": "theisle-cheat.com",
     "title": "the isle cheats für Evrima und Horde unter Windows",
-    "description": "the isle cheats: Spieler-ESP, World-ESP, Aim und Radar am PC. $35 für 31 Tage oder $150 Lifetime. Status prüfen, dann Pläne vergleichen."
+    "description": "the isle cheats: Spieler-ESP, World-ESP, Aim und Radar am PC. Monatliche und Lifetime-Pläne beim Checkout. Status prüfen, dann Pläne vergleichen."
   },
   "nav": [
     {
@@ -84,23 +84,6 @@
     "title": "Alles, was du brauchst, in einem Paket",
     "subtitle": "Spieler- und World-ESP, Aim-Assistance und Radar für The Isle Evrima und Horde, gepflegt nach Easy Anti-Cheat-Patches.",
     "items": [
-      {
-        "title": "Player ESP",
-        "subtitle": "Andere Survivor klar sehen.",
-        "desc": "Box-, Snapline-, Name-, Distanz-, Health-, Stamina-, Growth-, Species-, Head-Dot- und Visible-Check-Overlays für Spieler im Busch.",
-        "bullets": [
-          "Box, Snapline, Name und Distanz",
-          "Health, Stamina, Growth und Species",
-          "Head Dot und Visible-Check-Filter",
-          "Lesbare Labels in dichtem Laub"
-        ],
-        "tags": [
-          "the isle esp",
-          "player esp",
-          "evrima esp"
-        ],
-        "bento": "sm:col-span-2 lg:col-span-12 lg:col-start-1 lg:row-start-1"
-      },
       {
         "title": "World ESP",
         "subtitle": "Die Insel um dich markieren.",
@@ -344,7 +327,6 @@
         "desc": "Spieler-, NPC- und Tier-ESP, Leichen- und Ressourcenmarker, Snaplines, Distanzlabels und Misc-HUD für The Isle: Evrima. Cloud DMA separat und Pflicht. Sofortige Lieferung; Status nach Patches prüfen.",
         "heroDesc": "ESP- und Visual-Overlays für Evrima unter Windows. HVCI, Core Isolation, TPM, Secure Boot und Cloud DMA vor dem Kauf prüfen.",
         "features": [
-          "Player ESP",
           "NPC ESP",
           "Animal ESP",
           "Weltmarker",
@@ -409,6 +391,7 @@
     "get": "Holen",
     "explore": "Entdecken",
     "buyNow": "Jetzt kaufen",
+    "buy": "Kaufen",
     "viewDetails": "Details ansehen",
     "items": [
       {
@@ -494,7 +477,7 @@
       {
         "icon": "users",
         "title": "Chat vor dem Checkout",
-        "desc": "Frage nach monatlich $35 (31 Tage) vs. Lifetime $150 und was Cloud DMA abdeckt, bevor du zahlst. Bestätige, welche Produktseite passt: the isle cheats oder HWID Spoofer.",
+        "desc": "Frage nach monatlich vs. Lifetime und was Cloud DMA abdeckt, bevor du zahlst. Bestätige, welche Produktseite passt: the isle cheats oder HWID Spoofer.",
         "linkLabel": "Checkout starten",
         "href": "/go/the-isle/"
       },
@@ -640,7 +623,7 @@
           "heading": "Wer wir sind",
           "paragraphs": [
             "the isle cheats ist eine PC-Ressource für Spieler, die Spieler-ESP, World-ESP, Aim-Assistance und Radar für The Isle Evrima und Horde bewerten. Wir veröffentlichen Setup-Notes und Live-Status, damit du die Fakten vor dem Checkout lesen kannst.",
-            "Die Hauptlizenz kostet monatlich $35 für 31 Tage oder Lifetime $150 einmalig. Cloud DMA ist ein separater Kauf und für die volle Funktionalität erforderlich. Alle Produktnamen dienen nur der Identifikation."
+            "Die Hauptlizenz ist als monatlicher oder Lifetime-Plan beim Checkout verfügbar. Cloud DMA ist ein separater Kauf und für die volle Funktionalität erforderlich. Alle Produktnamen dienen nur der Identifikation."
           ]
         },
         {

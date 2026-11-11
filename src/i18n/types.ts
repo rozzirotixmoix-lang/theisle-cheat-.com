@@ -157,6 +157,7 @@ export interface Translations {
     get: string;
     explore: string;
     buyNow: string;
+    buy: string;
     viewDetails: string;
     backToCheats: string;
     showcaseHeading: string;

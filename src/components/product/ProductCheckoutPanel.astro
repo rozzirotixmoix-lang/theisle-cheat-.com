@@ -1,11 +1,6 @@
 ---
 import type { ProductPage } from '../../data/products';
-import {
-  checkoutUrlWithPlan,
-  formatPlanPrice,
-  getProductPlans,
-  type ProductPlanId,
-} from '../../data/productPricing';
+import { checkoutUrlWithPlan, getProductPlans, type ProductPlanId } from '../../data/productPricing';
 import CircleFilled from '@tabler/icons/filled/circle.svg';
 import Icon from '../icons/Icon.astro';
 import ProductIconWell from './ProductIconWell.astro';
@@ -27,16 +22,16 @@ const { product } = Astro.props;
 const { t } = useLocale(Astro.currentLocale);
 const plans = getProductPlans(product.slug);
 const planCopy = (id: ProductPlanId) => {
-  if (id === 'monthly') return { label: t.products.planMonthly, priceNote: t.products.planPerMonth };
-  if (id === 'lifetime') return { label: t.products.planLifetime, priceNote: t.products.planOneTimeNote };
-  return { label: t.products.planOneTime, priceNote: t.products.planOneTimeNote };
+  if (id === 'monthly') return { label: t.products.planMonthly };
+  if (id === 'lifetime') return { label: t.products.planLifetime };
+  return { label: t.products.planOneTime };
 };
 const localizedPlans = plans.map((plan) => {
   const copy = planCopy(plan.id);
   return {
-    ...plan,
+    id: plan.id,
     label: copy.label,
-    // Keep priceNote from productPricing (Main Product vs HWID durations differ).
+    recommended: plan.recommended,
     badge: plan.recommended ? t.products.bestValue : plan.badge,
   };
 });
@@ -75,7 +70,7 @@ const isSinglePlan = localizedPlans.length === 1;
           localizedPlans.map((plan) => {
             const selected = plan.id === defaultPlan.id;
             return (
-              <label class="product-checkout__plan flex cursor-pointer items-center justify-between gap-3 rounded-xl border border-border bg-background p-3.5 transition-colors has-data-checked:border-primary has-data-checked:bg-primary/10">
+              <label class="product-checkout__plan flex cursor-pointer items-center gap-3 rounded-xl border border-border bg-background p-3.5 transition-colors has-data-checked:border-primary has-data-checked:bg-primary/10">
                 <span class="flex min-w-0 items-center gap-3">
                   <span class={radioWrapper()} data-slot="radio-group-item-wrapper">
                     <span
@@ -112,23 +107,10 @@ const isSinglePlan = localizedPlans.length === 1;
                     }
                   </span>
                 </span>
-                <span class="shrink-0 text-sm font-semibold tabular-nums text-foreground">
-                  {formatPlanPrice(plan.priceUsd)}
-                </span>
               </label>
             );
           })
         }
-      </div>
-
-      <div class="flex items-end justify-between gap-3 border-t border-border pt-4">
-        <span class="text-xs font-medium uppercase tracking-wider text-muted-foreground">{t.products.checkoutTotal}</span>
-        <p class="text-right font-[family-name:var(--font-heading)] text-2xl font-bold leading-none text-primary">
-          <span data-checkout-total>{formatPlanPrice(defaultPlan.priceUsd)}</span>
-          <span class="block text-sm font-medium text-muted-foreground" data-checkout-note>
-            {defaultPlan.priceNote}
-          </span>
-        </p>
       </div>
 
       <Button
@@ -156,7 +138,7 @@ const isSinglePlan = localizedPlans.length === 1;
       const plansRaw = root.getAttribute('data-plans');
       if (!buyUrl || !plansRaw) return;
 
-      type Plan = { id: string; priceUsd: number; priceNote: string; recommended?: boolean };
+      type Plan = { id: string; recommended?: boolean };
       let plans: Plan[] = [];
       try {
         plans = JSON.parse(plansRaw) as Plan[];
@@ -165,10 +147,8 @@ const isSinglePlan = localizedPlans.length === 1;
       }
 
       const group = root.querySelector('[data-sw-radio-group]');
-      const totalEl = root.querySelector('[data-checkout-total]');
-      const noteEl = root.querySelector('[data-checkout-note]');
       const buyBtn = root.querySelector<HTMLAnchorElement>('[data-checkout-buy]');
-      if (!group || !totalEl || !noteEl || !buyBtn) return;
+      if (!group || !buyBtn) return;
 
       const featuredId = plans.find((plan) => plan.recommended)?.id ?? plans[0]?.id;
 
@@ -177,8 +157,6 @@ const isSinglePlan = localizedPlans.length === 1;
         const plan = plans.find((p) => p.id === planId) ?? plans[0];
         if (!plan) return;
 
-        totalEl.textContent = `$${plan.priceUsd}`;
-        noteEl.textContent = plan.priceNote;
         const separator = buyUrl.includes('?') ? '&' : '?';
         buyBtn.href = `${buyUrl}${separator}plan=${plan.id}`;
       };

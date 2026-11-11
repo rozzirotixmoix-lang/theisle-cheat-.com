@@ -1,11 +1,11 @@
 ---
 import { useLocale } from '../../i18n';
-import { HWID_SPOOFER_PATH } from '../../config/site';
+import { HWID_CHECKOUT_PATH } from '../../config/checkout';
 import Icon from '../icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
+import { checkoutUrlWithPlan } from '../../data/productPricing';
 
 const { t, lp } = useLocale(Astro.currentLocale);
-const viewDetails = t.products.viewDetails;
 
 const cards = [
   {
@@ -14,7 +14,7 @@ const cards = [
     title: 'HWID Spoofer',
     desc: 'Rotates disk serials, MAC addresses, GPU IDs, and linked hardware fields after a machine-level ban. Bundled cleanup clears leftover traces.',
     features: ['Disk serial reset', 'MAC rotation', 'GPU ID masking', 'Trace cleanup pass'],
-    href: HWID_SPOOFER_PATH,
+    href: lp(checkoutUrlWithPlan(HWID_CHECKOUT_PATH, 'monthly')),
   },
   {
     icon: 'cosmetic' as const,
@@ -22,7 +22,7 @@ const cards = [
     title: 'Skin Changer',
     desc: 'Low-footprint client that applies premium weapon skins, outfits, and knife styles on supported PC games.',
     features: ['High-tier weapon skins', 'Outfit packs', 'Knife finish library', 'Multi-title support'],
-    href: '/go/skin-changer/',
+    href: lp(checkoutUrlWithPlan('/go/skin-changer/', 'monthly')),
   },
 ];
 ---
@@ -68,12 +68,8 @@ const cards = [
             </ul>
 
             <div class="mt-5 border-t border-border pt-5">
-              <p class="text-sm text-muted-foreground">
-                From <span class="text-xl font-bold text-foreground">$35</span> / month
-              </p>
-              <Button as="a" href={lp(card.href)} variant="primary" class="mt-4 w-full rounded-xl">
-                {viewDetails}
-                <Icon name="arrowRight" size={17} />
+              <Button as="a" href={card.href} variant="primary" class="w-full rounded-xl">
+                {t.products.buy}
               </Button>
             </div>
           </article>

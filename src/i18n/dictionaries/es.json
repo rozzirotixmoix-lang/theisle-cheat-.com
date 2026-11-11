@@ -3,7 +3,7 @@
     "name": "the isle cheats",
     "domain": "theisle-cheat.com",
     "title": "the isle cheats para Evrima y Horde en Windows",
-    "description": "the isle cheats: ESP de jugadores, world ESP, aim y radar en PC. $35 por 31 días o $150 de por vida. Revisa el estado y compara planes."
+    "description": "the isle cheats: ESP de jugadores, world ESP, aim y radar en PC. Planes mensual y de por vida en el checkout. Revisa el estado y compara opciones."
   },
   "nav": [
     {
@@ -84,23 +84,6 @@
     "title": "Todo lo que necesitas en un solo paquete",
     "subtitle": "ESP de jugadores y del mundo, asistencia de aim y radar para The Isle Evrima y Horde, mantenidos tras los parches de Easy Anti-Cheat.",
     "items": [
-      {
-        "title": "Player ESP",
-        "subtitle": "Ve a otros supervivientes con claridad.",
-        "desc": "Caja, snapline, nombre, distancia, salud, stamina, growth, especie, punto de cabeza y filtros de visibilidad para jugadores en la maleza.",
-        "bullets": [
-          "Caja, snapline, nombre y distancia",
-          "Salud, stamina, growth y especie",
-          "Punto de cabeza y filtros de visibilidad",
-          "Etiquetas legibles en follaje denso"
-        ],
-        "tags": [
-          "the isle esp",
-          "player esp",
-          "evrima esp"
-        ],
-        "bento": "sm:col-span-2 lg:col-span-12 lg:col-start-1 lg:row-start-1"
-      },
       {
         "title": "World ESP",
         "subtitle": "Marca la isla a tu alrededor.",
@@ -344,7 +327,6 @@
         "desc": "ESP de jugadores, NPCs y animales, marcadores de cadáver y recursos, snaplines, distancia y herramientas HUD misc para The Isle: Evrima. Cloud DMA se compra aparte y es obligatorio. Entrega instantánea; revisa el estado tras los parches.",
         "heroDesc": "ESP y overlays visuales para Evrima en Windows. Verifica HVCI, aislamiento del núcleo, TPM, arranque seguro y Cloud DMA antes del pago.",
         "features": [
-          "Player ESP",
           "NPC ESP",
           "Animal ESP",
           "Marcadores mundo",
@@ -409,6 +391,7 @@
     "get": "Obtener",
     "explore": "Explorar",
     "buyNow": "Comprar ahora",
+    "buy": "Comprar",
     "viewDetails": "Ver detalles",
     "items": [
       {
@@ -494,7 +477,7 @@
       {
         "icon": "users",
         "title": "Chat antes del pago",
-        "desc": "Pregunta por el mensual $35 (31 días) frente al de por vida $150, y qué cubre Cloud DMA antes de pagar. Confirma qué página de producto encaja: the isle cheats o HWID Spoofer.",
+        "desc": "Pregunta por planes mensual vs de por vida y qué cubre Cloud DMA antes de pagar. Confirma qué página de producto encaja: the isle cheats o HWID Spoofer.",
         "linkLabel": "Empezar el pago",
         "href": "/go/the-isle/"
       },
@@ -508,7 +491,7 @@
       {
         "icon": "navFaq",
         "title": "Lee el FAQ",
-        "desc": "Compatibilidad, estado de Easy Anti-Cheat, precios y pasos de setup antes de comprar o antes de abrir un ticket.",
+        "desc": "Compatibilidad, estado de Easy Anti-Cheat, planes y pasos de setup antes de comprar o antes de abrir un ticket.",
         "linkLabel": "Ver todo el FAQ",
         "href": "/faq/"
       },
@@ -640,7 +623,7 @@
           "heading": "Quiénes somos",
           "paragraphs": [
             "the isle cheats es un recurso para PC pensado para jugadores que evalúan player ESP, world ESP, asistencia de aim y radar para The Isle Evrima y Horde. Publicamos notas de setup y estado en vivo para que leas los hechos antes del pago.",
-            "La licencia principal es mensual a $35 por 31 días o de por vida a $150 en un solo pago. Cloud DMA es una compra por separado y es necesario para la funcionalidad completa. Todos los nombres de producto se usan solo para identificación."
+            "La licencia principal está disponible en planes mensual y de por vida en el checkout. Cloud DMA es una compra por separado y es necesario para la funcionalidad completa. Todos los nombres de producto se usan solo para identificación."
           ]
         },
         {
@@ -776,9 +759,9 @@
     "faq": {
       "eyebrow": "Centro de ayuda",
       "title": "FAQ de the isle cheats: setup, planes y Easy Anti-Cheat",
-      "description": "Respuestas de setup, precios, ESP, aim y estado de Easy Anti-Cheat para The Isle en Windows.",
+      "description": "Respuestas de setup, planes, ESP, aim y estado de Easy Anti-Cheat para The Isle en Windows.",
       "schemaName": "FAQ de the isle cheats",
-      "schemaDescription": "Respuestas sobre ESP de The Isle, asistencia de aim, radar, setup del loader, precios y pago en {siteDomain}."
+      "schemaDescription": "Respuestas sobre ESP de The Isle, asistencia de aim, radar, setup del loader, planes y pago en {siteDomain}."
     },
     "forum": {
       "eyebrow": "Foro de la comunidad de The Isle",

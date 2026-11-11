@@ -109,7 +109,7 @@
         },
         {
           "type": "p",
-          "text": "Choisissez mensuel (35 $ pour 31 jours) ou à vie (150 $, une fois) au paiement. Le portail opérateur se débloque immédiatement avec le téléchargement du loader, la bibliothèque de presets et les notes de patch. Vérifiez la bannière de statut en direct avant chaque session."
+          "text": "Choisissez mensuel ou à vie au paiement. Le portail opérateur se débloque immédiatement avec le téléchargement du loader, la bibliothèque de presets et les notes de patch. Vérifiez la bannière de statut en direct avant chaque session."
         },
         {
           "type": "h2",
@@ -124,7 +124,7 @@
         "title": "ESP et visuels pour The Isle: Evrima",
         "paragraphs": [
           "Améliorez les sessions Evrima avec ESP joueurs, PNJ et animaux, marqueurs d'environnement et menu visuel configurable. Les overlays peuvent afficher boîtes, noms, distance, santé, endurance, croissance, espèce, direction, snaplines et indicateurs de butin.",
-          "Conçu pour Windows 10 et 11 avec HVCI, isolation du noyau, TPM et Secure Boot activés. Mensuel 35 $ pour 31 jours ; à vie 150 $. Cloud DMA séparé et obligatoire. Confirmez compatibilité et statut sur {siteDomain} avant achat ou lancement."
+          "Conçu pour Windows 10 et 11 avec HVCI, isolation du noyau, TPM et Secure Boot activés. Plans mensuel et à vie au checkout. Cloud DMA séparé et obligatoire. Confirmez compatibilité et statut sur {siteDomain} avant achat ou lancement."
         ]
       },
       "goodToKnow": "The Isle et Easy Anti-Cheat reçoivent des mises à jour fréquentes. Confirmez la disponibilité des modules sur le panneau de statut en direct sur {siteDomain} avant d'acheter ou de lancer. Cloud DMA est un achat séparé et est requis pour le fonctionnement complet.",

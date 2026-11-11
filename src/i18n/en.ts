@@ -10,7 +10,7 @@ export const en: Translations = {
     domain: SITE_DOMAIN,
     title: 'The Isle Cheats for Evrima: ESP, HUD on Windows',
     description:
-      'The Isle Cheats with player, NPC and animal ESP plus HUD markers for Evrima. $35 per month or $150 lifetime. Check status first.',
+      'The Isle Cheats with player, NPC and animal ESP plus HUD markers for Evrima. Monthly and lifetime plans at checkout. Check status first.',
   },
   nav: [
     { id: 'products', href: `${productBase}`, label: 'Product', shortLabel: 'Product' },
@@ -61,19 +61,6 @@ export const en: Translations = {
       'Player, NPC, and animal ESP, environmental tracking, and visual HUD options for The Isle: Evrima, maintained after Easy Anti-Cheat patches.',
     items: [
       {
-        title: 'Player ESP',
-        subtitle: 'See other survivors clearly.',
-        desc: 'Box, snapline, name, distance, health, stamina, growth, species, player direction, head dot, and visible-check overlays for players in the bush.',
-        bullets: [
-          'Box, snapline, name, and distance',
-          'Health, stamina, growth, and species',
-          'Player direction, head dot, visible check',
-          'Readable labels in dense foliage',
-        ],
-        tags: ['the isle esp', 'player esp', 'evrima esp'],
-        bento: 'sm:col-span-2 lg:col-span-12 lg:col-start-1 lg:row-start-1',
-      },
-      {
         title: 'World ESP',
         subtitle: 'Mark the island around you.',
         desc: 'NPC and animal ESP plus corpse, gore, fruit, and water markers with max-distance controls.',
@@ -84,20 +71,20 @@ export const en: Translations = {
           'Tune range per session in the portal',
         ],
         tags: ['world esp', 'animal esp', 'the isle markers'],
-        bento: 'sm:col-span-2 lg:col-span-8 lg:col-start-1 lg:row-start-2',
+        bento: 'sm:col-span-2 lg:col-span-8 lg:col-start-1 lg:row-start-1',
       },
       {
         title: 'NPC & animal ESP',
         subtitle: 'Track dinosaurs and AI.',
-        desc: 'Species, growth, health, and distance readouts for NPCs and animals with the same overlay controls as player ESP.',
+        desc: 'Species, growth, health, and distance readouts for NPCs and animals with the same overlay controls as survivor ESP.',
         bullets: [
           'NPC ESP and animal ESP toggles',
           'Species, growth, and health labels',
           'Distance filters per target type',
-          'Pairs with player ESP distance caps',
+          'Pairs with overlay distance caps',
         ],
         tags: ['animal esp', 'npc esp', 'dinosaur esp'],
-        bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-3',
+        bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-2',
       },
       {
         title: 'Snaplines & distance',
@@ -110,7 +97,7 @@ export const en: Translations = {
           'Tune max range in the portal',
         ],
         tags: ['snaplines', 'distance esp', 'visible check'],
-        bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-3',
+        bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-2',
       },
       {
         title: 'Environmental ESP',
@@ -124,7 +111,7 @@ export const en: Translations = {
         ],
         tags: ['world esp', 'corpse esp', 'water esp'],
         bento:
-          'sm:col-span-2 lg:col-span-8 lg:row-span-2 lg:col-start-1 lg:row-start-4',
+          'sm:col-span-2 lg:col-span-8 lg:row-span-2 lg:col-start-1 lg:row-start-3',
       },
       {
         title: 'Visual options',
@@ -138,7 +125,7 @@ export const en: Translations = {
         ],
         tags: ['fullbright', 'custom esp', 'panic key'],
         bento:
-          'sm:col-span-2 lg:col-span-4 lg:row-span-2 lg:col-start-9 lg:row-start-4',
+          'sm:col-span-2 lg:col-span-4 lg:row-span-2 lg:col-start-9 lg:row-start-3',
       },
       {
         title: 'Stream Proof',
@@ -146,7 +133,7 @@ export const en: Translations = {
         desc: 'Keep overlays on your monitor while capture software records a clean game feed.',
         bullets: ['OBS and Game Bar capture modes', 'Toggle stream proof per module', 'Test checklist in portal docs'],
         tags: ['obs capture', 'stream proof', 'capture hide'],
-        bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-6',
+        bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-5',
       },
       {
         title: 'Misc utilities',
@@ -159,7 +146,7 @@ export const en: Translations = {
           'Reload after Easy Anti-Cheat patches',
         ],
         tags: ['saveable configs', 'ru menu', 'the isle utilities'],
-        bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-6',
+        bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-5',
       },
       {
         title: 'Cloud Config & Updates',
@@ -167,7 +154,7 @@ export const en: Translations = {
         desc: 'Same presets on every PC; portal updates track The Isle and Easy Anti-Cheat patch days.',
         bullets: ['Cloud backup for slider profiles', 'Loader push within hours of patches', 'Discord #status for build notes'],
         tags: ['cloud sync', 'auto update', 'presets'],
-        bento: 'sm:col-span-2 lg:col-span-4 lg:col-start-9 lg:row-start-2',
+        bento: 'sm:col-span-2 lg:col-span-4 lg:col-start-9 lg:row-start-1',
       },
     ],
   },
@@ -281,7 +268,7 @@ export const en: Translations = {
         desc: 'Player, NPC, and animal ESP, corpse and resource markers, snaplines, distance labels, and misc HUD tools for The Isle: Evrima. Cloud DMA is a separate purchase and is required for full functionality. Instant delivery; check status after patches.',
         heroDesc:
           'Feature-rich ESP and visual overlays for Evrima on Windows. Verify HVCI, Core Isolation, TPM, Secure Boot, and Cloud DMA before checkout.',
-        features: ['Player ESP', 'NPC ESP', 'Animal ESP', 'World markers', 'Misc HUD', 'Evrima only'],
+        features: ['NPC ESP', 'Animal ESP', 'World markers', 'Misc HUD', 'Evrima only'],
         more: 6,
         href: productBase,
         variant: 'limited',
@@ -343,6 +330,7 @@ export const en: Translations = {
     get: 'Get',
     explore: 'Explore',
     buyNow: 'Buy now',
+    buy: 'Buy',
     viewDetails: 'View details',
     items: [
       {
@@ -445,7 +433,7 @@ export const en: Translations = {
       {
         icon: 'users',
         title: 'Chat before checkout',
-        desc: 'Ask about monthly $35 (31 days) vs lifetime $150, and what Cloud DMA covers before you pay. Confirm which product page matches your goal: the isle cheats or HWID Spoofer.',
+        desc: 'Ask about monthly vs lifetime plans and what Cloud DMA covers before you pay. Confirm which product page matches your goal: the isle cheats or HWID Spoofer.',
         linkLabel: 'Start checkout',
         href: PRIMARY_CHECKOUT_PATH,
       },
@@ -459,7 +447,7 @@ export const en: Translations = {
       {
         icon: 'navFaq',
         title: 'Read the FAQ',
-        desc: 'Compatibility, Easy Anti-Cheat status, pricing, and setup steps before you buy or before you file a ticket.',
+        desc: 'Compatibility, Easy Anti-Cheat status, plans, and setup steps before you buy or before you file a ticket.',
         linkLabel: 'View all FAQ',
         href: '/faq/',
       },
@@ -558,7 +546,7 @@ export const en: Translations = {
           heading: 'Who we are',
           paragraphs: [
             'the isle cheats is a PC resource for players evaluating player ESP, world ESP, aim assistance, and radar for The Isle Evrima and Horde. We publish setup notes and live status so you can read the facts before checkout.',
-            'The main license is monthly at $35 for 31 days or lifetime at $150 one-time. Cloud DMA is a separate purchase and is required for full functionality. All product names are used for identification only.',
+            'The main license is available on monthly and lifetime plans at checkout. Cloud DMA is a separate purchase and is required for full functionality. All product names are used for identification only.',
           ],
         },
         {
@@ -764,12 +752,12 @@ export const en: Translations = {
     '/': {
       title: 'The Isle Cheats for Evrima: ESP, HUD on Windows',
       description:
-        'The Isle Cheats with player, NPC and animal ESP plus HUD markers for Evrima. $35 per month or $150 lifetime. Check status first.',
+        'The Isle Cheats with player, NPC and animal ESP plus HUD markers for Evrima. Monthly and lifetime plans at checkout. Check status first.',
     },
     '/product/': {
       title: 'Evrima Cheats: ESP Overlays and HUD Tools',
       description:
-        'Evrima-only ESP overlays: players, animals, snaplines, world markers and misc HUD. $35 monthly or $150 lifetime before checkout.',
+        'Evrima-only ESP overlays: players, animals, snaplines, world markers and misc HUD. Choose monthly or lifetime at checkout.',
     },
     '/hwid-spoofer/': {
       title: 'HWID Spoofer: PC Fingerprint Reset Utility',
@@ -777,7 +765,7 @@ export const en: Translations = {
         'Reset disk, MAC and GPU IDs when hardware blocks new logins. Finish the portal checklist, then verify before launching.',
     },
     '/blog/': {
-      title: 'Guides: ESP Setup, Patches and Pricing',
+      title: 'Guides: ESP Setup, Patches and Plans',
       description:
         'Setup walkthroughs, ESP tuning, world markers and Easy Anti-Cheat status checklists on {siteDomain}.',
     },
@@ -787,9 +775,9 @@ export const en: Translations = {
         'Read-only discussions on loader setup, patches and recovery guides. New threads and replies are closed.',
     },
     '/faq/': {
-      title: 'FAQ: Pricing, Setup and Anti-Cheat Status',
+      title: 'FAQ: Plans, Setup and Anti-Cheat Status',
       description:
-        'Answers on $35 monthly vs $150 lifetime, ESP modules, Windows setup and checkout help on {siteDomain}.',
+        'Answers on monthly vs lifetime plans, ESP modules, Windows setup and checkout help on {siteDomain}.',
     },
     '/terms/': {
       title: 'Terms of Sale and License Use',

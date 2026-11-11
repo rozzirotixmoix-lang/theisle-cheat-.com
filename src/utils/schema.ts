@@ -179,8 +179,6 @@ export function productSchema(input: {
     offers: {
       '@type': 'Offer',
       url: offerUrl(input.offerUrl),
-      priceCurrency: 'USD',
-      ...(input.priceUsd != null ? { price: input.priceUsd } : {}),
       availability: 'https://schema.org/InStock',
       seller: {
         '@type': 'Organization',

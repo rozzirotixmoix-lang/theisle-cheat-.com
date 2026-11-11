@@ -5,7 +5,6 @@ import { resolvePageSeo } from '../../config/seo';
 import { breadcrumbSchema, productSchema } from '../../utils/schema';
 import ProductDetail from '../../components/ProductDetail.astro';
 import { useLocale } from '../../i18n';
-import { getFeaturedPlan } from '../../data/productPricing';
 import { HWID_SPOOFER_PATH, PRODUCT_BASE } from '../../config/site';
 import { GALLERY_IMAGE_SIZES, GALLERY_IMAGE_WIDTHS, responsiveSrcSet, webpSrc } from '../../utils/responsiveImage';
 
@@ -17,7 +16,6 @@ if (!product) {
 }
 
 const pagePath = HWID_SPOOFER_PATH;
-const defaultPlan = getFeaturedPlan(product.slug);
 const breadcrumbs = [
   { name: t.common.breadcrumbHome, path: '/' },
   { name: product.title, path: pagePath },
@@ -44,7 +42,6 @@ const lcpSizes = GALLERY_IMAGE_SIZES;
       image: product.images[0]?.src,
       sku: product.slug,
       locale,
-      priceUsd: defaultPlan?.priceUsd,
     }),
     breadcrumbSchema(breadcrumbs),
   ]}

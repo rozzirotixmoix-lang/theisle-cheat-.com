@@ -12,24 +12,24 @@ const imgDual = '/images/gameplay/isle-beach-dual-dinos-nameplates.webp';
 export const blogPostsEn: BlogPostFull[] = [
   {
     tag: 'Game Cheats Guides',
-    title: 'The Isle Cheats Price: Monthly vs Lifetime Access Compared',
-    h1: 'The Isle Cheats Price: Monthly vs Lifetime Access Compared',
+    title: 'The Isle Cheats: Monthly vs Lifetime Access Compared',
+    h1: 'The Isle Cheats: Monthly vs Lifetime Access Compared',
     slug: 'the-isle-cheats-price-monthly-vs-lifetime',
     image: imgDaylight,
-    imageAlt: 'The Isle cheat menu showing ESP options next to monthly and lifetime pricing',
-    desc: 'Monthly or lifetime? Here is what each plan costs, what you get with it, and the point where lifetime becomes the cheaper choice.',
-    metaTitle: 'The Isle Cheats Price: Monthly vs Lifetime Compared',
+    imageAlt: 'The Isle cheat menu showing ESP options and monthly and lifetime plan choices',
+    desc: 'Monthly or lifetime? Here is what each plan includes and when lifetime is the better long-term fit.',
+    metaTitle: 'The Isle Cheats: Monthly vs Lifetime Compared',
     metaDescription:
-      'See what The Isle cheats cost: $35 for 31 days or $150 lifetime. Includes a break-even calculation and who each plan suits.',
+      'Compare monthly and lifetime The Isle cheats plans, what each includes, and who each plan suits.',
     date: '2026-08-14',
     readTime: '5 min read',
     featured: true,
     body: [
       {
         type: 'p',
-        text: 'If you are looking at The Isle cheats, the first practical question is what it will cost and how long you actually need it. There are two plans, and the right one depends mostly on how long you plan to keep playing Evrima.',
+        text: 'If you are looking at The Isle cheats, the first practical question is how long you actually need access. There are two plans, and the right one depends mostly on how long you plan to keep playing Evrima.',
       },
-      { type: 'h2', text: 'Current pricing' },
+      { type: 'h2', text: 'Plan options' },
       {
         type: 'p',
         text: 'The product page lists two options:',
@@ -37,18 +37,18 @@ export const blogPostsEn: BlogPostFull[] = [
       {
         type: 'ul',
         items: [
-          'Monthly: $35 for 31 days of access',
-          'Lifetime: $150 for unlimited access',
+          'Monthly: rolling 31-day access',
+          'Lifetime: unlimited access',
         ],
       },
       {
         type: 'p',
-        text: 'Prices can change, so confirm the figure on the product page at checkout.',
+        text: 'Plan details can change, so confirm the current options on the product page at checkout.',
       },
       { type: 'h2', text: 'Where lifetime starts to make sense' },
       {
         type: 'p',
-        text: 'Here is the simple math. Four monthly periods cost $140, which is still under $150. A fifth period brings you to $175. So lifetime becomes the cheaper option once you expect to use the cheat for five or more 31-day periods.',
+        text: 'If you expect to play across many 31-day periods, lifetime usually wins on convenience because you skip repeat renewals. If you are unsure you will still be playing after a few months, monthly keeps the commitment lower.',
       },
       {
         type: 'p',
@@ -64,7 +64,7 @@ export const blogPostsEn: BlogPostFull[] = [
         items: [
           'You want to try the menu before committing long term',
           'You only play in bursts, for example around a game update or a new server',
-          'You would rather keep the upfront cost low',
+          'You would rather keep the upfront commitment low',
         ],
       },
       {
@@ -83,10 +83,10 @@ export const blogPostsEn: BlogPostFull[] = [
         type: 'p',
         text: 'Check the [FAQ](/faq/) for exactly what lifetime covers before you buy, since terms are the one thing worth reading rather than assuming.',
       },
-      { type: 'h2', text: 'What the price includes' },
+      { type: 'h2', text: 'What each plan includes' },
       {
         type: 'p',
-        text: 'You are paying for a full toolset rather than a single feature. According to the product page, that includes:',
+        text: 'Both plans unlock a full toolset rather than a single feature. According to the product page, that includes:',
       },
       {
         type: 'ul',
@@ -102,7 +102,7 @@ export const blogPostsEn: BlogPostFull[] = [
       { type: 'h2', text: 'What to check before you pay' },
       {
         type: 'p',
-        text: 'Price is only one part of the decision. Make sure these are true for your setup first:',
+        text: 'Plan choice is only one part of the decision. Make sure these are true for your setup first:',
       },
       {
         type: 'ul',
@@ -120,12 +120,12 @@ export const blogPostsEn: BlogPostFull[] = [
       { type: 'h2', text: 'Should you add a spoofer?' },
       {
         type: 'p',
-        text: 'Some buyers also pick up a [HWID spoofer](/hwid-spoofer/) as a separate purchase. It is priced independently at $50 monthly or $150 lifetime. It is optional, and our article on [what to expect after checkout](/faq/) covers how delivery works.',
+        text: 'Some buyers also pick up a [HWID spoofer](/hwid-spoofer/) as a separate purchase with its own monthly and lifetime plans. It is optional, and our article on [what to expect after checkout](/faq/) covers how delivery works.',
       },
       { type: 'h2', text: 'Bottom line' },
       {
         type: 'p',
-        text: 'Monthly at $35 is the easy way in. Lifetime at $150 is the better value if you will play for more than four months. Whichever you choose, check the [live status page](/) before you buy so you know the current state of the product.',
+        text: 'Monthly is the easy way in. Lifetime is the better long-term fit if you will play regularly across many months. Whichever you choose, check the [live status page](/) before you buy so you know the current state of the product.',
       },
       {
         type: 'p',
@@ -164,7 +164,7 @@ export const blogPostsEn: BlogPostFull[] = [
       {
         type: 'ul',
         items: [
-          'Player ESP marks other players.',
+          'Survivor overlays mark other players.',
           'NPC ESP marks non-player creatures.',
           'Animal ESP marks wildlife.',
           'Species shows what a target is, which matters when a distant shape could be a threat or a snack.',
@@ -488,12 +488,12 @@ export const blogPostsEn: BlogPostFull[] = [
         type: 'p',
         text: 'The page’s guidance is to run the spoof and cleanup before launching the game you were banned in, and to follow the current guide in your account or ticket channel for the exact order. Do not improvise the sequence.',
       },
-      { type: 'h2', text: 'Pricing' },
+      { type: 'h2', text: 'Plan options' },
       {
         type: 'ul',
         items: [
-          'Monthly: $50 for 31 days',
-          'Lifetime: $150 for unlimited access',
+          'Monthly: rolling 31-day access',
+          'Lifetime: unlimited access',
         ],
       },
       {

@@ -91,7 +91,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'esp',
     icon: 'faqWhatIsEsp',
     q: 'What is The Isle ESP?',
-    a: `Player ESP shows other survivors with box, snapline, name, distance, health, stamina, growth, and species readouts. World ESP covers NPC and animal overlays plus corpse, gore, fruit, and water markers. ${cheats} also includes aim assistance and radar.`,
+    a: `Survivor overlays show box, snapline, name, distance, health, stamina, growth, and species readouts. World ESP covers NPC and animal overlays plus corpse, gore, fruit, and water markers. ${cheats} also includes aim assistance and radar.`,
     scopes: ['elite'],
   },
   {
@@ -389,7 +389,7 @@ export function getBlogFaqs(tag: string, slug: string, locale: SiteLocale = 'en'
       topic: 'esp',
       icon: 'faqBlogSlugEsp',
       q: 'Which product covers ESP from this article?',
-      a: `${cheats} includes player ESP, world ESP, and radar described in our The Isle guides.`,
+      a: `${cheats} includes survivor overlays, world ESP, and radar described in our The Isle guides.`,
     });
   }
   if (slug.includes('aim') || slug.includes('recoil') || slug.includes('trigger') || slug.includes('combat')) {
