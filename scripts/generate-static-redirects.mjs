@@ -22,26 +22,72 @@ console.log(`Wrote ${lines.length - 1} redirect rules → ${out}`);
  * Destination URLs live only in `_redirects` + `checkout-redirects.mjs` (never in HTML markup).
  * Local `serve.mjs` / middleware / Netlify `_redirects` perform the 302.
  */
-let checkoutPages = 0;
-for (const [from] of CHECKOUT_PATH_REDIRECTS.entries()) {
-  if (!from.endsWith('/')) continue;
-  const dir = path.join('public', from);
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(
-    path.join(dir, 'index.html'),
-    `<!doctype html>
+const GO_PLACEHOLDER_META = {
+  'the-isle': {
+    title: 'The Isle cheats checkout redirect | theisle-cheat.com',
+    description:
+      'Secure partner checkout for The Isle cheats on Windows. You leave theisle-cheat.com briefly to finish payment, then return for setup help.',
+    product: 'The Isle cheats',
+  },
+  ugc: {
+    title: 'UGC checkout redirect | theisle-cheat.com',
+    description:
+      'Secure partner checkout for UGC access sold via theisle-cheat.com. Use the product page Buy button if this redirect does not start automatically.',
+    product: 'UGC',
+  },
+  'skin-changer': {
+    title: 'Skin changer checkout redirect | theisle-cheat.com',
+    description:
+      'Secure partner checkout for the skin changer tool listed on theisle-cheat.com. Return to the product page if you are not redirected.',
+    product: 'skin changer',
+  },
+  'hwid-spoofer': {
+    title: 'HWID spoofer checkout redirect | theisle-cheat.com',
+    description:
+      'Secure partner checkout for the HWID spoofer utility on theisle-cheat.com. Finish payment on the partner store, then follow the portal checklist.',
+    product: 'HWID spoofer',
+  },
+};
+
+function checkoutPlaceholderHtml(slug) {
+  const meta = GO_PLACEHOLDER_META[slug] ?? {
+    title: `Checkout redirect | theisle-cheat.com`,
+    description:
+      'Partner checkout redirect from theisle-cheat.com. If nothing happens, open the product page and use Buy again.',
+    product: 'product',
+  };
+  const canonical = `${SITE_URL}/product/`;
+  return `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Continue</title>
+<title>${meta.title}</title>
+<meta name="description" content="${meta.description}">
+<link rel="canonical" href="${canonical}">
+<meta property="og:title" content="${meta.title}">
+<meta property="og:description" content="${meta.description}">
+<meta property="og:url" content="${canonical}">
+<meta property="og:type" content="website">
 </head>
 <body>
-<p>Checkout continue. If you are not redirected, return to the product page and use Buy again.</p>
+<main>
+<h1>${meta.product} checkout</h1>
+<p>Redirecting to our secure partner checkout. If you are not redirected within a few seconds, return to the <a href="${canonical}">product page</a> and use Buy again.</p>
+</main>
 </body>
 </html>
-`,
-  );
+`;
+}
+
+let checkoutPages = 0;
+for (const [from] of CHECKOUT_PATH_REDIRECTS.entries()) {
+  if (!from.endsWith('/')) continue;
+  const slug = from.replace(/^\/go\//, '').replace(/\/$/, '');
+  const dir = path.join('public', from);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'index.html'), checkoutPlaceholderHtml(slug));
   checkoutPages += 1;
 }
 console.log(`Wrote ${checkoutPages} checkout placeholder pages → public/go/ (destinations only in _redirects)`);

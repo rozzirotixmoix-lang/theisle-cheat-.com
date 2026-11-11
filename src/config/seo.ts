@@ -51,6 +51,18 @@ export function absoluteAssetUrl(path: string): string {
   return `${SITE_ORIGIN}${normalized}`;
 }
 
+/** SERP-safe meta description length (Seobility / Google snippet guidance). */
+export function clampMetaDescription(text: string, min = 70, max = 155): string {
+  const normalized = text.trim().replace(/\s+/g, ' ');
+  if (!normalized) return normalized;
+  if (normalized.length <= max && normalized.length >= min) return normalized;
+  if (normalized.length < min) return normalized;
+  const slice = normalized.slice(0, max);
+  const boundary = Math.max(slice.lastIndexOf(' '), slice.lastIndexOf(';'), slice.lastIndexOf(','));
+  if (boundary >= min) return slice.slice(0, boundary).replace(/[,;:]\s*$/, '').trim();
+  return slice.trim();
+}
+
 export function resolvePageSeo(pathname: string, locale?: string): { title: string; description: string } {
   const entry = getPageSeoEntry(pathname, locale);
   if (entry) return entry;

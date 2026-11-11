@@ -748,7 +748,7 @@
     "contactSupport": "Contacter le support"
   },
   "notFound": {
-    "metaDescription": "La page demandée est introuvable sur {siteDomain}.",
+    "metaDescription": "Cette page est introuvable sur {siteDomain}. Revenez à l'accueil, au produit ou au support pour poursuivre vos guides The Isle cheats.",
     "title": "Page introuvable",
     "body": "Cette URL n'existe pas ou a peut-être été déplacée. Retournez à l'accueil ou ouvrez les pages produit et HWID.",
     "backHome": "Retour à l'accueil",

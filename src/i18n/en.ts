@@ -10,7 +10,7 @@ export const en: Translations = {
     domain: SITE_DOMAIN,
     title: 'The Isle Cheats for Evrima: ESP, HUD on Windows',
     description:
-      'The Isle Cheats with player, NPC and animal ESP plus HUD markers for Evrima. Monthly and lifetime plans at checkout. Check status first.',
+      'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime access at checkout. Check live status first.',
   },
   nav: [
     { id: 'products', href: `${productBase}`, label: 'Product', shortLabel: 'Product' },
@@ -674,7 +674,8 @@ export const en: Translations = {
     contactSupport: 'Contact support',
   },
   notFound: {
-    metaDescription: 'The page you requested could not be found on {siteDomain}.',
+    metaDescription:
+      'This page was not found on {siteDomain}. Return to the homepage, product page, or support hub to continue browsing The Isle cheats guides.',
     title: 'Page not found',
     body: 'That URL does not exist or may have moved. Head back to the homepage or open the product and HWID pages.',
     backHome: 'Back to home',
@@ -752,7 +753,7 @@ export const en: Translations = {
     '/': {
       title: 'The Isle Cheats for Evrima: ESP, HUD on Windows',
       description:
-        'The Isle Cheats with player, NPC and animal ESP plus HUD markers for Evrima. Monthly and lifetime plans at checkout. Check status first.',
+        'The Isle cheats for Evrima on Windows: ESP overlays, world markers and HUD tools. Compare monthly and lifetime access at checkout. Check live status first.',
     },
     '/product/': {
       title: 'Evrima Cheats: ESP Overlays and HUD Tools',
@@ -780,7 +781,7 @@ export const en: Translations = {
         'Answers on monthly vs lifetime plans, ESP modules, Windows setup and checkout help on {siteDomain}.',
     },
     '/terms/': {
-      title: 'Terms of Sale and License Use',
+      title: 'Terms of Sale, License Use and Refund Policy',
       description:
         'Refund rules, license limits, checkout delivery, Cloud DMA notes and risk disclosure for {siteDomain} products.',
     },

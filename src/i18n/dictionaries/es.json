@@ -748,7 +748,7 @@
     "contactSupport": "Contactar soporte"
   },
   "notFound": {
-    "metaDescription": "La página que solicitaste no se encontró en {siteDomain}.",
+    "metaDescription": "No encontramos esta página en {siteDomain}. Vuelve al inicio, al producto o al soporte para seguir con guías de The Isle cheats.",
     "title": "Página no encontrada",
     "body": "Esa URL no existe o puede haberse movido. Vuelve a la portada o abre las páginas de producto y HWID.",
     "backHome": "Volver al inicio",

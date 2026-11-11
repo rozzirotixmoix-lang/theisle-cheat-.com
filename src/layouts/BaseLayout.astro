@@ -8,6 +8,7 @@ import {
   TWITTER_CREATOR,
   TWITTER_SITE,
   canonicalUrl,
+  clampMetaDescription,
   DEFAULT_OG_IMAGE,
   DEFAULT_OG_IMAGE_ALT,
   DEFAULT_OG_IMAGE_HEIGHT,
@@ -63,6 +64,7 @@ const {
 } = Astro.props;
 
 const ogImageAlt = ogImageAltProp ?? (ogImage === DEFAULT_OG_IMAGE ? DEFAULT_OG_IMAGE_ALT : title);
+const metaDescription = clampMetaDescription(description);
 
 const canonicalPathResolved = canonicalPath ?? localizePath(Astro.url.pathname, locale);
 const canonical = canonicalUrl(canonicalPathResolved);
@@ -90,7 +92,7 @@ const robotsContent = noindex
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={metaDescription} />
     <meta name="author" content={t.site.name} />
     <meta name="robots" content={robotsContent} />
     <meta name="googlebot" content={robotsContent} />
@@ -115,7 +117,7 @@ const robotsContent = noindex
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={metaDescription} />
     <meta property="og:image" content={ogImageUrl} />
     <meta property="og:image:secure_url" content={ogImageUrl} />
     <meta property="og:image:alt" content={ogImageAlt} />
@@ -146,7 +148,7 @@ const robotsContent = noindex
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={ogImageUrl} />
     <meta name="twitter:image:alt" content={ogImageAlt} />
     {TWITTER_SITE && <meta name="twitter:site" content={TWITTER_SITE} />}
