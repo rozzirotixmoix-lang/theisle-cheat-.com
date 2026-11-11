@@ -150,7 +150,7 @@ const tagIcon: IconName = blogTagIcons[post.tag] ?? 'tag';
         href={href}
         variant="outline"
         size="sm"
-        class="blog-card__read shrink-0"
+        class="blog-card__read min-w-0"
         aria-label={`${t.blog.read}: ${post.title}`}
       >
         {post.tag ? `${t.blog.read}: ${post.tag}` : t.blog.read}

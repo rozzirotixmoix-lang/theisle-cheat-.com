@@ -31,7 +31,7 @@ export const en: Translations = {
     titleLine1: 'The Isle Cheats for Evrima:',
     titleLine2: 'ESP and HUD on Windows',
     subtitle:
-      'Bring the menu online for Evrima after you read the status banner on theisle-cheat.com. Windows loader, portal presets, then ESP distance and overlay tuning.',
+      'Bring the menu online for Evrima after you read the status banner. Windows loader, portal presets, then ESP distance and overlay tuning.',
     ctaPrimary: 'View products',
     metrics: [
       { label: 'Stream-proof', strong: 'Yes' },
@@ -555,7 +555,7 @@ export const en: Translations = {
     about: {
       title: 'About the isle cheats',
       description:
-        'the isle cheats publishes The Isle product pages, status notes, and support channels at {siteDomain}.',
+        'the isle cheats publishes The Isle product pages, status notes, and support channels for buyers.',
       sections: [
         {
           heading: 'Who we are',
@@ -583,7 +583,7 @@ export const en: Translations = {
     privacy: {
       title: 'Privacy Policy',
       description:
-        'How {siteDomain} handles analytics, cookies, and contact data for the isle cheats visitors.',
+        'How we handle analytics, cookies, and contact data for the isle cheats visitors.',
       sections: [
         {
           heading: 'Information we collect',
@@ -614,7 +614,7 @@ export const en: Translations = {
     terms: {
       title: 'Terms & Conditions',
       description:
-        'Purchase, license, refund, and use terms for the isle cheats products and {siteDomain}.',
+        'Purchase, license, refund, and use terms for the isle cheats products.',
       sections: [
         {
           heading: 'Agreement',
@@ -674,7 +674,7 @@ export const en: Translations = {
     support: {
       title: 'the isle cheats Support',
       description:
-        'Get support for loader, HWID, and checkout questions at {siteDomain}.',
+        'Get support for loader, HWID, and checkout questions.',
     },
   },
   common: {
@@ -790,7 +790,7 @@ export const en: Translations = {
     '/blog/': {
       title: 'The Isle Cheat Guides: ESP Setup and Patch Notes',
       description:
-        'The Isle cheat guides for Windows setup, ESP tuning, Easy Anti-Cheat checks and plan picks. Browse topics on {siteDomain}.',
+        'The Isle cheat guides for Windows setup, ESP tuning, Easy Anti-Cheat checks and plan picks. Browse guides by topic.',
     },
     '/forum/': {
       title: 'The Isle Cheats Forum: Setup and HWID Threads',
@@ -815,7 +815,7 @@ export const en: Translations = {
     '/about/': {
       title: 'About The Isle Cheats Store',
       description:
-        'Learn who publishes The Isle cheats product pages, live status notes and Discord support for buyers on {siteDomain} before you checkout.',
+        'Learn who publishes The Isle cheats product pages, live status notes and Discord support for buyers before you checkout.',
     },
     '/support/': {
       title: 'The Isle Cheats Support: Loader and HWID Help',

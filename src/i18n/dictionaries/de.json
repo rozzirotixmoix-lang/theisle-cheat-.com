@@ -625,7 +625,7 @@
   "legalPages": {
     "about": {
       "title": "Über the isle cheats",
-      "description": "the isle cheats veröffentlicht The Isle Produktseiten, Statusnotizen und Supportkanäle auf {siteDomain}.",
+      "description": "the isle cheats veröffentlicht The Isle Produktseiten, Statusnotizen und Supportkanäle für Käufer.",
       "sections": [
         {
           "heading": "Wer wir sind",
@@ -651,7 +651,7 @@
     },
     "privacy": {
       "title": "Datenschutzrichtlinie",
-      "description": "Wie {siteDomain} Analytics, Cookies und Kontaktdaten für Besucher von the isle cheats handhabt.",
+      "description": "Wie wir Analytics, Cookies und Kontaktdaten für Besucher von the isle cheats handhaben.",
       "sections": [
         {
           "heading": "Welche Daten wir erheben",
@@ -681,7 +681,7 @@
     },
     "terms": {
       "title": "AGB",
-      "description": "Kauf-, Lizenz-, Rückerstattungs- und Nutzungsbedingungen für the isle cheats Produkte und {siteDomain}.",
+      "description": "Kauf-, Lizenz-, Rückerstattungs- und Nutzungsbedingungen für the isle cheats Produkte.",
       "sections": [
         {
           "heading": "Vereinbarung",

@@ -143,6 +143,59 @@ export function visiblePageTitle(title: string): string {
   return stripDanglingTitleTail(out);
 }
 
+/** Visible hero / page intro copy — strips domain references; `<meta name="description">` stays unchanged. */
+export function visibleHeroDescription(text: string): string {
+  const domain = SITE_DOMAIN;
+  const escaped = escapeRegExp(domain);
+  let out = text.trim();
+
+  const stripPatterns = [
+    new RegExp(`\\s+on\\s+${escaped}(?=\\.)`, 'gi'),
+    new RegExp(`\\s+Browse topics on\\s+${escaped}\\.?`, 'i'),
+    new RegExp(`\\s+at\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+from\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+via\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+through\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+sur\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+auf\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+en\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+para\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+über\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+a través de\\s+${escaped}(?=\\.|$)`, 'gi'),
+    new RegExp(`\\s+publicadas?\\s+en\\s+${escaped}\\.?`, 'gi'),
+    new RegExp(`\\s+publiés?\\s+sur\\s+${escaped}\\.?`, 'gi'),
+    new RegExp(`\\s+for buyers on\\s+${escaped}\\s+before`, 'i'),
+    new RegExp(`\\s+and\\s+${escaped}\\.?$`, 'i'),
+    new RegExp(`\\s+y\\s+${escaped}\\.?$`, 'i'),
+    new RegExp(`\\s+und\\s+${escaped}\\.?$`, 'i'),
+    new RegExp(`\\s+et\\s+${escaped}\\.?$`, 'i'),
+    new RegExp(`\\s+vendus?\\s+via\\s+${escaped}\\.?$`, 'i'),
+    new RegExp(`\\s+vendidos?\\s+a través de\\s+${escaped}\\.?$`, 'i'),
+    new RegExp(`\\s+über\\s+${escaped}\\.?$`, 'i'),
+    new RegExp(`^How\\s+${escaped}\\s+handles`, 'i'),
+    new RegExp(`^Comment\\s+${escaped}\\s+utilise`, 'i'),
+    new RegExp(`^Wie\\s+${escaped}\\s+`, 'i'),
+    new RegExp(`^Cómo\\s+${escaped}\\s+trata`, 'i'),
+    new RegExp(`^Privacy policy for\\s+${escaped}\\s*:?\\s*`, 'i'),
+  ];
+
+  for (const pattern of stripPatterns) {
+    out = out.replace(pattern, (match) => {
+      const lower = match.toLowerCase();
+      if (lower.startsWith('how')) return 'How we handle';
+      if (lower.startsWith('comment')) return 'Comment nous utilisons les';
+      if (lower.startsWith('wie')) return 'Wie wir';
+      if (lower.startsWith('cómo')) return 'Cómo tratamos la';
+      if (lower.startsWith('privacy')) return 'Privacy policy: ';
+      return '';
+    });
+  }
+
+  out = out.replace(/\s{2,}/g, ' ').replace(/\s+([,.;:])/g, '$1').trim();
+  if (out.endsWith(',')) out = out.slice(0, -1).trim();
+  return out;
+}
+
 /** Visible H1 text aligned with the document `<title>` (without domain / brand suffix). */
 export function documentHeadline(title: string, locale?: string): string {
   return visiblePageTitle(normalizeDocumentTitle(title, locale));

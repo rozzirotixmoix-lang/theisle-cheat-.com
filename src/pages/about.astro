@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { useLocale } from '../i18n';
-import { resolvePageSeo, visiblePageTitle } from '../config/seo';
+import { resolvePageSeo, visibleHeroDescription, visiblePageTitle } from '../config/seo';
 import LegalPage from '../components/LegalPage.astro';
 import { breadcrumbSchema, organizationSchema, webPageSchema } from '../utils/schema';
 
@@ -28,7 +28,7 @@ const content = t.legalPages.about;
 >
   <LegalPage
     title={visiblePageTitle(seo.title)}
-    description={seo.description}
+    description={visibleHeroDescription(seo.description)}
     breadcrumbLabel={t.common.breadcrumbAbout}
     sections={content.sections}
   />

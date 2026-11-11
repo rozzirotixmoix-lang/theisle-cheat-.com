@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { useLocale } from '../i18n';
 import { getAllFaqs } from '../data/faq';
-import { resolvePageSeo, visiblePageTitle } from '../config/seo';
+import { resolvePageSeo, visibleHeroDescription, visiblePageTitle } from '../config/seo';
 import { breadcrumbSchema, faqPageSchema, webPageSchema } from '../utils/schema';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import SiteFaqSection from '../components/SiteFaqSection.astro';
@@ -44,7 +44,7 @@ const faqs = getAllFaqs(locale);
         <SectionHeader
           eyebrow={faqPage.eyebrow}
           title={visiblePageTitle(seo.title)}
-          desc={faqPage.description}
+          desc={visibleHeroDescription(faqPage.description)}
           titleId="faq-page-title"
           level="h1"
         />

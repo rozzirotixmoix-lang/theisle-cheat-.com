@@ -66,7 +66,7 @@ function cardTags(product: ProductPage): string[] {
     <SectionHeader eyebrow={s.eyebrow} title={s.title} desc={s.subtitle} titleId="products-title" />
 
     <div
-      class="mt-12 grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:grid-rows-[auto_1fr_auto_auto]"
+      class="mt-12 grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-3"
       data-reveal-stagger
     >
       {
@@ -77,9 +77,9 @@ function cardTags(product: ProductPage): string[] {
           const pageHref = lp(productPath(product.slug));
           return (
             <article
-              class="group flex h-full min-h-0 flex-col overflow-hidden rounded-2xl border border-border bg-card text-left shadow-sm transition-colors hover:border-primary/35 lg:row-span-4 lg:grid lg:grid-rows-subgrid"
+              class="group flex h-full min-h-0 flex-col overflow-hidden rounded-2xl border border-border bg-card text-left shadow-sm transition-colors hover:border-primary/35"
             >
-              <header class="card-title-band shrink-0 px-5 py-5 sm:px-6">
+              <header class="card-title-band shrink-0 px-5 py-5">
                 <div class="flex items-center gap-3">
                   <span class="flex size-9 shrink-0 items-center justify-center rounded-xl bg-primary/10">
                     <Icon name={cardIcon(product)} size={18} />
@@ -93,7 +93,7 @@ function cardTags(product: ProductPage): string[] {
                 </p>
               </header>
 
-              <div class="flex min-h-0 min-w-0 flex-1 flex-col gap-3 px-5 pt-5 pb-5 sm:px-6">
+              <div class="flex min-h-0 min-w-0 flex-1 flex-col gap-3 px-5 py-5">
                 <p class="text-sm leading-relaxed text-muted-foreground">{cardBodyDesc(product)}</p>
 
                 {
@@ -114,7 +114,7 @@ function cardTags(product: ProductPage): string[] {
                 }
               </div>
 
-              <div class="flex shrink-0 flex-col justify-end border-t border-border px-5 pt-4 pb-5 sm:px-6">
+              <div class="mt-auto flex shrink-0 flex-col border-t border-border px-5 py-5">
                 <Button
                   as="a"
                   href={defaultBuyHref(product)}
@@ -130,7 +130,7 @@ function cardTags(product: ProductPage): string[] {
 
               {
                 tags.length > 0 && (
-                  <div class="card-footer-band shrink-0 flex flex-wrap gap-1.5 px-5 py-4 sm:px-6">
+                  <div class="card-footer-band shrink-0 flex flex-wrap gap-1.5 px-5 py-5">
                     {tags.map((tag) => (
                       <Badge variant="secondary" class="text-[11px]">{tag}</Badge>
                     ))}

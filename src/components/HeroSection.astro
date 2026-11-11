@@ -1,6 +1,7 @@
 ---
 import { useLocale } from '../i18n';
 import { ROUTES } from '../utils/path';
+import { visibleHeroDescription } from '../config/seo';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
 import { getHeroSlides } from '../data/products';
@@ -56,7 +57,7 @@ const heroMarqueePills = [
         </h1>
 
         <p class="max-w-xl text-sm leading-relaxed text-neutral-500 dark:text-neutral-400 md:text-base">
-          {h.subtitle}
+          {visibleHeroDescription(h.subtitle)}
         </p>
 
         <div class="flex flex-wrap justify-start gap-3 sm:gap-4">
